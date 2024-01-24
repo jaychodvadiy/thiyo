@@ -1,0 +1,84 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-shadow: none;
+}
+.pagerent {
+  background: linear-gradient(
+    99deg,
+    #cfdde0 -2.67%,
+    rgba(207, 221, 224, 0) 84.65%
+  );
+}
+.hero {
+  padding: 92px 0px 82px;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 44px;
+  letter-spacing: 0;
+  text-align: left;
+  max-width: 450px;
+  margin-bottom: 30px;
+  color: #000;
+}
+.search {
+  background: #af824a;
+  font-size: 12px;
+  margin-right: 8px;
+  line-height: 16px;
+  font-weight: 600;
+  padding: 11px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  /* border-radius: 15px; */
+  border: none;
+}
+.homes {
+  position: relative;
+  left: 7pc;
+}
+.top-content .tap-content {
+  background: linear-gradient(
+      0deg,
+      hsla(0, 0%, 100%, 0.89),
+      hsla(0, 0%, 100%, 0.89)
+    ),
+    linear-gradient(0deg, hsla(0, 0%, 100%, 0.25), hsla(0, 0%, 100%, 0.25));
+  border-radius: 0 6px 6px 6px;
+  padding: 14px;
+  font-size: 12px;
+}
+.serching .serchingtop {
+  display: grid;
+  align-items: center;
+  grid-gap: 11px;
+  gap: 11px;
+  grid-template-columns: repeat(3, 1fr);
+}
+.primary-dropdown {
+  position: relative;
+}
+.primary-dropdown .dropdown-toggle:after {
+  position: absolute;
+  right: 10px;
+}
+.primary-dropdown .dropdown-toggle:after {
+  content: "";
+  border: none;
+  background-image: url(/_next/static/media/downArrow.8e63c463.svg);
+  background-size: 10px;
+  height: 8px;
+  width: 10px;
+  background-repeat: no-repeat;
+  margin-top: 3px;
+}
+.dropdown-toggle:after {
+    display: inline-block;
+    margin-left: 0.255em;
+    vertical-align: 0.255em;
+    content: "";
+    border-top: 0.3em solid;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0;
+    border-left: 0.3em solid transparent;
+}
