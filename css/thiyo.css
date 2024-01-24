@@ -3,6 +3,18 @@
   padding: 0px;
   box-shadow: none;
 }
+/* Works on Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: blue orange;
+}
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 12px;
+}
+*::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+}
 .pagerent {
   background: linear-gradient(
     99deg,
@@ -73,12 +85,193 @@
   margin-top: 3px;
 }
 .dropdown-toggle:after {
-    display: inline-block;
-    margin-left: 0.255em;
-    vertical-align: 0.255em;
-    content: "";
-    border-top: 0.3em solid;
-    border-right: 0.3em solid transparent;
-    border-bottom: 0;
-    border-left: 0.3em solid transparent;
+  display: inline-block;
+  margin-left: 0.255em;
+  vertical-align: 0.255em;
+  content: "";
+  border-top: 0.3em solid;
+  border-right: 0.3em solid transparent;
+  border-bottom: 0;
+  border-left: 0.3em solid transparent;
+}
+
+/* FEATURED HOMES  */
+
+.feature-home-main {
+  padding: 70px 0;
+}
+.homefeaty {
+  color: #af824a;
+  text-align: center;
+  font-family: "Open Sans";
+  /* font-size: 12px; */
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 2.16px;
+}
+.ourlest {
+  text-align: center;
+  color: #000;
+  font-family: "Open Sans";
+
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.discover {
+  color: #5f5f5f;
+  text-align: center;
+  font-family: "Open Sans";
+  /* font-size: 12px; */
+  font-style: normal;
+  font-weight: 400;
+
+  line-height: normal;
+}
+.tabcountry .nav-pills {
+  justify-content: center;
+  background-color: var(--header-light);
+  color: var(--secondary-light);
+  border-bottom: 1px solid #d0d0d0;
+}
+.nav-fill > .nav-link,
+.tabcountry .nav-fill .nav-item {
+  flex: inherit;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.nav-link {
+  color: #af824a;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #af824a;
+  background-color: #ffffff;
+}
+
+/* BUY . RENT . SELL We help people buy, rent and sell homes */
+.buy-rent-sell-mmain {
+  margin-bottom: 70px;
+}
+.baynoe {
+  text-align: center;
+  color: #af824a;
+  line-height: 32px;
+  /* font-size: 24px; */
+}
+.help {
+  color: #000;
+  line-height: 32px;
+  font-size: 24px;
+}
+.makereal {
+  color: #000;
+  font-size: 12px;
+  line-height: 16px;
+}
+.imgfluid {
+  position: relative;
+  left: 4pc;
+  margin-bottom: 16px;
+  width: 280px;
+  height: 260px;
+}
+.sellhomedescription {
+  color: var(--secondary-light);
+  font-size: 12px;
+  line-height: 16px;
+  max-width: 320px;
+  margin: auto;
+}
+h3 {
+  line-height: 27px;
+  font-size: 20px;
+}
+
+/* Looking to sell your home */
+
+.property {
+  background: lightgray 50% / cover no-repeat;
+}
+.cta .property {
+  box-shadow: 0 4px 38px 15px #0000000a;
+  background-color: #f0daca;
+  padding: 0 40px;
+  border-radius: 20px;
+  margin-bottom: 105px;
+}
+.sellhome .property .cta-info h3 {
+  color: #000;
+}
+.sellhome .looking-sell-para {
+  color: var(--secondary-light);
+  line-height: 21px;
+}
+.sellhome .property .cta-info .thiyo-btn {
+  border: 1px solid transparent;
+  transition: all 0.5s ease-in-out;
+  width: 198px;
+  padding: 0;
+  border-radius: 10px;
+  height: 45px;
+}
+.sellhome .property .cta-info h3 {
+  color: #000;
+}
+.sellhome .looking-sell-para {
+  color: var(--secondary-light);
+  line-height: 21px;
+}
+.ctn {
+  position: relative;
+  top: 102px;
+}
+
+/*  */
+/* .main-gallery .residental {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 24px;
+  gap: 24px;
+  padding-bottom: 73px;
+} */
+/* .main-gallery .img-gallery-info .line {
+  width: 117.68px;
+  height: 1px;
+  background-color: #000;
+}
+.main-gallery .img-gallery {
+  height: 200px !important;
+  position: relative;
+  overflow: hidden;
+}
+.img-gallery:before {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(0deg, #000 -13.73%, hsla(0, 0%, 96%, 0) 74.35%);
+  z-index: 1;
+} */
+.main-gallery .img-gallery-info .line {
+  width: 117.68px;
+  height: 1px;
+  background-color: #000;
+}
+
+.imageitemHoele {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 24px;
+  padding-bottom: 73px;
+}
+.airports {
+  width: 416px;
+  object-fit: cover;
+  transition: all 0.5s ease-in-out;
 }
