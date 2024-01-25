@@ -229,35 +229,8 @@ h3 {
   top: 102px;
 }
 
-/*  */
-/* .main-gallery .residental {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 24px;
-  gap: 24px;
-  padding-bottom: 73px;
-} */
-/* .main-gallery .img-gallery-info .line {
-  width: 117.68px;
-  height: 1px;
-  background-color: #000;
-}
-.main-gallery .img-gallery {
-  height: 200px !important;
-  position: relative;
-  overflow: hidden;
-}
-.img-gallery:before {
-  content: "";
-  position: absolute;
-  display: block;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background: linear-gradient(0deg, #000 -13.73%, hsla(0, 0%, 96%, 0) 74.35%);
-  z-index: 1;
-} */
+/* TESTIMONIALSWhat our clients are saying */
+
 .main-gallery .img-gallery-info .line {
   width: 117.68px;
   height: 1px;
@@ -274,4 +247,131 @@ h3 {
   width: 416px;
   object-fit: cover;
   transition: all 0.5s ease-in-out;
+}
+
+/*  */
+
+.slider {
+  padding: 70px 0 50px;
+}
+.tesing {
+  color: #af824a;
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 2.16px;
+}
+.clients {
+  color: #000;
+  font-family: "Open Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.sayings {
+  padding-bottom: 50px;
+}
+
+.testimonial-main {
+  box-shadow: 0 2px 3px 0 #242d3c33;
+  background-color: #fff;
+  padding: 0 30px 30px;
+  margin-bottom: 65px;
+  border-radius: 0 0 4px 4px;
+}
+.test-para {
+  color: #737d8c;
+  font-size: 10px;
+  padding-top: 5px;
+  line-height: 20px;
+  font-weight: 400;
+  padding-bottom: 15px;
+}
+.client {
+  border-radius: 30px;
+}
+
+/*Become a Real Estate Agent*/
+
+.becomes {
+  background-color: #f8f4f0;
+}
+.btncolornow {
+  border-radius: 25.692px;
+  background: linear-gradient(180deg, #af824a 0%, #f2b96e 145.55%);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+  padding: 12px 15px;
+  transition: 0.1s ease-in-out !important;
+}
+.becomereal {
+  position: relative;
+  top: 6pc;
+}
+.imagedeepki {
+  position: relative;
+  left: 11pc;
+}
+
+/* footer copy logo*/
+.footerthiyocopy {
+  background-color: #1d4e80;
+  padding: 50px 0 30px;
+}
+.fliude {
+  height: 120px;
+}
+.apply {
+  margin-right: 9px;
+  border-radius: 10px;
+}
+.apios {
+  padding-top: 10px;
+  margin-top: 10px;
+}
+.applye {
+  border-radius: 10px;
+}
+.nemoenin {
+  color: white;
+}
+.sociemide {
+  margin: 5px;
+  cursor: pointer;
+}
+.footer {
+  color: #f0daca;
+  font-size: 19px;
+  cursor: pointer;
+}
+.explore {
+  color: #af824a;
+  font-size: 25px;
+  cursor: pointer;
+}
+.thiyoshare {
+  color: #d0d0d0;
+  padding-top: 15px;
+  margin-top: 15px;
+  /* color: silver; */
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0;
+  text-align: left;
+  /* text-align: center; */
+}
+.copylink{
+  display: flex;
+  justify-content: space-between;
+  color: #d0d0d0;
+}
+.linksvg{
+  cursor: pointer;
 }

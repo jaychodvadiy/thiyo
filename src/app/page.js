@@ -1,6 +1,6 @@
 import Image from "next/image";
-import "../../css/thiyo.css";
-import ThiyoLogo from "../../img/thiyologo.png";
+import "../../style/thiyo.css";
+import home from "../../img/pexelsexpect.png";
 import Asset28 from "../../img/Asset 2 8.png";
 import Asset from "../../img/Asset 3.png";
 import Asset3 from "../../img/Asset 5 3.png";
@@ -16,139 +16,15 @@ import shop from "../../img/shop.b3cf7676.png";
 import townshipfb52778a from "../../img/township.fb52778a.png";
 import township from "../../img/villa.665fd0ad.png";
 import vector from "../../img/vector-94.svg";
+import client from "../../img/client-img-1 1.png";
+import clientimage from "../../img/client-img-2 1.png";
+import clientimg31 from "../../img/client-img-3 1.png";
+import Deepik from "../../img/deepik.png";
 
 export default function Home() {
   return (
     <div>
-      <nav
-        className="navbar navbar-expand-lg navbar-light bg-light"
-        style={{ padding: "20px", justifyContent: "space-around" }}
-      >
-        <div className="container">
-          <Image src={ThiyoLogo} alt="Thiyo Logo" width={100} height={50} />
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button>
-
-          <ul className="navbar-nav  mb-2 mb-lg-0">
-            <li className="nav-item dropdown">
-              <a
-                className="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                For Buyers
-              </a>
-              <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Property in Abu Dhabi{" "}
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Property in Sharejah
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Property in Ajmn
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Property in Ras Al Khaimah
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Property in Ras Al Ai{" "}
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Property in Umm Al Quwain{" "}
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Property in Fujairah{" "}
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Property in Jeble Ali{" "}
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Property in Hatta{" "}
-                  </a>
-                </li>
-              </ul>
-            </li>
-            <li className="nav-item dropdown">
-              <a
-                className="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                For Tenants
-              </a>
-              <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Tenants 01
-                  </a>
-                </li>
-              </ul>
-            </li>
-            <li className="nav-item">
-              <a
-                className="nav-link disabled"
-                href="#"
-                tabindex="-1"
-                aria-disabled="true"
-              >
-                Insights{" "}
-              </a>
-            </li>
-            <li className="nav-item">
-              <a
-                className="nav-link disabled"
-                href="#"
-                tabindex="-1"
-                aria-disabled="true"
-              >
-                Holiday Homes
-              </a>
-            </li>
-          </ul>
-          <form className="d-flex ">
-            <p className=" btn-outline-success" type="submit">
-              Log In/
-            </p>
-            <p className=" btn-outline-success" type="submit">
-              Register
-            </p>
-          </form>
-        </div>
-      </nav>
-      {/* <section className="pagerent">
+      <section className="pagerent">
         <div className="container">
           <div className="row">
             <div className="col-lg-6">
@@ -187,6 +63,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
+              
             </div>
             <div className="col-lg-6">
               <Image
@@ -199,7 +76,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section> */}
+      </section>
 
       <section className="feature-home-main">
         <div className="container">
@@ -250,7 +127,7 @@ export default function Home() {
                       data-bs-target="#dubai"
                       aria-controls="dubai"
                       aria-selected="false"
-                      tabindex="-1"
+                      tabIndex="-1"
                     >
                       DUBAI
                     </button>
@@ -264,7 +141,7 @@ export default function Home() {
                       data-bs-target="#sharjha"
                       aria-controls="sharjha"
                       aria-selected="false"
-                      tabindex="-1"
+                      tabIndex="-1"
                     >
                       SHARJAH
                     </button>
@@ -279,7 +156,7 @@ export default function Home() {
                       aria-controls="ajman"
                       aria-selected="false"
                       ndex="-1"
-                      tabindex="-1"
+                      tabIndex="-1"
                     >
                       AJMAN
                     </button>
@@ -382,7 +259,7 @@ export default function Home() {
                   inspections, negotiations and other services are included in
                   the house price.
                 </p>
-                <div class="line">
+                <div className="line">
                   <Image src={vector} alt="vector" />
                 </div>
               </div>
@@ -405,16 +282,28 @@ export default function Home() {
                 <Image className="airports" src={shop} alt="airport" />
               </div>
               <div className="col-sm-4 ">
-                <Image className="airports" src={hotelapartment} alt="airport" />
+                <Image
+                  className="airports"
+                  src={hotelapartment}
+                  alt="airport"
+                />
               </div>
               <div className="col-sm-4 ">
-                <Image className="airports" src={office6c982fe1} alt="airport" />
+                <Image
+                  className="airports"
+                  src={office6c982fe1}
+                  alt="airport"
+                />
               </div>
               <div className="col-sm-4 ">
                 <Image className="airports" src={township} alt="airport" />
               </div>
               <div className="col-sm-4 ">
-                <Image className="airports" src={townshipfb52778a} alt="airport" />
+                <Image
+                  className="airports"
+                  src={townshipfb52778a}
+                  alt="airport"
+                />
               </div>
               <div className="text-end img-gallery-info d-flex justify-content-between flex-column">
                 <h5>Commercial</h5>
@@ -423,10 +312,500 @@ export default function Home() {
                   inspections, negotiations and other services are included in
                   the house price.
                 </p>
-                <div class="line">
+                <div className="line">
                   <Image src={vector} alt="vector" />
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="slider">
+        <div className="container">
+          <div className="row">
+            <div className="col-12 sayings">
+              <div className="tesing">
+                <h5>TESTIMONIALS</h5>
+                <p className="clients">What our clients are saying</p>
+              </div>
+            </div>
+            <div className="col-sm-4">
+              <div className="tesingmodlue">
+                <div className=" swiper-initialized swiper-horizontal mySwiper">
+                  <div className="swiper-wrapper">
+                    <div className=" swiper-slide-active">
+                      <div className="tesinmost">
+                        <div className="testimonial-main">
+                          <Image className="client" src={client} alt="client" />
+                          <p className=" test-para">
+                            Aenean vulputate eleifend tellus. Aenean leo ligula,
+                            porttitor eu, consequat vitae, eleifend ac, enim.
+                            Aliquam lorem ante, dapibus.
+                          </p>
+                          <div className="d-flex justify-content-between align-items-center gap-2 pt-3">
+                            <div className="test-client">
+                              <p>Derrick P. Boudreaux</p>
+                              <span>Web Developer</span>
+                            </div>
+                            <div className="start-icon">
+                              <svg
+                                width="12"
+                                height="11"
+                                viewBox="0 0 12 11"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <g clipPath="url(#clip0_8952_18621)">
+                                  <path
+                                    d="M5.89339 7.43842L8.53547 9.03308L7.83434 6.0276L10.1686 4.00542L7.09472 3.74035L5.89339 0.910156L4.69205 3.74035L1.61816 4.00542L3.94816 6.0276L3.2513 9.03308L5.89339 7.43842Z"
+                                    fill="#E3C814"
+                                  ></path>
+                                </g>
+                                <defs>
+                                  <clipPath id="clip0_8952_18621">
+                                    <rect
+                                      width="10.2605"
+                                      height="10.2605"
+                                      fill="white"
+                                      transform="translate(0.763184 0.0546875)"
+                                    ></rect>
+                                  </clipPath>
+                                </defs>
+                              </svg>
+                              <svg
+                                width="12"
+                                height="11"
+                                viewBox="0 0 12 11"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <g clipPath="url(#clip0_8952_18621)">
+                                  <path
+                                    d="M5.89339 7.43842L8.53547 9.03308L7.83434 6.0276L10.1686 4.00542L7.09472 3.74035L5.89339 0.910156L4.69205 3.74035L1.61816 4.00542L3.94816 6.0276L3.2513 9.03308L5.89339 7.43842Z"
+                                    fill="#E3C814"
+                                  ></path>
+                                </g>
+                                <defs>
+                                  <clipPath id="clip0_8952_18621">
+                                    <rect
+                                      width="10.2605"
+                                      height="10.2605"
+                                      fill="white"
+                                      transform="translate(0.763184 0.0546875)"
+                                    ></rect>
+                                  </clipPath>
+                                </defs>
+                              </svg>
+                              <svg
+                                width="12"
+                                height="11"
+                                viewBox="0 0 12 11"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <g clipPath="url(#clip0_8952_18621)">
+                                  <path
+                                    d="M5.89339 7.43842L8.53547 9.03308L7.83434 6.0276L10.1686 4.00542L7.09472 3.74035L5.89339 0.910156L4.69205 3.74035L1.61816 4.00542L3.94816 6.0276L3.2513 9.03308L5.89339 7.43842Z"
+                                    fill="#E3C814"
+                                  ></path>
+                                </g>
+                                <defs>
+                                  <clipPath id="clip0_8952_18621">
+                                    <rect
+                                      width="10.2605"
+                                      height="10.2605"
+                                      fill="white"
+                                      transform="translate(0.763184 0.0546875)"
+                                    ></rect>
+                                  </clipPath>
+                                </defs>
+                              </svg>
+                              <svg
+                                width="12"
+                                height="11"
+                                viewBox="0 0 12 11"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <g clipPath="url(#clip0_8952_18621)">
+                                  <path
+                                    d="M5.89339 7.43842L8.53547 9.03308L7.83434 6.0276L10.1686 4.00542L7.09472 3.74035L5.89339 0.910156L4.69205 3.74035L1.61816 4.00542L3.94816 6.0276L3.2513 9.03308L5.89339 7.43842Z"
+                                    fill="#E3C814"
+                                  ></path>
+                                </g>
+                                <defs>
+                                  <clipPath id="clip0_8952_18621">
+                                    <rect
+                                      width="10.2605"
+                                      height="10.2605"
+                                      fill="white"
+                                      transform="translate(0.763184 0.0546875)"
+                                    ></rect>
+                                  </clipPath>
+                                </defs>
+                              </svg>
+                              <svg
+                                width="12"
+                                height="11"
+                                viewBox="0 0 12 11"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <g clipPath="url(#clip0_8952_18621)">
+                                  <path
+                                    d="M5.89339 7.43842L8.53547 9.03308L7.83434 6.0276L10.1686 4.00542L7.09472 3.74035L5.89339 0.910156L4.69205 3.74035L1.61816 4.00542L3.94816 6.0276L3.2513 9.03308L5.89339 7.43842Z"
+                                    fill="#E3C814"
+                                  ></path>
+                                </g>
+                                <defs>
+                                  <clipPath id="clip0_8952_18621">
+                                    <rect
+                                      width="10.2605"
+                                      height="10.2605"
+                                      fill="white"
+                                      transform="translate(0.763184 0.0546875)"
+                                    ></rect>
+                                  </clipPath>
+                                </defs>
+                              </svg>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-sm-4">
+              <div className="tesingmodlue">
+                <div className="swiper-initialized swiper-horizontal mySwiper">
+                  <div className="swiper-wrapper">
+                    <div className="swiper-slide-active">
+                      <div className="tesinmost">
+                        <div className="testimonial-main">
+                          <Image
+                            className="client"
+                            src={clientimage}
+                            alt="clientimage"
+                          />
+                          <p className=" test-para">
+                            Aenean vulputate eleifend tellus. Aenean leo ligula,
+                            porttitor eu, consequat vitae, eleifend ac, enim.
+                            Aliquam lorem ante, dapibus.
+                          </p>
+                          <div className="d-flex justify-content-between align-items-center gap-2 pt-3">
+                            <div className="test-client">
+                              <p>Derrick P. Boudreaux</p>
+                              <span>Web Developer</span>
+                            </div>
+                            <div className="start-icon">
+                              <svg
+                                width="12"
+                                height="11"
+                                viewBox="0 0 12 11"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <g clipPath="url(#clip0_8952_18621)">
+                                  <path
+                                    d="M5.89339 7.43842L8.53547 9.03308L7.83434 6.0276L10.1686 4.00542L7.09472 3.74035L5.89339 0.910156L4.69205 3.74035L1.61816 4.00542L3.94816 6.0276L3.2513 9.03308L5.89339 7.43842Z"
+                                    fill="#E3C814"
+                                  ></path>
+                                </g>
+                                <defs>
+                                  <clipPath id="clip0_8952_18621">
+                                    <rect
+                                      width="10.2605"
+                                      height="10.2605"
+                                      fill="white"
+                                      transform="translate(0.763184 0.0546875)"
+                                    ></rect>
+                                  </clipPath>
+                                </defs>
+                              </svg>
+                              <svg
+                                width="12"
+                                height="11"
+                                viewBox="0 0 12 11"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <g clipPath="url(#clip0_8952_18621)">
+                                  <path
+                                    d="M5.89339 7.43842L8.53547 9.03308L7.83434 6.0276L10.1686 4.00542L7.09472 3.74035L5.89339 0.910156L4.69205 3.74035L1.61816 4.00542L3.94816 6.0276L3.2513 9.03308L5.89339 7.43842Z"
+                                    fill="#E3C814"
+                                  ></path>
+                                </g>
+                                <defs>
+                                  <clipPath id="clip0_8952_18621">
+                                    <rect
+                                      width="10.2605"
+                                      height="10.2605"
+                                      fill="white"
+                                      transform="translate(0.763184 0.0546875)"
+                                    ></rect>
+                                  </clipPath>
+                                </defs>
+                              </svg>
+                              <svg
+                                width="12"
+                                height="11"
+                                viewBox="0 0 12 11"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <g clipPath="url(#clip0_8952_18621)">
+                                  <path
+                                    d="M5.89339 7.43842L8.53547 9.03308L7.83434 6.0276L10.1686 4.00542L7.09472 3.74035L5.89339 0.910156L4.69205 3.74035L1.61816 4.00542L3.94816 6.0276L3.2513 9.03308L5.89339 7.43842Z"
+                                    fill="#E3C814"
+                                  ></path>
+                                </g>
+                                <defs>
+                                  <clipPath id="clip0_8952_18621">
+                                    <rect
+                                      width="10.2605"
+                                      height="10.2605"
+                                      fill="white"
+                                      transform="translate(0.763184 0.0546875)"
+                                    ></rect>
+                                  </clipPath>
+                                </defs>
+                              </svg>
+                              <svg
+                                width="12"
+                                height="11"
+                                viewBox="0 0 12 11"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <g clipPath="url(#clip0_8952_18621)">
+                                  <path
+                                    d="M5.89339 7.43842L8.53547 9.03308L7.83434 6.0276L10.1686 4.00542L7.09472 3.74035L5.89339 0.910156L4.69205 3.74035L1.61816 4.00542L3.94816 6.0276L3.2513 9.03308L5.89339 7.43842Z"
+                                    fill="#E3C814"
+                                  ></path>
+                                </g>
+                                <defs>
+                                  <clipPath id="clip0_8952_18621">
+                                    <rect
+                                      width="10.2605"
+                                      height="10.2605"
+                                      fill="white"
+                                      transform="translate(0.763184 0.0546875)"
+                                    ></rect>
+                                  </clipPath>
+                                </defs>
+                              </svg>
+                              <svg
+                                width="12"
+                                height="11"
+                                viewBox="0 0 12 11"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <g clipPath="url(#clip0_8952_18621)">
+                                  <path
+                                    d="M5.89339 7.43842L8.53547 9.03308L7.83434 6.0276L10.1686 4.00542L7.09472 3.74035L5.89339 0.910156L4.69205 3.74035L1.61816 4.00542L3.94816 6.0276L3.2513 9.03308L5.89339 7.43842Z"
+                                    fill="#E3C814"
+                                  ></path>
+                                </g>
+                                <defs>
+                                  <clipPath id="clip0_8952_18621">
+                                    <rect
+                                      width="10.2605"
+                                      height="10.2605"
+                                      fill="white"
+                                      transform="translate(0.763184 0.0546875)"
+                                    ></rect>
+                                  </clipPath>
+                                </defs>
+                              </svg>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-sm-4">
+              <div className="tesingmodlue">
+                <div className=" swiper-initialized swiper-horizontal mySwiper">
+                  <div className="swiper-wrapper">
+                    <div className="">
+                      <div className="tesinmost">
+                        <div className="testimonial-main">
+                          <Image
+                            className="client"
+                            src={clientimg31}
+                            alt="clientimg31"
+                          />
+                          <p className=" test-para">
+                            Aenean vulputate eleifend tellus. Aenean leo ligula,
+                            porttitor eu, consequat vitae, eleifend ac, enim.
+                            Aliquam lorem ante, dapibus.
+                          </p>
+                          <div className="d-flex justify-content-between align-items-center gap-2 pt-3">
+                            <div className="test-client">
+                              <p>Derrick P. Boudreaux</p>
+                              <span>Web Developer</span>
+                            </div>
+                            <div className="start-icon">
+                              <svg
+                                width="12"
+                                height="11"
+                                viewBox="0 0 12 11"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <g clipPath="url(#clip0_8952_18621)">
+                                  <path
+                                    d="M5.89339 7.43842L8.53547 9.03308L7.83434 6.0276L10.1686 4.00542L7.09472 3.74035L5.89339 0.910156L4.69205 3.74035L1.61816 4.00542L3.94816 6.0276L3.2513 9.03308L5.89339 7.43842Z"
+                                    fill="#E3C814"
+                                  ></path>
+                                </g>
+                                <defs>
+                                  <clipPath id="clip0_8952_18621">
+                                    <rect
+                                      width="10.2605"
+                                      height="10.2605"
+                                      fill="white"
+                                      transform="translate(0.763184 0.0546875)"
+                                    ></rect>
+                                  </clipPath>
+                                </defs>
+                              </svg>
+                              <svg
+                                width="12"
+                                height="11"
+                                viewBox="0 0 12 11"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <g clipPath="url(#clip0_8952_18621)">
+                                  <path
+                                    d="M5.89339 7.43842L8.53547 9.03308L7.83434 6.0276L10.1686 4.00542L7.09472 3.74035L5.89339 0.910156L4.69205 3.74035L1.61816 4.00542L3.94816 6.0276L3.2513 9.03308L5.89339 7.43842Z"
+                                    fill="#E3C814"
+                                  ></path>
+                                </g>
+                                <defs>
+                                  <clipPath id="clip0_8952_18621">
+                                    <rect
+                                      width="10.2605"
+                                      height="10.2605"
+                                      fill="white"
+                                      transform="translate(0.763184 0.0546875)"
+                                    ></rect>
+                                  </clipPath>
+                                </defs>
+                              </svg>
+                              <svg
+                                width="12"
+                                height="11"
+                                viewBox="0 0 12 11"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <g clipPath="url(#clip0_8952_18621)">
+                                  <path
+                                    d="M5.89339 7.43842L8.53547 9.03308L7.83434 6.0276L10.1686 4.00542L7.09472 3.74035L5.89339 0.910156L4.69205 3.74035L1.61816 4.00542L3.94816 6.0276L3.2513 9.03308L5.89339 7.43842Z"
+                                    fill="#E3C814"
+                                  ></path>
+                                </g>
+                                <defs>
+                                  <clipPath id="clip0_8952_18621">
+                                    <rect
+                                      width="10.2605"
+                                      height="10.2605"
+                                      fill="white"
+                                      transform="translate(0.763184 0.0546875)"
+                                    ></rect>
+                                  </clipPath>
+                                </defs>
+                              </svg>
+                              <svg
+                                width="12"
+                                height="11"
+                                viewBox="0 0 12 11"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <g clipPath="url(#clip0_8952_18621)">
+                                  <path
+                                    d="M5.89339 7.43842L8.53547 9.03308L7.83434 6.0276L10.1686 4.00542L7.09472 3.74035L5.89339 0.910156L4.69205 3.74035L1.61816 4.00542L3.94816 6.0276L3.2513 9.03308L5.89339 7.43842Z"
+                                    fill="#E3C814"
+                                  ></path>
+                                </g>
+                                <defs>
+                                  <clipPath id="clip0_8952_18621">
+                                    <rect
+                                      width="10.2605"
+                                      height="10.2605"
+                                      fill="white"
+                                      transform="translate(0.763184 0.0546875)"
+                                    ></rect>
+                                  </clipPath>
+                                </defs>
+                              </svg>
+                              <svg
+                                width="12"
+                                height="11"
+                                viewBox="0 0 12 11"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <g clipPath="url(#clip0_8952_18621)">
+                                  <path
+                                    d="M5.89339 7.43842L8.53547 9.03308L7.83434 6.0276L10.1686 4.00542L7.09472 3.74035L5.89339 0.910156L4.69205 3.74035L1.61816 4.00542L3.94816 6.0276L3.2513 9.03308L5.89339 7.43842Z"
+                                    fill="#E3C814"
+                                  ></path>
+                                </g>
+                                <defs>
+                                  <clipPath id="clip0_8952_18621">
+                                    <rect
+                                      width="10.2605"
+                                      height="10.2605"
+                                      fill="white"
+                                      transform="translate(0.763184 0.0546875)"
+                                    ></rect>
+                                  </clipPath>
+                                </defs>
+                              </svg>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="becomes">
+        <div className="container">
+          <div className="row">
+            <div className="col-sm-6">
+              <div className="becomereal">
+                <h1>Become a Real Estate Agent</h1>
+                <p>
+                  Accelerate your listings to new heights and unleash the
+                  potential of captivating leads and valued clients.
+                </p>
+                <button
+                  className="btn btncolornow btn-outline-secondary"
+                  type="submit"
+                >
+                  REGISTER NOW
+                </button>
+              </div>
+            </div>
+            <div className="col-sm-6">
+              <Image className="imagedeepki" src={Deepik} alt="Deepik" />
             </div>
           </div>
         </div>

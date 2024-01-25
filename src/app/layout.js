@@ -2,7 +2,8 @@ import { Inter } from "next/font/google";
 // import "./globals.css";
 import "bootstrap/dist/css/bootstrap.css";
 import BootstrapClient from "./comopents/navbar";
-
+import Thiyoherder from "./herder/thiyoherder";
+import Footer from "./footer/footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -15,8 +16,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
+        <Thiyoherder />
         {children}
         <BootstrapClient />
+        <Footer />
       </body>
     </html>
   );
