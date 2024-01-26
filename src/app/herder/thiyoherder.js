@@ -1,5 +1,6 @@
 import ThiyoLogo from "../../../img/logofooter.25bbaa5d.png";
 import Image from "next/image";
+import Link from "next/link";
 function Thiyoherder() {
   return (
     <div>
@@ -8,7 +9,7 @@ function Thiyoherder() {
         style={{ padding: "20px", justifyContent: "space-around" }}
       >
         <div className="container">
-          <Image src={ThiyoLogo} alt="Thiyo Logo" width={100} height={50} />
+          <Image href='/' src={ThiyoLogo} alt="Thiyo Logo" width={100} height={50} />
           <button
             className="navbar-toggler"
             type="button"
@@ -129,12 +130,13 @@ function Thiyoherder() {
                 <span class="visually-hidden">unread messages</span>
               </span>
             </button> */}
-            <p className=" btn-outline-success" type="submit">
-              Log In/
-            </p>
-            <p className=" btn-outline-success" type="submit">
+            <Link href="/loging" replace>
+              Log In
+            </Link>
+            <p>/</p>
+            <Link href="/Register" replace>
               Register
-            </p>
+            </Link>
           </form>
         </div>
       </nav>
