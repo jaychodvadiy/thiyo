@@ -5,6 +5,7 @@ import twitter from "../../../img/typcn_social-twitter.png";
 import IosApp from "../../../img/image 60.png";
 import AndroidApp from "../../../img/image 61.png";
 import Image from "next/image";
+import linked from "../../../img/bx-inkedin.png";
 function Footer() {
   return (
     <div>
@@ -39,6 +40,9 @@ function Footer() {
                   </a>
                   <a href="https://twitter.com/i/flow/login" target="_blank">
                     <Image className="sociemide" src={twitter} alt="twitter" />
+                  </a>
+                  <a href="https://www.linkedin.com/login" target="_blank">
+                    <Image className="sociemide" src={linked} alt="linked" />
                   </a>
                 </div>
                 <div className="apios">

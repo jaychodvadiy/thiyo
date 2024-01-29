@@ -9,7 +9,14 @@ function Thiyoherder() {
         style={{ padding: "20px", justifyContent: "space-around" }}
       >
         <div className="container">
-          <Image href='/' src={ThiyoLogo} alt="Thiyo Logo" width={100} height={50} />
+          <Link href='/'>
+            <Image
+              src={ThiyoLogo}
+              alt="Thiyo Logo"
+              width={100}
+              height={50}
+            />
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
@@ -123,18 +130,18 @@ function Thiyoherder() {
             </li>
           </ul>
           <form className="d-flex ">
-            {/* <button type="button" class="btn btn-primary position-relative">
+            {/* <button type="button" className="btn btn-primary position-relative">
             List Property
-              <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+              <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
               FREE
-                <span class="visually-hidden">unread messages</span>
+                <span className="visually-hidden">unread messages</span>
               </span>
             </button> */}
-            <Link href="/loging" replace>
+            <Link href="/loging" className="loging" replace>
               Log In
             </Link>
             <p>/</p>
-            <Link href="/Register" replace>
+            <Link href="/Register" className="loging" replace>
               Register
             </Link>
           </form>
