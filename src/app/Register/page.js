@@ -36,7 +36,7 @@ function Register() {
                       id="userName"
                       placeholder="Full Name"
                       type="text"
-                      value=""
+                     value=""
                       name="userName"
                     ></input>
                   </div>
@@ -50,14 +50,14 @@ function Register() {
                         className="form-control "
                         placeholder="1 (702) 123-4567"
                         type="tel"
-                        value="+91"
+                       value="+91"
                         name="phone"
                       />
                       <div className="flag-dropdown ">
                         <div
                           className="selected-flag"
                           title="India: + 91"
-                          tabindex="0"
+                          tabIndex="0"
                           role="button"
                           aria-haspopup="listbox"
                         >
@@ -81,7 +81,7 @@ function Register() {
                         id="email"
                         placeholder="Enter your email address"
                         type="email"
-                        value=""
+                       value=""
                         name="email"
                       />
                       <button type="submit" className="absolute lockicon">
