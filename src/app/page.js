@@ -54,7 +54,7 @@ export default function Home() {
                       <div className="serchingtop">
                         <div className="dropdown primary-dropdown">
                           <button className="btn w-100 dropdown-toggle d-flex align-items-center gap-2">
-                          <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.13654 1.31658L1.44786 3.41166C0.99891 3.76084 0.634766 4.50409 0.634766 5.06777V8.76408C0.634766 9.92136 1.57755 10.8691 2.73483 10.8691H8.51126C9.66854 10.8691 10.6113 9.92136 10.6113 8.76907V5.1376C10.6113 4.53402 10.2073 3.76084 9.71344 3.41664L6.63068 1.25672C5.93232 0.767867 4.80996 0.792809 4.13654 1.31658Z" stroke="#686868" stroke-linecap="round" stroke-linejoin="round"></path><path d="M7.86836 8.13086L5.77328 6.03578L4.97516 7.23297L3.37891 5.63672" stroke="#686868" stroke-linecap="round" stroke-linejoin="round"></path><path d="M6.86914 8.13047H7.8668V7.13281" stroke="#686868" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                          <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.13654 1.31658L1.44786 3.41166C0.99891 3.76084 0.634766 4.50409 0.634766 5.06777V8.76408C0.634766 9.92136 1.57755 10.8691 2.73483 10.8691H8.51126C9.66854 10.8691 10.6113 9.92136 10.6113 8.76907V5.1376C10.6113 4.53402 10.2073 3.76084 9.71344 3.41664L6.63068 1.25672C5.93232 0.767867 4.80996 0.792809 4.13654 1.31658Z" stroke="#686868" strokeLinecap="round" strokeLinejoin="round"></path><path d="M7.86836 8.13086L5.77328 6.03578L4.97516 7.23297L3.37891 5.63672" stroke="#686868" strokeLinecap="round" strokeLinejoin="round"></path><path d="M6.86914 8.13047H7.8668V7.13281" stroke="#686868" strokeLinecap="round" strokeLinejoin="round"></path></svg>
                           "Rent"
                           </button>
                         </div>
@@ -794,7 +794,7 @@ export default function Home() {
                 <h1>Become a Real Estate Agent</h1>
                 <p>
                   Accelerate your listings to new heights and unleash the
-                  potential of captivating leads and valued clients.
+                  potential of captivating leads andvalued clients.
                 </p>
                 <button
                   className="btn btncolornow btn-outline-secondary"
