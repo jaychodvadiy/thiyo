@@ -3,11 +3,11 @@ import React from "react";
 function Properties() {
   return (
     <div>
-      <section>
+      <section  className="properties">
         <div className="container">
           <div className="row">
-            <div className="col-12">
-              <div className="properties">
+            <div className="col-sm-12">
+              <div className="">
                 <h2>Properties for rent in UAE</h2>
                 <p></p>
               </div>
