@@ -22,6 +22,7 @@
     #cfdde0 -2.67%,
     rgba(207, 221, 224, 0) 84.65%
   );
+ 
 }
 .hero {
   padding: 92px 0px 82px;
@@ -33,6 +34,56 @@
   max-width: 450px;
   margin-bottom: 30px;
   color: #000;
+}
+.hero .contain {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  gap: 30px;
+  position: relative;
+  max-width: 630px;
+  z-index: 9;
+  padding: 92px 0 82px;
+}
+.contain{
+  padding: 92px 0px 82px;
+}
+.hero .contain h1 {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 44px;
+  letter-spacing: 0;
+  text-align: left;
+  max-width: 450px;
+  margin-bottom: 30px;
+  color: #000;
+}
+.primary-tabs .nav-pills {
+  --bs-nav-pills-border-radius: var(--bs-border-radius);
+  --bs-nav-pills-link-active-color: #fff;
+  --bs-nav-pills-link-active-bg: var(--primary)!important;
+  --bs-nav-link-padding-x: 1rem;
+  --bs-nav-link-padding-y: 0.5rem;
+  --bs-nav-link-font-weight: ;
+  --bs-nav-link-color: var(--bs-link-color);
+  --bs-nav-link-hover-color: var(--bs-link-hover-color);
+  --bs-nav-link-disabled-color: var(--bs-secondary-color);
+  font-size: 12px;
+}
+.primary-tabs .nav-pills .nav-item .nav-link.active {
+  background-color: #af824a;
+  color: #fff;
+}
+.primary-tabs .nav-pills .nav-item .nav-link {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  background-color: #fff;
+  color: var(--primary);
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  margin-right: 8px;
 }
 .loging {
   color: #555;
@@ -155,6 +206,17 @@
 .nav-pills .show > .nav-link {
   color: #af824a;
   background-color: #ffffff;
+}
+.nav-link {
+  display: block;
+  padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+  font-size: var(--bs-nav-link-font-size);
+  font-weight: var(--bs-nav-link-font-weight);
+  /* color: var(--bs-nav-link-color); */
+  text-decoration: none;
+  background: none;
+  border: 0;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
 }
 
 /* BUY . RENT . SELL We help people buy, rent and sell homes */
@@ -601,6 +663,7 @@ span {
   font-style: normal;
   font-weight: 400;
   line-height: 16px;
+  font-size: 12px;
 }
 .singup {
   color: #af824a;
@@ -798,8 +861,15 @@ h5 {
   border-radius: 4px;
   width: 300px;
 }
+.css-b62m3t-container {
+  position: relative;
+  box-sizing: border-box;
+}
 .searchLocation .css-b62m3t-container,
 .searchLocation .multi_select {
+  width: 100%;
+}
+.searchLocation .css-b62m3t-container, .searchLocation .multi_select {
   width: 100%;
 }
 .css-7pg0cj-a11yText {
@@ -854,6 +924,12 @@ span {
   overflow: hidden;
   padding: 2px 8px;
   box-sizing: border-box;
+}
+.searchLocation .css-10wo9uf-option, .searchLocation .css-166bipr-Input, .searchLocation .css-19bb58m:after, .searchLocation .css-1cfo1cf, .searchLocation .css-1jqq78o-placeholder, .searchLocation .css-d7l1ni-option, .searchLocation .css-qbdosj-Input:after, .searchLocation .css-wsp0cs-MultiValueGeneric {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #555;
 }
 .css-1wy0on6 {
   -webkit-box-align: center;
@@ -950,6 +1026,14 @@ span {
   color: #555;
   text-align: start;
 }
+.searchLayout .searchLayoutBottom {
+  display: grid;
+  align-items: center;
+  grid-gap: 11px;
+  gap: 11px;
+  margin-top: 11px;
+  grid-template-columns: repeat(4,1fr);
+}
 .property-detail-search
   .property-detail-search-top
   .primary-dropdown-cs
@@ -976,6 +1060,57 @@ span {
 .selectproperty .search,
 .selectproperty button {
   transition: none !important;
+}
+.rentproperty .carddeatil .apartment button {
+  line-height: 9px;
+}
+.rentproperty .carddeatil .apartment button {
+  min-width: max-content;
+  padding: 7px 10px;
+}
+
+element.style {
+}
+.rentproperty .carddeatil .apartment button {
+    line-height: 9px;
+}
+.rentproperty .carddeatil .apartment button {
+    min-width: max-content;
+    padding: 7px 10px;
+}
+.holidayhomedetail .continuebook button, .rentproperty .carddeatil .apartment button, .selectproperty .search, .selectproperty button {
+    transition: none!important;
+}
+
+.rentproperty .carddeatil .apartment button {
+    height: 30px;
+    min-width: 91px;
+    padding: 7px;
+    border-radius: 8px;
+    background: #af824f;
+    color: #fff;
+    transition: none;
+    transition: .2s ease-in-out!important;
+}
+.carddeatil .apartment .whatsapp {
+    background: #1db171!important;
+}
+.carddeatil .apartment button {
+    border: 1px solid transparent;
+}
+.carddeatil .apartment button {
+    border-radius: 8px;
+    background: linear-gradient(180deg,#af824a,#cf9c5b);
+    /* color: var(--header-light); */
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 4px 14px;
+    gap: 6px;
+    /* text-decoration: none; */
+}
+.carddeatil .apartment .whatsapp {
+  background: #1db171!important;
 }
 .selectproperty .search {
   background: linear-gradient(180deg, #af824a, #cf9c5b);
@@ -1173,8 +1308,39 @@ p {
   border-bottom-right-radius: var(--bs-accordion-border-radius);
   border-bottom-left-radius: var(--bs-accordion-border-radius);
 }
+.accordion-item:last-of-type {
+  border-bottom-right-radius: var(--bs-accordion-border-radius);
+  border-bottom-left-radius: var(--bs-accordion-border-radius);
+}
 .rentproperty .completionstatus .selectsheet .card .accordion .accordion-body {
   padding-top: 0 !important;
+}
+.rentproperty .completionstatus .selectsheet .card .accordion .accordion-body,
+.rentproperty
+  .completionstatus
+  .selectsheet
+  .card
+  .accordion
+  .accordion-button:not(.collapsed),
+.rentproperty
+  .completionstatus
+  .selectsheet
+  .card
+  .accordion
+  .accordion-item
+  .selectoptionbtn {
+  padding: 12px 10px !important;
+}
+.border-bottom {
+  border-bottom: var(--bs-border-width) var(--bs-border-style)
+    var(--bs-border-color) !important;
+}
+.rentproperty .selectsheet .selectcircle,
+.rentproperty .selectsheet .title {
+  font-size: 12px !important;
+  font-weight: 600 !important;
+  line-height: 14px !important;
+  color: #434343 !important;
 }
 .rentproperty .completionstatus .selectsheet .card .accordion .accordion-body,
 .rentproperty
@@ -1372,6 +1538,15 @@ element.style {
   .accordion-body
   .filterPrice
   .multi-range-slider
+  .caption {
+  display: flex;
+  visibility: visible;
+}
+.rentproperty
+  .accordion
+  .accordion-body
+  .filterPrice
+  .multi-range-slider
   .thumb
   .caption
   * {
@@ -1562,4 +1737,799 @@ element.style {
   font-weight: 600;
   line-height: 16px;
   color: #939393;
+}
+.rentproperty
+  .completionstatus
+  .selectsheet
+  .card
+  .accordion
+  .accordion-item
+  .accordion-body
+  .selectcircle
+  button {
+  background: none;
+  border-radius: 14px;
+  border: 1px solid #efefef;
+  color: var(--secondary);
+  font-weight: 400;
+  font-size: 12px;
+  width: 45%;
+  padding: 5px 8px;
+}
+[type="button"]:not(:disabled),
+[type="reset"]:not(:disabled),
+[type="submit"]:not(:disabled),
+button:not(:disabled) {
+  cursor: pointer;
+}
+.rentproperty .completionstatus .selectsheet .card .accordion .accordion-body,
+.rentproperty
+  .completionstatus
+  .selectsheet
+  .card
+  .accordion
+  .accordion-button:not(.collapsed),
+.rentproperty
+  .completionstatus
+  .selectsheet
+  .card
+  .accordion
+  .accordion-item
+  .selectoptionbtn {
+  padding: 12px 10px !important;
+}
+
+.rentproperty
+  .completionstatus
+  .selectsheet
+  .card
+  .accordion
+  .accordion-button:not(.collapsed):after {
+  top: 3px;
+  right: 17px;
+}
+
+.rentproperty
+  .completionstatus
+  .selectsheet
+  .card
+  .accordion
+  .accordion-button:after {
+  background-image: url(/_next/static/media/FilterAccordianArrow.2f4d102b.png);
+  background-size: 12px;
+  transition: none;
+  position: absolute;
+  right: 10px;
+  top: 15px;
+}
+.rentproperty .completionstatus .selectsheet .card .accordion .accordion-body,
+.rentproperty
+  .completionstatus
+  .selectsheet
+  .card
+  .accordion
+  .accordion-button:not(.collapsed),
+.rentproperty
+  .completionstatus
+  .selectsheet
+  .card
+  .accordion
+  .accordion-item
+  .selectoptionbtn {
+  padding: 12px 10px !important;
+}
+.rentproperty .selectsheet .selectcircle,
+.rentproperty .selectsheet .title {
+  font-size: 12px !important;
+  font-weight: 600 !important;
+  line-height: 14px !important;
+  color: #434343 !important;
+}
+.accordion-header {
+  margin-bottom: 0;
+}
+.rentproperty
+  .completionstatus
+  .selectsheet
+  .card
+  .accordion
+  .accordion-item
+  .selectoptionbtn {
+  color: #434343;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 13px;
+  border: 0;
+  background: none;
+  padding: 16px 12px;
+}
+.rentproperty
+  .completionstatus
+  .selectsheet
+  .card
+  .accordion
+  .accordion-button:not(.collapsed):after {
+  top: 3px;
+  right: 17px;
+}
+.rentproperty
+  .completionstatus
+  .selectsheet
+  .card
+  .accordion
+  .accordion-button:after {
+  background-image: url(/_next/static/media/FilterAccordianArrow.2f4d102b.png);
+  background-size: 12px;
+  transition: none;
+  position: absolute;
+  right: 10px;
+  top: 15px;
+}
+.rentproperty .completionstatus .selectsheet .card .accordion .accordion-body,
+.rentproperty
+  .completionstatus
+  .selectsheet
+  .card
+  .accordion
+  .accordion-button:not(.collapsed),
+.rentproperty
+  .completionstatus
+  .selectsheet
+  .card
+  .accordion
+  .accordion-item
+  .selectoptionbtn {
+  padding: 12px 10px !important;
+}
+.rentproperty
+  .completionstatus
+  .selectsheet
+  .card
+  .accordion
+  .accordion-item
+  .accordion-body
+  .constrtuctiuonbtn
+  button.active {
+  background-color: #fde8cd;
+  color: #b48e5d;
+  border: 1px solid #fde8cd;
+}
+.rentproperty
+  .completionstatus
+  .selectsheet
+  .card
+  .accordion
+  .accordion-item
+  .accordion-body
+  .constrtuctiuonbtn
+  button {
+  text-transform: capitalize;
+}
+.rentproperty
+  .completionstatus
+  .selectsheet
+  .card
+  .accordion
+  .accordion-item
+  .accordion-body
+  .constrtuctiuonbtn
+  button {
+  color: var(--selecttext-color);
+  background: none;
+  border: 1px solid #cfcfcf;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 5px 10px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+img,
+svg {
+  vertical-align: middle;
+}
+.rentproperty
+  .completionstatus
+  .selectsheet
+  .card
+  .accordion
+  .accordion-button:not(.collapsed) {
+  background-color: transparent;
+  box-shadow: none !important;
+}
+.rentproperty
+  .completionstatus
+  .selectsheet
+  .card
+  .accordion
+  .accordion-button:after {
+  background-image: url(/_next/static/media/FilterAccordianArrow.2f4d102b.png);
+  background-size: 12px;
+  transition: none;
+  position: absolute;
+  right: 10px;
+  top: 15px;
+}
+.rentproperty .accordion .accordion-body .filterPrice .multi-range-slider .bar,
+.rentproperty
+  .accordion
+  .accordion-body
+  .filterPrice
+  .multi-range-slider
+  .bar-inner,
+.rentproperty
+  .accordion
+  .accordion-body
+  .filterPrice
+  .multi-range-slider
+  .bar-left {
+  height: 4px;
+  padding: 0;
+}
+.rentproperty
+  .accordion
+  .accordion-body
+  .filterPrice
+  .multi-range-slider
+  .bar-inner {
+  background-color: #b7884e;
+  box-shadow: none;
+  border: none;
+}
+.multi-range-slider .bar-inner-left,
+.multi-range-slider .bar-inner-right {
+  width: 50%;
+}
+.rentproperty
+  .accordion
+  .accordion-body
+  .filterPrice
+  .multi-range-slider
+  .thumb {
+  background-color: #af824a;
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+  width: 12px;
+  height: 12px;
+  border-radius: 100px;
+  top: -5px;
+}
+.rentproperty
+  .accordion
+  .accordion-body
+  .filterPrice
+  .multi-range-slider
+  .thumb
+  .caption
+  * {
+  background-color: #565656;
+  box-shadow: none;
+  border-radius: 5px;
+  padding: 0 8px;
+}
+
+.rentproperty
+  .accordion
+  .accordion-body
+  .filterPrice
+  .multi-range-slider
+  .thumb
+  .caption
+  * {
+  margin-left: 10px;
+}
+.rentproperty
+  .completionstatus
+  .selectsheet
+  .card
+  .accordion
+  .accordion-button:not(.collapsed):after {
+  top: 3px;
+  right: 17px;
+}
+/* rentproperty rentproperty-right */
+.rentproperty .rentproperty-right {
+  width: calc(100% - 300px);
+  padding-left: 20px;
+}
+.rentproperty .propertyslider .cs-main {
+  margin-top: 0;
+}
+.cs-main {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+  margin: 28px 0;
+}
+.rentproperty .propertyslider .cs-main .cs-tab {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+rentproperty .propertyslider .cs-main .cs-tab p {
+  white-space: nowrap;
+}
+.rentproperty .propertyslider .cs-main .cs-tab p {
+  color: #5f5f5f;
+  font-weight: 600;
+}
+.rentproperty .propertyslider .cs-main .cs-tab p {
+  white-space: nowrap;
+}
+.completion-product-view-tab {
+  border: 1px solid #ececec;
+  border-radius: 7px;
+}
+.completion-product-view-tab ul.nav {
+  flex-wrap: nowrap;
+  white-space: nowrap;
+}
+.nav-pills {
+  --bs-nav-pills-border-radius: var(--bs-border-radius);
+  --bs-nav-pills-link-active-color: #fff;
+  --bs-nav-pills-link-active-bg: #0d6efd;
+}
+.nav-fill .nav-item, .nav-fill>.nav-link {
+  flex: 1 1 auto;
+  text-align: center;
+}
+.rentproperty .propertyslider .cs-main .cs-tab .completion-product-view-tab .nav li button {
+  text-transform: uppercase;
+}
+.completion-product-view-tab .nav-link:hover, .completion-product-view-tab .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  background-color: #f8f4f0;
+  color: var(--primary);
+}
+.nav-fill .nav-item .nav-link, .nav-justified .nav-item .nav-link {
+  width: 100%;
+}
+/* .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: var(--bs-nav-pills-link-active-color);
+  background-color: var(--bs-nav-pills-link-active-bg);
+} */
+.completion-product-view-tab .nav-link {
+  color: var(--primary);
+  font-weight: 600;
+  padding: 8px 25px;
+  font-size: 12px;
+}
+.cs-main .cs-filter-option, .cs-main .cs-filter-option .productgridcard .nav {
+  flex-wrap: nowrap;
+}
+.cs-filter-option {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+.cs-filter-option .sm-filter {
+  border: 1px solid #ececec;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.cs-main .cs-filter-option .popularmain {
+  max-width: 160px;
+}
+.popularmain {
+  position: relative;
+}
+.popularicon {
+  position: absolute;
+  z-index: 999;
+  left: 8px;
+  top: 0;
+}
+.cs-filter-option select.form-select {
+  padding: 5px 33px 5px 28px;
+}
+.cs-filter-option select.form-select {
+  padding: 5px 20px 5px 28px;
+  position: relative;
+  border-radius: 3px;
+  font-size: 12px;
+  min-width: 110px;
+}
+.form-select {
+  --bs-form-select-bg-img: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' strokeLinecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e);
+  display: block;
+  width: 100%;
+  padding: 0.375rem 2.25rem 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--bs-body-color);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: var(--bs-body-bg);
+  background-image: var(--bs-form-select-bg-img),var(--bs-form-select-bg-icon, none);
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  background-size: 16px 12px;
+  border: var(--bs-border-width) solid var(--bs-border-color);
+  border-radius: var(--bs-border-radius);
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+select {
+  word-wrap: normal;
+}
+option {
+  font-weight: normal;
+  display: block;
+  min-height: 1.2em;
+  padding: 0px 2px 1px;
+  white-space: nowrap;
+}
+.productgridcard .nav .active {
+  border: 1px solid #ececec!important;
+}
+.productgridcard .nav button {
+  border: 1px solid transparent;
+}
+
+.productgridcard .nav button {
+  border-radius: 3px;
+  background-color: transparent;
+  padding: 0;
+  border-color: transparent;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.productgridcard .nav .active svg {
+  color: red!important;
+}
+
+/* card detils */
+.rentproperty .propertyslider .tab-content {
+  margin-bottom: 65px;
+}
+.tab-content>.active {
+  display: block;
+}
+.primary-tabs .tab-content {
+  background: linear-gradient(0deg,hsla(0,0%,100%,.89),hsla(0,0%,100%,.89)),linear-gradient(0deg,hsla(0,0%,100%,.25),hsla(0,0%,100%,.25));
+  border-radius: 0 6px 6px 6px;
+  padding: 14px;
+  font-size: 12px;
+}
+.primary-dropdown .dropdown-toggle.dropdown-toggle-cs {
+  padding-right: 30px;
+}
+.listpropertysearch {
+  min-width: 140px;
+}
+.listpropertysearch button {
+  background: linear-gradient(180deg,#af824a,#c79557);
+  box-shadow: 0 3px 3px 0 #09172c40;
+  border-radius: 4px;
+  padding: 11px 10px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  border: 1px solid #af824a;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  width: 100%;
+}
+.searchLayout .searchLayoutTop {
+  display: grid;
+  align-items: center;
+  grid-gap: 11px;
+  gap: 11px;
+  grid-template-columns: repeat(3,1fr);
+}
+.align-items-baseline {
+  align-items: baseline!important;
+}
+.primary-dropdown button, .primary-dropdown button:active, .primary-dropdown button:hover {
+  background-color: #f6f6f6!important;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 14px!important;
+  font-weight: 400;
+  line-height: 16px;
+  color: #555;
+  text-align: start;
+  transition: none;
+  height: 33px;
+}
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+  cursor: pointer;
+}
+.fade {
+  transition: opacity .15s linear;
+}
+.dropdown-menu {
+  --bs-dropdown-zindex: 1000;
+  --bs-dropdown-min-width: 10rem;
+  --bs-dropdown-padding-x: 0;
+  --bs-dropdown-padding-y: 0.5rem;
+  --bs-dropdown-spacer: 0.125rem;
+  --bs-dropdown-font-size: 1rem;
+  --bs-dropdown-color: var(--bs-body-color);
+  --bs-dropdown-bg: var(--bs-body-bg);
+  --bs-dropdown-border-color: var(--bs-border-color-translucent);
+  --bs-dropdown-border-radius: var(--bs-border-radius);
+  --bs-dropdown-border-width: var(--bs-border-width);
+  --bs-dropdown-inner-border-radius: calc(var(--bs-border-radius) - var(--bs-border-width));
+  --bs-dropdown-divider-bg: var(--bs-border-color-translucent);
+  --bs-dropdown-divider-margin-y: 0.5rem;
+  --bs-dropdown-box-shadow: 0 0.5rem 1rem rgba(0,0,0,.15);
+  --bs-dropdown-link-color: var(--bs-body-color);
+  --bs-dropdown-link-hover-color: var(--bs-body-color);
+  --bs-dropdown-link-hover-bg: var(--bs-tertiary-bg);
+  --bs-dropdown-link-active-color: #fff;
+  --bs-dropdown-link-active-bg: #0d6efd;
+  --bs-dropdown-link-disabled-color: var(--bs-tertiary-color);
+  --bs-dropdown-item-padding-x: 1rem;
+  --bs-dropdown-item-padding-y: 0.25rem;
+  --bs-dropdown-header-color: #6c757d;
+  --bs-dropdown-header-padding-x: 1rem;
+  --bs-dropdown-header-padding-y: 0.5rem;
+  position: absolute;
+  z-index: var(--bs-dropdown-zindex);
+  display: none;
+  min-width: var(--bs-dropdown-min-width);
+  padding: var(--bs-dropdown-padding-y) var(--bs-dropdown-padding-x);
+  margin: 0;
+  font-size: var(--bs-dropdown-font-size);
+  color: var(--bs-dropdown-color);
+  text-align: left;
+  list-style: none;
+  background-color: var(--bs-dropdown-bg);
+  background-clip: padding-box;
+  border: var(--bs-dropdown-border-width) solid var(--bs-dropdown-border-color);
+  border-radius: var(--bs-dropdown-border-radius);
+}
+.primary-dropdown .dropdown-menu .drop-title {
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 14px;
+  color: #555;
+  margin-bottom: 8px;
+}
+.primary-dropdown .property-group {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-column-gap: 8.5px;
+  column-gap: 8.5px;
+  grid-row-gap: 4.5px;
+  row-gap: 4.5px;
+}
+
+
+.carddeatil-sm {
+  display: flex;
+  gap: 25px;
+  height: 194px;
+}
+.carddeatil {
+  background: #fff;
+  border: 1px solid #ececec;
+  border-radius: 7px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.carddeatil-sm .carddeatil-sm-left {
+  width: 300px;
+}
+.rentproperty .carddeatil .swiper {
+  height: 100%;
+}
+.carddeatil .mySwiper6 {
+  max-height: 280px;
+}
+.swiper-3d {
+  perspective: 1200px;
+}
+.swiper-horizontal {
+  touch-action: pan-y;
+}
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  overflow: hidden;
+  overflow: clip;
+  list-style: none;
+  padding: 0;
+  z-index: 1;
+  display: block;
+}.swiper-3d .swiper-wrapper {
+  transform-style: preserve-3d;
+}
+.swiper-android .swiper-slide, .swiper-ios .swiper-slide, .swiper-wrapper {
+  transform: translateZ(0);
+}
+.swiper-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: flex;
+  transition-property: transform;
+  transition-timing-function: var(--swiper-wrapper-transition-timing-function, initial);
+  box-sizing: content-box;
+}
+.swiper-slide {
+  flex-shrink: 0;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transition-property: transform;
+  display: block;
+}
+.swiper-slide.swiper-slide-visible.swiper-slide-active {
+  padding-right: 5px;
+}
+.swiper-3d .swiper-cube-shadow, .swiper-3d .swiper-slide {
+  transform-style: preserve-3d;
+}
+.rentproperty .carddeatil .swiper .swiper-wrapper .swiper-slide .productslider, .rentproperty .carddeatil .swiper .swiper-wrapper .swiper-slide .productslider img {
+  height: 230px!important;
+}
+.carddeatil-sm .carddeatil-sm-left .verified span, .cstm-card-main-cs .verified span {
+  background: #ffffff9e;
+}
+.carddeatil-sm .carddeatil-sm-left .verified span, .cstm-card-main-cs .verified span {
+  position: absolute;
+  height: 25px;
+  width: 71px;
+  z-index: 99;
+  padding: 0;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  color: #000;
+  line-height: 14px;
+}
+.propertyslider .hometype {
+  background-color: #fff;
+  bottom: 12px;
+  top: inherit;
+}
+.propertyslider .card-like {
+  right: 17px;
+  top: 14px;
+  z-index: 99;
+}
+align-items-start {
+  align-items: flex-start!important;
+}
+.justify-content-start {
+  justify-content: flex-start!important;
+}
+.flex-column {
+  flex-direction: column!important;
+}
+.rentproperty .carddeatil .apartment h4 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  color: #4c4a4a;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 9px;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  margin-bottom: 8px!important;
+}
+.rentproperty .carddeatil .apartment p.prod-location {
+  margin-bottom: 0!important;
+}
+.rentproperty .carddeatil .apartment .downtown {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #4c4a4a;
+}
+.carddeatil-sm .carddeatil-sm-left .card-like {
+  right: 12px;
+  top: 8px;
+}
+.propertyslider .card-badage, .propertyslider .hometype {
+  padding: 5px 8px;
+  border-radius: 13px;
+  z-index: 99;
+}
+.carddeatil-sm .carddeatil-sm-left .verified span {
+  top: 12px;
+  left: 12px;
+}
+.propertyslider .carddeatil .swiper-button-prev, .swiper-button-next {
+  background: #fff;
+  height: 18px!important;
+  width: 18px!important;
+  border-radius: 100%;
+}
+.swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled {
+  opacity: .35;
+  cursor: auto;
+  pointer-events: none;
+}
+.swiper-button-prev, .swiper-rtl .swiper-button-next {
+  left: var(--swiper-navigation-sides-offset, 10px);
+  right: auto;
+}
+.swiper-button-next, .swiper-button-prev {
+  position: absolute;
+  top: var(--swiper-navigation-top-offset, 50%);
+  width: calc(var(--swiper-navigation-size) / 44 * 27);
+  height: var(--swiper-navigation-size);
+  margin-top: calc(0px - (var(--swiper-navigation-size) / 2));
+  z-index: 10;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--swiper-navigation-color, var(--swiper-theme-color));
+}
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+  content: "prev";
+}
+.swiper-button-next:after, .swiper-button-prev:after {
+  font-family: swiper-icons;
+  font-size: var(--swiper-navigation-size);
+  text-transform: none!important;
+  letter-spacing: 0;
+  font-variant: normal;
+  line-height: 1;
+}
+.swiper-button-next, .swiper-rtl .swiper-button-prev {
+  right: var(--swiper-navigation-sides-offset, 10px);
+  left: auto;
+}
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+  content: "next";
+}
+.carddeatil-sm .carddeatil-sm-left .gallery {
+  right: 38px;
+  left: inherit;
+  top: 10px;
+}
+.propertyslider .gallery {
+  right: inherit;
+  left: 15px;
+}
+.propertyslider .gallery {
+  height: 25px;
+  line-height: 14px;
+  top: 17px;
+}
+.propertyslider .gallery {
+  right: 54px;
+  top: 11px;
+  z-index: 99;
+}
+.cursor-pointer {
+  cursor: pointer;
+  font-size: 16px;
+}
+.gallery {
+  position: absolute;
+  left: 15px;
+  top: 15px;
+  background: #ffffff9e;
+  padding: 4px 12px;
+  border-radius: 18px;
 }
