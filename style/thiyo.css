@@ -2447,10 +2447,30 @@ align-items-start {
   right: 12px;
   top: 8px;
 }
+.card-like {
+  position: absolute;
+  right: 7px;
+  top: 3px;
+  z-index: 1;
+}
 .propertyslider .card-badage, .propertyslider .hometype {
   padding: 5px 8px;
   border-radius: 13px;
   z-index: 99;
+}
+.hometype {
+  position: absolute;
+  left: 12px;
+  bottom: 12px;
+  background: #ffffffb8;
+  color: var(--secondary-dark);
+  border-radius: 4px;
+  font-size: 10px;
+  font-weight: 600;
+  padding: 1px 6px;
+  line-height: 18px;
+  box-shadow: 0 2px 2px 0 #2a323c33;
+  z-index: 1;
 }
 .carddeatil-sm .carddeatil-sm-left .verified span {
   top: 12px;

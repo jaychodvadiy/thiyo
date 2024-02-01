@@ -944,23 +944,23 @@ function Properties() {
                           <div className="accordion-item">
                             <h2
                               className="accordion-header"
-                              id="panelsStayOpen-heading-6.2"
+                              id="panelsStayOpen-headingOne"
                             >
                               <button
-                                className="accordion-button selectoptionbtn title collapsed"
+                                className="accordion-button selectoptionbtn title"
                                 type="button"
                                 data-bs-toggle="collapse"
-                                data-bs-target="#panelsStayOpen-collapse-6.2"
-                                aria-expanded="false"
-                                aria-controls="panelsStayOpen-collapse-6.2"
+                                data-bs-target="#panelsStayOpen-collapseOnelogo"
+                                aria-expanded="true"
+                                aria-controls="panelsStayOpen-collapseOnelogo"
                               >
-                                Area
+                                Aera
                               </button>
                             </h2>
                             <div
-                              id="panelsStayOpen-collapse-6.2"
-                              className="accordion-collapse collapse"
-                              aria-labelledby="panelsStayOpen-heading-6.2"
+                              id="panelsStayOpen-collapseOnelogo"
+                              className="accordion-collapse collapse show"
+                              aria-labelledby="panelsStayOpen-headingOnelogo"
                               style={{}}
                             >
                               <div className="accordion-body">
@@ -996,29 +996,21 @@ function Properties() {
                                         max="35000"
                                         step="5"
                                         type="range"
-                                        value="19174"
+                                        value="30000"
                                       />
                                       <div className="thumb thumb-right">
                                         <div className="caption">
                                           <span className="max-caption">
-                                            19174
+                                            30000
                                           </span>
                                         </div>
                                       </div>
                                       <div
                                         className="bar-right"
-                                        style={{ width: 45.2171 }}
+                                        style={{ width: 14.2857 }}
                                       ></div>
                                     </div>
-
                                     <div className="ruler">
-                                      <div className="ruler-rule"></div>
-                                      <div className="ruler-rule"></div>
-                                      <div className="ruler-rule"></div>
-                                      <div className="ruler-rule"></div>
-                                      <div className="ruler-rule"></div>
-                                      <div className="ruler-rule"></div>
-                                      <div className="ruler-rule"></div>
                                       <div className="ruler-rule"></div>
                                       <div className="ruler-rule"></div>
                                       <div className="ruler-rule"></div>
@@ -1033,22 +1025,22 @@ function Properties() {
                                     </div>
                                   </div>
                                 </div>
-                                <div className="priceRange">
+                                <div className="priceRange priceRange-cs">
                                   <div className="areaInput areaInput-cs row">
                                     <div className="col-6 pe-0">
                                       <input
                                         placeholder="Minimum"
                                         className="form-control"
-                                        max="19174"
+                                        max="30000"
                                         value="0"
                                       />
                                     </div>
-                                    <div className="col-6 pe-0">
+                                    <div className="col-6">
                                       <input
-                                        placeholder="Maximum"
                                         className="form-control"
+                                        placeholder="Maximum"
                                         min="0"
-                                        value="19174"
+                                        value="30000"
                                       />
                                     </div>
                                   </div>
@@ -1066,7 +1058,7 @@ function Properties() {
                           <div className="accordion-item">
                             <h2
                               className="accordion-header"
-                              id="panelsStayOpen-heading-6"
+                              id="panelsStayOpen-headingOne"
                             >
                               <button
                                 className="accordion-button selectoptionbtn title"
@@ -1082,7 +1074,7 @@ function Properties() {
                             <div
                               id="panelsStayOpen-collapse-6.2"
                               className="accordion-collapse collapse show"
-                              aria-labelledby="panelsStayOpen-heading-6"
+                              aria-labelledby="panelsStayOpen-headingOne"
                               style={{}}
                             >
                               <div className="accordion-body">
