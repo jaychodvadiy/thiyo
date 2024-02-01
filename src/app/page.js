@@ -75,20 +75,20 @@ export default function Home() {
                                 <path
                                   d="M4.13654 1.31658L1.44786 3.41166C0.99891 3.76084 0.634766 4.50409 0.634766 5.06777V8.76408C0.634766 9.92136 1.57755 10.8691 2.73483 10.8691H8.51126C9.66854 10.8691 10.6113 9.92136 10.6113 8.76907V5.1376C10.6113 4.53402 10.2073 3.76084 9.71344 3.41664L6.63068 1.25672C5.93232 0.767867 4.80996 0.792809 4.13654 1.31658Z"
                                   stroke="#686868"
-                                  stroke-linecap="round"
-                                  stroke-linejoin="round"
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
                                 ></path>
                                 <path
                                   d="M7.86836 8.13086L5.77328 6.03578L4.97516 7.23297L3.37891 5.63672"
                                   stroke="#686868"
-                                  stroke-linecap="round"
-                                  stroke-linejoin="round"
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
                                 ></path>
                                 <path
                                   d="M6.86914 8.13047H7.8668V7.13281"
                                   stroke="#686868"
-                                  stroke-linecap="round"
-                                  stroke-linejoin="round"
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
                                 ></path>
                               </svg>
                               Rent
@@ -214,9 +214,9 @@ export default function Home() {
                                 <path
                                   d="M5.98666 9.64882V8.10761M4.99515 1.85031L1.43496 4.70154C1.03424 5.02006 0.777374 5.69305 0.86471 6.19651L1.54798 10.2859C1.67128 11.0154 2.36996 11.6062 3.10974 11.6062H8.86358C9.59823 11.6062 10.302 11.0102 10.4253 10.2859L11.1086 6.19651C11.1908 5.69305 10.9339 5.02006 10.5384 4.70154L6.97817 1.85544C6.42847 1.41363 5.53971 1.41363 4.99515 1.85031Z"
                                   stroke="#686868"
-                                  stroke-width="1.5"
-                                  stroke-linecap="round"
-                                  stroke-linejoin="round"
+                                  strokeWidth="1.5"
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
                                 ></path>
                               </svg>
                               Property
@@ -320,14 +320,14 @@ export default function Home() {
                                 <path
                                   d="M4.42617 12.0313H7.65586C10.3473 12.0313 11.4238 10.9547 11.4238 8.26328V5.03359C11.4238 2.34219 10.3473 1.26562 7.65586 1.26562H4.42617C1.73477 1.26562 0.658203 2.34219 0.658203 5.03359V8.26328C0.658203 10.9547 1.73477 12.0313 4.42617 12.0313Z"
                                   stroke="#686868"
-                                  stroke-linecap="round"
-                                  stroke-linejoin="round"
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
                                 ></path>
                                 <path
                                   d="M6.04102 3.95703V9.33984M3.34961 6.64844H8.73242M4.96445 9.33984H7.11758C8.00574 9.33984 8.73242 8.61316 8.73242 7.725V5.57188C8.73242 4.68371 8.00574 3.95703 7.11758 3.95703H4.96445C4.07629 3.95703 3.34961 4.68371 3.34961 5.57188V7.725C3.34961 8.61316 4.07629 9.33984 4.96445 9.33984Z"
                                   stroke="#686868"
-                                  stroke-linecap="round"
-                                  stroke-linejoin="round"
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
                                 ></path>
                               </svg>
                               Area (Sq.ft.)
@@ -349,14 +349,14 @@ export default function Home() {
                                 <path
                                   d="M4.42617 12.0313H7.65586C10.3473 12.0313 11.4238 10.9547 11.4238 8.26328V5.03359C11.4238 2.34219 10.3473 1.26562 7.65586 1.26562H4.42617C1.73477 1.26562 0.658203 2.34219 0.658203 5.03359V8.26328C0.658203 10.9547 1.73477 12.0313 4.42617 12.0313Z"
                                   stroke="#686868"
-                                  stroke-linecap="round"
-                                  stroke-linejoin="round"
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
                                 ></path>
                                 <path
                                   d="M6.04102 3.95703V9.33984M3.34961 6.64844H8.73242M4.96445 9.33984H7.11758C8.00574 9.33984 8.73242 8.61316 8.73242 7.725V5.57188C8.73242 4.68371 8.00574 3.95703 7.11758 3.95703H4.96445C4.07629 3.95703 3.34961 4.68371 3.34961 5.57188V7.725C3.34961 8.61316 4.07629 9.33984 4.96445 9.33984Z"
                                   stroke="#686868"
-                                  stroke-linecap="round"
-                                  stroke-linejoin="round"
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
                                 ></path>
                               </svg>
                               Price (AED)
