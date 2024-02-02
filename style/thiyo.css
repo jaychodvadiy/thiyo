@@ -2553,3 +2553,18 @@ align-items-start {
   padding: 4px 12px;
   border-radius: 18px;
 }
+.card.cstm-card-main {
+  height: 100%;
+}
+.card.cstm-card-main {
+  border: 0;
+  box-shadow: 0 2px 3px 0 #242d3c33;
+  background-color: var(--header-light);
+  border-radius: 0 0 4px 4px;
+}
+.card.cstm-card-main .position-relative, .card.cstm-card-main.cstm-card-main-cs .pro-img {
+  height: 180px;
+}
+.card.cstm-card-main .position-relative {
+  overflow: hidden;
+}
