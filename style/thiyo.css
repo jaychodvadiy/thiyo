@@ -239,7 +239,7 @@
   font-size: 12px;
   line-height: 16px;
 }
-.imgfluid {
+.Imagefluid {
   position: relative;
   left: 4pc;
   margin-bottom: 16px;
@@ -299,7 +299,7 @@ h3 {
 
 /* TESTIMONIALSWhat our clients are saying */
 
-.main-gallery .img-gallery-info .line {
+.main-gallery .Image-gallery-info .line {
   width: 117.68px;
   height: 1px;
   background-color: #000;
@@ -1927,7 +1927,7 @@ button:not(:disabled) {
   align-items: center;
   gap: 4px;
 }
-img,
+Image,
 svg {
   vertical-align: middle;
 }
@@ -2139,7 +2139,7 @@ rentproperty .propertyslider .cs-main .cs-tab p {
   min-width: 110px;
 }
 .form-select {
-  --bs-form-select-bg-img: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' strokeLinecap='round' strokeLinejoin='round' strokeWidth='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e);
+  --bs-form-select-bg-Image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' strokeLinecap='round' strokeLinejoin='round' strokeWidth='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e);
   display: block;
   width: 100%;
   padding: 0.375rem 2.25rem 0.375rem 0.75rem;
@@ -2151,7 +2151,7 @@ rentproperty .propertyslider .cs-main .cs-tab p {
   -moz-appearance: none;
   appearance: none;
   background-color: var(--bs-body-bg);
-  background-image: var(--bs-form-select-bg-img),var(--bs-form-select-bg-icon, none);
+  background-image: var(--bs-form-select-bg-Image),var(--bs-form-select-bg-icon, none);
   background-repeat: no-repeat;
   background-position: right 0.75rem center;
   background-size: 16px 12px;
@@ -2197,6 +2197,15 @@ option {
 }
 .tab-content>.active {
   display: block;
+}
+/* .tab-content>.tab-pane {
+  display: none;
+} */
+.fade:not(.show) {
+  opacity: 0;
+}
+.fade {
+  transition: opacity .15s linear;
 }
 .primary-tabs .tab-content {
   background: linear-gradient(0deg,hsla(0,0%,100%,.89),hsla(0,0%,100%,.89)),linear-gradient(0deg,hsla(0,0%,100%,.25),hsla(0,0%,100%,.25));
@@ -2379,7 +2388,7 @@ option {
 .swiper-3d .swiper-cube-shadow, .swiper-3d .swiper-slide {
   transform-style: preserve-3d;
 }
-.rentproperty .carddeatil .swiper .swiper-wrapper .swiper-slide .productslider, .rentproperty .carddeatil .swiper .swiper-wrapper .swiper-slide .productslider img {
+.rentproperty .carddeatil .swiper .swiper-wrapper .swiper-slide .productslider, .rentproperty .carddeatil .swiper .swiper-wrapper .swiper-slide .productslider Image {
   height: 230px!important;
 }
 .carddeatil-sm .carddeatil-sm-left .verified span, .cstm-card-main-cs .verified span {
@@ -2403,6 +2412,17 @@ option {
   background-color: #fff;
   bottom: 12px;
   top: inherit;
+}
+.cstm-card-main-cs .apartment {
+  position: absolute;
+  top: inherit;
+  left: 8px;
+  bottom: 8px;
+}
+.cstm-card-main-cs .verified span {
+  box-shadow: 0 2px 2px 0 rgba(42,50,60,.2);
+  top: 6px;
+  left: 8px;
 }
 .propertyslider .card-like {
   right: 17px;
@@ -2556,15 +2576,112 @@ align-items-start {
 .card.cstm-card-main {
   height: 100%;
 }
+.cstm-card-main-cs .card-like {
+  right: 8px;
+  top: 6px;
+}
 .card.cstm-card-main {
   border: 0;
   box-shadow: 0 2px 3px 0 #242d3c33;
   background-color: var(--header-light);
   border-radius: 0 0 4px 4px;
 }
-.card.cstm-card-main .position-relative, .card.cstm-card-main.cstm-card-main-cs .pro-img {
+.card.cstm-card-main .position-relative, .card.cstm-card-main.cstm-card-main-cs .pro-Image {
   height: 180px;
 }
 .card.cstm-card-main .position-relative {
   overflow: hidden;
+}
+.card.cstm-card-main .position-relative, .card.cstm-card-main.cstm-card-main-cs .pro-img {
+  height: 180px;
+}
+
+.cstm-card-main-cs .gallery {
+  opacity: .8;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+}
+.cstm-card-main-cs .gallery {
+  right: 38px;
+  left: inherit;
+  top: 10px;
+}
+.gallery span {
+  margin-left: 5px;
+}
+.cstm-card-body-main {
+  padding: 16px!important;
+}
+.card-body {
+  flex: 1 1 auto;
+  padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+  color: var(--bs-card-color);
+}
+.card-body.cstm-card-body-main .card-title, .cstm-card-body-main p.title {
+  font-size: 12px;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.cstm-card-body-main p.title {
+  font-weight: 600;
+  line-height: 16px;
+  color: #2a323c;
+}
+.card-body.cstm-card-body-main .card-title {
+  width: 100%;
+}
+.card-body.cstm-card-body-main .card-title {
+  font-weight: 400;
+  line-height: 14px;
+  color: #737d8c;
+  white-space: inherit;
+  max-width: 200px;
+}
+.card-body.cstm-card-body-main .card-title, .cstm-card-body-main p.title {
+  font-size: 12px;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.card-body.cstm-card-body-main .card-title {
+  font-style: normal;
+  line-height: 13px;
+  color: var(--secondary);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.card-title {
+  margin-bottom: var(--bs-card-title-spacer-y);
+  color: var(--bs-card-title-color);
+}
+a {
+  color: #000;
+  text-decoration: none!important;
+}
+a {
+  color: #091337;
+  text-decoration: none;
+  transition: .3s ease-in-out;
+}
+a {
+  color: rgba(var(--bs-link-color-rgb),var(--bs-link-opacity, 1));
+  text-decoration: underline;
+}
+.cstm-card-body-main .btn-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding-top: 12px;
+  margin-top: 8px;
+  border-top: 1px solid #dde0e5;
+}
+p {
+  line-height: 21px;
+  font-size: 14px;
+  color: var(--primary);
 }
