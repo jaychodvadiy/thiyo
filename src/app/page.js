@@ -29,15 +29,15 @@ export default function Home() {
         <div className="container h-100">
           <div className="row ">
             <div className="col-lg-6">
-              <div class="contain">
-                <h1 class="text-center text-lg-start">
+              <div className="contain">
+                <h1 className="text-center text-lg-start">
                   Discover properties globally for sale and to rent
                 </h1>
-                <div class="primary-tabs">
-                  <ul class="nav nav-pills" id="pills-tab" role="tablist">
-                    <li class="nav-item" role="presentation">
+                <div className="primary-tabs">
+                  <ul className="nav nav-pills" id="pills-tab" role="tablist">
+                    <li className="nav-item" role="presentation">
                       <button
-                        class="nav-link active"
+                        className="nav-link active"
                         id="pills-home-tab"
                         data-bs-toggle="pill"
                         data-bs-target="#pills-home"
@@ -50,19 +50,19 @@ export default function Home() {
                       </button>
                     </li>
                   </ul>
-                  <div class="tab-content" id="pills-tabContent">
+                  <div className="tab-content" id="pills-tabContent">
                     <div
-                      class="tab-pane fade show active"
+                      className="tab-pane fade show active"
                       id="pills-home"
                       role="tabpanel"
                       aria-labelledby="pills-home-tab"
                       tabindex="0"
                     >
-                      <div class="searchLayout">
-                        <div class="searchLayoutTop align-items-baseline">
-                          <div class="dropdown primary-dropdown">
+                      <div className="searchLayout">
+                        <div className="searchLayoutTop align-items-baseline">
+                          <div className="dropdown primary-dropdown">
                             <button
-                              class="btn w-100 dropdown-toggle d-flex align-items-center gap-2"
+                              className="btn w-100 dropdown-toggle d-flex align-items-center gap-2"
                               type="button"
                             >
                               <svg
@@ -96,7 +96,7 @@ export default function Home() {
                             <div></div>
                           </div>
                           <div>
-                            <div class="searchLocation">
+                            <div className="searchLocation">
                               <svg
                                 width="10"
                                 height="13"
@@ -109,30 +109,30 @@ export default function Home() {
                                   fill="#686868"
                                 ></path>
                               </svg>
-                              <div class="multi_select">
-                                <div class="dropdown css-b62m3t-container">
+                              <div className="multi_select">
+                                <div className="dropdown css-b62m3t-container">
                                   <span
                                     id="react-select-11-live-region"
-                                    class="css-7pg0cj-a11yText"
+                                    className="css-7pg0cj-a11yText"
                                   ></span>
                                   <span
                                     aria-live="polite"
                                     aria-atomic="false"
                                     aria-relevant="additions text"
-                                    class="css-7pg0cj-a11yText"
+                                    className="css-7pg0cj-a11yText"
                                   ></span>
-                                  <div class=" css-13cymwt-control">
-                                    <div class=" css-hlgwow">
+                                  <div className=" css-13cymwt-control">
+                                    <div className=" css-hlgwow">
                                       <div
-                                        class=" css-1jqq78o-placeholder"
+                                        className=" css-1jqq78o-placeholder"
                                         id="react-select-11-placeholder"
                                       >
                                         Enter Location
                                       </div>
-                                      <div class=" css-19bb58m" data-value="">
+                                      <div className=" css-19bb58m" data-value="">
                                         <input
-                                          class=""
-                                          autocapitalize="none"
+                                          className=""
+                                          autoCapitalize="none"
                                           autocomplete="off"
                                           autocorrect="off"
                                           id="react-select-11-input"
@@ -161,10 +161,10 @@ export default function Home() {
                                         />
                                       </div>
                                     </div>
-                                    <div class=" css-1wy0on6">
-                                      <span class=" css-1u9des2-indicatorSeparator"></span>
+                                    <div className=" css-1wy0on6">
+                                      <span className=" css-1u9des2-indicatorSeparator"></span>
                                       <div
-                                        class=" css-1xc3v61-indicatorContainer"
+                                        className=" css-1xc3v61-indicatorContainer"
                                         aria-hidden="true"
                                       >
                                         <svg
@@ -173,7 +173,7 @@ export default function Home() {
                                           viewBox="0 0 20 20"
                                           aria-hidden="true"
                                           focusable="false"
-                                          class="css-8mmkcg"
+                                          className="css-8mmkcg"
                                         >
                                           <path d="M4.516 7.548c0.436-0.446 1.043-0.481 1.576 0l3.908 3.747 3.908-3.747c0.533-0.481 1.141-0.446 1.574 0 0.436 0.445 0.408 1.197 0 1.615-0.406 0.418-4.695 4.502-4.695 4.502-0.217 0.223-0.502 0.335-0.787 0.335s-0.57-0.112-0.789-0.335c0 0-4.287-4.084-4.695-4.502s-0.436-1.17 0-1.615z"></path>
                                         </svg>
@@ -183,7 +183,7 @@ export default function Home() {
                                 </div>
                               </div>
                               <svg
-                                class="SearchLocationDownArrow"
+                                className="SearchLocationDownArrow"
                                 width="10"
                                 height="6"
                                 viewBox="0 0 10 6"
@@ -197,9 +197,9 @@ export default function Home() {
                               </svg>
                             </div>
                           </div>
-                          <div class="dropdown primary-dropdown primary-dropdown-lg">
+                          <div className="dropdown primary-dropdown primary-dropdown-lg">
                             <button
-                              class="btn w-100 dropdown-toggle d-flex align-items-center gap-2"
+                              className="btn w-100 dropdown-toggle d-flex align-items-center gap-2"
                               type="button"
                               data-bs-toggle="dropdown"
                               aria-expanded="false"
@@ -221,69 +221,69 @@ export default function Home() {
                               </svg>
                               Property
                             </button>
-                            <ul class="dropdown-menu">
-                              <div class="drop-title">Residential</div>
-                              <div class="property-group">
+                            <ul className="dropdown-menu">
+                              <div className="drop-title">Residential</div>
+                              <div className="property-group">
                                 <button
-                                  class="outline-button-light w-100 outline-button-light-sm text-center
+                                  className="outline-button-light w-100 outline-button-light-sm text-center
                            false"
                                 >
                                   Apartment
                                 </button>
                                 <button
-                                  class="outline-button-light w-100 outline-button-light-sm text-center
+                                  className="outline-button-light w-100 outline-button-light-sm text-center
                            false"
                                 >
                                   Villa
                                 </button>
                                 <button
-                                  class="outline-button-light w-100 outline-button-light-sm text-center
+                                  className="outline-button-light w-100 outline-button-light-sm text-center
                            false"
                                 >
                                   Townhouse
                                 </button>
                                 <button
-                                  class="outline-button-light w-100 outline-button-light-sm text-center
+                                  className="outline-button-light w-100 outline-button-light-sm text-center
                            false"
                                 >
                                   Penthouse
                                 </button>
                                 <button
-                                  class="outline-button-light w-100 outline-button-light-sm text-center
+                                  className="outline-button-light w-100 outline-button-light-sm text-center
                            false"
                                 >
                                   Hotel Apartment
                                 </button>
                               </div>
                               <hr />
-                              <div class="drop-title">Commercial</div>
-                              <div class="property-group">
+                              <div className="drop-title">Commercial</div>
+                              <div className="property-group">
                                 <button
-                                  class="outline-button-light w-100 outline-button-light-sm text-center
+                                  className="outline-button-light w-100 outline-button-light-sm text-center
                            false"
                                 >
                                   Office
                                 </button>
                                 <button
-                                  class="outline-button-light w-100 outline-button-light-sm text-center
+                                  className="outline-button-light w-100 outline-button-light-sm text-center
                            false"
                                 >
                                   Warehouse
                                 </button>
                                 <button
-                                  class="outline-button-light w-100 outline-button-light-sm text-center
+                                  className="outline-button-light w-100 outline-button-light-sm text-center
                            false"
                                 >
                                   Shop
                                 </button>
                                 <button
-                                  class="outline-button-light w-100 outline-button-light-sm text-center
+                                  className="outline-button-light w-100 outline-button-light-sm text-center
                            false"
                                 >
                                   Hotel
                                 </button>
                                 <button
-                                  class="outline-button-light w-100 outline-button-light-sm text-center
+                                  className="outline-button-light w-100 outline-button-light-sm text-center
                            false"
                                 >
                                   Mixed Use Land
@@ -292,22 +292,22 @@ export default function Home() {
                             </ul>
                           </div>
                         </div>
-                        <div class="searchLayoutBottom">
-                          <div class="dropdown primary-dropdown primary-dropdown-cs">
+                        <div className="searchLayoutBottom">
+                          <div className="dropdown primary-dropdown primary-dropdown-cs">
                             <button
-                              class="btn w-100 dropdown-toggle d-flex align-items-center gap-2"
+                              className="btn w-100 dropdown-toggle d-flex align-items-center gap-2"
                               type="button"
                             >
-                              <p class="ellipsis">
+                              <p className="ellipsis">
                                 {" "}
                                 &nbsp;beds&nbsp; &nbsp;baths&nbsp;
                               </p>
                             </button>
                             <div></div>
                           </div>
-                          <div class="dropdown primary-dropdown ">
+                          <div className="dropdown primary-dropdown ">
                             <button
-                              class="01 btn w-100 dropdown-toggle dropdown-toggle-cs d-flex align-items-center gap-2"
+                              className="01 btn w-100 dropdown-toggle dropdown-toggle-cs d-flex align-items-center gap-2"
                               type="button"
                             >
                               <svg
@@ -334,9 +334,9 @@ export default function Home() {
                             </button>
                             <div></div>
                           </div>
-                          <div class="dropdown primary-dropdown ">
+                          <div className="dropdown primary-dropdown ">
                             <button
-                              class="01 btn w-100 dropdown-toggle dropdown-toggle-cs d-flex align-items-center gap-2"
+                              className="01 btn w-100 dropdown-toggle dropdown-toggle-cs d-flex align-items-center gap-2"
                               type="button"
                             >
                               <svg
@@ -363,9 +363,9 @@ export default function Home() {
                             </button>
                             <div></div>
                           </div>
-                          <div class="listpropertysearch">
-                            <div class="listproperty d-none d-lg-block position-relative">
-                              <button class="button">
+                          <div className="listpropertysearch">
+                            <div className="listproperty d-none d-lg-block position-relative">
+                              <button className="button">
                                 <svg
                                   width="18"
                                   height="18"
@@ -386,7 +386,7 @@ export default function Home() {
                       </div>
                     </div>
                     <div
-                      class="tab-pane fade"
+                      className="tab-pane fade"
                       id="pills-profile"
                       role="tabpanel"
                       aria-labelledby="pills-profile-tab"
@@ -397,7 +397,7 @@ export default function Home() {
                   </div>
                 </div>
                 {/* <button
-                  class="PropertySearch"
+                  className="PropertySearch"
                   data-bs-toggle="modal"
                   data-bs-target="#exampleModal"
                 >
