@@ -9,13 +9,8 @@ function Thiyoherder() {
         style={{ padding: "20px", justifyContent: "space-around" }}
       >
         <div className="container">
-          <Link href='/'>
-            <Image
-              src={ThiyoLogo}
-              alt="Thiyo Logo"
-              width={100}
-              height={50}
-            />
+          <Link href="/">
+            <Image src={ThiyoLogo} alt="Thiyo Logo" width={100} height={50} />
           </Link>
           <button
             className="navbar-toggler"
@@ -108,24 +103,24 @@ function Thiyoherder() {
                 </li>
               </ul>
             </li>
-            <li className="nav-item">
+            <li className="nav-item border-0 dropdown Real_Estate">
               <a
-                className="nav-link disabled"
-                href="#"
-                tabIndex="-1"
-                aria-disabled="true"
+                className="nav-link  gap-2  d-flex align-items-center"
+                href="/Insights"
               >
-                Insights{" "}
+                <p className="d-flex align-items-center justify-content-between w-100">
+                  Insights
+                </p>
               </a>
             </li>
-            <li className="nav-item">
+            <li className="nav-item border-0 dropdown Real_Estate">
               <a
-                className="nav-link disabled"
-                href="#"
-                tabIndex="-1"
-                aria-disabled="true"
+                className="nav-link  gap-2  d-flex align-items-center"
+                href="/Holidayhomes"
               >
-                Holiday Homes
+                <p className="d-flex align-items-center justify-content-between w-100">
+                  Holiday Homes
+                </p>
               </a>
             </li>
           </ul>

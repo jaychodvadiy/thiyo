@@ -378,7 +378,7 @@ export default function Home() {
                                     fill="white"
                                   ></path>
                                 </svg>
-                                <Link href='/properties'>Search</Link>
+                                <Link  className="searchaa" href='/properties'>Search</Link>
                               </button>
                             </div>
                           </div>

@@ -26,30 +26,36 @@ function Properties() {
     <div>
       <section className="filterproperty ">
         <div className="container">
-          <div className="row">
-            <div className="col-sm-12">
-              <div>
-                <h5 className="forrent">Properties for rent in UAE</h5>
-                <nav aria-label="breadcrumb">
-                  <ol className="breadcrumb mb-0 align-items-center">
-                    <li className="breadcrumb-item active">Home</li>
-                    <svg
-                      width="6"
-                      height="10"
-                      viewBox="0 0 6 10"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M0.330078 7.97604L3.73971 4.56641L0.330078 1.15678L1.38491 0.109375L5.84194 4.56641L1.38491 9.02344L0.330078 7.97604Z"
-                        fill="#69717E"
-                      ></path>
-                    </svg>
-                    <li className="breadcrumb-item" aria-current="page">
-                      <a> Properties for rent in Surat Railway Station</a>
-                    </li>
-                  </ol>
-                </nav>
+          <div className="forrent">
+            <div className="row">
+              <div className="col-sm-12">
+                <div>
+                  <h5 className="forrent">Properties for rent in UAE</h5>
+                  <nav aria-label="breadcrumb">
+                    <ol className="breadcrumb mb-0 align-items-center">
+                      <li className="breadcrumb-item active">
+                        <a className="searchaa" href="/">
+                          Home
+                        </a>
+                      </li>
+                      <svg
+                        width="6"
+                        height="10"
+                        viewBox="0 0 6 10"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M0.330078 7.97604L3.73971 4.56641L0.330078 1.15678L1.38491 0.109375L5.84194 4.56641L1.38491 9.02344L0.330078 7.97604Z"
+                          fill="#69717E"
+                        ></path>
+                      </svg>
+                      <li className="breadcrumb-item" aria-current="page">
+                      <a> Properties for rent in your location</a>
+                      </li>
+                    </ol>
+                  </nav>
+                </div>
               </div>
             </div>
           </div>
@@ -5790,7 +5796,18 @@ function Properties() {
                                 <div className="d-flex justify-content-between gap-2 flex-wrap house-main align-items-center">
                                   <a href="#">
                                     <span className="d-flex gap-1 align-items-center">
-                                    <svg width="17" height="18" viewBox="0 0 17 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M13.8828 7.85417V5.72917C13.8828 5.35344 13.7423 4.99311 13.4923 4.72743C13.2422 4.46176 12.9031 4.3125 12.5495 4.3125H4.54948C4.19586 4.3125 3.85672 4.46176 3.60667 4.72743C3.35662 4.99311 3.21615 5.35344 3.21615 5.72917V7.85417C2.86252 7.85417 2.52339 8.00342 2.27334 8.2691C2.02329 8.53478 1.88281 8.89511 1.88281 9.27083V12.8125H2.76948L3.21615 14.2292H3.88281L4.32948 12.8125H12.7695L13.2161 14.2292H13.8828L14.3295 12.8125H15.2161V9.27083C15.2161 8.89511 15.0757 8.53478 14.8256 8.2691C14.5756 8.00342 14.2364 7.85417 13.8828 7.85417ZM9.21615 5.72917H12.5495V7.85417H9.21615M4.54948 5.72917H7.88281V7.85417H4.54948M13.8828 11.3958H3.21615V9.27083H13.8828V11.3958Z" fill="#0F0F0F"></path></svg>
+                                      <svg
+                                        width="17"
+                                        height="18"
+                                        viewBox="0 0 17 18"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                      >
+                                        <path
+                                          d="M13.8828 7.85417V5.72917C13.8828 5.35344 13.7423 4.99311 13.4923 4.72743C13.2422 4.46176 12.9031 4.3125 12.5495 4.3125H4.54948C4.19586 4.3125 3.85672 4.46176 3.60667 4.72743C3.35662 4.99311 3.21615 5.35344 3.21615 5.72917V7.85417C2.86252 7.85417 2.52339 8.00342 2.27334 8.2691C2.02329 8.53478 1.88281 8.89511 1.88281 9.27083V12.8125H2.76948L3.21615 14.2292H3.88281L4.32948 12.8125H12.7695L13.2161 14.2292H13.8828L14.3295 12.8125H15.2161V9.27083C15.2161 8.89511 15.0757 8.53478 14.8256 8.2691C14.5756 8.00342 14.2364 7.85417 13.8828 7.85417ZM9.21615 5.72917H12.5495V7.85417H9.21615M4.54948 5.72917H7.88281V7.85417H4.54948M13.8828 11.3958H3.21615V9.27083H13.8828V11.3958Z"
+                                          fill="#0F0F0F"
+                                        ></path>
+                                      </svg>
                                       3 Bedroom
                                     </span>
                                   </a>
