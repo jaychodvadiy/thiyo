@@ -34,6 +34,12 @@
   margin-bottom: 30px;
   color: #000;
 }
+.primary{
+  background-color: #af824a;
+}
+.primary:hover{
+  background-color: #af824a;
+}
 .hero .contain {
   display: flex;
   flex-direction: column;
@@ -2641,6 +2647,7 @@ align-items-start {
   background: #ffffff9e;
   padding: 4px 12px;
   border-radius: 18px;
+  width: 57px;
 }
 .card.cstm-card-main {
   height: 100%;
@@ -3164,4 +3171,1245 @@ iframe {
   padding-top: 85%;
   display: block;
   position: relative;
+}
+
+
+/*============================
+      Our Blogs Insights
+==============================*/
+
+.blog .breadCrumb {
+  background-color: #c5b6b6;
+  padding: 43px 16px 31px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+h1 {
+  font-style: normal;
+  font-weight: 700;
+  line-height: 43px;
+  font-size: 32px;
+}
+.blog .breadCrumb h6 {
+  font-weight: 400;
+}
+.blog .blog-content {
+  display: flex;
+  gap: 40px;
+}
+.blog .leftContent {
+  width: calc(100% - 330px);
+}
+.blog .leftContent .blogListContent:first-child {
+  padding-top: 0;
+}
+.blog .leftContent .blogListContent {
+  padding: 60px 0;
+}
+.img-fluid, .img-thumbnail {
+  max-width: 100%;
+  height: auto;
+}
+.blog .leftContent .auther h6 {
+  font-weight: 400;
+  color: #7b7b7b;
+}
+.blog .bloglist h2 {
+  font-weight: 700;
+  color: #373737;
+  padding: 30px 0;
+}
+.blog .bloglist p {
+  color: #7b7b7b;
+  font-size: 16px;
+  font-weight: 400;
+}
+.blog .bloglist button {
+  border: 1px solid #af824a;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  color: #af824a;
+  padding: 7px 33px;
+  border-radius: 8px;
+}
+.blog .rightSidebar {
+  width: 330px;
+}
+.blog .rightSidebar .blog-search {
+  box-shadow: 0 1px 10px 0 #0000001a;
+  padding: 16px 16px 16px 30px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: 40px;
+}
+.blog .rightSidebar .blog-search input {
+  border: none;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #7b7b7b;
+  width: 100%;
+}
+.blog .rightSidebar .card {
+  box-shadow: 0 1px 10px 0 #0000001a;
+  border: none;
+  padding: 25px 19px;
+}
+.blog .rightSidebar .card h2 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 25px;
+  color: #373737;
+  margin-bottom: 40px!important;
+}
+.blog .rightSidebar .card .post-item {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  margin-bottom: 24px;
+}
+.blog .rightSidebar .card img {
+  height: 48px;
+  width: 48px;
+  border-radius: 100px;
+}
+.blog .rightSidebar .card .post-item p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #373737;
+}
+
+/*============================
+    Our Blogs Holidayhomes
+==============================*/
+
+.header .navbar {
+  padding: 18px 0 21px;
+}
+
+.navbar-brand {
+  padding-top: var(--bs-navbar-brand-padding-y);
+  padding-bottom: var(--bs-navbar-brand-padding-y);
+  margin-right: var(--bs-navbar-brand-margin-end);
+  font-size: var(--bs-navbar-brand-font-size);
+  color: var(--bs-navbar-brand-color);
+  text-decoration: none;
+  white-space: nowrap;
+}
+.header .navbar .navbar-toggler {
+  border: 0;
+}
+.navbar-collapse {
+  flex-basis: 100%;
+  flex-grow: 1;
+  align-items: center;
+}
+.header .navbar .navbar-nav {
+  gap: 9px;
+  margin-top: 10px;
+  padding-left: 20px;
+}
+.header .navbar .navbar-nav .nav-item:first-child {
+  border: none;
+}
+.header .navbar-nav .nav-item {
+  border-left: 1px solid #d7d7d7;
+  padding-left: 10px;
+}
+.header .navbar-nav .nav-item {
+  width: auto;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 0;
+}
+.header .navbar .navbar-nav .nav-item a p {
+  color: var(--grey-color);
+}
+.navbar-expand-lg .navbar-nav .nav-link p {
+  gap: 8px!important;
+  height: 20px;
+}
+.header .navbar .navbar-nav .Real_Estate, .header .navbar .navbar-nav .Real_Estate a.nav-link {
+  height: 20px;
+}
+.button {
+  font-size: 12px;
+  font-weight: 600;
+  background: none;
+  border: 0;
+  line-height: 16px;
+  color: var(--grey-dark);
+}
+.dropdown, .dropdown-center, .dropend, .dropstart, .dropup, .dropup-center {
+  position: relative;
+}
+.header .navbar form .dropdown .useractive {
+  color: var(--grey-color);
+  margin-left: 14px;
+}
+.header .navbar form .userlist {
+  margin-top: 18px;
+  left: -150px;
+  width: 280px;
+  border-radius: 9px;
+  background: #fff;
+  box-shadow: -1px 0 4px 0 rgba(0,0,0,.25);
+}
+.header .navbar .dropdown .dropdown-menu li a {
+  font-size: 14px;
+  transition: all;
+}
+.header .navbar form .userlist .viewprofile {
+  color: #0078de;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+}
+.header .navbar form .userlist .myprofile {
+  gap: 11px;
+  margin-bottom: 16px;
+}
+.fw-semibold {
+  font-weight: 600!important;
+}
+/* Find your next stay  */
+.holidaybannerbg {
+  background: linear-gradient(270.77deg,#856139 .66%,#cea67e 197.21%);
+}
+.holidaybanner {
+  background-image: url(../img/BcardGroup.19c8a274.png);
+  background-repeat: no-repeat;
+  background-position: 79%;
+  padding: 50px 0;
+  display: flex;
+  align-items: center;
+  background-size: contain;
+}
+.banner-content h2 {
+  padding-bottom: 9px;
+  font-family: Paytone One,sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 56px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #fff;
+}
+.banner-content p, .holidaybanner ul {
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #fff;
+}
+.banner-content p {
+  padding-bottom: 19px;
+  font-weight: 700;
+}
+.bannerinputmain {
+  flex-wrap: nowrap;
+  /* max-width: 750px; */
+}
+.bannerinputmain {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  align-items: center;
+  border-radius: 0 6px 6px 6px;
+}
+.holidaybannerbg .addRoomDrop button.btn, .holidaybannerbg .addRoomDrop button.btn:active, .holidaybannerbg .bannerinputmain .icon-input, .holidaybannerbg .bannerinputmain .rmdp-container .rmdp-input, .holidaybannerbg .holidaysearch {
+  height: 46px;
+}
+.holidaysearch {
+  width: 120px;
+  padding: 13px;
+  background-color: #af824a;
+  border: none;
+  border-radius: 10px;
+}
+.bannerinputmain .icon-input {
+  display: flex;
+  position: relative;
+  padding: 0;
+  border: none;
+}
+.bannerinputmain .icon-input {
+  /* width: 100%; */
+  /* height: 37px; */
+  border: 1px solid #e3e3e3!important;
+}
+.bannerinputmain .icon-input .searchLocation {
+  background-color: transparent;
+}
+.searchLocation .css-b62m3t-container, .searchLocation .multi_select {
+  width: 100%;
+}
+.bannerinputmain .icon-input .searchLocation svg.SearchLocationDownArrow {
+  display: none;
+}
+.holidaybannerbg .bannerinputmain .icon-input .img-fluid {
+  top: 10px;
+}
+.bannerinputmain .rmdp-container .rmdp-input {
+  margin: 0;
+  border: 1px solid #e3e3e3;
+  height: 37px;
+  border-radius: 6px;
+  padding: 0 15px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #000;
+  width: 175px;
+  cursor: pointer;
+}
+.rmdp-input {
+  border: 1px solid #c0c4d6;
+  border-radius: 5px;
+  height: 22px;
+  margin: 1px 0;
+  padding: 2px 5px;
+}
+.btn-group, .btn-group-vertical {
+  position: relative;
+  display: inline-flex;
+  vertical-align: middle;
+}
+.holidaybannerbg .addRoomDrop button.btn {
+  background-color: #fff;
+}
+.btn-group>.btn-group:not(:last-child)>.btn, .btn-group>.btn.dropdown-toggle-split:first-child, .btn-group>.btn:not(:last-child):not(.dropdown-toggle) {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.holidaybanner ul {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+  font-weight: 600;
+  padding: 25px 0 0;
+  margin-bottom: 0;
+}
+.holidaybanner ul li {
+  list-style: none;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #fff;
+}
+/* FEATURED HOMES */
+
+.section-header-main {
+  max-width: 800px;
+  margin: auto;
+}
+.feature-home-main .featurehome {
+  letter-spacing: 3px;
+  padding-bottom: 14px;
+  font-size: 12px;
+  line-height: 16px;
+}
+.section-header-main h2 {
+  padding-bottom: 10px;
+}
+.section-header-main .exploredescription {
+  color: var(--secondary-light);
+  padding-bottom: 20px;
+  font-weight: 400;
+}
+.nav-fill>.nav-link, .tabcountry .nav-fill .nav-item {
+  flex: inherit;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.nav-fill .nav-item, .nav-fill>.nav-link {
+  flex: 1 1 auto;
+  text-align: center;
+}
+.nav-pills .show>.nav-link, .tabcountry .nav-pills .nav-link.active {
+  background-color: var(--header-light);
+  color: var(--secondary-light);
+  border-bottom: 1px solid var(--primary);
+  border-radius: 0;
+  margin-bottom: -1px;
+}
+
+.feature-home-main .nav-pills .nav-link {
+  border-radius: 0!important;
+}
+.nav-fill .nav-item .nav-link, .nav-justified .nav-item .nav-link {
+  width: 100%;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: var(--bs-nav-pills-link-active-color);
+  background-color: var(--bs-nav-pills-link-active-bg);
+}
+.tabcountry .nav-link {
+  background-color: var(--header-light);
+  color: var(--secondary-light);
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 6px 20px;
+  line-height: 16px;
+}
+.nav-pills .nav-link {
+  border-radius: var(--bs-nav-pills-border-radius);
+}
+.cstm-tab-content-feature-home {
+  padding-top: 30px;
+}
+.cstm-tab-content-feature-home {
+  padding-top: 20px;
+}
+.tab-content>.active {
+  display: block;
+}
+.cstm-tab-content-feature-home .countryfeaturehome {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-gap: 16px;
+  gap: 16px;
+}
+.card.cstm-card-main .position-relative, .card.cstm-card-main.cstm-card-main-cs .pro-img {
+  height: 180px;
+}
+.card.cstm-card-main .position-relative img {
+  transition: all .5s ease-in-out;
+}
+.card.cstm-card-main .holiday-card-img {
+  height: 180px;
+}
+.propertyslider img {
+  object-fit: cover;
+}
+.propertyslider img {
+  border-radius: 4px;
+}
+.propertyslider .card-badage, .propertyslider .hometype {
+  padding: 5px 8px;
+  border-radius: 13px;
+  z-index: 99;
+}
+.card-body.cstm-card-body-main .card-title, .cstm-card-body-main p.title {
+  font-size: 12px;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.card-body.cstm-card-body-main .card-title {
+  font-weight: 400;
+  line-height: 14px;
+  color: #737d8c;
+  white-space: inherit;
+  max-width: 200px;
+}
+.house-main-02 {
+  height: 52px;
+  align-items: baseline!important;
+}
+.house-main {
+  padding-bottom: 10px;
+}
+.card-body.cstm-card-body-main .house-main span {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #737d8c;
+}
+.cstm-card-body-main .btn-main button, .cstm-card-body-main .btn-main button.outline {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  transition: .1s ease-in-out!important;
+}
+.cstm-card-body-main .btn-main button {
+  height: 30px;
+  width: 100%;
+  padding: 0;
+  border-radius: 4px;
+  background: #af824f;
+  border: 1px solid transparent;
+  color: #fff;
+} 
+.cstm-card-body-main .btn-main button.outline {
+  background: transparent;
+  border: 1px solid #717171;
+  color: #6b6b6b;
+  background-color: #ebeef2;
+  border: transparent;
+}
+.cstm-card-body-main .house-main .viewmore {
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 14px;
+  color: #deaa62;
+  margin-top: 0;
+}
+.feature-home-main .cstm-card-body-main .viewmore {
+  margin-top: 12px;
+}
+/* Do you need more inspiration for your holiday? */
+
+.HH-checkout-section {
+  padding: 90px 0;
+  position: relative;
+}
+.holidaymainpage {
+  position: relative;
+}
+.CheckItOutIcon svg {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+.holiday-checkoutmain {
+  margin-right: 10px;
+}
+.holiday-checkoutmain {
+  position: relative;
+  width: 100%;
+}
+.holiday-checkoutmain .holidayHomeimg {
+  border-radius: 13px;
+  width: 100%;
+}
+.holiday-checkoutmain img:before {
+  content: "";
+  background: linear-gradient(1.13deg,#000 -1.79%,hsla(0,0%,57%,0) 28.92%,hsla(0,0%,85%,0) 45%);
+  width: 100%;
+  height: 100%;
+  left: 0;
+}
+.checkout-img-content {
+  gap: 10px;
+}
+.checkout-img-content {
+  position: absolute;
+  left: 16px;
+  bottom: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.checkout-img-content span {
+  font-size: 14px;
+  color: #fff;
+  max-width: 160px;
+}
+.checkoutText {
+  padding-left: 24px;
+  padding-right: 35px;
+}
+.checkoutText {
+  padding-left: 43px;
+  position: relative;
+  height: 100%;
+}
+.checkoutText h2 {
+  max-width: 190px;
+}
+.checkoutText h2 {
+  font-weight: 300;
+  line-height: 35px;
+  padding-bottom: 31px;
+}
+.checkoutText a {
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--primary);
+}
+a {
+  color: #000;
+  text-decoration: none!important;
+}
+.holidaymainpage:after {
+  content: "";
+  border: 2px solid #f0f0f0;
+  position: absolute;
+  width: 60%;
+  top: 50px;
+  height: 94%;
+  right: 0;
+  border-radius: 13px;
+  z-index: -1;
+  display: block;
+  background-color: #f6f6f6;
+}
+.CheckItOutIcon2 svg {
+  position: absolute;
+  right: 13px;
+  bottom: -23px;
+}
+
+/* Find Holiday Homes for your next trip */
+
+.readmorepart {
+  border-radius: 13px;
+}
+.readmorepart {
+  height: 300px;
+  padding-top: 60px;
+}
+.popularvaction .populardestination img.popular1 {
+  width: 100%;
+  height: 220px;
+}
+.readmorepart {
+  background-image: url(../img/background.1b68db61.png);
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+  background-repeat: no-repeat;
+  padding: 88px 0 0 36px;
+  background-position: 50%;
+  border-radius: 8px;
+}
+.readmorepart h5 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 33px;
+  color: #0b4a73;
+  max-width: 360px;
+}
+.readmorepart h5 {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 19px;
+  color: #2b2f4a;
+}
+.readmorepart h5 {
+  line-height: 20px;
+} 
+.readmorepart button {
+  background: #0b4a73;
+}
+.readmorepart button {
+  border-radius: 4px;
+  background: #5a5d71;
+  box-shadow: 0 3px 3px 0 rgba(9,23,44,.25);
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  border: 0;
+  padding: 8px 17px;
+  margin-top: 22px;
+}
+.popularvaction .card {
+  padding: 22px;
+  border-radius: 9px;
+  background: #fff;
+  box-shadow: 0 7px 28px 6px rgba(0,0,0,.04);
+  border: 0;
+}
+.popularvaction .destinationselect {
+  gap: 20px;
+}
+.popularvaction .vacationpart1, .popularvaction .vacationpart2 {
+  width: 50%;
+}
+.popularvaction .vacationpart1 {
+  gap: 10px;
+  width: 40%;
+}
+.popularvaction .populardestination {
+  gap: 14px;
+  width: 100%;
+}
+.popularvaction .populardestination img.popular {
+  width: 100%;
+  height: 150px;
+}
+.rounded {
+  border-radius: var(--bs-border-radius)!important;
+}
+.popularvaction .populardestination img.popular2 {
+  width: 100%;
+  height: 205px;
+}
+.popularvaction .populardestination img.popular3 {
+  width: 100%;
+  height: 162px;
+}
+.popularvaction .vacationpart2 {
+  width: 60%;
+}
+.popularvaction .vacationpart2 h3 {
+  margin-bottom: 33px!important;
+}
+.popularvaction .countryname1 p {
+  margin-left: 13px;
+  color: #323b45;
+  font-weight: 400;
+}
+.popularvaction {
+  margin: 70px 0;
+}
+.popularvaction .countryname1:last-child {
+  margin-left: 54px;
+}   
+
+/* Receive exclusive offers, inspirational stories and travel
+regulation updates. */
+
+.myBg {
+  background-color: #1d4e80;
+  padding: 45px 0;
+}
+.holidaysubscribe {
+  border-radius: 20px;
+  background: hsla(0,0%,77%,.13);
+  color: #fff;
+  padding: 45px 47px 30px;
+  position: relative;
+  z-index: 1;
+}
+.holidaysubscribe h3 {
+  padding-bottom: 30px!important;
+}
+.holidaysubscribe p {
+  color: #fff;
+  max-width: 730px;
+}
+.holidaysubscribe .subscribe input {
+  width: 320px;
+  padding: 10px 10px 14px 40px;
+  border-radius: 5px;
+  height: 37px;
+  border: 0;
+  margin-right: 10px;
+  font-weight: 600;
+  font-size: 14px;
+}
+input {
+  accent-color: #af824a;
+}
+.holidaysubscribe button {
+  padding: 10px 33px;
+  border-radius: 4px;
+  font-size: 14px;
+  height: 37px;
+  font-weight: 700;
+  box-shadow: 0 3px 3px 0 rgba(9,23,44,.25);
+  border: 1px solid transparent;
+  background-color: #af824a;
+  color: white;
+}
+.holidaysubscribe a {
+  color: #fff;
+  text-decoration: underline!important;
+  margin: 0 3px;
+}
+.holidaysubscribe svg {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+/*============================
+  list-property Let’s started
+==============================*/
+
+.listproperty-banner {
+  background-image: url(../img/property-banner.30fb1613.png);
+  background-size: cover;
+  height: 110vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  min-height: 870px;
+}
+.getstarted-container {
+  max-width: 450px;
+  margin-left: auto;
+  background: #ffffffdb;
+  padding: 14px 33px;
+}
+.getstarted-main h2 {
+  padding-bottom: 28px;
+}
+.getstarted-main p {
+  padding-bottom: 12px;
+  color: var(--header-primary);
+  font-weight: 400;
+}
+.list-button button.active {
+  border-color: var(--primary);
+  background-color: #af824a;
+  color: #fff;
+
+}
+.list-button button {
+  background-color: #fff;
+  padding: 2px 5px;
+  width: 100%;
+  border: 1px solid #cacaca;
+  border-radius: 50px;
+  color: #717171;
+  font-weight: 400;
+  font-size: 12px;
+  margin-bottom: 17px;
+  height: 35px;
+}
+.getstarted-main ul li.list-button button.nav-link.active {
+  background-color: #af824a;
+  border: 1px solid #af824a;
+  color: #fff;
+}
+.getstarted-main ul li.list-button button.nav-link {
+  background-color: #fff;
+  border: 1px solid #cacaca;
+  color: #717171;
+  border-radius: 100px;
+  height: 34px;
+  padding: 0;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+}
+.getstarted-main button.nav-link {
+  background-color: transparent;
+  padding: 4px 10px;
+}
+.getstarted-container .getstarted-main input {
+  height: 40px;
+  border-radius: 6px;
+  width: 100%;
+  border: 1px solid #cacaca;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 0 10px;
+  margin-bottom: 3px;
+}
+input {
+  accent-color: #af824a;
+}
+button, input, optgroup, select, textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+.getstarted-container .getstarted-startnow-main {
+  margin-top: 28px;
+}
+.startnow-btn {
+  background-color: var(--primary);
+  box-shadow: 0 3px 3px 0 #09172c40;
+  border-radius: 4px;
+  border: 1px solid var(--primary);
+  color: var(--header-light);
+  padding: 2px 30px;
+  font-weight: 700;
+  font-size: 12px;
+}
+.getstart-tabbutton .active {
+  border: 1px solid #af824a;
+  background-color: var(--primary);
+  /* color: #fff; */
+  border-radius: 10px;
+  padding: 10px;
+
+}
+.getstart-tabbutton button {
+  margin-bottom: 0;
+  padding: 10px;
+background-color: var(--primary);
+}
+.getstart-tabbutton {
+  margin-bottom: 25px;
+}
+.getstart-tabbutton {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.getstarted-main ul.nav.nav-pills.nav-fill {
+  justify-content: left;
+  background: transparent;
+}
+.fade {
+  transition: opacity .15s linear;
+}
+.startno{
+  background-color: var(--primary);
+  box-shadow: 0 3px 3px 0 #09172c40;
+  border-radius: 4px;
+  border: 1px solid var(--primary);
+  color: var(--header-light);
+  padding: 2px 30px;
+  font-weight: 700;
+  font-size: 12px;
+}
+.startno:hover{
+  background-color: transparent;
+  color: var(--primary);
+}
+
+/* HOW TO LIST YOUR PROPERTY */
+.property-step {
+  padding: 60px 0;
+}
+.property-step-header {
+  padding-bottom: 55px;
+}
+.property-step-header p {
+  padding-bottom: 8px;
+  letter-spacing: 3px;
+}
+.p-para {
+  max-width: 250px;
+  margin: 0 auto;
+}
+.p-no {
+  color: #af824a;
+}
+.p-para p {
+  color: #4c4a4a;
+  text-align: justify;
+  font-weight: 400;
+}
+.listing-step-main img {
+  padding-bottom: 26px;
+}
+.listing-step-main {
+  text-align: center;
+}
+
+/* Benefits of Selling Your property Online */
+
+.online-property {
+  background: linear-gradient(180deg,#fafafa,hsla(0,0%,98%,0));
+  padding-top: 40px;
+  padding-bottom: 127px;
+}
+.p-online h2 {
+  padding-bottom: 13px;
+}
+.p-online p {
+  color: var(--secondary-light);
+  font-weight: 400;
+  max-width: 800px;
+  margin: 0 auto;
+  padding-bottom: 45px;
+}
+.online-step {
+  display: flex;
+  gap: 17px;
+  margin-bottom: 18px;
+}
+.online-no p {
+  border: 1px solid #e0e0e0;
+  border-radius: 50px;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.online-para h6 {
+  color: #af824a;
+  padding-bottom: 10px;
+}
+.online-para p {
+  color: var(--secondary-light);
+  font-weight: 400;
+}
+
+/* Frequently Asked Questions */
+
+.freq-que {
+  padding-bottom: 54px;
+}
+.freq-que-main {
+  padding-bottom: 40px;
+}
+.notshowdata {
+  height: 0;
+  transition: 1s;
+}
+.showdata {
+  height: 510px;
+  overflow: hidden;
+  min-height: 240px;
+  transition: 1s;
+}
+.freq-quepara {
+  border: 1px solid #dadada;
+  padding: 20px 45px;
+  margin-bottom: 22px;
+}
+.freq-quepara h6 {
+  color: #af824a;
+  padding-bottom: 19px;
+}
+.freq-quepara p {
+  color: #7b7b7b;
+  font-weight: 400;
+}
+.freq-quepara ul {
+  margin-bottom: 0;
+}
+.freq-quepara ul li {
+  font-size: 14px;
+  color: #7b7b7b;
+  font-weight: 400;
+}
+::marker {
+  unicode-bidi: isolate;
+  font-variant-numeric: tabular-nums;
+  text-transform: none;
+  text-indent: 0px !important;
+  text-align: start !important;
+  text-align-last: start !important;
+}
+.showmore {
+  color: #69717e;
+  font-size: 16px;
+  font-weight: 600;
+  background: none;
+  border: 0;
+}
+/* slider Derrick P. Boudreaux */
+
+.home-testimonial {
+  padding-top: 70px;
+  padding-bottom: 50px;
+}
+.testimonial-header p {
+  padding-bottom: 14px;
+  letter-spacing: 3px;
+}
+.testimonalgradient {
+  position: relative;
+}
+.testimonalgradient:before {
+  right: 0;
+  z-index: 9;
+}
+.testimonalgradient:after {
+  left: 0;
+  z-index: 1;
+}
+.testimonalgradient:after, .testimonalgradient:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  background-color: #fff;
+  height: 80%;
+  width: 33%;
+  opacity: .4;
+}
+p {
+  line-height: 21px;
+  font-size: 14px;
+  /* color: #af824a; */
+}
+.client{
+  border-radius: 30px;
+}
+
+
+/*============================
+ otpverifyWelcome Received Email 
+==============================*/
+
+.listing_grid {
+  display: flex;
+  gap: 90px;
+}
+.listing_grid .listing_grid_left {
+  width: 325px;
+  min-width: 325px;
+}
+.propertylistsidebar {
+  background-color: #f6f6f6;
+  border-radius: 35px;
+  height: 555px;
+  width: 324px;
+  padding-left: 30px;
+}
+.propertylistsidebar .sidebar {
+  z-index: 99;
+}
+.propertylistsidebar .sidebar .sidebarstep {
+  margin-bottom: 34px;
+}
+.propertylistsidebar .sidebarstepline .stepcomplte {
+  background-color: #af824a;
+}
+.propertylistsidebar .sidebarstepline span {
+  border: 1px solid #af824a;
+  height: 18px;
+  width: 18px;
+  border-radius: 100%;
+  font-size: 14px;
+  color: #878787;
+  background-color: #f6f6f6;
+}
+.propertylistsidebar .sidebar .sidebarstep h5 {
+  color: #585858;
+  margin-bottom: 3px;
+}
+.fw-normal {
+  font-weight: 400!important;
+}
+.propertylistsidebar .sidebar .sidebarstep button.editBtn {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  border: none;
+  color: #af824a;
+  background-color: transparent;
+  cursor: pointer;
+}
+.propertylistsidebar .sidebar:after {
+  position: absolute;
+  content: "";
+  border-left: 1px solid #c19054;
+  height: 92%;
+  width: 100%;
+  left: 9px;
+  top: 8px;
+  z-index: -1;
+}
+.propertyLogin .PropertyBackArrow {
+  margin-bottom: 26px;
+  cursor: pointer;
+}
+.propertyLogin h2 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  color: #000;
+}
+.propertyLogin .CTPUT {
+  display: flex;
+  gap: 15px;
+}
+.propertyLogin h6 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  color: #000;
+  margin-bottom: 28px!important;
+}
+.propertyLogin p.resend {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #000;
+  margin-bottom: 26px!important;
+}
+.propertyLogin p.resend span {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  color: #af824a;
+  cursor: pointer;
+  margin-left: 4px;
+}
+.propertyLogin button.verify.outline {
+  border: 1px solid #af824a;
+  color: #af824a;
+  background: #fff;
+}
+.propertyLogin button.verify {
+  background: linear-gradient(180deg,#af824a,#c79557);
+  box-shadow: 0 3px 3px 0 #09172c40;
+  height: 40px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 19px;
+  color: #fff;
+  width: 100%;
+  border: 1px solid #af824a;
+  border-radius: 4px;
+}
+.propertyLogin p.login, .propertyLogin p.login span {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #000;
+}
+.propertyLogin p.login span {
+  color: #af824a;
+  cursor: pointer;
+}
+
+/*============================
+        otpverifydetails
+==============================*/
+
+.listing_grid .listing_grid_right {
+  width: 100%;
+}
+.propertyLocation h2 {
+  margin-bottom: 8px!important;
+}
+
+.propertyLocation p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  color: #878787;
+  margin-bottom: 38px!important;
+}
+.listing-dropdown {
+  position: relative;
+}
+.listing-dropdown .multi_select div {
+  color: #878787;
+}
+.propertyLocation .css-13cymwt-control, .propertyLocation .css-t3ipsp-control {
+  width: 100%;
+  border-radius: 0!important;
+  height: 51px;
+  min-height: 51px!important;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.07px;
+  padding: 0 10px;
+  margin-bottom: 10px;
+}
+.css-1dimb5e-singleValue {
+  grid-area: 1 / 1 / 2 / 3;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: rgb(51, 51, 51);
+  margin-left: 2px;
+  margin-right: 2px;
+  box-sizing: border-box;
+}
+.propertyLocation input {
+  border: 1px solid #efefef;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  color: #878787;
+  padding: 16px 22px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.css-13cymwt-control .css-1hb7zxy-IndicatorsContainer, .css-b62m3t-container .css-1wy0on6, .css-t3ipsp-control .css-1hb7zxy-IndicatorsContainer, .css-t3ipsp-control .css-1wy0on6 {
+  display: none;
+}
+.listing-dropdown svg {
+  position: absolute;
+  top: 22px;
+  right: 22px;
 }

@@ -2,6 +2,32 @@ import React from "react";
 import ThiyoLogo from "../../../img/logofooter.25bbaa5d.png";
 import Image from "next/image";
 import AllCities from "../../../img/All_Cities.737b46d4.png";
+import hhcad from "../../../img/hh-canada.922d05fe.png"
+import heroo from "../../../img/Expand More.ea981875.svg"
+import last from "../../../img/hh-lastmin.4f2e6cf9.png"
+import trip from "../../../img/hh-longtrip.7b053a61.png"
+import topu from "../../../img/popularimg.01c79eff.png"
+import tover from "../../../img/popularimage1.c165ef35.png"
+import usetover from "../../../img/popularimage2.630319c9.png"
+import uset from "../../../img/popularimage3.9974f814.png"
+import india from "../../../img/India.6bd8d5b4.png"
+import indonesia from "../../../img/Indonesia.77edb696.png"
+import malaysia from "../../../img/Malaysia.c958bd07.png"
+import brazil from "../../../img/Brazil.e67d55a5.png"
+import united from "../../../img/UnitedKingdom.b74f6cff.png"
+import japan from "../../../img/Japan.7474ae51.png"
+import denmark from "../../../img/Denmark.69ce6c98.png"
+import srilanka from "../../../img/Sri Lanka.e783e523.png"
+import china from "../../../img/China.c6b95b3e.png"
+import uae from "../../../img/United Arab Emirates.8913e932.png"
+import nepal from "../../../img/Nepal.f205f2c6.png"
+import mexico from "../../../img/Mexico.bf2a8c68.png"
+import philippines from "../../../img/Philippines.5f74ce3c.png"
+import saudiarabia from "../../../img/Saudi Arabia.22be3a11.png"
+import norway from "../../../img/Norway.9fea462c.png"
+import unitedstates from "../../../img/United States.6cad9a9c.png"
+import iconse from "../../../img/IconInput.fcdc7489.svg"
+
 function Page() {
   return (
     <div>
@@ -639,8 +665,8 @@ function Page() {
                             </svg>
                           </div>
                         </div>
-                        <img
-                          src="/_next/static/media/IconInput.fcdc7489.svg"
+                        <Image
+                          src={iconse}
                           className="img-fluid"
                           alt="icon"
                         />
@@ -5786,45 +5812,45 @@ function Page() {
                   <div className="col-lg-8">
                     <div className="d-flex">
                       <div className="holiday-checkoutmain">
-                        <img
-                          src="/_next/static/media/hh-canada.922d05fe.png"
+                        <Image
+                          src={hhcad}
                           className="img-fluid holidayHomeimg"
                           alt="img"
                         />
                         <div className="checkout-img-content">
                           <span>Holiday homes in Canada</span>
-                          <img
-                            src="/_next/static/media/Expand More.ea981875.svg"
+                          <Image
+                            src={heroo}
                             className="img-fluid"
                             alt="arrow"
                           />
                         </div>
                       </div>
                       <div className="holiday-checkoutmain">
-                        <img
-                          src="/_next/static/media/hh-lastmin.4f2e6cf9.png"
+                        <Image
+                          src={last}
                           className="img-fluid holidayHomeimg"
                           alt="img"
                         />
                         <div className="checkout-img-content">
                           <span>Last Minute Holidays</span>
-                          <img
-                            src="/_next/static/media/Expand More.ea981875.svg"
+                          <Image
+                            src={heroo}
                             className="img-fluid"
                             alt="arrow"
                           />
                         </div>
                       </div>
                       <div className="holiday-checkoutmain">
-                        <img
-                          src="/_next/static/media/hh-longtrip.7b053a61.png"
+                        <Image
+                          src={trip}
                           className="img-fluid holidayHomeimg"
                           alt="img"
                         />
                         <div className="checkout-img-content">
                           <span>Long Trip Holidays</span>
-                          <img
-                            src="/_next/static/media/Expand More.ea981875.svg"
+                          <Image
+                            src={heroo}
                             className="img-fluid"
                             alt="arrow"
                           />
@@ -5852,25 +5878,25 @@ function Page() {
                 <div className="d-md-flex align-items-center align-items-lg-start justify-content-between destinationselect">
                   <div className="d-flex vacationpart1">
                     <div className="d-flex populardestination flex-column">
-                      <img
-                        src="/_next/static/media/popularimg.01c79eff.png"
+                      <Image
+                        src={topu}
                         alt="Image"
                         className="rounded popular"
                       />
-                      <img
-                        src="/_next/static/media/popularimage1.c165ef35.png"
+                      <Image
+                        src={tover}
                         alt="Image"
                         className="rounded popular1"
                       />
                     </div>
                     <div className="d-flex populardestination flex-column">
-                      <img
-                        src="/_next/static/media/popularimage2.630319c9.png"
+                      <Image
+                        src={usetover}
                         alt="Image"
                         className="rounded popular2"
                       />
-                      <img
-                        src="/_next/static/media/popularimage3.9974f814.png"
+                      <Image
+                        src={uset}
                         alt="Image"
                         className="rounded popular3"
                       />
@@ -5883,116 +5909,116 @@ function Page() {
                     <div className="d-flex align-items-center align-items-lg-start">
                       <div className="countryname1">
                         <div className="d-flex mb-3 align-items-center">
-                          <img
-                            src="/_next/static/media/India.6bd8d5b4.png"
-                            alt=""
+                          <Image
+                            src={india}
+                            alt="india"
                           />
                           <p>India</p>
                         </div>
                         <div className="d-flex mb-3 align-items-center">
-                          <img
-                            src="/_next/static/media/Indonesia.77edb696.png"
-                            alt=""
+                          <Image
+                            src={indonesia}
+                            alt="indonesia"
                           />
                           <p>Indonesia</p>
                         </div>
                         <div className="d-flex mb-3 align-items-center">
-                          <img
-                            src="/_next/static/media/Malaysia.c958bd07.png"
-                            alt=""
+                          <Image
+                            src={malaysia}
+                            alt="Malaysia"
                           />
                           <p>Malaysia</p>
                         </div>
                         <div className="d-flex mb-3 align-items-center">
-                          <img
-                            src="/_next/static/media/Brazil.e67d55a5.png"
-                            alt=""
+                          <Image
+                            src={brazil}
+                            alt="brazil"
                           />
                           <p>Brazil</p>
                         </div>
                         <div className="d-flex mb-3 align-items-center">
-                          <img
-                            src="/_next/static/media/UnitedKingdom.b74f6cff.png"
-                            alt=""
+                          <Image
+                            src={united}
+                            alt="united"
                           />
                           <p>United Kingdom</p>
                         </div>
                         <div className="d-flex mb-3 align-items-center">
-                          <img
-                            src="/_next/static/media/Japan.7474ae51.png"
-                            alt=""
+                          <Image
+                            src={japan}
+                            alt="Japan"
                           />
                           <p>Japan</p>
                         </div>
                         <div className="d-flex mb-3 align-items-center">
-                          <img
-                            src="/_next/static/media/Denmark.69ce6c98.png"
-                            alt=""
+                          <Image
+                            src={denmark}
+                            alt="Denmark"
                           />
                           <p>Denmark</p>
                         </div>
                         <div className="d-flex mb-3 align-items-center">
-                          <img
-                            src="/_next/static/media/Sri Lanka.e783e523.png"
-                            alt=""
+                          <Image
+                            src={srilanka}
+                            alt="Sri Lanka"
                           />
                           <p>Sri Lanka</p>
                         </div>
                       </div>
                       <div className="countryname1">
                         <div className="d-flex mb-3 align-items-center">
-                          <img
-                            src="/_next/static/media/China.c6b95b3e.png"
-                            alt=""
+                          <Image
+                            src={china}
+                            alt="China"
                           />
                           <p>China</p>
                         </div>
                         <div className="d-flex mb-3 align-items-center">
-                          <img
-                            src="/_next/static/media/United Arab Emirates.8913e932.png"
-                            alt=""
+                          <Image
+                            src={uae}
+                            alt="UAE"
                           />
                           <p>UAE</p>
                         </div>
                         <div className="d-flex mb-3 align-items-center">
-                          <img
-                            src="/_next/static/media/Nepal.f205f2c6.png"
-                            alt=""
+                          <Image
+                            src={nepal}
+                            alt="Nepal"
                           />
                           <p>Nepal</p>
                         </div>
                         <div className="d-flex mb-3 align-items-center">
-                          <img
-                            src="/_next/static/media/Mexico.bf2a8c68.png"
-                            alt=""
+                          <Image
+                            src={mexico}
+                            alt="Mexico"
                           />
                           <p>Mexico</p>
                         </div>
                         <div className="d-flex mb-3 align-items-center">
-                          <img
-                            src="/_next/static/media/Philippines.5f74ce3c.png"
-                            alt=""
+                          <Image
+                            src={philippines}
+                            alt="Philippines"
                           />
                           <p>Philippines</p>
                         </div>
                         <div className="d-flex mb-3 align-items-center">
-                          <img
-                            src="/_next/static/media/Saudi Arabia.22be3a11.png"
-                            alt=""
+                          <Image
+                            src={saudiarabia}
+                            alt=">Saudi Arabia"
                           />
                           <p>Saudi Arabia</p>
                         </div>
                         <div className="d-flex mb-3 align-items-center">
-                          <img
-                            src="/_next/static/media/Norway.9fea462c.png"
-                            alt=""
+                          <Image
+                            src={norway}
+                            alt="Norway"
                           />
                           <p>Norway</p>
                         </div>
                         <div className="d-flex mb-3 align-items-center">
-                          <img
-                            src="/_next/static/media/United States.6cad9a9c.png"
-                            alt=""
+                          <Image
+                            src={unitedstates}
+                            alt="United States"
                           />
                           <p>United States</p>
                         </div>
