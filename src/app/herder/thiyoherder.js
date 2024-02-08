@@ -125,13 +125,19 @@ function Thiyoherder() {
             </li>
           </ul>
           <form className="d-flex ">
-            {/* <button type="button" className="btn btn-primary position-relative">
-            List Property
-              <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
-              FREE
-                <span className="visually-hidden">unread messages</span>
-              </span>
-            </button> */}
+            <Link href="/listproperty">
+              <button
+                type="button"
+                className="btn  primary position-relative"
+              >
+                List Property
+                <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                  FREE
+                  <span className="visually-hidden">unread messages</span>
+                </span>
+              </button>
+            </Link>
+
             <Link href="/loging" className="loging" replace>
               Log In
             </Link>
