@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 function Page() {
@@ -89,22 +90,24 @@ function Page() {
               <div>
                 <div class="propertyLogin propertyLocation">
                   <div class="PropertyBackArrow">
-                    <svg
-                      width="45"
-                      height="45"
-                      viewBox="0 0 45 45"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M18.0815 11.7539L6.95312 22.8822L18.0815 34.0106M38.1198 22.8822H7.26479"
-                        stroke="black"
-                        stroke-width="1.5"
-                        stroke-miterlimit="10"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      ></path>
-                    </svg>
+                    <Link href="/otpverify">
+                      <svg
+                        width="45"
+                        height="45"
+                        viewBox="0 0 45 45"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M18.0815 11.7539L6.95312 22.8822L18.0815 34.0106M38.1198 22.8822H7.26479"
+                          stroke="black"
+                          stroke-width="1.5"
+                          stroke-miterlimit="10"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        ></path>
+                      </svg>
+                    </Link>
                   </div>
                   <h2>Where is your propert located?</h2>
                   <p class="dics">
@@ -155,7 +158,7 @@ function Page() {
                                     border: "0px",
                                     margin: "0px",
                                     outline: "0px",
-                                    padding: "0px"
+                                    padding: "0px",
                                   }}
                                 />
                               </div>
@@ -224,9 +227,11 @@ function Page() {
                         </button>
                       </div>
                       <div class="col-6">
-                        <button name="continue" class="verify" type="submit">
-                          Continue
-                        </button>
+                        <Link href="/Tellaboutproperty">
+                          <button name="continue" class="verify" type="submit">
+                            Continue
+                          </button>
+                        </Link>
                       </div>
                     </div>
                   </form>
