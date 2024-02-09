@@ -90,22 +90,24 @@ function Page() {
               <div>
                 <div class="propertyLogin">
                   <div class="PropertyBackArrow">
-                    <svg
-                      width="45"
-                      height="45"
-                      viewBox="0 0 45 45"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M18.0815 11.7539L6.95312 22.8822L18.0815 34.0106M38.1198 22.8822H7.26479"
-                        stroke="black"
-                        stroke-width="1.5"
-                        stroke-miterlimit="10"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      ></path>
-                    </svg>
+                    <Link href="/listproperty">
+                      <svg
+                        width="45"
+                        height="45"
+                        viewBox="0 0 45 45"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M18.0815 11.7539L6.95312 22.8822L18.0815 34.0106M38.1198 22.8822H7.26479"
+                          stroke="black"
+                          stroke-width="1.5"
+                          stroke-miterlimit="10"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        ></path>
+                      </svg>
+                    </Link>
                   </div>
                   <h2>
                     Welcome 🙂
@@ -175,8 +177,8 @@ function Page() {
                   <p class="resend mt-3">
                     Haven’t recieved yet?<span>Resend OTP</span>
                   </p>
-                  <Link href='/otpverifydetails'>
-                  <button class="verify">Verify &amp; Login</button>
+                  <Link href="/otpverifydetails">
+                    <button class="verify">Verify &amp; Login</button>
                   </Link>
                   <p class="login mt-3">
                     or <span>Login via Email / Username</span>
