@@ -1,4 +1,5 @@
 import React from "react";
+
 import Thiyoherder from "../herder/thiyoherder";
 import Image from "next/image";
 import ThiyoLogo from "../../../img/logofooter.25bbaa5d.png";
@@ -36,7 +37,7 @@ function Register() {
                       id="userName"
                       placeholder="Full Name"
                       type="text"
-                     value=""
+                      value=""
                       name="userName"
                     ></input>
                   </div>
@@ -50,7 +51,7 @@ function Register() {
                         className="form-control "
                         placeholder="1 (702) 123-4567"
                         type="tel"
-                       value="+91"
+                        value="+91"
                         name="phone"
                       />
                       <div className="flag-dropdown ">
@@ -81,7 +82,7 @@ function Register() {
                         id="email"
                         placeholder="Enter your email address"
                         type="email"
-                       value=""
+                        value=""
                         name="email"
                       />
                       <button type="submit" className="absolute lockicon">
@@ -142,10 +143,12 @@ function Register() {
                   <div className="th-divider">or</div>
                   <div className="row mb-4 pb-2">
                     <div className="col-md-6 col-12 mb-lg-0 mb-2">
-                      <button className="social-btn">
-                        <Image src={Googleicons} alt="Googleicons" />
-                        REGISTER with Google
-                      </button>
+                      <Link href="https://accounts.google.com/o/oauth2/v2/auth/oauthchooseaccount?gsiwebsdk=3&client_id=101759692646-0cibkjkj7a8msl4bhpgmk93apkk72jmk.apps.googleusercontent.com&scope=openid%20profile%20email&redirect_uri=storagerelay%3A%2F%2Fhttps%2Fthiyo-next-two.vercel.app%3Fid%3Dauth20933&prompt=select_account&response_type=token&include_granted_scopes=true&enable_granular_consent=true&service=lso&o2v=2&theme=glif&flowName=GeneralOAuthFlow">
+                        <button className="social-btn">
+                          <Image src={Googleicons} alt="Googleicons" />
+                          REGISTER with Google
+                        </button>
+                      </Link>
                     </div>
                     <div className="col-md-6 col-12 mb-lg-0 mb-2">
                       <button className="social-btn">
@@ -156,7 +159,7 @@ function Register() {
                   </div>
                   <h6 className="no-account text-center">
                     Already have an Account, Click to{" "}
-                    <Link href='/loging'>
+                    <Link href="/loging">
                       <span className="singup">LOGIN</span>
                     </Link>
                   </h6>

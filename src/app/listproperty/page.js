@@ -10,33 +10,33 @@ import Link from "next/link";
 function Page() {
   return (
     <div>
-      <section class="listproperty-banner">
-        <div class="container">
-          <div class="getstarted-container">
-            <div class="getstarted-main">
+      <section className="listproperty-banner">
+        <div className="container">
+          <div className="getstarted-container">
+            <div className="getstarted-main">
               <h2>Let’s get you started</h2>
               <p>I am ...</p>
-              <div class="row">
-                <div class="col-4 col-lg-4 list-button">
-                  <button class="active">Owner</button>
+              <div className="row">
+                <div className="col-4 col-lg-4 list-button">
+                  <button className="active">Owner</button>
                 </div>
-                <div class="col-4 col-lg-4 p-0 list-button">
-                  <button class="">Agent</button>
+                <div className="col-4 col-lg-4 p-0 list-button">
+                  <button className="">Agent</button>
                 </div>
-                <div class="col-4 col-lg-4 list-button">
-                  <button class="">Developer</button>
+                <div className="col-4 col-lg-4 list-button">
+                  <button className="">Developer</button>
                 </div>
               </div>
             </div>
-            <div class="getstarted-main">
+            <div className="getstarted-main">
               <p>I am looking to ...</p>
-              <ul class="nav nav-pills row" id="pills-tab" role="tablist">
+              <ul className="nav nav-pills row" id="pills-tab" role="tablist">
                 <li
-                  class="nav-item list-button col-4 col-lg-4"
+                  className="nav-item list-button col-4 col-lg-4"
                   role="presentation"
                 >
                   <button
-                    class="nav-link active"
+                    className="nav-link active"
                     id="pills-home-tab"
                     data-bs-toggle="pill"
                     data-bs-target="#pills-home"
@@ -49,11 +49,11 @@ function Page() {
                   </button>
                 </li>
                 <li
-                  class="nav-item list-button col-4 col-lg-4 p-0"
+                  className="nav-item list-button col-4 col-lg-4 p-0"
                   role="presentation"
                 >
                   <button
-                    class="nav-link"
+                    className="nav-link"
                     id="pills-profile-tab"
                     data-bs-toggle="pill"
                     data-bs-target="#pills-profile"
@@ -66,22 +66,22 @@ function Page() {
                   </button>
                 </li>
               </ul>
-              <div class="tab-content" id="pills-tabContent">
+              <div className="tab-content" id="pills-tabContent">
                 <div
-                  class="tab-pane fade show active"
+                  className="tab-pane fade show active"
                   id="pills-home"
                   role="tabpanel"
                   aria-labelledby="pills-home-tab"
-                  tabindex="0"
+                  tabIndex="0"
                 >
-                  <div class="getstarted-main">
+                  <div className="getstarted-main">
                     <p>My Property is...</p>
-                    <div class="nav-align-top tabcountry cstm-tab-main-feature-home">
-                      <ul class="nav nav-pills nav-fill" role="tablist">
-                        <li class="nav-item" role="presentation">
+                    <div className="nav-align-top tabcountry cstm-tab-main-feature-home">
+                      <ul className="nav nav-pills nav-fill" role="tablist">
+                        <li className="nav-item" role="presentation">
                           <button
                             type="button"
-                            class="nav-link active"
+                            className="nav-link active"
                             role="tab"
                             data-bs-toggle="tab"
                             data-bs-target="#residential"
@@ -91,45 +91,45 @@ function Page() {
                             Residential
                           </button>
                         </li>
-                        <li class="nav-item" role="presentation">
+                        <li className="nav-item" role="presentation">
                           <button
                             type="button"
-                            class="nav-link"
+                            className="nav-link"
                             role="tab"
                             data-bs-toggle="tab"
                             data-bs-target="#Commercial"
                             aria-controls="Commercial"
                             aria-selected="false"
-                            tabindex="-1"
+                            tabIndex="-1"
                           >
                             Commercial
                           </button>
                         </li>
                       </ul>
-                      <div class="tab-content cstm-tab-content-feature-home">
+                      <div className="tab-content cstm-tab-content-feature-home">
                         <div
-                          class="tab-pane fade show active"
+                          className="tab-pane fade show active"
                           id="residential"
                           role="tabpanel"
                         >
-                          <div class="getstart-tabbutton">
-                            <button class="active">Apartment</button>
-                            <button class="">Rent / Lease</button>
-                            <button class="">Townhouse</button>
-                            <button class="">Hotel Apartment</button>
-                            <button class="">Penthouse</button>
+                          <div className="getstart-tabbutton">
+                            <button className="active">Apartment</button>
+                            <button className="">Rent / Lease</button>
+                            <button className="">Townhouse</button>
+                            <button className="">Hotel Apartment</button>
+                            <button className="">Penthouse</button>
                           </div>
                         </div>
                         <div
-                          class="tab-pane fade"
+                          className="tab-pane fade"
                           id="Commercial"
                           role="tabpanel"
                         >
-                          <div class="getstart-tabbutton">
-                            <button class="active">Apartment</button>
-                            <button class="">Rent / Lease</button>
-                            <button class="">Townhouse</button>
-                            <button class="">Penthouse</button>
+                          <div className="getstart-tabbutton">
+                            <button className="active">Apartment</button>
+                            <button className="">Rent / Lease</button>
+                            <button className="">Townhouse</button>
+                            <button className="">Penthouse</button>
                           </div>
                         </div>
                       </div>
@@ -137,21 +137,21 @@ function Page() {
                   </div>
                 </div>
                 <div
-                  class="tab-pane fade"
+                  className="tab-pane fade"
                   id="pills-profile"
                   role="tabpanel"
                   aria-labelledby="pills-profile-tab"
-                  tabindex="0"
+                  tabIndex="0"
                 >
-                  <div class="getstarted-main">
+                  <div className="getstarted-main">
                     <p>Rent Frequency</p>
-                    <div class="nav-align-top tabcountry cstm-tab-main-feature-home">
-                      <div class="getstart-tabbutton">
-                        <button class="active">Yearly</button>
-                        <button class="">Monthly</button>
-                        <button class="">Weekly</button>
-                        <button class="">Daily</button>
-                        <button class="">Any</button>
+                    <div className="nav-align-top tabcountry cstm-tab-main-feature-home">
+                      <div className="getstart-tabbutton">
+                        <button className="active">Yearly</button>
+                        <button className="">Monthly</button>
+                        <button className="">Weekly</button>
+                        <button className="">Daily</button>
+                        <button className="">Any</button>
                       </div>
                     </div>
                   </div>
@@ -159,15 +159,15 @@ function Page() {
               </div>
             </div>
             <div>
-              <div class="getstarted-main">
+              <div className="getstarted-main">
                 <input placeholder="Enter your Email ID" type="text" />
                 <span>Will send you an OTP on your Email ID</span>
               </div>
             </div>
-            <div class="getstarted-startnow-main">
-              <div class="col-12 text-center ">
+            <div className="getstarted-startnow-main">
+              <div className="col-12 text-center ">
                 <Link href="/otpverify">
-                  <button class="startno">Start Now</button>
+                  <button className="startno">Start Now</button>
                 </Link>
               </div>
             </div>
@@ -175,50 +175,50 @@ function Page() {
         </div>
       </section>
 
-      <section class="property-step">
-        <div class="container">
-          <div class="row">
-            <div class="col-12 text-center property-step-header">
+      <section className="property-step">
+        <div className="container">
+          <div className="row">
+            <div className="col-12 text-center property-step-header">
               <p>HOW TO LIST YOUR PROPERTY</p>
               <h2>List your Property in 3 simple steps</h2>
-              <Image src={line} alt="line" class="img-fluid" />
+              <Image src={line} alt="line" className="img-fluid" />
             </div>
-            <div class="col-12 col-md-4 col-lg-4 listing-step-main">
-              <Image src={detail} alt="detail" class="img-fluid mt-4 mt-md-0" />
-              <div class="p-para">
-                <div class="d-flex align-items-center gap-2 pb-3">
-                  <h6 class="p-no">01.</h6>
-                  <p class="p-header">Enter details of your Property</p>
+            <div className="col-12 col-md-4 col-lg-4 listing-step-main">
+              <Image src={detail} alt="detail" className="img-fluid mt-4 mt-md-0" />
+              <div className="p-para">
+                <div className="d-flex align-items-center gap-2 pb-3">
+                  <h6 className="p-no">01.</h6>
+                  <p className="p-header">Enter details of your Property</p>
                 </div>
-                <p class="">
+                <p className="">
                   To get started, provide essential information about your
                   property, including its name, type, location, configuration,
                   area, amenities, and any other relevant details.
                 </p>
               </div>
             </div>
-            <div class="col-12 col-md-4 col-lg-4 listing-step-main">
-              <Image src={upload} alt="upload" class="img-fluid mt-4 mt-md-0" />
-              <div class="p-para">
-                <div class="d-flex align-items-center gap-2 pb-3">
-                  <h6 class="p-no">02.</h6>
-                  <p class="p-header">Upload Photos &amp; Videos</p>
+            <div className="col-12 col-md-4 col-lg-4 listing-step-main">
+              <Image src={upload} alt="upload" className="img-fluid mt-4 mt-md-0" />
+              <div className="p-para">
+                <div className="d-flex align-items-center gap-2 pb-3">
+                  <h6 className="p-no">02.</h6>
+                  <p className="p-header">Upload Photos &amp; Videos</p>
                 </div>
-                <p class="">
+                <p className="">
                   You can conveniently upload photos and videos of your property
                   either from your laptop, computer or directly from your
                   mobile.
                 </p>
               </div>
             </div>
-            <div class="col-12 col-md-4 col-lg-4 listing-step-main">
-              <Image src={ownership} alt="img" class="img-fluid mt-4 mt-md-0" />
-              <div class="p-para">
-                <div class="d-flex align-items-center gap-2 pb-3">
-                  <h6 class="p-no">03.</h6>
-                  <p class="p-header">Pricing &amp; Ownership Details</p>
+            <div className="col-12 col-md-4 col-lg-4 listing-step-main">
+              <Image src={ownership} alt="img" className="img-fluid mt-4 mt-md-0" />
+              <div className="p-para">
+                <div className="d-flex align-items-center gap-2 pb-3">
+                  <h6 className="p-no">03.</h6>
+                  <p className="p-header">Pricing &amp; Ownership Details</p>
                 </div>
-                <p class="p-para">
+                <p className="p-para">
                   Mention the ownership details of your property, set your
                   expected price, and get ready to list your property.
                 </p>
@@ -228,12 +228,12 @@ function Page() {
         </div>
       </section>
 
-      <section class="online-property">
-        <div class="container">
-          <div class="row">
-            <div class="col-12 text-center p-online">
+      <section className="online-property">
+        <div className="container">
+          <div className="row">
+            <div className="col-12 text-center p-online">
               <h2>Benefits of Selling Your property Online</h2>
-              <Image src={line} alt="line" class="img-fluid" />
+              <Image src={line} alt="line" className="img-fluid" />
               <p>
                 Are you looking to sell your property hassle-free? Look no
                 further! Thiyo is here to make your selling experience a breeze.
@@ -244,12 +244,12 @@ function Page() {
               </p>
             </div>
           </div>
-          <div class="online-step-main">
-            <div class="online-step">
-              <div class="online-no">
+          <div className="online-step-main">
+            <div className="online-step">
+              <div className="online-no">
                 <p>1</p>
               </div>
-              <div class="online-para">
+              <div className="online-para">
                 <h6>Maximum Visibility</h6>
                 <p>
                   When you list your property on Thiyo, you instantly gain
@@ -260,11 +260,11 @@ function Page() {
                 </p>
               </div>
             </div>
-            <div class="online-step">
-              <div class="online-no">
+            <div className="online-step">
+              <div className="online-no">
                 <p>2</p>
               </div>
-              <div class="online-para">
+              <div className="online-para">
                 <h6>Time Efficiency </h6>
                 <p>
                   Save precious time while selling your property on Thiyo.
@@ -274,11 +274,11 @@ function Page() {
                 </p>
               </div>
             </div>
-            <div class="online-step">
-              <div class="online-no">
+            <div className="online-step">
+              <div className="online-no">
                 <p>3</p>
               </div>
-              <div class="online-para">
+              <div className="online-para">
                 <h6>Seamless Listing Process</h6>
                 <p>
                   Selling your property online has never been easier. With
@@ -290,11 +290,11 @@ function Page() {
                 </p>
               </div>
             </div>
-            <div class="online-step">
-              <div class="online-no">
+            <div className="online-step">
+              <div className="online-no">
                 <p>4</p>
               </div>
-              <div class="online-para">
+              <div className="online-para">
                 <h6>Target Marketing</h6>
                 <p>
                   We understand the importance of reaching the right audience.
@@ -306,11 +306,11 @@ function Page() {
                 </p>
               </div>
             </div>
-            <div class="online-step">
-              <div class="online-no">
+            <div className="online-step">
+              <div className="online-no">
                 <p>5</p>
               </div>
-              <div class="online-para">
+              <div className="online-para">
                 <h6>Expert Assistance</h6>
                 <p>
                   Our team of real estate experts is always ready to lend a
@@ -326,16 +326,16 @@ function Page() {
         </div>
       </section>
 
-      <section class="freq-que">
-        <div class="container">
-          <div class="row">
-            <div class="col-12 text-center freq-que-main">
+      <section className="freq-que">
+        <div className="container">
+          <div className="row">
+            <div className="col-12 text-center freq-que-main">
               <h2>Frequently Asked Questions</h2>
-              <Image src={line} alt="line" class="img-fluid" />
+              <Image src={line} alt="line" className="img-fluid" />
             </div>
-            <div class="showdata notshowdata">
-              <div class="col-12">
-                <div class="freq-quepara">
+            <div className="showdata notshowdata">
+              <div className="col-12">
+                <div className="freq-quepara">
                   <h6>How to post a property ad on Magicbricks?</h6>
                   <p>
                     To post a property advertisement online, visit the
@@ -363,8 +363,8 @@ function Page() {
                   </ul>
                 </div>
               </div>
-              <div class="col-12">
-                <div class="freq-quepara">
+              <div className="col-12">
+                <div className="freq-quepara">
                   <h6>Can I rent or sell property online for free?</h6>
                   <p>
                     Yes, you can easily rent, to let or sell your property
@@ -393,9 +393,9 @@ function Page() {
                 </div>
               </div>
             </div>
-            <div class="col-12  d-flex gap-2  justify-content-end">
-              <button class="showmore">
-                <div class="d-flex gap-2 align-items-center justify-content-end">
+            <div className="col-12  d-flex gap-2  justify-content-end">
+              <button className="showmore">
+                <div className="d-flex gap-2 align-items-center justify-content-end">
                   Show More
                   <svg
                     width="10"
@@ -416,45 +416,45 @@ function Page() {
         </div>
       </section>
 
-      <section class="home-testimonial">
-        <div class="container testimonial-silder-main">
-          <div class="row">
-            <div class="col-12 text-center testimonial-header">
+      <section className="home-testimonial">
+        <div className="container testimonial-silder-main">
+          <div className="row">
+            <div className="col-12 text-center testimonial-header">
               <p>TESTIMONIALS</p>
               <h2>What our clients are saying</h2>
             </div>
-            <div class="col-12">
-              <div class="testimonalgradient">
-                <div class="swiper swiper-initialized swiper-horizontal mySwiper swiper-backface-hidden">
-                  <div class="swiper-wrapper">
+            <div className="col-12">
+              <div className="testimonalgradient">
+                <div className="swiper swiper-initialized swiper-horizontal mySwiper swiper-backface-hidden">
+                  <div className="swiper-wrapper">
                     <div
-                      class="swiper-slide swiper-slide-active"
+                      className="swiper-slide swiper-slide-active"
                       style={{
                         width: "344.333px",
                         marginRight: "13px",
                       }}
                     >
-                      <div class="testimonial">
-                        <div class="testimonial-main">
+                      <div className="testimonial">
+                        <div className="testimonial-main">
                           <Image
                             alt="img"
                             src={client}
-                            class="img-fluid client"
+                            className="img-fluid client"
                           />
-                          <div class="text-end test-quote">
-                            <Image alt="img" src={aerro} class="img-fluid" />
+                          <div className="text-end test-quote">
+                            <Image alt="img" src={aerro} className="img-fluid" />
                           </div>
-                          <p class="border-bottom test-para">
+                          <p className="border-bottom test-para">
                             Aenean vulputate eleifend tellus. Aenean leo ligula,
                             porttitor eu, consequat vitae, eleifend ac, enim.
                             Aliquam lorem ante, dapibus.
                           </p>
-                          <div class="d-flex justify-content-between align-items-center gap-2 pt-3">
-                            <div class="test-client">
+                          <div className="d-flex justify-content-between align-items-center gap-2 pt-3">
+                            <div className="test-client">
                               <p>Derrick P. Boudreaux</p>
                               <span>Web Developer</span>
                             </div>
-                            <div class="start-icon">
+                            <div className="start-icon">
                               <svg
                                 width="12"
                                 height="11"
@@ -581,33 +581,33 @@ function Page() {
                       </div>
                     </div>
                     <div
-                      class="swiper-slide swiper-slide-next"
+                      className="swiper-slide swiper-slide-next"
                       style={{
                         width: "344.333px",
                         marginRight: "13px",
                       }}
                     >
-                      <div class="testimonial">
-                        <div class="testimonial-main">
+                      <div className="testimonial">
+                        <div className="testimonial-main">
                           <Image
                             alt="img"
                             src={client}
-                            class="img-fluid client"
+                            className="img-fluid client"
                           />
-                          <div class="text-end test-quote">
-                            <Image alt="img" src={aerro} class="img-fluid" />
+                          <div className="text-end test-quote">
+                            <Image alt="img" src={aerro} className="img-fluid" />
                           </div>
-                          <p class="border-bottom test-para">
+                          <p className="border-bottom test-para">
                             Aenean vulputate eleifend tellus. Aenean leo ligula,
                             porttitor eu, consequat vitae, eleifend ac, enim.
                             Aliquam lorem ante, dapibus.
                           </p>
-                          <div class="d-flex justify-content-between align-items-center gap-2 pt-3">
-                            <div class="test-client">
+                          <div className="d-flex justify-content-between align-items-center gap-2 pt-3">
+                            <div className="test-client">
                               <p>Derrick P. Boudreaux</p>
                               <span>Web Developer</span>
                             </div>
-                            <div class="start-icon">
+                            <div className="start-icon">
                               <svg
                                 width="12"
                                 height="11"
@@ -734,33 +734,33 @@ function Page() {
                       </div>
                     </div>
                     <div
-                      class="swiper-slide"
+                      className="swiper-slide"
                       style={{
                         width: "344.333px",
                         marginRight: "13px",
                       }}
                     >
-                      <div class="testimonial">
-                        <div class="testimonial-main">
+                      <div className="testimonial">
+                        <div className="testimonial-main">
                           <Image
                             alt="img"
                             src={client}
-                            class="img-fluid client"
+                            className="img-fluid client"
                           />
-                          <div class="text-end test-quote">
-                            <Image alt="img" src={aerro} class="img-fluid" />
+                          <div className="text-end test-quote">
+                            <Image alt="img" src={aerro} className="img-fluid" />
                           </div>
-                          <p class="border-bottom test-para">
+                          <p className="border-bottom test-para">
                             Aenean vulputate eleifend tellus. Aenean leo ligula,
                             porttitor eu, consequat vitae, eleifend ac, enim.
                             Aliquam lorem ante, dapibus.
                           </p>
-                          <div class="d-flex justify-content-between align-items-center gap-2 pt-3">
-                            <div class="test-client">
+                          <div className="d-flex justify-content-between align-items-center gap-2 pt-3">
+                            <div className="test-client">
                               <p>Derrick P. Boudreaux</p>
                               <span>Web Developer</span>
                             </div>
-                            <div class="start-icon">
+                            <div className="start-icon">
                               <svg
                                 width="12"
                                 height="11"
@@ -887,33 +887,33 @@ function Page() {
                       </div>
                     </div>
                     <div
-                      class="swiper-slide"
+                      className="swiper-slide"
                       style={{
                         width: "344.333px",
                         marginRight: "13px",
                       }}
                     >
-                      <div class="testimonial">
-                        <div class="testimonial-main">
+                      <div className="testimonial">
+                        <div className="testimonial-main">
                           <Image
                             alt="img"
                             src={client}
-                            class="img-fluid client"
+                            className="img-fluid client"
                           />
-                          <div class="text-end test-quote">
-                            <Image alt="img" src={aerro} class="img-fluid" />
+                          <div className="text-end test-quote">
+                            <Image alt="img" src={aerro} className="img-fluid" />
                           </div>
-                          <p class="border-bottom test-para">
+                          <p className="border-bottom test-para">
                             Aenean vulputate eleifend tellus. Aenean leo ligula,
                             porttitor eu, consequat vitae, eleifend ac, enim.
                             Aliquam lorem ante, dapibus.
                           </p>
-                          <div class="d-flex justify-content-between align-items-center gap-2 pt-3">
-                            <div class="test-client">
+                          <div className="d-flex justify-content-between align-items-center gap-2 pt-3">
+                            <div className="test-client">
                               <p>Derrick P. Boudreaux</p>
                               <span>Web Developer</span>
                             </div>
-                            <div class="start-icon">
+                            <div className="start-icon">
                               <svg
                                 width="12"
                                 height="11"
@@ -1040,33 +1040,33 @@ function Page() {
                       </div>
                     </div>
                     <div
-                      class="swiper-slide"
+                      className="swiper-slide"
                       style={{
                         width: "344.333px",
                         marginRight: "13px",
                       }}
                     >
-                      <div class="testimonial">
-                        <div class="testimonial-main">
+                      <div className="testimonial">
+                        <div className="testimonial-main">
                           <Image
                             alt="img"
                             src={client}
-                            class="img-fluid client"
+                            className="img-fluid client"
                           />
-                          <div class="text-end test-quote">
-                            <Image alt="img" src={aerro} class="img-fluid" />
+                          <div className="text-end test-quote">
+                            <Image alt="img" src={aerro} className="img-fluid" />
                           </div>
-                          <p class="border-bottom test-para">
+                          <p className="border-bottom test-para">
                             Aenean vulputate eleifend tellus. Aenean leo ligula,
                             porttitor eu, consequat vitae, eleifend ac, enim.
                             Aliquam lorem ante, dapibus.
                           </p>
-                          <div class="d-flex justify-content-between align-items-center gap-2 pt-3">
-                            <div class="test-client">
+                          <div className="d-flex justify-content-between align-items-center gap-2 pt-3">
+                            <div className="test-client">
                               <p>Derrick P. Boudreaux</p>
                               <span>Web Developer</span>
                             </div>
-                            <div class="start-icon">
+                            <div className="start-icon">
                               <svg
                                 width="12"
                                 height="11"
@@ -1193,10 +1193,10 @@ function Page() {
                       </div>
                     </div>
                   </div>
-                  <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal">
-                    <span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span>
-                    <span class="swiper-pagination-bullet"></span>
-                    <span class="swiper-pagination-bullet"></span>
+                  <div className="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal">
+                    <span className="swiper-pagination-bullet swiper-pagination-bullet-active"></span>
+                    <span className="swiper-pagination-bullet"></span>
+                    <span className="swiper-pagination-bullet"></span>
                   </div>
                 </div>
               </div>

@@ -129,11 +129,14 @@ export default function Home() {
                                       >
                                         Enter Location
                                       </div>
-                                      <div className=" css-19bb58m" data-value="">
+                                      <div
+                                        className=" css-19bb58m"
+                                        data-value=""
+                                      >
                                         <input
                                           className=""
                                           autoCapitalize="none"
-                                          autocomplete="off"
+                                          autoComplete="off"
                                           autocorrect="off"
                                           id="react-select-11-input"
                                           spellcheck="false"
@@ -378,7 +381,9 @@ export default function Home() {
                                     fill="white"
                                   ></path>
                                 </svg>
-                                <Link  className="searchaa" href='/properties'>Search</Link>
+                                <Link className="searchaa" href="/properties">
+                                  Search
+                                </Link>
                               </button>
                             </div>
                           </div>
@@ -530,11 +535,13 @@ export default function Home() {
 
           <div className="row">
             <div className="col-lg-4">
-              <Image
-                src={Asset28}
-                alt="Asset28"
-                className="imgfluid img-fluid"
-              />
+              <div className="servier">
+                <Image
+                  src={Asset28}
+                  alt="Asset28"
+                  className="imgfluid img-fluid"
+                />
+              </div>
               <h3 className="mb-1 mb-md-3 text-center">Qualified Agents</h3>
               <p className="pb-0 sellhomedescription">
                 When it comes to finding your drem property or selling your
@@ -544,7 +551,9 @@ export default function Home() {
               </p>
             </div>
             <div className="col-lg-4">
-              <Image className="imgfluid" src={Asset} alt="Asset" />
+              <div className="servier">
+                <Image className="imgfluid" src={Asset} alt="Asset" />
+              </div>
               <h3 className="mb-1 mb-md-3 text-center">Excellent service</h3>
               <p className="pb-0 sellhomedescription">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
@@ -552,7 +561,9 @@ export default function Home() {
               </p>
             </div>
             <div className="col-lg-4">
-              <Image className="imgfluid" src={Asset3} alt="Asset3" />
+              <div className="servier">
+                <Image className="imgfluid" src={Asset3} alt="Asset3" />
+              </div>
               <h3 className="mb-1 mb-md-3 text-center">Customer Care</h3>
               <p className="pb-0 sellhomedescription">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
@@ -573,9 +584,11 @@ export default function Home() {
                   Unlock a hassle-free selling experience and unleash the real
                   potential of your cherished property.
                 </h6>
-                <button className="d-none d-md-flex align-items-center justify-content-center thiyo-btn">
-                  LIST YOUR PROPERTY
-                </button>
+                <Link href="/listproperty">
+                  <button className="d-none d-md-flex align-items-center justify-content-center thiyo-btn">
+                    LIST YOUR PROPERTY
+                  </button>
+                </Link>
                 <button className="d-flex align-items-center justify-content-center d-md-none thiyo-btn">
                   CONTACT US
                 </button>
@@ -590,70 +603,82 @@ export default function Home() {
 
       <section>
         <div className="container">
-          <div className="residental">
-            <div className="imageitemHoele">
-              <div className="img-gallery-info d-flex justify-content-between flex-column ">
-                <h5>Residental</h5>
-                <p>
-                  Buy or sell your home with our agents. House prices,
-                  inspections, negotiations and other services are included in
-                  the house price.
-                </p>
-                <div className="line">
-                  <Image src={vector} alt="vector" />
+          <div className="main-gallery ">
+            <div className="">
+              <div className="imageitemHoele">
+                <div className=" d-flex justify-content-between flex-column ">
+                  <h5>Residental</h5>
+                  <p>
+                    Buy or sell your home with our agents. House prices,
+                    inspections, negotiations and other services are included in
+                    the house price.
+                  </p>
+                  <div className="line">
+                    <Image src={vector} alt="vector" />
+                  </div>
                 </div>
-              </div>
-              <div className="col-sm-4 ">
-                <Image className="airports" src={airport} alt="airport" />
-              </div>
-              <div className="col-sm-4 ">
-                <Image className="airports" src={apartment} alt="apartment" />
-              </div>
-              <div className="col-sm-4 ">
-                <Image className="airports" src={penthouse} alt="airport" />
-              </div>
-              <div className="col-sm-4 ">
-                <Image className="airports" src={office} alt="airport" />
-              </div>
-              <div className="col-sm-4 ">
-                <Image className="airports" src={hotel} alt="airport" />
-              </div>
-              <div className="col-sm-4 ">
-                <Image className="airports" src={shop} alt="airport" />
-              </div>
-              <div className="col-sm-4 ">
-                <Image
-                  className="airports"
-                  src={hotelapartment}
-                  alt="airport"
-                />
-              </div>
-              <div className="col-sm-4 ">
-                <Image
-                  className="airports"
-                  src={office6c982fe1}
-                  alt="airport"
-                />
-              </div>
-              <div className="col-sm-4 ">
-                <Image className="airports" src={township} alt="airport" />
-              </div>
-              <div className="col-sm-4 ">
-                <Image
-                  className="airports"
-                  src={townshipfb52778a}
-                  alt="airport"
-                />
-              </div>
-              <div className="text-end img-gallery-info d-flex justify-content-between flex-column">
-                <h5>Commercial</h5>
-                <p>
-                  Buy or sell your home with our agents. House prices,
-                  inspections, negotiations and other services are included in
-                  the house price.
-                </p>
-                <div className="line">
-                  <Image src={vector} alt="vector" />
+                <div className="col-sm-4 img-gallery ">
+                  <Image className="airports" src={airport} alt="airport" />
+                  <p>Apartment</p>
+                </div>
+                <div className="col-sm-4 img-gallery ">
+                  <Image className="airports" src={apartment} alt="apartment" />
+                  <p>Villa</p>
+                </div>
+                <div className="col-sm-4 img-gallery ">
+                  <Image className="airports" src={penthouse} alt="airport" />
+                  <p>undefined</p>
+                </div>
+                <div className="col-sm-4 img-gallery ">
+                  <Image className="airports" src={office} alt="airport" />
+                  <p>Penthouse</p>
+                </div>
+                <div className="col-sm-4 img-gallery ">
+                  <Image className="airports" src={hotel} alt="airport" />
+                  <p>Hotel Apartment</p>
+                </div>
+                <div className="col-sm-4 img-gallery ">
+                  <Image className="airports" src={shop} alt="airport" />
+                  <p>Office </p>
+                </div>
+                <div className="col-sm-4 img-gallery ">
+                  <Image
+                    className="airports"
+                    src={hotelapartment}
+                    alt="airport"
+                  />
+                  <p>Shop</p>
+                </div>
+                <div className="col-sm-4 img-gallery ">
+                  <Image
+                    className="airports"
+                    src={office6c982fe1}
+                    alt="airport"
+                  />
+                  <p>Warehouse</p>
+                </div>
+                <div className="col-sm-4 img-gallery ">
+                  <Image className="airports" src={township} alt="airport" />
+                  <p>Hotel</p>
+                </div>
+                <div className="col-sm-4 img-gallery ">
+                  <Image
+                    className="airports"
+                    src={townshipfb52778a}
+                    alt="airport"
+                  />
+                  <p>Mixed Use Land</p>
+                </div>
+                <div className="text-end img-gallery-info d-flex justify-content-between flex-column">
+                  <h5>Commercial</h5>
+                  <p>
+                    Buy or sell your home with our agents. House prices,
+                    inspections, negotiations and other services are included in
+                    the house price.
+                  </p>
+                  <div className="line">
+                    <Image src={vector} alt="vector" />
+                  </div>
                 </div>
               </div>
             </div>
@@ -1136,12 +1161,14 @@ export default function Home() {
                   Accelerate your listings to new heights and unleash the
                   potential of captivating leads andvalued clients.
                 </p>
-                <button
-                  className="btn btncolornow btn-outline-secondary"
-                  type="submit"
-                >
-                  REGISTER NOW
-                </button>
+                <Link href="/Register">
+                  <button
+                    className="btn btncolornow btn-outline-secondary"
+                    type="submit"
+                  >
+                    REGISTER NOW
+                  </button>
+                </Link>
               </div>
             </div>
             <div className="col-sm-6">

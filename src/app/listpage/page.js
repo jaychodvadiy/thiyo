@@ -115,7 +115,7 @@ function Page() {
             <div
               className="modal fade photos-grid-modal"
               id="exampleModal"
-              tabindex="-1"
+              tabIndex="-1"
               aria-labelledby="exampleModalLabel"
               aria-hidden="true"
               data-bs-keyboard="false"
@@ -216,25 +216,25 @@ function Page() {
                             <path
                               d="M7.30501 0.871094H3.97168C2.30501 0.871094 1.47168 1.70443 1.47168 3.37109V8.78776C1.47168 9.01693 1.65918 9.20443 1.88835 9.20443H7.30501C8.97168 9.20443 9.80501 8.37109 9.80501 6.70443V3.37109C9.80501 1.70443 8.97168 0.871094 7.30501 0.871094Z"
                               stroke="#626262"
-                              stroke-width="0.75"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
+                              strokeWidth="0.75"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
                             ></path>
                             <path
                               d="M6.01832 3.30628L3.85582 5.46878C3.77249 5.55211 3.69332 5.71461 3.67666 5.83128L3.55999 6.65628C3.51832 6.95628 3.72666 7.16461 4.02666 7.12295L4.85166 7.00628C4.96832 6.98961 5.13082 6.91045 5.21416 6.82711L7.37666 4.66461C7.74749 4.29378 7.92666 3.86045 7.37666 3.31045C6.82666 2.75628 6.39332 2.93128 6.01832 3.30628Z"
                               stroke="#626262"
-                              stroke-width="0.75"
+                              strokeWidth="0.75"
                               stroke-miterlimit="10"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
                             ></path>
                             <path
                               d="M5.70996 3.61328C5.80042 3.93627 5.97253 4.23053 6.2097 4.46771C6.44688 4.70488 6.74114 4.87699 7.06413 4.96745"
                               stroke="#626262"
-                              stroke-width="0.75"
+                              strokeWidth="0.75"
                               stroke-miterlimit="10"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
                             ></path>
                           </g>
                           <defs>
@@ -265,25 +265,25 @@ function Page() {
                             <path
                               d="M7.30501 0.871094H3.97168C2.30501 0.871094 1.47168 1.70443 1.47168 3.37109V8.78776C1.47168 9.01693 1.65918 9.20443 1.88835 9.20443H7.30501C8.97168 9.20443 9.80501 8.37109 9.80501 6.70443V3.37109C9.80501 1.70443 8.97168 0.871094 7.30501 0.871094Z"
                               stroke="#626262"
-                              stroke-width="0.75"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
+                              strokeWidth="0.75"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
                             ></path>
                             <path
                               d="M6.01832 3.30628L3.85582 5.46878C3.77249 5.55211 3.69332 5.71461 3.67666 5.83128L3.55999 6.65628C3.51832 6.95628 3.72666 7.16461 4.02666 7.12295L4.85166 7.00628C4.96832 6.98961 5.13082 6.91045 5.21416 6.82711L7.37666 4.66461C7.74749 4.29378 7.92666 3.86045 7.37666 3.31045C6.82666 2.75628 6.39332 2.93128 6.01832 3.30628Z"
                               stroke="#626262"
-                              stroke-width="0.75"
+                              strokeWidth="0.75"
                               stroke-miterlimit="10"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
                             ></path>
                             <path
                               d="M5.70996 3.61328C5.80042 3.93627 5.97253 4.23053 6.2097 4.46771C6.44688 4.70488 6.74114 4.87699 7.06413 4.96745"
                               stroke="#626262"
-                              stroke-width="0.75"
+                              strokeWidth="0.75"
                               stroke-miterlimit="10"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
                             ></path>
                           </g>
                           <defs>
@@ -314,25 +314,25 @@ function Page() {
                             <path
                               d="M7.30501 0.871094H3.97168C2.30501 0.871094 1.47168 1.70443 1.47168 3.37109V8.78776C1.47168 9.01693 1.65918 9.20443 1.88835 9.20443H7.30501C8.97168 9.20443 9.80501 8.37109 9.80501 6.70443V3.37109C9.80501 1.70443 8.97168 0.871094 7.30501 0.871094Z"
                               stroke="#626262"
-                              stroke-width="0.75"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
+                              strokeWidth="0.75"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
                             ></path>
                             <path
                               d="M6.01832 3.30628L3.85582 5.46878C3.77249 5.55211 3.69332 5.71461 3.67666 5.83128L3.55999 6.65628C3.51832 6.95628 3.72666 7.16461 4.02666 7.12295L4.85166 7.00628C4.96832 6.98961 5.13082 6.91045 5.21416 6.82711L7.37666 4.66461C7.74749 4.29378 7.92666 3.86045 7.37666 3.31045C6.82666 2.75628 6.39332 2.93128 6.01832 3.30628Z"
                               stroke="#626262"
-                              stroke-width="0.75"
+                              strokeWidth="0.75"
                               stroke-miterlimit="10"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
                             ></path>
                             <path
                               d="M5.70996 3.61328C5.80042 3.93627 5.97253 4.23053 6.2097 4.46771C6.44688 4.70488 6.74114 4.87699 7.06413 4.96745"
                               stroke="#626262"
-                              stroke-width="0.75"
+                              strokeWidth="0.75"
                               stroke-miterlimit="10"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
                             ></path>
                           </g>
                           <defs>
@@ -558,7 +558,7 @@ function Page() {
               id="staticBackdrop"
               data-bs-backdrop="static"
               data-bs-keyboard="false"
-              tabindex="-1"
+              tabIndex="-1"
               aria-labelledby="staticBackdropLabel"
               aria-hidden="true"
             >
@@ -660,14 +660,14 @@ function Page() {
                               <path
                                 d="M5.23104 11.4587H8.16121C10.603 11.4587 11.5798 10.4819 11.5798 8.04012V5.10994C11.5798 2.66813 10.603 1.69141 8.16121 1.69141H5.23104C2.78923 1.69141 1.8125 2.66813 1.8125 5.10994V8.04012C1.8125 10.4819 2.78923 11.4587 5.23104 11.4587Z"
                                 stroke="black"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
                               ></path>
                               <path
                                 d="M2.13965 9.96883L4.54728 8.35235C4.93308 8.09352 5.48982 8.12282 5.83655 8.42072L5.99771 8.56234C6.37864 8.88955 6.99397 8.88955 7.3749 8.56234L9.40648 6.81889C9.78741 6.49169 10.4027 6.49169 10.7837 6.81889L11.5797 7.5026M5.23098 5.59798C5.49003 5.59798 5.73846 5.49508 5.92163 5.31191C6.1048 5.12873 6.20771 4.8803 6.20771 4.62126C6.20771 4.36221 6.1048 4.11378 5.92163 3.93061C5.73846 3.74744 5.49003 3.64453 5.23098 3.64453C4.97194 3.64453 4.72351 3.74744 4.54033 3.93061C4.35716 4.11378 4.25426 4.36221 4.25426 4.62126C4.25426 4.8803 4.35716 5.12873 4.54033 5.31191C4.72351 5.49508 4.97194 5.59798 5.23098 5.59798Z"
                                 stroke="black"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
                               ></path>
                             </g>
                             <defs>
@@ -696,14 +696,14 @@ function Page() {
                                 <path
                                   d="M5.48218 12.4697H8.78833C11.5435 12.4697 12.6455 11.3677 12.6455 8.61255V5.3064C12.6455 2.55127 11.5435 1.44922 8.78833 1.44922H5.48218C2.72705 1.44922 1.625 2.55127 1.625 5.3064V8.61255C1.625 11.3677 2.72705 12.4697 5.48218 12.4697Z"
                                   stroke="black"
-                                  stroke-linecap="round"
-                                  stroke-linejoin="round"
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
                                 ></path>
                                 <path
                                   d="M4.79297 6.96175L6.35237 8.52115L9.47668 5.40234"
                                   stroke="black"
-                                  stroke-linecap="round"
-                                  stroke-linejoin="round"
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
                                 ></path>
                               </g>
                               <defs>
@@ -728,7 +728,7 @@ function Page() {
                             fill="none"
                             xmlns="http://www.w3.org/2000/svg"
                           >
-                            <g id="SVGRepo_bgCarrier" stroke-width="0">
+                            <g id="SVGRepo_bgCarrier" strokeWidth="0">
                               <rect
                                 x="-2.4"
                                 y="-2.4"
@@ -736,13 +736,13 @@ function Page() {
                                 height="28.80"
                                 rx="14.4"
                                 fill="#ffffff"
-                                stroke-width="0"
+                                strokeWidth="0"
                               ></rect>
                             </g>
                             <g
                               id="SVGRepo_tracerCarrier"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
                             ></g>
                             <g id="SVGRepo_iconCarrier">
                               <path
@@ -922,9 +922,9 @@ function Page() {
                                 <path
                                   d="M9.2473 16.2664L12.1683 13.461M7.41227 9.94896L14.2661 7.8171C17.3408 6.86076 18.9721 8.55928 17.8924 11.5928L15.4855 18.355C13.8659 22.9053 11.3687 22.8496 9.93938 18.243L9.51123 16.8552C9.40165 16.5029 9.02241 16.108 8.67482 15.9843L7.30025 15.4951C2.75517 13.8809 2.80572 11.3783 7.41227 9.94896Z"
                                   stroke="#595959"
-                                  stroke-width="1.5"
-                                  stroke-linecap="round"
-                                  stroke-linejoin="round"
+                                  strokeWidth="1.5"
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
                                 ></path>
                               </g>
                             </svg>
@@ -996,14 +996,14 @@ function Page() {
                               <path
                                 d="M5.23104 11.4587H8.16121C10.603 11.4587 11.5798 10.4819 11.5798 8.04012V5.10994C11.5798 2.66813 10.603 1.69141 8.16121 1.69141H5.23104C2.78923 1.69141 1.8125 2.66813 1.8125 5.10994V8.04012C1.8125 10.4819 2.78923 11.4587 5.23104 11.4587Z"
                                 stroke="black"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
                               ></path>
                               <path
                                 d="M2.13965 9.96883L4.54728 8.35235C4.93308 8.09352 5.48982 8.12282 5.83655 8.42072L5.99771 8.56234C6.37864 8.88955 6.99397 8.88955 7.3749 8.56234L9.40648 6.81889C9.78741 6.49169 10.4027 6.49169 10.7837 6.81889L11.5797 7.5026M5.23098 5.59798C5.49003 5.59798 5.73846 5.49508 5.92163 5.31191C6.1048 5.12873 6.20771 4.8803 6.20771 4.62126C6.20771 4.36221 6.1048 4.11378 5.92163 3.93061C5.73846 3.74744 5.49003 3.64453 5.23098 3.64453C4.97194 3.64453 4.72351 3.74744 4.54033 3.93061C4.35716 4.11378 4.25426 4.36221 4.25426 4.62126C4.25426 4.8803 4.35716 5.12873 4.54033 5.31191C4.72351 5.49508 4.97194 5.59798 5.23098 5.59798Z"
                                 stroke="black"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
                               ></path>
                             </g>
                             <defs>
@@ -1032,14 +1032,14 @@ function Page() {
                                 <path
                                   d="M5.48218 12.4697H8.78833C11.5435 12.4697 12.6455 11.3677 12.6455 8.61255V5.3064C12.6455 2.55127 11.5435 1.44922 8.78833 1.44922H5.48218C2.72705 1.44922 1.625 2.55127 1.625 5.3064V8.61255C1.625 11.3677 2.72705 12.4697 5.48218 12.4697Z"
                                   stroke="black"
-                                  stroke-linecap="round"
-                                  stroke-linejoin="round"
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
                                 ></path>
                                 <path
                                   d="M4.79297 6.96175L6.35237 8.52115L9.47668 5.40234"
                                   stroke="black"
-                                  stroke-linecap="round"
-                                  stroke-linejoin="round"
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
                                 ></path>
                               </g>
                               <defs>
@@ -1064,7 +1064,7 @@ function Page() {
                             fill="none"
                             xmlns="http://www.w3.org/2000/svg"
                           >
-                            <g id="SVGRepo_bgCarrier" stroke-width="0">
+                            <g id="SVGRepo_bgCarrier" strokeWidth="0">
                               <rect
                                 x="-2.4"
                                 y="-2.4"
@@ -1072,13 +1072,13 @@ function Page() {
                                 height="28.80"
                                 rx="14.4"
                                 fill="#ffffff"
-                                stroke-width="0"
+                                strokeWidth="0"
                               ></rect>
                             </g>
                             <g
                               id="SVGRepo_tracerCarrier"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
                             ></g>
                             <g id="SVGRepo_iconCarrier">
                               <path
@@ -1258,9 +1258,9 @@ function Page() {
                                 <path
                                   d="M9.2473 16.2664L12.1683 13.461M7.41227 9.94896L14.2661 7.8171C17.3408 6.86076 18.9721 8.55928 17.8924 11.5928L15.4855 18.355C13.8659 22.9053 11.3687 22.8496 9.93938 18.243L9.51123 16.8552C9.40165 16.5029 9.02241 16.108 8.67482 15.9843L7.30025 15.4951C2.75517 13.8809 2.80572 11.3783 7.41227 9.94896Z"
                                   stroke="#595959"
-                                  stroke-width="1.5"
-                                  stroke-linecap="round"
-                                  stroke-linejoin="round"
+                                  strokeWidth="1.5"
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
                                 ></path>
                               </g>
                             </svg>
@@ -1332,14 +1332,14 @@ function Page() {
                               <path
                                 d="M5.23104 11.4587H8.16121C10.603 11.4587 11.5798 10.4819 11.5798 8.04012V5.10994C11.5798 2.66813 10.603 1.69141 8.16121 1.69141H5.23104C2.78923 1.69141 1.8125 2.66813 1.8125 5.10994V8.04012C1.8125 10.4819 2.78923 11.4587 5.23104 11.4587Z"
                                 stroke="black"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
                               ></path>
                               <path
                                 d="M2.13965 9.96883L4.54728 8.35235C4.93308 8.09352 5.48982 8.12282 5.83655 8.42072L5.99771 8.56234C6.37864 8.88955 6.99397 8.88955 7.3749 8.56234L9.40648 6.81889C9.78741 6.49169 10.4027 6.49169 10.7837 6.81889L11.5797 7.5026M5.23098 5.59798C5.49003 5.59798 5.73846 5.49508 5.92163 5.31191C6.1048 5.12873 6.20771 4.8803 6.20771 4.62126C6.20771 4.36221 6.1048 4.11378 5.92163 3.93061C5.73846 3.74744 5.49003 3.64453 5.23098 3.64453C4.97194 3.64453 4.72351 3.74744 4.54033 3.93061C4.35716 4.11378 4.25426 4.36221 4.25426 4.62126C4.25426 4.8803 4.35716 5.12873 4.54033 5.31191C4.72351 5.49508 4.97194 5.59798 5.23098 5.59798Z"
                                 stroke="black"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
                               ></path>
                             </g>
                             <defs>
@@ -1363,7 +1363,7 @@ function Page() {
                             fill="none"
                             xmlns="http://www.w3.org/2000/svg"
                           >
-                            <g id="SVGRepo_bgCarrier" stroke-width="0">
+                            <g id="SVGRepo_bgCarrier" strokeWidth="0">
                               <rect
                                 x="-2.4"
                                 y="-2.4"
@@ -1371,13 +1371,13 @@ function Page() {
                                 height="28.80"
                                 rx="14.4"
                                 fill="#ffffff"
-                                stroke-width="0"
+                                strokeWidth="0"
                               ></rect>
                             </g>
                             <g
                               id="SVGRepo_tracerCarrier"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
                             ></g>
                             <g id="SVGRepo_iconCarrier">
                               <path
@@ -1557,9 +1557,9 @@ function Page() {
                                 <path
                                   d="M9.2473 16.2664L12.1683 13.461M7.41227 9.94896L14.2661 7.8171C17.3408 6.86076 18.9721 8.55928 17.8924 11.5928L15.4855 18.355C13.8659 22.9053 11.3687 22.8496 9.93938 18.243L9.51123 16.8552C9.40165 16.5029 9.02241 16.108 8.67482 15.9843L7.30025 15.4951C2.75517 13.8809 2.80572 11.3783 7.41227 9.94896Z"
                                   stroke="#595959"
-                                  stroke-width="1.5"
-                                  stroke-linecap="round"
-                                  stroke-linejoin="round"
+                                  strokeWidth="1.5"
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
                                 ></path>
                               </g>
                             </svg>
