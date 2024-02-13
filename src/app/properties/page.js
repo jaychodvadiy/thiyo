@@ -207,7 +207,7 @@ function Properties() {
                               </div>
                               <div
                                 className=" css-19bb58m"
-                                data-defaultValue=""
+                                defaultValue=""
                               >
                                 <input
                                   className=""
@@ -1371,13 +1371,13 @@ function Properties() {
                                   stroke="black"
                                   strokeMiterlimit="10"
                                   strokeLinecap="round"
-                                  stroke-linejoin="round"
+                                  strokeLinejoin="round"
                                 ></path>
                                 <path
                                   d="M1.8125 6.32375V7.72121C1.8125 10.0503 2.74414 10.982 5.07324 10.982H7.86816C10.1973 10.982 11.1289 10.0503 11.1289 7.72121V4.92629C11.1289 3.47293 10.7656 2.55992 9.92243 2.08479C9.68486 1.9497 9.20973 1.84722 8.77651 1.77734M6.93652 6.78957H9.26562M6.00488 8.65285H9.26562"
                                   stroke="black"
                                   strokeLinecap="round"
-                                  stroke-linejoin="round"
+                                  strokeLinejoin="round"
                                 ></path>
                               </g>
                               <defs>
@@ -1428,7 +1428,7 @@ function Properties() {
                                   d="M6.00098 10.8893H11.001M6.00098 7.09766H11.001M6.00098 3.30599H11.001M2.00098 3.30599L2.50098 3.84766L4.00098 2.22266M2.00098 7.09766L2.50098 7.63932L4.00098 6.01432M2.00098 10.8893L2.50098 11.431L4.00098 9.80599"
                                   stroke="black"
                                   strokeLinecap="round"
-                                  stroke-linejoin="round"
+                                  strokeLinejoin="round"
                                 ></path>
                               </svg>
                             </button>
@@ -1441,7 +1441,7 @@ function Properties() {
                               role="tab"
                               aria-controls="nav-profile"
                               aria-selected="false"
-                              tabindex="-1"
+                              tabIndex="-1"
                             >
                               <svg
                                 width="14"
@@ -1455,7 +1455,7 @@ function Properties() {
                                     d="M12.6019 4.58813V2.31813C12.6019 1.61313 12.2552 1.32812 11.394 1.32812H9.20564C8.34439 1.32812 7.99772 1.61313 7.99772 2.31813V4.58313C7.99772 5.29313 8.34439 5.57312 9.20564 5.57312H11.394C12.2552 5.57812 12.6019 5.29313 12.6019 4.58813ZM12.6019 10.2131V8.19312C12.6019 7.39812 12.2552 7.07812 11.394 7.07812H9.20564C8.34439 7.07812 7.99772 7.39812 7.99772 8.19312V10.2131C7.99772 11.0081 8.34439 11.3281 9.20564 11.3281H11.394C12.2552 11.3281 12.6019 11.0081 12.6019 10.2131ZM6.37272 4.58813V2.31813C6.37272 1.61313 6.02605 1.32812 5.1648 1.32812H2.97647C2.11522 1.32812 1.76855 1.61313 1.76855 2.31813V4.58313C1.76855 5.29313 2.11522 5.57312 2.97647 5.57312H5.1648C6.02605 5.57812 6.37272 5.29313 6.37272 4.58813ZM6.37272 10.2131V8.19312C6.37272 7.39812 6.02605 7.07812 5.1648 7.07812H2.97647C2.11522 7.07812 1.76855 7.39812 1.76855 8.19312V10.2131C1.76855 11.0081 2.11522 11.3281 2.97647 11.3281H5.1648C6.02605 11.3281 6.37272 11.0081 6.37272 10.2131Z"
                                     stroke="black"
                                     strokeLinecap="round"
-                                    stroke-linejoin="round"
+                                    strokeLinejoin="round"
                                   ></path>
                                 </g>
                                 <defs>
@@ -1480,7 +1480,7 @@ function Properties() {
                         id="nav-home"
                         role="tabpanel"
                         aria-labelledby="nav-home-tab"
-                        tabindex="0"
+                        tabIndex="0"
                       >
                         <div className="mb-3">
                           <div className="carddeatil carddeatil-sm">
@@ -1621,13 +1621,13 @@ function Properties() {
                                         d="M5.23104 11.4587H8.16121C10.603 11.4587 11.5798 10.4819 11.5798 8.04012V5.10994C11.5798 2.66813 10.603 1.69141 8.16121 1.69141H5.23104C2.78923 1.69141 1.8125 2.66813 1.8125 5.10994V8.04012C1.8125 10.4819 2.78923 11.4587 5.23104 11.4587Z"
                                         stroke="black"
                                         strokeLinecap="round"
-                                        stroke-linejoin="round"
+                                        strokeLinejoin="round"
                                       ></path>
                                       <path
                                         d="M2.13965 9.96883L4.54728 8.35235C4.93308 8.09352 5.48982 8.12282 5.83655 8.42072L5.99771 8.56234C6.37864 8.88955 6.99397 8.88955 7.3749 8.56234L9.40648 6.81889C9.78741 6.49169 10.4027 6.49169 10.7837 6.81889L11.5797 7.5026M5.23098 5.59798C5.49003 5.59798 5.73846 5.49508 5.92163 5.31191C6.1048 5.12873 6.20771 4.8803 6.20771 4.62126C6.20771 4.36221 6.1048 4.11378 5.92163 3.93061C5.73846 3.74744 5.49003 3.64453 5.23098 3.64453C4.97194 3.64453 4.72351 3.74744 4.54033 3.93061C4.35716 4.11378 4.25426 4.36221 4.25426 4.62126C4.25426 4.8803 4.35716 5.12873 4.54033 5.31191C4.72351 5.49508 4.97194 5.59798 5.23098 5.59798Z"
                                         stroke="black"
                                         strokeLinecap="round"
-                                        stroke-linejoin="round"
+                                        strokeLinejoin="round"
                                       ></path>
                                     </g>
                                     <defs>
@@ -1657,13 +1657,13 @@ function Properties() {
                                           d="M5.48218 12.4697H8.78833C11.5435 12.4697 12.6455 11.3677 12.6455 8.61255V5.3064C12.6455 2.55127 11.5435 1.44922 8.78833 1.44922H5.48218C2.72705 1.44922 1.625 2.55127 1.625 5.3064V8.61255C1.625 11.3677 2.72705 12.4697 5.48218 12.4697Z"
                                           stroke="black"
                                           strokeLinecap="round"
-                                          stroke-linejoin="round"
+                                          strokeLinejoin="round"
                                         ></path>
                                         <path
                                           d="M4.79297 6.96175L6.35237 8.52115L9.47668 5.40234"
                                           stroke="black"
                                           strokeLinecap="round"
-                                          stroke-linejoin="round"
+                                          strokeLinejoin="round"
                                         ></path>
                                       </g>
                                       <defs>
@@ -1688,7 +1688,7 @@ function Properties() {
                                     fill="none"
                                     xmlns="http://www.w3.org/2000/svg"
                                   >
-                                    <g id="SVGRepo_bgCarrier" stroke-width="0">
+                                    <g id="SVGRepo_bgCarrier" strokeWidth="0">
                                       <rect
                                         x="-2.4"
                                         y="-2.4"
@@ -1696,13 +1696,13 @@ function Properties() {
                                         height="28.80"
                                         rx="14.4"
                                         fill="#ffffff"
-                                        stroke-width="0"
+                                        strokeWidth="0"
                                       ></rect>
                                     </g>
                                     <g
                                       id="SVGRepo_tracerCarrier"
                                       strokeLinecap="round"
-                                      stroke-linejoin="round"
+                                      strokeLinejoin="round"
                                     ></g>
                                     <g id="SVGRepo_iconCarrier">
                                       <path
@@ -1885,9 +1885,9 @@ function Properties() {
                                         <path
                                           d="M9.2473 16.2664L12.1683 13.461M7.41227 9.94896L14.2661 7.8171C17.3408 6.86076 18.9721 8.55928 17.8924 11.5928L15.4855 18.355C13.8659 22.9053 11.3687 22.8496 9.93938 18.243L9.51123 16.8552C9.40165 16.5029 9.02241 16.108 8.67482 15.9843L7.30025 15.4951C2.75517 13.8809 2.80572 11.3783 7.41227 9.94896Z"
                                           stroke="#595959"
-                                          stroke-width="1.5"
+                                          strokeWidth="1.5"
                                           strokeLinecap="round"
-                                          stroke-linejoin="round"
+                                          strokeLinejoin="round"
                                         ></path>
                                       </g>
                                     </svg>
@@ -2036,13 +2036,13 @@ function Properties() {
                                         d="M5.23104 11.4587H8.16121C10.603 11.4587 11.5798 10.4819 11.5798 8.04012V5.10994C11.5798 2.66813 10.603 1.69141 8.16121 1.69141H5.23104C2.78923 1.69141 1.8125 2.66813 1.8125 5.10994V8.04012C1.8125 10.4819 2.78923 11.4587 5.23104 11.4587Z"
                                         stroke="black"
                                         strokeLinecap="round"
-                                        stroke-linejoin="round"
+                                        strokeLinejoin="round"
                                       ></path>
                                       <path
                                         d="M2.13965 9.96883L4.54728 8.35235C4.93308 8.09352 5.48982 8.12282 5.83655 8.42072L5.99771 8.56234C6.37864 8.88955 6.99397 8.88955 7.3749 8.56234L9.40648 6.81889C9.78741 6.49169 10.4027 6.49169 10.7837 6.81889L11.5797 7.5026M5.23098 5.59798C5.49003 5.59798 5.73846 5.49508 5.92163 5.31191C6.1048 5.12873 6.20771 4.8803 6.20771 4.62126C6.20771 4.36221 6.1048 4.11378 5.92163 3.93061C5.73846 3.74744 5.49003 3.64453 5.23098 3.64453C4.97194 3.64453 4.72351 3.74744 4.54033 3.93061C4.35716 4.11378 4.25426 4.36221 4.25426 4.62126C4.25426 4.8803 4.35716 5.12873 4.54033 5.31191C4.72351 5.49508 4.97194 5.59798 5.23098 5.59798Z"
                                         stroke="black"
                                         strokeLinecap="round"
-                                        stroke-linejoin="round"
+                                        strokeLinejoin="round"
                                       ></path>
                                     </g>
                                     <defs>
@@ -2072,13 +2072,13 @@ function Properties() {
                                           d="M5.48218 12.4697H8.78833C11.5435 12.4697 12.6455 11.3677 12.6455 8.61255V5.3064C12.6455 2.55127 11.5435 1.44922 8.78833 1.44922H5.48218C2.72705 1.44922 1.625 2.55127 1.625 5.3064V8.61255C1.625 11.3677 2.72705 12.4697 5.48218 12.4697Z"
                                           stroke="black"
                                           strokeLinecap="round"
-                                          stroke-linejoin="round"
+                                          strokeLinejoin="round"
                                         ></path>
                                         <path
                                           d="M4.79297 6.96175L6.35237 8.52115L9.47668 5.40234"
                                           stroke="black"
                                           strokeLinecap="round"
-                                          stroke-linejoin="round"
+                                          strokeLinejoin="round"
                                         ></path>
                                       </g>
                                       <defs>
@@ -2103,7 +2103,7 @@ function Properties() {
                                     fill="none"
                                     xmlns="http://www.w3.org/2000/svg"
                                   >
-                                    <g id="SVGRepo_bgCarrier" stroke-width="0">
+                                    <g id="SVGRepo_bgCarrier" strokeWidth="0">
                                       <rect
                                         x="-2.4"
                                         y="-2.4"
@@ -2111,13 +2111,13 @@ function Properties() {
                                         height="28.80"
                                         rx="14.4"
                                         fill="#ffffff"
-                                        stroke-width="0"
+                                        strokeWidth="0"
                                       ></rect>
                                     </g>
                                     <g
                                       id="SVGRepo_tracerCarrier"
                                       strokeLinecap="round"
-                                      stroke-linejoin="round"
+                                      strokeLinejoin="round"
                                     ></g>
                                     <g id="SVGRepo_iconCarrier">
                                       <path
@@ -2300,9 +2300,9 @@ function Properties() {
                                         <path
                                           d="M9.2473 16.2664L12.1683 13.461M7.41227 9.94896L14.2661 7.8171C17.3408 6.86076 18.9721 8.55928 17.8924 11.5928L15.4855 18.355C13.8659 22.9053 11.3687 22.8496 9.93938 18.243L9.51123 16.8552C9.40165 16.5029 9.02241 16.108 8.67482 15.9843L7.30025 15.4951C2.75517 13.8809 2.80572 11.3783 7.41227 9.94896Z"
                                           stroke="#595959"
-                                          stroke-width="1.5"
+                                          strokeWidth="1.5"
                                           strokeLinecap="round"
-                                          stroke-linejoin="round"
+                                          strokeLinejoin="round"
                                         ></path>
                                       </g>
                                     </svg>
@@ -2451,13 +2451,13 @@ function Properties() {
                                         d="M5.23104 11.4587H8.16121C10.603 11.4587 11.5798 10.4819 11.5798 8.04012V5.10994C11.5798 2.66813 10.603 1.69141 8.16121 1.69141H5.23104C2.78923 1.69141 1.8125 2.66813 1.8125 5.10994V8.04012C1.8125 10.4819 2.78923 11.4587 5.23104 11.4587Z"
                                         stroke="black"
                                         strokeLinecap="round"
-                                        stroke-linejoin="round"
+                                        strokeLinejoin="round"
                                       ></path>
                                       <path
                                         d="M2.13965 9.96883L4.54728 8.35235C4.93308 8.09352 5.48982 8.12282 5.83655 8.42072L5.99771 8.56234C6.37864 8.88955 6.99397 8.88955 7.3749 8.56234L9.40648 6.81889C9.78741 6.49169 10.4027 6.49169 10.7837 6.81889L11.5797 7.5026M5.23098 5.59798C5.49003 5.59798 5.73846 5.49508 5.92163 5.31191C6.1048 5.12873 6.20771 4.8803 6.20771 4.62126C6.20771 4.36221 6.1048 4.11378 5.92163 3.93061C5.73846 3.74744 5.49003 3.64453 5.23098 3.64453C4.97194 3.64453 4.72351 3.74744 4.54033 3.93061C4.35716 4.11378 4.25426 4.36221 4.25426 4.62126C4.25426 4.8803 4.35716 5.12873 4.54033 5.31191C4.72351 5.49508 4.97194 5.59798 5.23098 5.59798Z"
                                         stroke="black"
                                         strokeLinecap="round"
-                                        stroke-linejoin="round"
+                                        strokeLinejoin="round"
                                       ></path>
                                     </g>
                                     <defs>
@@ -2487,13 +2487,13 @@ function Properties() {
                                           d="M5.48218 12.4697H8.78833C11.5435 12.4697 12.6455 11.3677 12.6455 8.61255V5.3064C12.6455 2.55127 11.5435 1.44922 8.78833 1.44922H5.48218C2.72705 1.44922 1.625 2.55127 1.625 5.3064V8.61255C1.625 11.3677 2.72705 12.4697 5.48218 12.4697Z"
                                           stroke="black"
                                           strokeLinecap="round"
-                                          stroke-linejoin="round"
+                                          strokeLinejoin="round"
                                         ></path>
                                         <path
                                           d="M4.79297 6.96175L6.35237 8.52115L9.47668 5.40234"
                                           stroke="black"
                                           strokeLinecap="round"
-                                          stroke-linejoin="round"
+                                          strokeLinejoin="round"
                                         ></path>
                                       </g>
                                       <defs>
@@ -2518,7 +2518,7 @@ function Properties() {
                                     fill="none"
                                     xmlns="http://www.w3.org/2000/svg"
                                   >
-                                    <g id="SVGRepo_bgCarrier" stroke-width="0">
+                                    <g id="SVGRepo_bgCarrier" strokeWidth="0">
                                       <rect
                                         x="-2.4"
                                         y="-2.4"
@@ -2526,13 +2526,13 @@ function Properties() {
                                         height="28.80"
                                         rx="14.4"
                                         fill="#ffffff"
-                                        stroke-width="0"
+                                        strokeWidth="0"
                                       ></rect>
                                     </g>
                                     <g
                                       id="SVGRepo_tracerCarrier"
                                       strokeLinecap="round"
-                                      stroke-linejoin="round"
+                                      strokeLinejoin="round"
                                     ></g>
                                     <g id="SVGRepo_iconCarrier">
                                       <path
@@ -2715,9 +2715,9 @@ function Properties() {
                                         <path
                                           d="M9.2473 16.2664L12.1683 13.461M7.41227 9.94896L14.2661 7.8171C17.3408 6.86076 18.9721 8.55928 17.8924 11.5928L15.4855 18.355C13.8659 22.9053 11.3687 22.8496 9.93938 18.243L9.51123 16.8552C9.40165 16.5029 9.02241 16.108 8.67482 15.9843L7.30025 15.4951C2.75517 13.8809 2.80572 11.3783 7.41227 9.94896Z"
                                           stroke="#595959"
-                                          stroke-width="1.5"
+                                          strokeWidth="1.5"
                                           strokeLinecap="round"
-                                          stroke-linejoin="round"
+                                          strokeLinejoin="round"
                                         ></path>
                                       </g>
                                     </svg>
@@ -2866,13 +2866,13 @@ function Properties() {
                                         d="M5.23104 11.4587H8.16121C10.603 11.4587 11.5798 10.4819 11.5798 8.04012V5.10994C11.5798 2.66813 10.603 1.69141 8.16121 1.69141H5.23104C2.78923 1.69141 1.8125 2.66813 1.8125 5.10994V8.04012C1.8125 10.4819 2.78923 11.4587 5.23104 11.4587Z"
                                         stroke="black"
                                         strokeLinecap="round"
-                                        stroke-linejoin="round"
+                                        strokeLinejoin="round"
                                       ></path>
                                       <path
                                         d="M2.13965 9.96883L4.54728 8.35235C4.93308 8.09352 5.48982 8.12282 5.83655 8.42072L5.99771 8.56234C6.37864 8.88955 6.99397 8.88955 7.3749 8.56234L9.40648 6.81889C9.78741 6.49169 10.4027 6.49169 10.7837 6.81889L11.5797 7.5026M5.23098 5.59798C5.49003 5.59798 5.73846 5.49508 5.92163 5.31191C6.1048 5.12873 6.20771 4.8803 6.20771 4.62126C6.20771 4.36221 6.1048 4.11378 5.92163 3.93061C5.73846 3.74744 5.49003 3.64453 5.23098 3.64453C4.97194 3.64453 4.72351 3.74744 4.54033 3.93061C4.35716 4.11378 4.25426 4.36221 4.25426 4.62126C4.25426 4.8803 4.35716 5.12873 4.54033 5.31191C4.72351 5.49508 4.97194 5.59798 5.23098 5.59798Z"
                                         stroke="black"
                                         strokeLinecap="round"
-                                        stroke-linejoin="round"
+                                        strokeLinejoin="round"
                                       ></path>
                                     </g>
                                     <defs>
@@ -2902,13 +2902,13 @@ function Properties() {
                                           d="M5.48218 12.4697H8.78833C11.5435 12.4697 12.6455 11.3677 12.6455 8.61255V5.3064C12.6455 2.55127 11.5435 1.44922 8.78833 1.44922H5.48218C2.72705 1.44922 1.625 2.55127 1.625 5.3064V8.61255C1.625 11.3677 2.72705 12.4697 5.48218 12.4697Z"
                                           stroke="black"
                                           strokeLinecap="round"
-                                          stroke-linejoin="round"
+                                          strokeLinejoin="round"
                                         ></path>
                                         <path
                                           d="M4.79297 6.96175L6.35237 8.52115L9.47668 5.40234"
                                           stroke="black"
                                           strokeLinecap="round"
-                                          stroke-linejoin="round"
+                                          strokeLinejoin="round"
                                         ></path>
                                       </g>
                                       <defs>
@@ -2933,7 +2933,7 @@ function Properties() {
                                     fill="none"
                                     xmlns="http://www.w3.org/2000/svg"
                                   >
-                                    <g id="SVGRepo_bgCarrier" stroke-width="0">
+                                    <g id="SVGRepo_bgCarrier" strokeWidth="0">
                                       <rect
                                         x="-2.4"
                                         y="-2.4"
@@ -2941,13 +2941,13 @@ function Properties() {
                                         height="28.80"
                                         rx="14.4"
                                         fill="#ffffff"
-                                        stroke-width="0"
+                                        strokeWidth="0"
                                       ></rect>
                                     </g>
                                     <g
                                       id="SVGRepo_tracerCarrier"
                                       strokeLinecap="round"
-                                      stroke-linejoin="round"
+                                      strokeLinejoin="round"
                                     ></g>
                                     <g id="SVGRepo_iconCarrier">
                                       <path
@@ -3130,9 +3130,9 @@ function Properties() {
                                         <path
                                           d="M9.2473 16.2664L12.1683 13.461M7.41227 9.94896L14.2661 7.8171C17.3408 6.86076 18.9721 8.55928 17.8924 11.5928L15.4855 18.355C13.8659 22.9053 11.3687 22.8496 9.93938 18.243L9.51123 16.8552C9.40165 16.5029 9.02241 16.108 8.67482 15.9843L7.30025 15.4951C2.75517 13.8809 2.80572 11.3783 7.41227 9.94896Z"
                                           stroke="#595959"
-                                          stroke-width="1.5"
+                                          strokeWidth="1.5"
                                           strokeLinecap="round"
-                                          stroke-linejoin="round"
+                                          strokeLinejoin="round"
                                         ></path>
                                       </g>
                                     </svg>
@@ -3281,13 +3281,13 @@ function Properties() {
                                         d="M5.23104 11.4587H8.16121C10.603 11.4587 11.5798 10.4819 11.5798 8.04012V5.10994C11.5798 2.66813 10.603 1.69141 8.16121 1.69141H5.23104C2.78923 1.69141 1.8125 2.66813 1.8125 5.10994V8.04012C1.8125 10.4819 2.78923 11.4587 5.23104 11.4587Z"
                                         stroke="black"
                                         strokeLinecap="round"
-                                        stroke-linejoin="round"
+                                        strokeLinejoin="round"
                                       ></path>
                                       <path
                                         d="M2.13965 9.96883L4.54728 8.35235C4.93308 8.09352 5.48982 8.12282 5.83655 8.42072L5.99771 8.56234C6.37864 8.88955 6.99397 8.88955 7.3749 8.56234L9.40648 6.81889C9.78741 6.49169 10.4027 6.49169 10.7837 6.81889L11.5797 7.5026M5.23098 5.59798C5.49003 5.59798 5.73846 5.49508 5.92163 5.31191C6.1048 5.12873 6.20771 4.8803 6.20771 4.62126C6.20771 4.36221 6.1048 4.11378 5.92163 3.93061C5.73846 3.74744 5.49003 3.64453 5.23098 3.64453C4.97194 3.64453 4.72351 3.74744 4.54033 3.93061C4.35716 4.11378 4.25426 4.36221 4.25426 4.62126C4.25426 4.8803 4.35716 5.12873 4.54033 5.31191C4.72351 5.49508 4.97194 5.59798 5.23098 5.59798Z"
                                         stroke="black"
                                         strokeLinecap="round"
-                                        stroke-linejoin="round"
+                                        strokeLinejoin="round"
                                       ></path>
                                     </g>
                                     <defs>
@@ -3317,13 +3317,13 @@ function Properties() {
                                           d="M5.48218 12.4697H8.78833C11.5435 12.4697 12.6455 11.3677 12.6455 8.61255V5.3064C12.6455 2.55127 11.5435 1.44922 8.78833 1.44922H5.48218C2.72705 1.44922 1.625 2.55127 1.625 5.3064V8.61255C1.625 11.3677 2.72705 12.4697 5.48218 12.4697Z"
                                           stroke="black"
                                           strokeLinecap="round"
-                                          stroke-linejoin="round"
+                                          strokeLinejoin="round"
                                         ></path>
                                         <path
                                           d="M4.79297 6.96175L6.35237 8.52115L9.47668 5.40234"
                                           stroke="black"
                                           strokeLinecap="round"
-                                          stroke-linejoin="round"
+                                          strokeLinejoin="round"
                                         ></path>
                                       </g>
                                       <defs>
@@ -3348,7 +3348,7 @@ function Properties() {
                                     fill="none"
                                     xmlns="http://www.w3.org/2000/svg"
                                   >
-                                    <g id="SVGRepo_bgCarrier" stroke-width="0">
+                                    <g id="SVGRepo_bgCarrier" strokeWidth="0">
                                       <rect
                                         x="-2.4"
                                         y="-2.4"
@@ -3356,13 +3356,13 @@ function Properties() {
                                         height="28.80"
                                         rx="14.4"
                                         fill="#ffffff"
-                                        stroke-width="0"
+                                        strokeWidth="0"
                                       ></rect>
                                     </g>
                                     <g
                                       id="SVGRepo_tracerCarrier"
                                       strokeLinecap="round"
-                                      stroke-linejoin="round"
+                                      strokeLinejoin="round"
                                     ></g>
                                     <g id="SVGRepo_iconCarrier">
                                       <path
@@ -3545,9 +3545,9 @@ function Properties() {
                                         <path
                                           d="M9.2473 16.2664L12.1683 13.461M7.41227 9.94896L14.2661 7.8171C17.3408 6.86076 18.9721 8.55928 17.8924 11.5928L15.4855 18.355C13.8659 22.9053 11.3687 22.8496 9.93938 18.243L9.51123 16.8552C9.40165 16.5029 9.02241 16.108 8.67482 15.9843L7.30025 15.4951C2.75517 13.8809 2.80572 11.3783 7.41227 9.94896Z"
                                           stroke="#595959"
-                                          stroke-width="1.5"
+                                          strokeWidth="1.5"
                                           strokeLinecap="round"
-                                          stroke-linejoin="round"
+                                          strokeLinejoin="round"
                                         ></path>
                                       </g>
                                     </svg>
@@ -3696,13 +3696,13 @@ function Properties() {
                                         d="M5.23104 11.4587H8.16121C10.603 11.4587 11.5798 10.4819 11.5798 8.04012V5.10994C11.5798 2.66813 10.603 1.69141 8.16121 1.69141H5.23104C2.78923 1.69141 1.8125 2.66813 1.8125 5.10994V8.04012C1.8125 10.4819 2.78923 11.4587 5.23104 11.4587Z"
                                         stroke="black"
                                         strokeLinecap="round"
-                                        stroke-linejoin="round"
+                                        strokeLinejoin="round"
                                       ></path>
                                       <path
                                         d="M2.13965 9.96883L4.54728 8.35235C4.93308 8.09352 5.48982 8.12282 5.83655 8.42072L5.99771 8.56234C6.37864 8.88955 6.99397 8.88955 7.3749 8.56234L9.40648 6.81889C9.78741 6.49169 10.4027 6.49169 10.7837 6.81889L11.5797 7.5026M5.23098 5.59798C5.49003 5.59798 5.73846 5.49508 5.92163 5.31191C6.1048 5.12873 6.20771 4.8803 6.20771 4.62126C6.20771 4.36221 6.1048 4.11378 5.92163 3.93061C5.73846 3.74744 5.49003 3.64453 5.23098 3.64453C4.97194 3.64453 4.72351 3.74744 4.54033 3.93061C4.35716 4.11378 4.25426 4.36221 4.25426 4.62126C4.25426 4.8803 4.35716 5.12873 4.54033 5.31191C4.72351 5.49508 4.97194 5.59798 5.23098 5.59798Z"
                                         stroke="black"
                                         strokeLinecap="round"
-                                        stroke-linejoin="round"
+                                        strokeLinejoin="round"
                                       ></path>
                                     </g>
                                     <defs>
@@ -3732,13 +3732,13 @@ function Properties() {
                                           d="M5.48218 12.4697H8.78833C11.5435 12.4697 12.6455 11.3677 12.6455 8.61255V5.3064C12.6455 2.55127 11.5435 1.44922 8.78833 1.44922H5.48218C2.72705 1.44922 1.625 2.55127 1.625 5.3064V8.61255C1.625 11.3677 2.72705 12.4697 5.48218 12.4697Z"
                                           stroke="black"
                                           strokeLinecap="round"
-                                          stroke-linejoin="round"
+                                          strokeLinejoin="round"
                                         ></path>
                                         <path
                                           d="M4.79297 6.96175L6.35237 8.52115L9.47668 5.40234"
                                           stroke="black"
                                           strokeLinecap="round"
-                                          stroke-linejoin="round"
+                                          strokeLinejoin="round"
                                         ></path>
                                       </g>
                                       <defs>
@@ -3763,7 +3763,7 @@ function Properties() {
                                     fill="none"
                                     xmlns="http://www.w3.org/2000/svg"
                                   >
-                                    <g id="SVGRepo_bgCarrier" stroke-width="0">
+                                    <g id="SVGRepo_bgCarrier" strokeWidth="0">
                                       <rect
                                         x="-2.4"
                                         y="-2.4"
@@ -3771,13 +3771,13 @@ function Properties() {
                                         height="28.80"
                                         rx="14.4"
                                         fill="#ffffff"
-                                        stroke-width="0"
+                                        strokeWidth="0"
                                       ></rect>
                                     </g>
                                     <g
                                       id="SVGRepo_tracerCarrier"
                                       strokeLinecap="round"
-                                      stroke-linejoin="round"
+                                      strokeLinejoin="round"
                                     ></g>
                                     <g id="SVGRepo_iconCarrier">
                                       <path
@@ -3960,9 +3960,9 @@ function Properties() {
                                         <path
                                           d="M9.2473 16.2664L12.1683 13.461M7.41227 9.94896L14.2661 7.8171C17.3408 6.86076 18.9721 8.55928 17.8924 11.5928L15.4855 18.355C13.8659 22.9053 11.3687 22.8496 9.93938 18.243L9.51123 16.8552C9.40165 16.5029 9.02241 16.108 8.67482 15.9843L7.30025 15.4951C2.75517 13.8809 2.80572 11.3783 7.41227 9.94896Z"
                                           stroke="#595959"
-                                          stroke-width="1.5"
+                                          strokeWidth="1.5"
                                           strokeLinecap="round"
-                                          stroke-linejoin="round"
+                                          strokeLinejoin="round"
                                         ></path>
                                       </g>
                                     </svg>
@@ -4111,13 +4111,13 @@ function Properties() {
                                         d="M5.23104 11.4587H8.16121C10.603 11.4587 11.5798 10.4819 11.5798 8.04012V5.10994C11.5798 2.66813 10.603 1.69141 8.16121 1.69141H5.23104C2.78923 1.69141 1.8125 2.66813 1.8125 5.10994V8.04012C1.8125 10.4819 2.78923 11.4587 5.23104 11.4587Z"
                                         stroke="black"
                                         strokeLinecap="round"
-                                        stroke-linejoin="round"
+                                        strokeLinejoin="round"
                                       ></path>
                                       <path
                                         d="M2.13965 9.96883L4.54728 8.35235C4.93308 8.09352 5.48982 8.12282 5.83655 8.42072L5.99771 8.56234C6.37864 8.88955 6.99397 8.88955 7.3749 8.56234L9.40648 6.81889C9.78741 6.49169 10.4027 6.49169 10.7837 6.81889L11.5797 7.5026M5.23098 5.59798C5.49003 5.59798 5.73846 5.49508 5.92163 5.31191C6.1048 5.12873 6.20771 4.8803 6.20771 4.62126C6.20771 4.36221 6.1048 4.11378 5.92163 3.93061C5.73846 3.74744 5.49003 3.64453 5.23098 3.64453C4.97194 3.64453 4.72351 3.74744 4.54033 3.93061C4.35716 4.11378 4.25426 4.36221 4.25426 4.62126C4.25426 4.8803 4.35716 5.12873 4.54033 5.31191C4.72351 5.49508 4.97194 5.59798 5.23098 5.59798Z"
                                         stroke="black"
                                         strokeLinecap="round"
-                                        stroke-linejoin="round"
+                                        strokeLinejoin="round"
                                       ></path>
                                     </g>
                                     <defs>
@@ -4147,13 +4147,13 @@ function Properties() {
                                           d="M5.48218 12.4697H8.78833C11.5435 12.4697 12.6455 11.3677 12.6455 8.61255V5.3064C12.6455 2.55127 11.5435 1.44922 8.78833 1.44922H5.48218C2.72705 1.44922 1.625 2.55127 1.625 5.3064V8.61255C1.625 11.3677 2.72705 12.4697 5.48218 12.4697Z"
                                           stroke="black"
                                           strokeLinecap="round"
-                                          stroke-linejoin="round"
+                                          strokeLinejoin="round"
                                         ></path>
                                         <path
                                           d="M4.79297 6.96175L6.35237 8.52115L9.47668 5.40234"
                                           stroke="black"
                                           strokeLinecap="round"
-                                          stroke-linejoin="round"
+                                          strokeLinejoin="round"
                                         ></path>
                                       </g>
                                       <defs>
@@ -4178,7 +4178,7 @@ function Properties() {
                                     fill="none"
                                     xmlns="http://www.w3.org/2000/svg"
                                   >
-                                    <g id="SVGRepo_bgCarrier" stroke-width="0">
+                                    <g id="SVGRepo_bgCarrier" strokeWidth="0">
                                       <rect
                                         x="-2.4"
                                         y="-2.4"
@@ -4186,13 +4186,13 @@ function Properties() {
                                         height="28.80"
                                         rx="14.4"
                                         fill="#ffffff"
-                                        stroke-width="0"
+                                        strokeWidth="0"
                                       ></rect>
                                     </g>
                                     <g
                                       id="SVGRepo_tracerCarrier"
                                       strokeLinecap="round"
-                                      stroke-linejoin="round"
+                                      strokeLinejoin="round"
                                     ></g>
                                     <g id="SVGRepo_iconCarrier">
                                       <path
@@ -4375,9 +4375,9 @@ function Properties() {
                                         <path
                                           d="M9.2473 16.2664L12.1683 13.461M7.41227 9.94896L14.2661 7.8171C17.3408 6.86076 18.9721 8.55928 17.8924 11.5928L15.4855 18.355C13.8659 22.9053 11.3687 22.8496 9.93938 18.243L9.51123 16.8552C9.40165 16.5029 9.02241 16.108 8.67482 15.9843L7.30025 15.4951C2.75517 13.8809 2.80572 11.3783 7.41227 9.94896Z"
                                           stroke="#595959"
-                                          stroke-width="1.5"
+                                          strokeWidth="1.5"
                                           strokeLinecap="round"
-                                          stroke-linejoin="round"
+                                          strokeLinejoin="round"
                                         ></path>
                                       </g>
                                     </svg>
@@ -4526,13 +4526,13 @@ function Properties() {
                                         d="M5.23104 11.4587H8.16121C10.603 11.4587 11.5798 10.4819 11.5798 8.04012V5.10994C11.5798 2.66813 10.603 1.69141 8.16121 1.69141H5.23104C2.78923 1.69141 1.8125 2.66813 1.8125 5.10994V8.04012C1.8125 10.4819 2.78923 11.4587 5.23104 11.4587Z"
                                         stroke="black"
                                         strokeLinecap="round"
-                                        stroke-linejoin="round"
+                                        strokeLinejoin="round"
                                       ></path>
                                       <path
                                         d="M2.13965 9.96883L4.54728 8.35235C4.93308 8.09352 5.48982 8.12282 5.83655 8.42072L5.99771 8.56234C6.37864 8.88955 6.99397 8.88955 7.3749 8.56234L9.40648 6.81889C9.78741 6.49169 10.4027 6.49169 10.7837 6.81889L11.5797 7.5026M5.23098 5.59798C5.49003 5.59798 5.73846 5.49508 5.92163 5.31191C6.1048 5.12873 6.20771 4.8803 6.20771 4.62126C6.20771 4.36221 6.1048 4.11378 5.92163 3.93061C5.73846 3.74744 5.49003 3.64453 5.23098 3.64453C4.97194 3.64453 4.72351 3.74744 4.54033 3.93061C4.35716 4.11378 4.25426 4.36221 4.25426 4.62126C4.25426 4.8803 4.35716 5.12873 4.54033 5.31191C4.72351 5.49508 4.97194 5.59798 5.23098 5.59798Z"
                                         stroke="black"
                                         strokeLinecap="round"
-                                        stroke-linejoin="round"
+                                        strokeLinejoin="round"
                                       ></path>
                                     </g>
                                     <defs>
@@ -4562,13 +4562,13 @@ function Properties() {
                                           d="M5.48218 12.4697H8.78833C11.5435 12.4697 12.6455 11.3677 12.6455 8.61255V5.3064C12.6455 2.55127 11.5435 1.44922 8.78833 1.44922H5.48218C2.72705 1.44922 1.625 2.55127 1.625 5.3064V8.61255C1.625 11.3677 2.72705 12.4697 5.48218 12.4697Z"
                                           stroke="black"
                                           strokeLinecap="round"
-                                          stroke-linejoin="round"
+                                          strokeLinejoin="round"
                                         ></path>
                                         <path
                                           d="M4.79297 6.96175L6.35237 8.52115L9.47668 5.40234"
                                           stroke="black"
                                           strokeLinecap="round"
-                                          stroke-linejoin="round"
+                                          strokeLinejoin="round"
                                         ></path>
                                       </g>
                                       <defs>
@@ -4593,7 +4593,7 @@ function Properties() {
                                     fill="none"
                                     xmlns="http://www.w3.org/2000/svg"
                                   >
-                                    <g id="SVGRepo_bgCarrier" stroke-width="0">
+                                    <g id="SVGRepo_bgCarrier" strokeWidth="0">
                                       <rect
                                         x="-2.4"
                                         y="-2.4"
@@ -4601,13 +4601,13 @@ function Properties() {
                                         height="28.80"
                                         rx="14.4"
                                         fill="#ffffff"
-                                        stroke-width="0"
+                                        strokeWidth="0"
                                       ></rect>
                                     </g>
                                     <g
                                       id="SVGRepo_tracerCarrier"
                                       strokeLinecap="round"
-                                      stroke-linejoin="round"
+                                      strokeLinejoin="round"
                                     ></g>
                                     <g id="SVGRepo_iconCarrier">
                                       <path
@@ -4790,9 +4790,9 @@ function Properties() {
                                         <path
                                           d="M9.2473 16.2664L12.1683 13.461M7.41227 9.94896L14.2661 7.8171C17.3408 6.86076 18.9721 8.55928 17.8924 11.5928L15.4855 18.355C13.8659 22.9053 11.3687 22.8496 9.93938 18.243L9.51123 16.8552C9.40165 16.5029 9.02241 16.108 8.67482 15.9843L7.30025 15.4951C2.75517 13.8809 2.80572 11.3783 7.41227 9.94896Z"
                                           stroke="#595959"
-                                          stroke-width="1.5"
+                                          strokeWidth="1.5"
                                           strokeLinecap="round"
-                                          stroke-linejoin="round"
+                                          strokeLinejoin="round"
                                         ></path>
                                       </g>
                                     </svg>
@@ -4941,13 +4941,13 @@ function Properties() {
                                         d="M5.23104 11.4587H8.16121C10.603 11.4587 11.5798 10.4819 11.5798 8.04012V5.10994C11.5798 2.66813 10.603 1.69141 8.16121 1.69141H5.23104C2.78923 1.69141 1.8125 2.66813 1.8125 5.10994V8.04012C1.8125 10.4819 2.78923 11.4587 5.23104 11.4587Z"
                                         stroke="black"
                                         strokeLinecap="round"
-                                        stroke-linejoin="round"
+                                        strokeLinejoin="round"
                                       ></path>
                                       <path
                                         d="M2.13965 9.96883L4.54728 8.35235C4.93308 8.09352 5.48982 8.12282 5.83655 8.42072L5.99771 8.56234C6.37864 8.88955 6.99397 8.88955 7.3749 8.56234L9.40648 6.81889C9.78741 6.49169 10.4027 6.49169 10.7837 6.81889L11.5797 7.5026M5.23098 5.59798C5.49003 5.59798 5.73846 5.49508 5.92163 5.31191C6.1048 5.12873 6.20771 4.8803 6.20771 4.62126C6.20771 4.36221 6.1048 4.11378 5.92163 3.93061C5.73846 3.74744 5.49003 3.64453 5.23098 3.64453C4.97194 3.64453 4.72351 3.74744 4.54033 3.93061C4.35716 4.11378 4.25426 4.36221 4.25426 4.62126C4.25426 4.8803 4.35716 5.12873 4.54033 5.31191C4.72351 5.49508 4.97194 5.59798 5.23098 5.59798Z"
                                         stroke="black"
                                         strokeLinecap="round"
-                                        stroke-linejoin="round"
+                                        strokeLinejoin="round"
                                       ></path>
                                     </g>
                                     <defs>
@@ -4977,13 +4977,13 @@ function Properties() {
                                           d="M5.48218 12.4697H8.78833C11.5435 12.4697 12.6455 11.3677 12.6455 8.61255V5.3064C12.6455 2.55127 11.5435 1.44922 8.78833 1.44922H5.48218C2.72705 1.44922 1.625 2.55127 1.625 5.3064V8.61255C1.625 11.3677 2.72705 12.4697 5.48218 12.4697Z"
                                           stroke="black"
                                           strokeLinecap="round"
-                                          stroke-linejoin="round"
+                                          strokeLinejoin="round"
                                         ></path>
                                         <path
                                           d="M4.79297 6.96175L6.35237 8.52115L9.47668 5.40234"
                                           stroke="black"
                                           strokeLinecap="round"
-                                          stroke-linejoin="round"
+                                          strokeLinejoin="round"
                                         ></path>
                                       </g>
                                       <defs>
@@ -5008,7 +5008,7 @@ function Properties() {
                                     fill="none"
                                     xmlns="http://www.w3.org/2000/svg"
                                   >
-                                    <g id="SVGRepo_bgCarrier" stroke-width="0">
+                                    <g id="SVGRepo_bgCarrier" strokeWidth="0">
                                       <rect
                                         x="-2.4"
                                         y="-2.4"
@@ -5016,13 +5016,13 @@ function Properties() {
                                         height="28.80"
                                         rx="14.4"
                                         fill="#ffffff"
-                                        stroke-width="0"
+                                        strokeWidth="0"
                                       ></rect>
                                     </g>
                                     <g
                                       id="SVGRepo_tracerCarrier"
                                       strokeLinecap="round"
-                                      stroke-linejoin="round"
+                                      strokeLinejoin="round"
                                     ></g>
                                     <g id="SVGRepo_iconCarrier">
                                       <path
@@ -5205,9 +5205,9 @@ function Properties() {
                                         <path
                                           d="M9.2473 16.2664L12.1683 13.461M7.41227 9.94896L14.2661 7.8171C17.3408 6.86076 18.9721 8.55928 17.8924 11.5928L15.4855 18.355C13.8659 22.9053 11.3687 22.8496 9.93938 18.243L9.51123 16.8552C9.40165 16.5029 9.02241 16.108 8.67482 15.9843L7.30025 15.4951C2.75517 13.8809 2.80572 11.3783 7.41227 9.94896Z"
                                           stroke="#595959"
-                                          stroke-width="1.5"
+                                          strokeWidth="1.5"
                                           strokeLinecap="round"
-                                          stroke-linejoin="round"
+                                          strokeLinejoin="round"
                                         ></path>
                                       </g>
                                     </svg>
@@ -5356,13 +5356,13 @@ function Properties() {
                                         d="M5.23104 11.4587H8.16121C10.603 11.4587 11.5798 10.4819 11.5798 8.04012V5.10994C11.5798 2.66813 10.603 1.69141 8.16121 1.69141H5.23104C2.78923 1.69141 1.8125 2.66813 1.8125 5.10994V8.04012C1.8125 10.4819 2.78923 11.4587 5.23104 11.4587Z"
                                         stroke="black"
                                         strokeLinecap="round"
-                                        stroke-linejoin="round"
+                                        strokeLinejoin="round"
                                       ></path>
                                       <path
                                         d="M2.13965 9.96883L4.54728 8.35235C4.93308 8.09352 5.48982 8.12282 5.83655 8.42072L5.99771 8.56234C6.37864 8.88955 6.99397 8.88955 7.3749 8.56234L9.40648 6.81889C9.78741 6.49169 10.4027 6.49169 10.7837 6.81889L11.5797 7.5026M5.23098 5.59798C5.49003 5.59798 5.73846 5.49508 5.92163 5.31191C6.1048 5.12873 6.20771 4.8803 6.20771 4.62126C6.20771 4.36221 6.1048 4.11378 5.92163 3.93061C5.73846 3.74744 5.49003 3.64453 5.23098 3.64453C4.97194 3.64453 4.72351 3.74744 4.54033 3.93061C4.35716 4.11378 4.25426 4.36221 4.25426 4.62126C4.25426 4.8803 4.35716 5.12873 4.54033 5.31191C4.72351 5.49508 4.97194 5.59798 5.23098 5.59798Z"
                                         stroke="black"
                                         strokeLinecap="round"
-                                        stroke-linejoin="round"
+                                        strokeLinejoin="round"
                                       ></path>
                                     </g>
                                     <defs>
@@ -5392,13 +5392,13 @@ function Properties() {
                                           d="M5.48218 12.4697H8.78833C11.5435 12.4697 12.6455 11.3677 12.6455 8.61255V5.3064C12.6455 2.55127 11.5435 1.44922 8.78833 1.44922H5.48218C2.72705 1.44922 1.625 2.55127 1.625 5.3064V8.61255C1.625 11.3677 2.72705 12.4697 5.48218 12.4697Z"
                                           stroke="black"
                                           strokeLinecap="round"
-                                          stroke-linejoin="round"
+                                          strokeLinejoin="round"
                                         ></path>
                                         <path
                                           d="M4.79297 6.96175L6.35237 8.52115L9.47668 5.40234"
                                           stroke="black"
                                           strokeLinecap="round"
-                                          stroke-linejoin="round"
+                                          strokeLinejoin="round"
                                         ></path>
                                       </g>
                                       <defs>
@@ -5423,7 +5423,7 @@ function Properties() {
                                     fill="none"
                                     xmlns="http://www.w3.org/2000/svg"
                                   >
-                                    <g id="SVGRepo_bgCarrier" stroke-width="0">
+                                    <g id="SVGRepo_bgCarrier" strokeWidth="0">
                                       <rect
                                         x="-2.4"
                                         y="-2.4"
@@ -5431,13 +5431,13 @@ function Properties() {
                                         height="28.80"
                                         rx="14.4"
                                         fill="#ffffff"
-                                        stroke-width="0"
+                                        strokeWidth="0"
                                       ></rect>
                                     </g>
                                     <g
                                       id="SVGRepo_tracerCarrier"
                                       strokeLinecap="round"
-                                      stroke-linejoin="round"
+                                      strokeLinejoin="round"
                                     ></g>
                                     <g id="SVGRepo_iconCarrier">
                                       <path
@@ -5620,9 +5620,9 @@ function Properties() {
                                         <path
                                           d="M9.2473 16.2664L12.1683 13.461M7.41227 9.94896L14.2661 7.8171C17.3408 6.86076 18.9721 8.55928 17.8924 11.5928L15.4855 18.355C13.8659 22.9053 11.3687 22.8496 9.93938 18.243L9.51123 16.8552C9.40165 16.5029 9.02241 16.108 8.67482 15.9843L7.30025 15.4951C2.75517 13.8809 2.80572 11.3783 7.41227 9.94896Z"
                                           stroke="#595959"
-                                          stroke-width="1.5"
+                                          strokeWidth="1.5"
                                           strokeLinecap="round"
-                                          stroke-linejoin="round"
+                                          strokeLinejoin="round"
                                         ></path>
                                       </g>
                                     </svg>
@@ -5638,7 +5638,7 @@ function Properties() {
                         id="nav-profile"
                         role="tabpanel"
                         aria-labelledby="nav-profile-tab"
-                        tabindex="0"
+                        tabIndex="0"
                       >
                         <div className="row pb-3">
                           <div className="col-12 col-sm-6 col-xl-4 col-xxxl-3 mb-3">
@@ -5663,13 +5663,13 @@ function Properties() {
                                         d="M5.23104 11.4587H8.16121C10.603 11.4587 11.5798 10.4819 11.5798 8.04012V5.10994C11.5798 2.66813 10.603 1.69141 8.16121 1.69141H5.23104C2.78923 1.69141 1.8125 2.66813 1.8125 5.10994V8.04012C1.8125 10.4819 2.78923 11.4587 5.23104 11.4587Z"
                                         stroke="black"
                                         strokeLinecap="round"
-                                        stroke-linejoin="round"
+                                        strokeLinejoin="round"
                                       ></path>
                                       <path
                                         d="M2.13965 9.96883L4.54728 8.35235C4.93308 8.09352 5.48982 8.12282 5.83655 8.42072L5.99771 8.56234C6.37864 8.88955 6.99397 8.88955 7.3749 8.56234L9.40648 6.81889C9.78741 6.49169 10.4027 6.49169 10.7837 6.81889L11.5797 7.5026M5.23098 5.59798C5.49003 5.59798 5.73846 5.49508 5.92163 5.31191C6.1048 5.12873 6.20771 4.8803 6.20771 4.62126C6.20771 4.36221 6.1048 4.11378 5.92163 3.93061C5.73846 3.74744 5.49003 3.64453 5.23098 3.64453C4.97194 3.64453 4.72351 3.74744 4.54033 3.93061C4.35716 4.11378 4.25426 4.36221 4.25426 4.62126C4.25426 4.8803 4.35716 5.12873 4.54033 5.31191C4.72351 5.49508 4.97194 5.59798 5.23098 5.59798Z"
                                         stroke="black"
                                         strokeLinecap="round"
-                                        stroke-linejoin="round"
+                                        strokeLinejoin="round"
                                       ></path>
                                     </g>
                                     <defs>
@@ -5699,13 +5699,13 @@ function Properties() {
                                           d="M5.48218 12.4697H8.78833C11.5435 12.4697 12.6455 11.3677 12.6455 8.61255V5.3064C12.6455 2.55127 11.5435 1.44922 8.78833 1.44922H5.48218C2.72705 1.44922 1.625 2.55127 1.625 5.3064V8.61255C1.625 11.3677 2.72705 12.4697 5.48218 12.4697Z"
                                           stroke="black"
                                           strokeLinecap="round"
-                                          stroke-linejoin="round"
+                                          strokeLinejoin="round"
                                         ></path>
                                         <path
                                           d="M4.79297 6.96175L6.35237 8.52115L9.47668 5.40234"
                                           stroke="black"
                                           strokeLinecap="round"
-                                          stroke-linejoin="round"
+                                          strokeLinejoin="round"
                                         ></path>
                                       </g>
                                       <defs>
@@ -5733,7 +5733,7 @@ function Properties() {
                                     fill="none"
                                     xmlns="http://www.w3.org/2000/svg"
                                   >
-                                    <g id="SVGRepo_bgCarrier" stroke-width="0">
+                                    <g id="SVGRepo_bgCarrier" strokeWidth="0">
                                       <rect
                                         x="-2.4"
                                         y="-2.4"
@@ -5741,13 +5741,13 @@ function Properties() {
                                         height="28.80"
                                         rx="14.4"
                                         fill="#ffffff"
-                                        stroke-width="0"
+                                        strokeWidth="0"
                                       ></rect>
                                     </g>
                                     <g
                                       id="SVGRepo_tracerCarrier"
                                       strokeLinecap="round"
-                                      stroke-linejoin="round"
+                                      strokeLinejoin="round"
                                     ></g>
                                     <g id="SVGRepo_iconCarrier">
                                       <path
@@ -5844,7 +5844,7 @@ function Properties() {
                                           <path
                                             d="M13.7645 11.4562C13.7645 11.6812 13.7145 11.9125 13.6082 12.1375C13.502 12.3625 13.3645 12.575 13.1832 12.775C12.877 13.1125 12.5395 13.3563 12.1582 13.5125C11.7832 13.6688 11.377 13.75 10.9395 13.75C10.302 13.75 9.6207 13.6 8.90195 13.2938C8.1832 12.9875 7.46445 12.575 6.75195 12.0563C6.02577 11.5251 5.34051 10.9401 4.70195 10.3062C4.06993 9.67001 3.48702 8.9868 2.9582 8.2625C2.4457 7.55 2.0332 6.8375 1.7332 6.13125C1.4332 5.41875 1.2832 4.7375 1.2832 4.0875C1.2832 3.6625 1.3582 3.25625 1.5082 2.88125C1.6582 2.5 1.8957 2.15 2.22695 1.8375C2.62695 1.44375 3.06445 1.25 3.52695 1.25C3.70195 1.25 3.87695 1.2875 4.0332 1.3625C4.1957 1.4375 4.33945 1.55 4.45195 1.7125L5.90195 3.75625C6.01445 3.9125 6.0957 4.05625 6.15195 4.19375C6.2082 4.325 6.23945 4.45625 6.23945 4.575C6.23945 4.725 6.1957 4.875 6.1082 5.01875C6.02695 5.1625 5.9082 5.3125 5.7582 5.4625L5.2832 5.95625C5.21445 6.025 5.1832 6.10625 5.1832 6.20625C5.1832 6.25625 5.18945 6.3 5.20195 6.35C5.2207 6.4 5.23945 6.4375 5.25195 6.475C5.36445 6.68125 5.5582 6.95 5.8332 7.275C6.11445 7.6 6.41445 7.93125 6.73945 8.2625C7.07695 8.59375 7.40195 8.9 7.7332 9.18125C8.0582 9.45625 8.32695 9.64375 8.53945 9.75625C8.5707 9.76875 8.6082 9.7875 8.65195 9.80625C8.70195 9.825 8.75195 9.83125 8.8082 9.83125C8.91445 9.83125 8.9957 9.79375 9.06445 9.725L9.53945 9.25625C9.6957 9.1 9.8457 8.98125 9.98945 8.90625C10.1332 8.81875 10.277 8.775 10.4332 8.775C10.552 8.775 10.677 8.8 10.8145 8.85625C10.952 8.9125 11.0957 8.99375 11.252 9.1L13.3207 10.5687C13.4832 10.6812 13.5957 10.8125 13.6645 10.9687C13.727 11.125 13.7645 11.2812 13.7645 11.4562Z"
                                             stroke="#AF824A"
-                                            stroke-width="1.5"
+                                            strokeWidth="1.5"
                                             strokeMiterlimit="10"
                                           ></path>
                                         </g>
@@ -5914,13 +5914,13 @@ function Properties() {
                                         d="M5.23104 11.4587H8.16121C10.603 11.4587 11.5798 10.4819 11.5798 8.04012V5.10994C11.5798 2.66813 10.603 1.69141 8.16121 1.69141H5.23104C2.78923 1.69141 1.8125 2.66813 1.8125 5.10994V8.04012C1.8125 10.4819 2.78923 11.4587 5.23104 11.4587Z"
                                         stroke="black"
                                         strokeLinecap="round"
-                                        stroke-linejoin="round"
+                                        strokeLinejoin="round"
                                       ></path>
                                       <path
                                         d="M2.13965 9.96883L4.54728 8.35235C4.93308 8.09352 5.48982 8.12282 5.83655 8.42072L5.99771 8.56234C6.37864 8.88955 6.99397 8.88955 7.3749 8.56234L9.40648 6.81889C9.78741 6.49169 10.4027 6.49169 10.7837 6.81889L11.5797 7.5026M5.23098 5.59798C5.49003 5.59798 5.73846 5.49508 5.92163 5.31191C6.1048 5.12873 6.20771 4.8803 6.20771 4.62126C6.20771 4.36221 6.1048 4.11378 5.92163 3.93061C5.73846 3.74744 5.49003 3.64453 5.23098 3.64453C4.97194 3.64453 4.72351 3.74744 4.54033 3.93061C4.35716 4.11378 4.25426 4.36221 4.25426 4.62126C4.25426 4.8803 4.35716 5.12873 4.54033 5.31191C4.72351 5.49508 4.97194 5.59798 5.23098 5.59798Z"
                                         stroke="black"
                                         strokeLinecap="round"
-                                        stroke-linejoin="round"
+                                        strokeLinejoin="round"
                                       ></path>
                                     </g>
                                     <defs>
@@ -5950,13 +5950,13 @@ function Properties() {
                                           d="M5.48218 12.4697H8.78833C11.5435 12.4697 12.6455 11.3677 12.6455 8.61255V5.3064C12.6455 2.55127 11.5435 1.44922 8.78833 1.44922H5.48218C2.72705 1.44922 1.625 2.55127 1.625 5.3064V8.61255C1.625 11.3677 2.72705 12.4697 5.48218 12.4697Z"
                                           stroke="black"
                                           strokeLinecap="round"
-                                          stroke-linejoin="round"
+                                          strokeLinejoin="round"
                                         ></path>
                                         <path
                                           d="M4.79297 6.96175L6.35237 8.52115L9.47668 5.40234"
                                           stroke="black"
                                           strokeLinecap="round"
-                                          stroke-linejoin="round"
+                                          strokeLinejoin="round"
                                         ></path>
                                       </g>
                                       <defs>
@@ -5984,7 +5984,7 @@ function Properties() {
                                     fill="none"
                                     xmlns="http://www.w3.org/2000/svg"
                                   >
-                                    <g id="SVGRepo_bgCarrier" stroke-width="0">
+                                    <g id="SVGRepo_bgCarrier" strokeWidth="0">
                                       <rect
                                         x="-2.4"
                                         y="-2.4"
@@ -5992,13 +5992,13 @@ function Properties() {
                                         height="28.80"
                                         rx="14.4"
                                         fill="#ffffff"
-                                        stroke-width="0"
+                                        strokeWidth="0"
                                       ></rect>
                                     </g>
                                     <g
                                       id="SVGRepo_tracerCarrier"
                                       strokeLinecap="round"
-                                      stroke-linejoin="round"
+                                      strokeLinejoin="round"
                                     ></g>
                                     <g id="SVGRepo_iconCarrier">
                                       <path
@@ -6095,7 +6095,7 @@ function Properties() {
                                           <path
                                             d="M13.7645 11.4562C13.7645 11.6812 13.7145 11.9125 13.6082 12.1375C13.502 12.3625 13.3645 12.575 13.1832 12.775C12.877 13.1125 12.5395 13.3563 12.1582 13.5125C11.7832 13.6688 11.377 13.75 10.9395 13.75C10.302 13.75 9.6207 13.6 8.90195 13.2938C8.1832 12.9875 7.46445 12.575 6.75195 12.0563C6.02577 11.5251 5.34051 10.9401 4.70195 10.3062C4.06993 9.67001 3.48702 8.9868 2.9582 8.2625C2.4457 7.55 2.0332 6.8375 1.7332 6.13125C1.4332 5.41875 1.2832 4.7375 1.2832 4.0875C1.2832 3.6625 1.3582 3.25625 1.5082 2.88125C1.6582 2.5 1.8957 2.15 2.22695 1.8375C2.62695 1.44375 3.06445 1.25 3.52695 1.25C3.70195 1.25 3.87695 1.2875 4.0332 1.3625C4.1957 1.4375 4.33945 1.55 4.45195 1.7125L5.90195 3.75625C6.01445 3.9125 6.0957 4.05625 6.15195 4.19375C6.2082 4.325 6.23945 4.45625 6.23945 4.575C6.23945 4.725 6.1957 4.875 6.1082 5.01875C6.02695 5.1625 5.9082 5.3125 5.7582 5.4625L5.2832 5.95625C5.21445 6.025 5.1832 6.10625 5.1832 6.20625C5.1832 6.25625 5.18945 6.3 5.20195 6.35C5.2207 6.4 5.23945 6.4375 5.25195 6.475C5.36445 6.68125 5.5582 6.95 5.8332 7.275C6.11445 7.6 6.41445 7.93125 6.73945 8.2625C7.07695 8.59375 7.40195 8.9 7.7332 9.18125C8.0582 9.45625 8.32695 9.64375 8.53945 9.75625C8.5707 9.76875 8.6082 9.7875 8.65195 9.80625C8.70195 9.825 8.75195 9.83125 8.8082 9.83125C8.91445 9.83125 8.9957 9.79375 9.06445 9.725L9.53945 9.25625C9.6957 9.1 9.8457 8.98125 9.98945 8.90625C10.1332 8.81875 10.277 8.775 10.4332 8.775C10.552 8.775 10.677 8.8 10.8145 8.85625C10.952 8.9125 11.0957 8.99375 11.252 9.1L13.3207 10.5687C13.4832 10.6812 13.5957 10.8125 13.6645 10.9687C13.727 11.125 13.7645 11.2812 13.7645 11.4562Z"
                                             stroke="#AF824A"
-                                            stroke-width="1.5"
+                                            strokeWidth="1.5"
                                             strokeMiterlimit="10"
                                           ></path>
                                         </g>
@@ -6165,13 +6165,13 @@ function Properties() {
                                         d="M5.23104 11.4587H8.16121C10.603 11.4587 11.5798 10.4819 11.5798 8.04012V5.10994C11.5798 2.66813 10.603 1.69141 8.16121 1.69141H5.23104C2.78923 1.69141 1.8125 2.66813 1.8125 5.10994V8.04012C1.8125 10.4819 2.78923 11.4587 5.23104 11.4587Z"
                                         stroke="black"
                                         strokeLinecap="round"
-                                        stroke-linejoin="round"
+                                        strokeLinejoin="round"
                                       ></path>
                                       <path
                                         d="M2.13965 9.96883L4.54728 8.35235C4.93308 8.09352 5.48982 8.12282 5.83655 8.42072L5.99771 8.56234C6.37864 8.88955 6.99397 8.88955 7.3749 8.56234L9.40648 6.81889C9.78741 6.49169 10.4027 6.49169 10.7837 6.81889L11.5797 7.5026M5.23098 5.59798C5.49003 5.59798 5.73846 5.49508 5.92163 5.31191C6.1048 5.12873 6.20771 4.8803 6.20771 4.62126C6.20771 4.36221 6.1048 4.11378 5.92163 3.93061C5.73846 3.74744 5.49003 3.64453 5.23098 3.64453C4.97194 3.64453 4.72351 3.74744 4.54033 3.93061C4.35716 4.11378 4.25426 4.36221 4.25426 4.62126C4.25426 4.8803 4.35716 5.12873 4.54033 5.31191C4.72351 5.49508 4.97194 5.59798 5.23098 5.59798Z"
                                         stroke="black"
                                         strokeLinecap="round"
-                                        stroke-linejoin="round"
+                                        strokeLinejoin="round"
                                       ></path>
                                     </g>
                                     <defs>
@@ -6201,13 +6201,13 @@ function Properties() {
                                           d="M5.48218 12.4697H8.78833C11.5435 12.4697 12.6455 11.3677 12.6455 8.61255V5.3064C12.6455 2.55127 11.5435 1.44922 8.78833 1.44922H5.48218C2.72705 1.44922 1.625 2.55127 1.625 5.3064V8.61255C1.625 11.3677 2.72705 12.4697 5.48218 12.4697Z"
                                           stroke="black"
                                           strokeLinecap="round"
-                                          stroke-linejoin="round"
+                                          strokeLinejoin="round"
                                         ></path>
                                         <path
                                           d="M4.79297 6.96175L6.35237 8.52115L9.47668 5.40234"
                                           stroke="black"
                                           strokeLinecap="round"
-                                          stroke-linejoin="round"
+                                          strokeLinejoin="round"
                                         ></path>
                                       </g>
                                       <defs>
@@ -6235,7 +6235,7 @@ function Properties() {
                                     fill="none"
                                     xmlns="http://www.w3.org/2000/svg"
                                   >
-                                    <g id="SVGRepo_bgCarrier" stroke-width="0">
+                                    <g id="SVGRepo_bgCarrier" strokeWidth="0">
                                       <rect
                                         x="-2.4"
                                         y="-2.4"
@@ -6243,13 +6243,13 @@ function Properties() {
                                         height="28.80"
                                         rx="14.4"
                                         fill="#ffffff"
-                                        stroke-width="0"
+                                        strokeWidth="0"
                                       ></rect>
                                     </g>
                                     <g
                                       id="SVGRepo_tracerCarrier"
                                       strokeLinecap="round"
-                                      stroke-linejoin="round"
+                                      strokeLinejoin="round"
                                     ></g>
                                     <g id="SVGRepo_iconCarrier">
                                       <path
@@ -6346,7 +6346,7 @@ function Properties() {
                                           <path
                                             d="M13.7645 11.4562C13.7645 11.6812 13.7145 11.9125 13.6082 12.1375C13.502 12.3625 13.3645 12.575 13.1832 12.775C12.877 13.1125 12.5395 13.3563 12.1582 13.5125C11.7832 13.6688 11.377 13.75 10.9395 13.75C10.302 13.75 9.6207 13.6 8.90195 13.2938C8.1832 12.9875 7.46445 12.575 6.75195 12.0563C6.02577 11.5251 5.34051 10.9401 4.70195 10.3062C4.06993 9.67001 3.48702 8.9868 2.9582 8.2625C2.4457 7.55 2.0332 6.8375 1.7332 6.13125C1.4332 5.41875 1.2832 4.7375 1.2832 4.0875C1.2832 3.6625 1.3582 3.25625 1.5082 2.88125C1.6582 2.5 1.8957 2.15 2.22695 1.8375C2.62695 1.44375 3.06445 1.25 3.52695 1.25C3.70195 1.25 3.87695 1.2875 4.0332 1.3625C4.1957 1.4375 4.33945 1.55 4.45195 1.7125L5.90195 3.75625C6.01445 3.9125 6.0957 4.05625 6.15195 4.19375C6.2082 4.325 6.23945 4.45625 6.23945 4.575C6.23945 4.725 6.1957 4.875 6.1082 5.01875C6.02695 5.1625 5.9082 5.3125 5.7582 5.4625L5.2832 5.95625C5.21445 6.025 5.1832 6.10625 5.1832 6.20625C5.1832 6.25625 5.18945 6.3 5.20195 6.35C5.2207 6.4 5.23945 6.4375 5.25195 6.475C5.36445 6.68125 5.5582 6.95 5.8332 7.275C6.11445 7.6 6.41445 7.93125 6.73945 8.2625C7.07695 8.59375 7.40195 8.9 7.7332 9.18125C8.0582 9.45625 8.32695 9.64375 8.53945 9.75625C8.5707 9.76875 8.6082 9.7875 8.65195 9.80625C8.70195 9.825 8.75195 9.83125 8.8082 9.83125C8.91445 9.83125 8.9957 9.79375 9.06445 9.725L9.53945 9.25625C9.6957 9.1 9.8457 8.98125 9.98945 8.90625C10.1332 8.81875 10.277 8.775 10.4332 8.775C10.552 8.775 10.677 8.8 10.8145 8.85625C10.952 8.9125 11.0957 8.99375 11.252 9.1L13.3207 10.5687C13.4832 10.6812 13.5957 10.8125 13.6645 10.9687C13.727 11.125 13.7645 11.2812 13.7645 11.4562Z"
                                             stroke="#AF824A"
-                                            stroke-width="1.5"
+                                            strokeWidth="1.5"
                                             strokeMiterlimit="10"
                                           ></path>
                                         </g>
@@ -6416,13 +6416,13 @@ function Properties() {
                                         d="M5.23104 11.4587H8.16121C10.603 11.4587 11.5798 10.4819 11.5798 8.04012V5.10994C11.5798 2.66813 10.603 1.69141 8.16121 1.69141H5.23104C2.78923 1.69141 1.8125 2.66813 1.8125 5.10994V8.04012C1.8125 10.4819 2.78923 11.4587 5.23104 11.4587Z"
                                         stroke="black"
                                         strokeLinecap="round"
-                                        stroke-linejoin="round"
+                                        strokeLinejoin="round"
                                       ></path>
                                       <path
                                         d="M2.13965 9.96883L4.54728 8.35235C4.93308 8.09352 5.48982 8.12282 5.83655 8.42072L5.99771 8.56234C6.37864 8.88955 6.99397 8.88955 7.3749 8.56234L9.40648 6.81889C9.78741 6.49169 10.4027 6.49169 10.7837 6.81889L11.5797 7.5026M5.23098 5.59798C5.49003 5.59798 5.73846 5.49508 5.92163 5.31191C6.1048 5.12873 6.20771 4.8803 6.20771 4.62126C6.20771 4.36221 6.1048 4.11378 5.92163 3.93061C5.73846 3.74744 5.49003 3.64453 5.23098 3.64453C4.97194 3.64453 4.72351 3.74744 4.54033 3.93061C4.35716 4.11378 4.25426 4.36221 4.25426 4.62126C4.25426 4.8803 4.35716 5.12873 4.54033 5.31191C4.72351 5.49508 4.97194 5.59798 5.23098 5.59798Z"
                                         stroke="black"
                                         strokeLinecap="round"
-                                        stroke-linejoin="round"
+                                        strokeLinejoin="round"
                                       ></path>
                                     </g>
                                     <defs>
@@ -6452,13 +6452,13 @@ function Properties() {
                                           d="M5.48218 12.4697H8.78833C11.5435 12.4697 12.6455 11.3677 12.6455 8.61255V5.3064C12.6455 2.55127 11.5435 1.44922 8.78833 1.44922H5.48218C2.72705 1.44922 1.625 2.55127 1.625 5.3064V8.61255C1.625 11.3677 2.72705 12.4697 5.48218 12.4697Z"
                                           stroke="black"
                                           strokeLinecap="round"
-                                          stroke-linejoin="round"
+                                          strokeLinejoin="round"
                                         ></path>
                                         <path
                                           d="M4.79297 6.96175L6.35237 8.52115L9.47668 5.40234"
                                           stroke="black"
                                           strokeLinecap="round"
-                                          stroke-linejoin="round"
+                                          strokeLinejoin="round"
                                         ></path>
                                       </g>
                                       <defs>
@@ -6486,7 +6486,7 @@ function Properties() {
                                     fill="none"
                                     xmlns="http://www.w3.org/2000/svg"
                                   >
-                                    <g id="SVGRepo_bgCarrier" stroke-width="0">
+                                    <g id="SVGRepo_bgCarrier" strokeWidth="0">
                                       <rect
                                         x="-2.4"
                                         y="-2.4"
@@ -6494,13 +6494,13 @@ function Properties() {
                                         height="28.80"
                                         rx="14.4"
                                         fill="#ffffff"
-                                        stroke-width="0"
+                                        strokeWidth="0"
                                       ></rect>
                                     </g>
                                     <g
                                       id="SVGRepo_tracerCarrier"
                                       strokeLinecap="round"
-                                      stroke-linejoin="round"
+                                      strokeLinejoin="round"
                                     ></g>
                                     <g id="SVGRepo_iconCarrier">
                                       <path
@@ -6597,7 +6597,7 @@ function Properties() {
                                           <path
                                             d="M13.7645 11.4562C13.7645 11.6812 13.7145 11.9125 13.6082 12.1375C13.502 12.3625 13.3645 12.575 13.1832 12.775C12.877 13.1125 12.5395 13.3563 12.1582 13.5125C11.7832 13.6688 11.377 13.75 10.9395 13.75C10.302 13.75 9.6207 13.6 8.90195 13.2938C8.1832 12.9875 7.46445 12.575 6.75195 12.0563C6.02577 11.5251 5.34051 10.9401 4.70195 10.3062C4.06993 9.67001 3.48702 8.9868 2.9582 8.2625C2.4457 7.55 2.0332 6.8375 1.7332 6.13125C1.4332 5.41875 1.2832 4.7375 1.2832 4.0875C1.2832 3.6625 1.3582 3.25625 1.5082 2.88125C1.6582 2.5 1.8957 2.15 2.22695 1.8375C2.62695 1.44375 3.06445 1.25 3.52695 1.25C3.70195 1.25 3.87695 1.2875 4.0332 1.3625C4.1957 1.4375 4.33945 1.55 4.45195 1.7125L5.90195 3.75625C6.01445 3.9125 6.0957 4.05625 6.15195 4.19375C6.2082 4.325 6.23945 4.45625 6.23945 4.575C6.23945 4.725 6.1957 4.875 6.1082 5.01875C6.02695 5.1625 5.9082 5.3125 5.7582 5.4625L5.2832 5.95625C5.21445 6.025 5.1832 6.10625 5.1832 6.20625C5.1832 6.25625 5.18945 6.3 5.20195 6.35C5.2207 6.4 5.23945 6.4375 5.25195 6.475C5.36445 6.68125 5.5582 6.95 5.8332 7.275C6.11445 7.6 6.41445 7.93125 6.73945 8.2625C7.07695 8.59375 7.40195 8.9 7.7332 9.18125C8.0582 9.45625 8.32695 9.64375 8.53945 9.75625C8.5707 9.76875 8.6082 9.7875 8.65195 9.80625C8.70195 9.825 8.75195 9.83125 8.8082 9.83125C8.91445 9.83125 8.9957 9.79375 9.06445 9.725L9.53945 9.25625C9.6957 9.1 9.8457 8.98125 9.98945 8.90625C10.1332 8.81875 10.277 8.775 10.4332 8.775C10.552 8.775 10.677 8.8 10.8145 8.85625C10.952 8.9125 11.0957 8.99375 11.252 9.1L13.3207 10.5687C13.4832 10.6812 13.5957 10.8125 13.6645 10.9687C13.727 11.125 13.7645 11.2812 13.7645 11.4562Z"
                                             stroke="#AF824A"
-                                            stroke-width="1.5"
+                                            strokeWidth="1.5"
                                             strokeMiterlimit="10"
                                           ></path>
                                         </g>
@@ -6667,13 +6667,13 @@ function Properties() {
                                         d="M5.23104 11.4587H8.16121C10.603 11.4587 11.5798 10.4819 11.5798 8.04012V5.10994C11.5798 2.66813 10.603 1.69141 8.16121 1.69141H5.23104C2.78923 1.69141 1.8125 2.66813 1.8125 5.10994V8.04012C1.8125 10.4819 2.78923 11.4587 5.23104 11.4587Z"
                                         stroke="black"
                                         strokeLinecap="round"
-                                        stroke-linejoin="round"
+                                        strokeLinejoin="round"
                                       ></path>
                                       <path
                                         d="M2.13965 9.96883L4.54728 8.35235C4.93308 8.09352 5.48982 8.12282 5.83655 8.42072L5.99771 8.56234C6.37864 8.88955 6.99397 8.88955 7.3749 8.56234L9.40648 6.81889C9.78741 6.49169 10.4027 6.49169 10.7837 6.81889L11.5797 7.5026M5.23098 5.59798C5.49003 5.59798 5.73846 5.49508 5.92163 5.31191C6.1048 5.12873 6.20771 4.8803 6.20771 4.62126C6.20771 4.36221 6.1048 4.11378 5.92163 3.93061C5.73846 3.74744 5.49003 3.64453 5.23098 3.64453C4.97194 3.64453 4.72351 3.74744 4.54033 3.93061C4.35716 4.11378 4.25426 4.36221 4.25426 4.62126C4.25426 4.8803 4.35716 5.12873 4.54033 5.31191C4.72351 5.49508 4.97194 5.59798 5.23098 5.59798Z"
                                         stroke="black"
                                         strokeLinecap="round"
-                                        stroke-linejoin="round"
+                                        strokeLinejoin="round"
                                       ></path>
                                     </g>
                                     <defs>
@@ -6703,13 +6703,13 @@ function Properties() {
                                           d="M5.48218 12.4697H8.78833C11.5435 12.4697 12.6455 11.3677 12.6455 8.61255V5.3064C12.6455 2.55127 11.5435 1.44922 8.78833 1.44922H5.48218C2.72705 1.44922 1.625 2.55127 1.625 5.3064V8.61255C1.625 11.3677 2.72705 12.4697 5.48218 12.4697Z"
                                           stroke="black"
                                           strokeLinecap="round"
-                                          stroke-linejoin="round"
+                                          strokeLinejoin="round"
                                         ></path>
                                         <path
                                           d="M4.79297 6.96175L6.35237 8.52115L9.47668 5.40234"
                                           stroke="black"
                                           strokeLinecap="round"
-                                          stroke-linejoin="round"
+                                          strokeLinejoin="round"
                                         ></path>
                                       </g>
                                       <defs>
@@ -6737,7 +6737,7 @@ function Properties() {
                                     fill="none"
                                     xmlns="http://www.w3.org/2000/svg"
                                   >
-                                    <g id="SVGRepo_bgCarrier" stroke-width="0">
+                                    <g id="SVGRepo_bgCarrier" strokeWidth="0">
                                       <rect
                                         x="-2.4"
                                         y="-2.4"
@@ -6745,13 +6745,13 @@ function Properties() {
                                         height="28.80"
                                         rx="14.4"
                                         fill="#ffffff"
-                                        stroke-width="0"
+                                        strokeWidth="0"
                                       ></rect>
                                     </g>
                                     <g
                                       id="SVGRepo_tracerCarrier"
                                       strokeLinecap="round"
-                                      stroke-linejoin="round"
+                                      strokeLinejoin="round"
                                     ></g>
                                     <g id="SVGRepo_iconCarrier">
                                       <path
@@ -6848,7 +6848,7 @@ function Properties() {
                                           <path
                                             d="M13.7645 11.4562C13.7645 11.6812 13.7145 11.9125 13.6082 12.1375C13.502 12.3625 13.3645 12.575 13.1832 12.775C12.877 13.1125 12.5395 13.3563 12.1582 13.5125C11.7832 13.6688 11.377 13.75 10.9395 13.75C10.302 13.75 9.6207 13.6 8.90195 13.2938C8.1832 12.9875 7.46445 12.575 6.75195 12.0563C6.02577 11.5251 5.34051 10.9401 4.70195 10.3062C4.06993 9.67001 3.48702 8.9868 2.9582 8.2625C2.4457 7.55 2.0332 6.8375 1.7332 6.13125C1.4332 5.41875 1.2832 4.7375 1.2832 4.0875C1.2832 3.6625 1.3582 3.25625 1.5082 2.88125C1.6582 2.5 1.8957 2.15 2.22695 1.8375C2.62695 1.44375 3.06445 1.25 3.52695 1.25C3.70195 1.25 3.87695 1.2875 4.0332 1.3625C4.1957 1.4375 4.33945 1.55 4.45195 1.7125L5.90195 3.75625C6.01445 3.9125 6.0957 4.05625 6.15195 4.19375C6.2082 4.325 6.23945 4.45625 6.23945 4.575C6.23945 4.725 6.1957 4.875 6.1082 5.01875C6.02695 5.1625 5.9082 5.3125 5.7582 5.4625L5.2832 5.95625C5.21445 6.025 5.1832 6.10625 5.1832 6.20625C5.1832 6.25625 5.18945 6.3 5.20195 6.35C5.2207 6.4 5.23945 6.4375 5.25195 6.475C5.36445 6.68125 5.5582 6.95 5.8332 7.275C6.11445 7.6 6.41445 7.93125 6.73945 8.2625C7.07695 8.59375 7.40195 8.9 7.7332 9.18125C8.0582 9.45625 8.32695 9.64375 8.53945 9.75625C8.5707 9.76875 8.6082 9.7875 8.65195 9.80625C8.70195 9.825 8.75195 9.83125 8.8082 9.83125C8.91445 9.83125 8.9957 9.79375 9.06445 9.725L9.53945 9.25625C9.6957 9.1 9.8457 8.98125 9.98945 8.90625C10.1332 8.81875 10.277 8.775 10.4332 8.775C10.552 8.775 10.677 8.8 10.8145 8.85625C10.952 8.9125 11.0957 8.99375 11.252 9.1L13.3207 10.5687C13.4832 10.6812 13.5957 10.8125 13.6645 10.9687C13.727 11.125 13.7645 11.2812 13.7645 11.4562Z"
                                             stroke="#AF824A"
-                                            stroke-width="1.5"
+                                            strokeWidth="1.5"
                                             strokeMiterlimit="10"
                                           ></path>
                                         </g>
@@ -6918,13 +6918,13 @@ function Properties() {
                                         d="M5.23104 11.4587H8.16121C10.603 11.4587 11.5798 10.4819 11.5798 8.04012V5.10994C11.5798 2.66813 10.603 1.69141 8.16121 1.69141H5.23104C2.78923 1.69141 1.8125 2.66813 1.8125 5.10994V8.04012C1.8125 10.4819 2.78923 11.4587 5.23104 11.4587Z"
                                         stroke="black"
                                         strokeLinecap="round"
-                                        stroke-linejoin="round"
+                                        strokeLinejoin="round"
                                       ></path>
                                       <path
                                         d="M2.13965 9.96883L4.54728 8.35235C4.93308 8.09352 5.48982 8.12282 5.83655 8.42072L5.99771 8.56234C6.37864 8.88955 6.99397 8.88955 7.3749 8.56234L9.40648 6.81889C9.78741 6.49169 10.4027 6.49169 10.7837 6.81889L11.5797 7.5026M5.23098 5.59798C5.49003 5.59798 5.73846 5.49508 5.92163 5.31191C6.1048 5.12873 6.20771 4.8803 6.20771 4.62126C6.20771 4.36221 6.1048 4.11378 5.92163 3.93061C5.73846 3.74744 5.49003 3.64453 5.23098 3.64453C4.97194 3.64453 4.72351 3.74744 4.54033 3.93061C4.35716 4.11378 4.25426 4.36221 4.25426 4.62126C4.25426 4.8803 4.35716 5.12873 4.54033 5.31191C4.72351 5.49508 4.97194 5.59798 5.23098 5.59798Z"
                                         stroke="black"
                                         strokeLinecap="round"
-                                        stroke-linejoin="round"
+                                        strokeLinejoin="round"
                                       ></path>
                                     </g>
                                     <defs>
@@ -6954,13 +6954,13 @@ function Properties() {
                                           d="M5.48218 12.4697H8.78833C11.5435 12.4697 12.6455 11.3677 12.6455 8.61255V5.3064C12.6455 2.55127 11.5435 1.44922 8.78833 1.44922H5.48218C2.72705 1.44922 1.625 2.55127 1.625 5.3064V8.61255C1.625 11.3677 2.72705 12.4697 5.48218 12.4697Z"
                                           stroke="black"
                                           strokeLinecap="round"
-                                          stroke-linejoin="round"
+                                          strokeLinejoin="round"
                                         ></path>
                                         <path
                                           d="M4.79297 6.96175L6.35237 8.52115L9.47668 5.40234"
                                           stroke="black"
                                           strokeLinecap="round"
-                                          stroke-linejoin="round"
+                                          strokeLinejoin="round"
                                         ></path>
                                       </g>
                                       <defs>
@@ -6988,7 +6988,7 @@ function Properties() {
                                     fill="none"
                                     xmlns="http://www.w3.org/2000/svg"
                                   >
-                                    <g id="SVGRepo_bgCarrier" stroke-width="0">
+                                    <g id="SVGRepo_bgCarrier" strokeWidth="0">
                                       <rect
                                         x="-2.4"
                                         y="-2.4"
@@ -6996,13 +6996,13 @@ function Properties() {
                                         height="28.80"
                                         rx="14.4"
                                         fill="#ffffff"
-                                        stroke-width="0"
+                                        strokeWidth="0"
                                       ></rect>
                                     </g>
                                     <g
                                       id="SVGRepo_tracerCarrier"
                                       strokeLinecap="round"
-                                      stroke-linejoin="round"
+                                      strokeLinejoin="round"
                                     ></g>
                                     <g id="SVGRepo_iconCarrier">
                                       <path
@@ -7099,7 +7099,7 @@ function Properties() {
                                           <path
                                             d="M13.7645 11.4562C13.7645 11.6812 13.7145 11.9125 13.6082 12.1375C13.502 12.3625 13.3645 12.575 13.1832 12.775C12.877 13.1125 12.5395 13.3563 12.1582 13.5125C11.7832 13.6688 11.377 13.75 10.9395 13.75C10.302 13.75 9.6207 13.6 8.90195 13.2938C8.1832 12.9875 7.46445 12.575 6.75195 12.0563C6.02577 11.5251 5.34051 10.9401 4.70195 10.3062C4.06993 9.67001 3.48702 8.9868 2.9582 8.2625C2.4457 7.55 2.0332 6.8375 1.7332 6.13125C1.4332 5.41875 1.2832 4.7375 1.2832 4.0875C1.2832 3.6625 1.3582 3.25625 1.5082 2.88125C1.6582 2.5 1.8957 2.15 2.22695 1.8375C2.62695 1.44375 3.06445 1.25 3.52695 1.25C3.70195 1.25 3.87695 1.2875 4.0332 1.3625C4.1957 1.4375 4.33945 1.55 4.45195 1.7125L5.90195 3.75625C6.01445 3.9125 6.0957 4.05625 6.15195 4.19375C6.2082 4.325 6.23945 4.45625 6.23945 4.575C6.23945 4.725 6.1957 4.875 6.1082 5.01875C6.02695 5.1625 5.9082 5.3125 5.7582 5.4625L5.2832 5.95625C5.21445 6.025 5.1832 6.10625 5.1832 6.20625C5.1832 6.25625 5.18945 6.3 5.20195 6.35C5.2207 6.4 5.23945 6.4375 5.25195 6.475C5.36445 6.68125 5.5582 6.95 5.8332 7.275C6.11445 7.6 6.41445 7.93125 6.73945 8.2625C7.07695 8.59375 7.40195 8.9 7.7332 9.18125C8.0582 9.45625 8.32695 9.64375 8.53945 9.75625C8.5707 9.76875 8.6082 9.7875 8.65195 9.80625C8.70195 9.825 8.75195 9.83125 8.8082 9.83125C8.91445 9.83125 8.9957 9.79375 9.06445 9.725L9.53945 9.25625C9.6957 9.1 9.8457 8.98125 9.98945 8.90625C10.1332 8.81875 10.277 8.775 10.4332 8.775C10.552 8.775 10.677 8.8 10.8145 8.85625C10.952 8.9125 11.0957 8.99375 11.252 9.1L13.3207 10.5687C13.4832 10.6812 13.5957 10.8125 13.6645 10.9687C13.727 11.125 13.7645 11.2812 13.7645 11.4562Z"
                                             stroke="#AF824A"
-                                            stroke-width="1.5"
+                                            strokeWidth="1.5"
                                             strokeMiterlimit="10"
                                           ></path>
                                         </g>
@@ -7169,13 +7169,13 @@ function Properties() {
                                         d="M5.23104 11.4587H8.16121C10.603 11.4587 11.5798 10.4819 11.5798 8.04012V5.10994C11.5798 2.66813 10.603 1.69141 8.16121 1.69141H5.23104C2.78923 1.69141 1.8125 2.66813 1.8125 5.10994V8.04012C1.8125 10.4819 2.78923 11.4587 5.23104 11.4587Z"
                                         stroke="black"
                                         strokeLinecap="round"
-                                        stroke-linejoin="round"
+                                        strokeLinejoin="round"
                                       ></path>
                                       <path
                                         d="M2.13965 9.96883L4.54728 8.35235C4.93308 8.09352 5.48982 8.12282 5.83655 8.42072L5.99771 8.56234C6.37864 8.88955 6.99397 8.88955 7.3749 8.56234L9.40648 6.81889C9.78741 6.49169 10.4027 6.49169 10.7837 6.81889L11.5797 7.5026M5.23098 5.59798C5.49003 5.59798 5.73846 5.49508 5.92163 5.31191C6.1048 5.12873 6.20771 4.8803 6.20771 4.62126C6.20771 4.36221 6.1048 4.11378 5.92163 3.93061C5.73846 3.74744 5.49003 3.64453 5.23098 3.64453C4.97194 3.64453 4.72351 3.74744 4.54033 3.93061C4.35716 4.11378 4.25426 4.36221 4.25426 4.62126C4.25426 4.8803 4.35716 5.12873 4.54033 5.31191C4.72351 5.49508 4.97194 5.59798 5.23098 5.59798Z"
                                         stroke="black"
                                         strokeLinecap="round"
-                                        stroke-linejoin="round"
+                                        strokeLinejoin="round"
                                       ></path>
                                     </g>
                                     <defs>
@@ -7205,13 +7205,13 @@ function Properties() {
                                           d="M5.48218 12.4697H8.78833C11.5435 12.4697 12.6455 11.3677 12.6455 8.61255V5.3064C12.6455 2.55127 11.5435 1.44922 8.78833 1.44922H5.48218C2.72705 1.44922 1.625 2.55127 1.625 5.3064V8.61255C1.625 11.3677 2.72705 12.4697 5.48218 12.4697Z"
                                           stroke="black"
                                           strokeLinecap="round"
-                                          stroke-linejoin="round"
+                                          strokeLinejoin="round"
                                         ></path>
                                         <path
                                           d="M4.79297 6.96175L6.35237 8.52115L9.47668 5.40234"
                                           stroke="black"
                                           strokeLinecap="round"
-                                          stroke-linejoin="round"
+                                          strokeLinejoin="round"
                                         ></path>
                                       </g>
                                       <defs>
@@ -7239,7 +7239,7 @@ function Properties() {
                                     fill="none"
                                     xmlns="http://www.w3.org/2000/svg"
                                   >
-                                    <g id="SVGRepo_bgCarrier" stroke-width="0">
+                                    <g id="SVGRepo_bgCarrier" strokeWidth="0">
                                       <rect
                                         x="-2.4"
                                         y="-2.4"
@@ -7247,13 +7247,13 @@ function Properties() {
                                         height="28.80"
                                         rx="14.4"
                                         fill="#ffffff"
-                                        stroke-width="0"
+                                        strokeWidth="0"
                                       ></rect>
                                     </g>
                                     <g
                                       id="SVGRepo_tracerCarrier"
                                       strokeLinecap="round"
-                                      stroke-linejoin="round"
+                                      strokeLinejoin="round"
                                     ></g>
                                     <g id="SVGRepo_iconCarrier">
                                       <path
@@ -7350,7 +7350,7 @@ function Properties() {
                                           <path
                                             d="M13.7645 11.4562C13.7645 11.6812 13.7145 11.9125 13.6082 12.1375C13.502 12.3625 13.3645 12.575 13.1832 12.775C12.877 13.1125 12.5395 13.3563 12.1582 13.5125C11.7832 13.6688 11.377 13.75 10.9395 13.75C10.302 13.75 9.6207 13.6 8.90195 13.2938C8.1832 12.9875 7.46445 12.575 6.75195 12.0563C6.02577 11.5251 5.34051 10.9401 4.70195 10.3062C4.06993 9.67001 3.48702 8.9868 2.9582 8.2625C2.4457 7.55 2.0332 6.8375 1.7332 6.13125C1.4332 5.41875 1.2832 4.7375 1.2832 4.0875C1.2832 3.6625 1.3582 3.25625 1.5082 2.88125C1.6582 2.5 1.8957 2.15 2.22695 1.8375C2.62695 1.44375 3.06445 1.25 3.52695 1.25C3.70195 1.25 3.87695 1.2875 4.0332 1.3625C4.1957 1.4375 4.33945 1.55 4.45195 1.7125L5.90195 3.75625C6.01445 3.9125 6.0957 4.05625 6.15195 4.19375C6.2082 4.325 6.23945 4.45625 6.23945 4.575C6.23945 4.725 6.1957 4.875 6.1082 5.01875C6.02695 5.1625 5.9082 5.3125 5.7582 5.4625L5.2832 5.95625C5.21445 6.025 5.1832 6.10625 5.1832 6.20625C5.1832 6.25625 5.18945 6.3 5.20195 6.35C5.2207 6.4 5.23945 6.4375 5.25195 6.475C5.36445 6.68125 5.5582 6.95 5.8332 7.275C6.11445 7.6 6.41445 7.93125 6.73945 8.2625C7.07695 8.59375 7.40195 8.9 7.7332 9.18125C8.0582 9.45625 8.32695 9.64375 8.53945 9.75625C8.5707 9.76875 8.6082 9.7875 8.65195 9.80625C8.70195 9.825 8.75195 9.83125 8.8082 9.83125C8.91445 9.83125 8.9957 9.79375 9.06445 9.725L9.53945 9.25625C9.6957 9.1 9.8457 8.98125 9.98945 8.90625C10.1332 8.81875 10.277 8.775 10.4332 8.775C10.552 8.775 10.677 8.8 10.8145 8.85625C10.952 8.9125 11.0957 8.99375 11.252 9.1L13.3207 10.5687C13.4832 10.6812 13.5957 10.8125 13.6645 10.9687C13.727 11.125 13.7645 11.2812 13.7645 11.4562Z"
                                             stroke="#AF824A"
-                                            stroke-width="1.5"
+                                            strokeWidth="1.5"
                                             strokeMiterlimit="10"
                                           ></path>
                                         </g>
@@ -7420,13 +7420,13 @@ function Properties() {
                                         d="M5.23104 11.4587H8.16121C10.603 11.4587 11.5798 10.4819 11.5798 8.04012V5.10994C11.5798 2.66813 10.603 1.69141 8.16121 1.69141H5.23104C2.78923 1.69141 1.8125 2.66813 1.8125 5.10994V8.04012C1.8125 10.4819 2.78923 11.4587 5.23104 11.4587Z"
                                         stroke="black"
                                         strokeLinecap="round"
-                                        stroke-linejoin="round"
+                                        strokeLinejoin="round"
                                       ></path>
                                       <path
                                         d="M2.13965 9.96883L4.54728 8.35235C4.93308 8.09352 5.48982 8.12282 5.83655 8.42072L5.99771 8.56234C6.37864 8.88955 6.99397 8.88955 7.3749 8.56234L9.40648 6.81889C9.78741 6.49169 10.4027 6.49169 10.7837 6.81889L11.5797 7.5026M5.23098 5.59798C5.49003 5.59798 5.73846 5.49508 5.92163 5.31191C6.1048 5.12873 6.20771 4.8803 6.20771 4.62126C6.20771 4.36221 6.1048 4.11378 5.92163 3.93061C5.73846 3.74744 5.49003 3.64453 5.23098 3.64453C4.97194 3.64453 4.72351 3.74744 4.54033 3.93061C4.35716 4.11378 4.25426 4.36221 4.25426 4.62126C4.25426 4.8803 4.35716 5.12873 4.54033 5.31191C4.72351 5.49508 4.97194 5.59798 5.23098 5.59798Z"
                                         stroke="black"
                                         strokeLinecap="round"
-                                        stroke-linejoin="round"
+                                        strokeLinejoin="round"
                                       ></path>
                                     </g>
                                     <defs>
@@ -7456,13 +7456,13 @@ function Properties() {
                                           d="M5.48218 12.4697H8.78833C11.5435 12.4697 12.6455 11.3677 12.6455 8.61255V5.3064C12.6455 2.55127 11.5435 1.44922 8.78833 1.44922H5.48218C2.72705 1.44922 1.625 2.55127 1.625 5.3064V8.61255C1.625 11.3677 2.72705 12.4697 5.48218 12.4697Z"
                                           stroke="black"
                                           strokeLinecap="round"
-                                          stroke-linejoin="round"
+                                          strokeLinejoin="round"
                                         ></path>
                                         <path
                                           d="M4.79297 6.96175L6.35237 8.52115L9.47668 5.40234"
                                           stroke="black"
                                           strokeLinecap="round"
-                                          stroke-linejoin="round"
+                                          strokeLinejoin="round"
                                         ></path>
                                       </g>
                                       <defs>
@@ -7490,7 +7490,7 @@ function Properties() {
                                     fill="none"
                                     xmlns="http://www.w3.org/2000/svg"
                                   >
-                                    <g id="SVGRepo_bgCarrier" stroke-width="0">
+                                    <g id="SVGRepo_bgCarrier" strokeWidth="0">
                                       <rect
                                         x="-2.4"
                                         y="-2.4"
@@ -7498,13 +7498,13 @@ function Properties() {
                                         height="28.80"
                                         rx="14.4"
                                         fill="#ffffff"
-                                        stroke-width="0"
+                                        strokeWidth="0"
                                       ></rect>
                                     </g>
                                     <g
                                       id="SVGRepo_tracerCarrier"
                                       strokeLinecap="round"
-                                      stroke-linejoin="round"
+                                      strokeLinejoin="round"
                                     ></g>
                                     <g id="SVGRepo_iconCarrier">
                                       <path
@@ -7601,7 +7601,7 @@ function Properties() {
                                           <path
                                             d="M13.7645 11.4562C13.7645 11.6812 13.7145 11.9125 13.6082 12.1375C13.502 12.3625 13.3645 12.575 13.1832 12.775C12.877 13.1125 12.5395 13.3563 12.1582 13.5125C11.7832 13.6688 11.377 13.75 10.9395 13.75C10.302 13.75 9.6207 13.6 8.90195 13.2938C8.1832 12.9875 7.46445 12.575 6.75195 12.0563C6.02577 11.5251 5.34051 10.9401 4.70195 10.3062C4.06993 9.67001 3.48702 8.9868 2.9582 8.2625C2.4457 7.55 2.0332 6.8375 1.7332 6.13125C1.4332 5.41875 1.2832 4.7375 1.2832 4.0875C1.2832 3.6625 1.3582 3.25625 1.5082 2.88125C1.6582 2.5 1.8957 2.15 2.22695 1.8375C2.62695 1.44375 3.06445 1.25 3.52695 1.25C3.70195 1.25 3.87695 1.2875 4.0332 1.3625C4.1957 1.4375 4.33945 1.55 4.45195 1.7125L5.90195 3.75625C6.01445 3.9125 6.0957 4.05625 6.15195 4.19375C6.2082 4.325 6.23945 4.45625 6.23945 4.575C6.23945 4.725 6.1957 4.875 6.1082 5.01875C6.02695 5.1625 5.9082 5.3125 5.7582 5.4625L5.2832 5.95625C5.21445 6.025 5.1832 6.10625 5.1832 6.20625C5.1832 6.25625 5.18945 6.3 5.20195 6.35C5.2207 6.4 5.23945 6.4375 5.25195 6.475C5.36445 6.68125 5.5582 6.95 5.8332 7.275C6.11445 7.6 6.41445 7.93125 6.73945 8.2625C7.07695 8.59375 7.40195 8.9 7.7332 9.18125C8.0582 9.45625 8.32695 9.64375 8.53945 9.75625C8.5707 9.76875 8.6082 9.7875 8.65195 9.80625C8.70195 9.825 8.75195 9.83125 8.8082 9.83125C8.91445 9.83125 8.9957 9.79375 9.06445 9.725L9.53945 9.25625C9.6957 9.1 9.8457 8.98125 9.98945 8.90625C10.1332 8.81875 10.277 8.775 10.4332 8.775C10.552 8.775 10.677 8.8 10.8145 8.85625C10.952 8.9125 11.0957 8.99375 11.252 9.1L13.3207 10.5687C13.4832 10.6812 13.5957 10.8125 13.6645 10.9687C13.727 11.125 13.7645 11.2812 13.7645 11.4562Z"
                                             stroke="#AF824A"
-                                            stroke-width="1.5"
+                                            strokeWidth="1.5"
                                             strokeMiterlimit="10"
                                           ></path>
                                         </g>
@@ -7671,13 +7671,13 @@ function Properties() {
                                         d="M5.23104 11.4587H8.16121C10.603 11.4587 11.5798 10.4819 11.5798 8.04012V5.10994C11.5798 2.66813 10.603 1.69141 8.16121 1.69141H5.23104C2.78923 1.69141 1.8125 2.66813 1.8125 5.10994V8.04012C1.8125 10.4819 2.78923 11.4587 5.23104 11.4587Z"
                                         stroke="black"
                                         strokeLinecap="round"
-                                        stroke-linejoin="round"
+                                        strokeLinejoin="round"
                                       ></path>
                                       <path
                                         d="M2.13965 9.96883L4.54728 8.35235C4.93308 8.09352 5.48982 8.12282 5.83655 8.42072L5.99771 8.56234C6.37864 8.88955 6.99397 8.88955 7.3749 8.56234L9.40648 6.81889C9.78741 6.49169 10.4027 6.49169 10.7837 6.81889L11.5797 7.5026M5.23098 5.59798C5.49003 5.59798 5.73846 5.49508 5.92163 5.31191C6.1048 5.12873 6.20771 4.8803 6.20771 4.62126C6.20771 4.36221 6.1048 4.11378 5.92163 3.93061C5.73846 3.74744 5.49003 3.64453 5.23098 3.64453C4.97194 3.64453 4.72351 3.74744 4.54033 3.93061C4.35716 4.11378 4.25426 4.36221 4.25426 4.62126C4.25426 4.8803 4.35716 5.12873 4.54033 5.31191C4.72351 5.49508 4.97194 5.59798 5.23098 5.59798Z"
                                         stroke="black"
                                         strokeLinecap="round"
-                                        stroke-linejoin="round"
+                                        strokeLinejoin="round"
                                       ></path>
                                     </g>
                                     <defs>
@@ -7707,13 +7707,13 @@ function Properties() {
                                           d="M5.48218 12.4697H8.78833C11.5435 12.4697 12.6455 11.3677 12.6455 8.61255V5.3064C12.6455 2.55127 11.5435 1.44922 8.78833 1.44922H5.48218C2.72705 1.44922 1.625 2.55127 1.625 5.3064V8.61255C1.625 11.3677 2.72705 12.4697 5.48218 12.4697Z"
                                           stroke="black"
                                           strokeLinecap="round"
-                                          stroke-linejoin="round"
+                                          strokeLinejoin="round"
                                         ></path>
                                         <path
                                           d="M4.79297 6.96175L6.35237 8.52115L9.47668 5.40234"
                                           stroke="black"
                                           strokeLinecap="round"
-                                          stroke-linejoin="round"
+                                          strokeLinejoin="round"
                                         ></path>
                                       </g>
                                       <defs>
@@ -7741,7 +7741,7 @@ function Properties() {
                                     fill="none"
                                     xmlns="http://www.w3.org/2000/svg"
                                   >
-                                    <g id="SVGRepo_bgCarrier" stroke-width="0">
+                                    <g id="SVGRepo_bgCarrier" strokeWidth="0">
                                       <rect
                                         x="-2.4"
                                         y="-2.4"
@@ -7749,13 +7749,13 @@ function Properties() {
                                         height="28.80"
                                         rx="14.4"
                                         fill="#ffffff"
-                                        stroke-width="0"
+                                        strokeWidth="0"
                                       ></rect>
                                     </g>
                                     <g
                                       id="SVGRepo_tracerCarrier"
                                       strokeLinecap="round"
-                                      stroke-linejoin="round"
+                                      strokeLinejoin="round"
                                     ></g>
                                     <g id="SVGRepo_iconCarrier">
                                       <path
@@ -7852,7 +7852,7 @@ function Properties() {
                                           <path
                                             d="M13.7645 11.4562C13.7645 11.6812 13.7145 11.9125 13.6082 12.1375C13.502 12.3625 13.3645 12.575 13.1832 12.775C12.877 13.1125 12.5395 13.3563 12.1582 13.5125C11.7832 13.6688 11.377 13.75 10.9395 13.75C10.302 13.75 9.6207 13.6 8.90195 13.2938C8.1832 12.9875 7.46445 12.575 6.75195 12.0563C6.02577 11.5251 5.34051 10.9401 4.70195 10.3062C4.06993 9.67001 3.48702 8.9868 2.9582 8.2625C2.4457 7.55 2.0332 6.8375 1.7332 6.13125C1.4332 5.41875 1.2832 4.7375 1.2832 4.0875C1.2832 3.6625 1.3582 3.25625 1.5082 2.88125C1.6582 2.5 1.8957 2.15 2.22695 1.8375C2.62695 1.44375 3.06445 1.25 3.52695 1.25C3.70195 1.25 3.87695 1.2875 4.0332 1.3625C4.1957 1.4375 4.33945 1.55 4.45195 1.7125L5.90195 3.75625C6.01445 3.9125 6.0957 4.05625 6.15195 4.19375C6.2082 4.325 6.23945 4.45625 6.23945 4.575C6.23945 4.725 6.1957 4.875 6.1082 5.01875C6.02695 5.1625 5.9082 5.3125 5.7582 5.4625L5.2832 5.95625C5.21445 6.025 5.1832 6.10625 5.1832 6.20625C5.1832 6.25625 5.18945 6.3 5.20195 6.35C5.2207 6.4 5.23945 6.4375 5.25195 6.475C5.36445 6.68125 5.5582 6.95 5.8332 7.275C6.11445 7.6 6.41445 7.93125 6.73945 8.2625C7.07695 8.59375 7.40195 8.9 7.7332 9.18125C8.0582 9.45625 8.32695 9.64375 8.53945 9.75625C8.5707 9.76875 8.6082 9.7875 8.65195 9.80625C8.70195 9.825 8.75195 9.83125 8.8082 9.83125C8.91445 9.83125 8.9957 9.79375 9.06445 9.725L9.53945 9.25625C9.6957 9.1 9.8457 8.98125 9.98945 8.90625C10.1332 8.81875 10.277 8.775 10.4332 8.775C10.552 8.775 10.677 8.8 10.8145 8.85625C10.952 8.9125 11.0957 8.99375 11.252 9.1L13.3207 10.5687C13.4832 10.6812 13.5957 10.8125 13.6645 10.9687C13.727 11.125 13.7645 11.2812 13.7645 11.4562Z"
                                             stroke="#AF824A"
-                                            stroke-width="1.5"
+                                            strokeWidth="1.5"
                                             strokeMiterlimit="10"
                                           ></path>
                                         </g>
@@ -7922,13 +7922,13 @@ function Properties() {
                                         d="M5.23104 11.4587H8.16121C10.603 11.4587 11.5798 10.4819 11.5798 8.04012V5.10994C11.5798 2.66813 10.603 1.69141 8.16121 1.69141H5.23104C2.78923 1.69141 1.8125 2.66813 1.8125 5.10994V8.04012C1.8125 10.4819 2.78923 11.4587 5.23104 11.4587Z"
                                         stroke="black"
                                         strokeLinecap="round"
-                                        stroke-linejoin="round"
+                                        strokeLinejoin="round"
                                       ></path>
                                       <path
                                         d="M2.13965 9.96883L4.54728 8.35235C4.93308 8.09352 5.48982 8.12282 5.83655 8.42072L5.99771 8.56234C6.37864 8.88955 6.99397 8.88955 7.3749 8.56234L9.40648 6.81889C9.78741 6.49169 10.4027 6.49169 10.7837 6.81889L11.5797 7.5026M5.23098 5.59798C5.49003 5.59798 5.73846 5.49508 5.92163 5.31191C6.1048 5.12873 6.20771 4.8803 6.20771 4.62126C6.20771 4.36221 6.1048 4.11378 5.92163 3.93061C5.73846 3.74744 5.49003 3.64453 5.23098 3.64453C4.97194 3.64453 4.72351 3.74744 4.54033 3.93061C4.35716 4.11378 4.25426 4.36221 4.25426 4.62126C4.25426 4.8803 4.35716 5.12873 4.54033 5.31191C4.72351 5.49508 4.97194 5.59798 5.23098 5.59798Z"
                                         stroke="black"
                                         strokeLinecap="round"
-                                        stroke-linejoin="round"
+                                        strokeLinejoin="round"
                                       ></path>
                                     </g>
                                     <defs>
@@ -7958,13 +7958,13 @@ function Properties() {
                                           d="M5.48218 12.4697H8.78833C11.5435 12.4697 12.6455 11.3677 12.6455 8.61255V5.3064C12.6455 2.55127 11.5435 1.44922 8.78833 1.44922H5.48218C2.72705 1.44922 1.625 2.55127 1.625 5.3064V8.61255C1.625 11.3677 2.72705 12.4697 5.48218 12.4697Z"
                                           stroke="black"
                                           strokeLinecap="round"
-                                          stroke-linejoin="round"
+                                          strokeLinejoin="round"
                                         ></path>
                                         <path
                                           d="M4.79297 6.96175L6.35237 8.52115L9.47668 5.40234"
                                           stroke="black"
                                           strokeLinecap="round"
-                                          stroke-linejoin="round"
+                                          strokeLinejoin="round"
                                         ></path>
                                       </g>
                                       <defs>
@@ -7992,7 +7992,7 @@ function Properties() {
                                     fill="none"
                                     xmlns="http://www.w3.org/2000/svg"
                                   >
-                                    <g id="SVGRepo_bgCarrier" stroke-width="0">
+                                    <g id="SVGRepo_bgCarrier" strokeWidth="0">
                                       <rect
                                         x="-2.4"
                                         y="-2.4"
@@ -8000,13 +8000,13 @@ function Properties() {
                                         height="28.80"
                                         rx="14.4"
                                         fill="#ffffff"
-                                        stroke-width="0"
+                                        strokeWidth="0"
                                       ></rect>
                                     </g>
                                     <g
                                       id="SVGRepo_tracerCarrier"
                                       strokeLinecap="round"
-                                      stroke-linejoin="round"
+                                      strokeLinejoin="round"
                                     ></g>
                                     <g id="SVGRepo_iconCarrier">
                                       <path
@@ -8103,7 +8103,7 @@ function Properties() {
                                           <path
                                             d="M13.7645 11.4562C13.7645 11.6812 13.7145 11.9125 13.6082 12.1375C13.502 12.3625 13.3645 12.575 13.1832 12.775C12.877 13.1125 12.5395 13.3563 12.1582 13.5125C11.7832 13.6688 11.377 13.75 10.9395 13.75C10.302 13.75 9.6207 13.6 8.90195 13.2938C8.1832 12.9875 7.46445 12.575 6.75195 12.0563C6.02577 11.5251 5.34051 10.9401 4.70195 10.3062C4.06993 9.67001 3.48702 8.9868 2.9582 8.2625C2.4457 7.55 2.0332 6.8375 1.7332 6.13125C1.4332 5.41875 1.2832 4.7375 1.2832 4.0875C1.2832 3.6625 1.3582 3.25625 1.5082 2.88125C1.6582 2.5 1.8957 2.15 2.22695 1.8375C2.62695 1.44375 3.06445 1.25 3.52695 1.25C3.70195 1.25 3.87695 1.2875 4.0332 1.3625C4.1957 1.4375 4.33945 1.55 4.45195 1.7125L5.90195 3.75625C6.01445 3.9125 6.0957 4.05625 6.15195 4.19375C6.2082 4.325 6.23945 4.45625 6.23945 4.575C6.23945 4.725 6.1957 4.875 6.1082 5.01875C6.02695 5.1625 5.9082 5.3125 5.7582 5.4625L5.2832 5.95625C5.21445 6.025 5.1832 6.10625 5.1832 6.20625C5.1832 6.25625 5.18945 6.3 5.20195 6.35C5.2207 6.4 5.23945 6.4375 5.25195 6.475C5.36445 6.68125 5.5582 6.95 5.8332 7.275C6.11445 7.6 6.41445 7.93125 6.73945 8.2625C7.07695 8.59375 7.40195 8.9 7.7332 9.18125C8.0582 9.45625 8.32695 9.64375 8.53945 9.75625C8.5707 9.76875 8.6082 9.7875 8.65195 9.80625C8.70195 9.825 8.75195 9.83125 8.8082 9.83125C8.91445 9.83125 8.9957 9.79375 9.06445 9.725L9.53945 9.25625C9.6957 9.1 9.8457 8.98125 9.98945 8.90625C10.1332 8.81875 10.277 8.775 10.4332 8.775C10.552 8.775 10.677 8.8 10.8145 8.85625C10.952 8.9125 11.0957 8.99375 11.252 9.1L13.3207 10.5687C13.4832 10.6812 13.5957 10.8125 13.6645 10.9687C13.727 11.125 13.7645 11.2812 13.7645 11.4562Z"
                                             stroke="#AF824A"
-                                            stroke-width="1.5"
+                                            strokeWidth="1.5"
                                             strokeMiterlimit="10"
                                           ></path>
                                         </g>
@@ -8162,7 +8162,7 @@ function Properties() {
                         <li className="page-item pp disabled">
                           <a
                             className="page-link previous-link "
-                            tabindex="-1"
+                            tabIndex="-1"
                             role="button"
                             aria-disabled="true"
                             aria-label="Previous page"
@@ -8189,7 +8189,7 @@ function Properties() {
                             rel="canonical"
                             role="button"
                             className="page-link pp"
-                            tabindex="-1"
+                            tabIndex="-1"
                             aria-label="Page 1 is your current page"
                             aria-current="page"
                           >
@@ -8201,7 +8201,7 @@ function Properties() {
                             rel="next"
                             role="button"
                             className="page-link pp"
-                            tabindex="0"
+                            tabIndex="0"
                             aria-label="Page 2"
                           >
                             2
@@ -8210,7 +8210,7 @@ function Properties() {
                         <li className="page-item">
                           <a
                             className="page-link next-link"
-                            tabindex="0"
+                            tabIndex="0"
                             role="button"
                             aria-disabled="false"
                             aria-label="Next page"

@@ -1,5 +1,6 @@
 import React from "react";
-
+import Image from "next/image";
+import driving from "../../../img/driving-green-neon-color-motorcycle-road.jpg"
 function Page() {
   return (
     <div>
@@ -13,9 +14,9 @@ function Page() {
             <div className="pt-4 blog-content">
               <div className="leftContent">
                 <div className="blogListContent">
-                  <img
-                    src="https://images.unsplash.com/photo-1624535948032-f6f24ab1f319"
-                    alt="Image"
+                  <Image
+                    src={driving}
+                    alt="driving"
                     className="img-fluid pb-3"
                   />
                   <div className="d-flex align-items-center justify-content-between gap-2 auther flex-wrap">
@@ -160,9 +161,9 @@ function Page() {
                   </div>
                 </div>
                 <div className="blogListContent">
-                  <img
-                    src="https://images.unsplash.com/photo-1624535948032-f6f24ab1f319"
-                    alt="Image"
+                <Image
+                    src={driving}
+                    alt="driving"
                     className="img-fluid pb-3"
                   />
                   <div className="d-flex align-items-center justify-content-between gap-2 auther flex-wrap">

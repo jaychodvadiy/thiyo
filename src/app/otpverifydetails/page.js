@@ -6,13 +6,13 @@ function Page() {
     <div>
       <section>
         <div className="container">
-          <div class="py-5 listing_grid">
-            <div class="listing_grid_left">
-              <div class="propertylistsidebar d-flex align-items-center justify-content-start gap-3">
-                <div class="sidebar z-99 position-relative">
-                  <div class="sidebarstep d-flex gap-3">
-                    <div class="sidebarstepline mt-1">
-                      <span class="d-flex stepcomplte  align-items-center justify-content-center">
+          <div className="py-5 listing_grid">
+            <div className="listing_grid_left">
+              <div className="propertylistsidebar d-flex align-items-center justify-content-start gap-3">
+                <div className="sidebar z-99 position-relative">
+                  <div className="sidebarstep d-flex gap-3">
+                    <div className="sidebarstepline mt-1">
+                      <span className="d-flex stepcomplte  align-items-center justify-content-center">
                         <svg
                           width="11"
                           height="8"
@@ -23,73 +23,73 @@ function Page() {
                           <path
                             d="M1.71094 3.81437L4.54094 6.64437L10.2109 0.984375"
                             stroke="white"
-                            stroke-width="1.5"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
+                            strokeWidth="1.5"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
                           ></path>
                         </svg>
                       </span>
                     </div>
                     <div>
-                      <h5 class="fw-normal">Basic Details</h5>
-                      <span class="me-1">
+                      <h5 className="fw-normal">Basic Details</h5>
+                      <span className="me-1">
                         Flat/Apartment for Sale
-                        <button class="editBtn ms-1">Edit</button>
+                        <button className="editBtn ms-1">Edit</button>
                       </span>
                     </div>
                   </div>
-                  <div class="sidebarstep d-flex gap-3">
-                    <div class="sidebarstepline mt-1">
-                      <span class="d-flex stepcomplte align-items-center justify-content-center"></span>
+                  <div className="sidebarstep d-flex gap-3">
+                    <div className="sidebarstepline mt-1">
+                      <span className="d-flex stepcomplte align-items-center justify-content-center"></span>
                     </div>
                     <div>
-                      <h5 class="fw-normal">Location Details</h5>
-                      <span class="fw-normal">Step 2</span>
+                      <h5 className="fw-normal">Location Details</h5>
+                      <span className="fw-normal">Step 2</span>
                     </div>
                   </div>
-                  <div class="sidebarstep d-flex gap-3">
-                    <div class="sidebarstepline mt-1">
-                      <span class="d-flex pendingstep align-items-center justify-content-center"></span>
+                  <div className="sidebarstep d-flex gap-3">
+                    <div className="sidebarstepline mt-1">
+                      <span className="d-flex pendingstep align-items-center justify-content-center"></span>
                     </div>
                     <div>
-                      <h5 class="fw-normal">Property Profile</h5>
-                      <span class="fw-normal">Step 3</span>
+                      <h5 className="fw-normal">Property Profile</h5>
+                      <span className="fw-normal">Step 3</span>
                     </div>
                   </div>
-                  <div class="sidebarstep d-flex gap-3">
-                    <div class="sidebarstepline mt-1">
-                      <span class="d-flex pendingstep align-items-center justify-content-center"></span>
+                  <div className="sidebarstep d-flex gap-3">
+                    <div className="sidebarstepline mt-1">
+                      <span className="d-flex pendingstep align-items-center justify-content-center"></span>
                     </div>
                     <div>
-                      <h5 class="fw-normal">Photos </h5>
-                      <span class="fw-normal">Step 4</span>
+                      <h5 className="fw-normal">Photos </h5>
+                      <span className="fw-normal">Step 4</span>
                     </div>
                   </div>
-                  <div class="sidebarstep d-flex gap-3">
-                    <div class="sidebarstepline mt-1">
-                      <span class="d-flex pendingstep align-items-center justify-content-center"></span>
+                  <div className="sidebarstep d-flex gap-3">
+                    <div className="sidebarstepline mt-1">
+                      <span className="d-flex pendingstep align-items-center justify-content-center"></span>
                     </div>
                     <div>
-                      <h5 class="fw-normal">Floor Details</h5>
-                      <span class="fw-normal">Step 5</span>
+                      <h5 className="fw-normal">Floor Details</h5>
+                      <span className="fw-normal">Step 5</span>
                     </div>
                   </div>
-                  <div class="sidebarstep d-flex gap-3 mb-0">
-                    <div class="sidebarstepline mt-1">
-                      <span class="d-flex pendingstep align-items-center justify-content-center"></span>
+                  <div className="sidebarstep d-flex gap-3 mb-0">
+                    <div className="sidebarstepline mt-1">
+                      <span className="d-flex pendingstep align-items-center justify-content-center"></span>
                     </div>
                     <div>
-                      <h5 class="fw-normal">Pricing &amp; Orders</h5>
-                      <span class="fw-normal">Step 6</span>
+                      <h5 className="fw-normal">Pricing &amp; Orders</h5>
+                      <span className="fw-normal">Step 6</span>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="listing_grid_right">
+            <div className="listing_grid_right">
               <div>
-                <div class="propertyLogin propertyLocation">
-                  <div class="PropertyBackArrow">
+                <div className="propertyLogin propertyLocation">
+                  <div className="PropertyBackArrow">
                     <Link href="/otpverify">
                       <svg
                         width="45"
@@ -101,46 +101,46 @@ function Page() {
                         <path
                           d="M18.0815 11.7539L6.95312 22.8822L18.0815 34.0106M38.1198 22.8822H7.26479"
                           stroke="black"
-                          stroke-width="1.5"
+                          strokeWidth="1.5"
                           stroke-miterlimit="10"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
                         ></path>
                       </svg>
                     </Link>
                   </div>
                   <h2>Where is your propert located?</h2>
-                  <p class="dics">
+                  <p className="dics">
                     An accurate location helps you connect with the right buyers
                   </p>
                   <form>
-                    <div class="listing-dropdown">
-                      <div class="multi_select">
-                        <div class="dropdown css-b62m3t-container">
+                    <div className="listing-dropdown">
+                      <div className="multi_select">
+                        <div className="dropdown css-b62m3t-container">
                           <span
                             id="react-select-27-live-region"
-                            class="css-7pg0cj-a11yText"
+                            className="css-7pg0cj-a11yText"
                           ></span>
                           <span
                             aria-live="polite"
                             aria-atomic="false"
                             aria-relevant="additions text"
-                            class="css-7pg0cj-a11yText"
+                            className="css-7pg0cj-a11yText"
                           ></span>
-                          <div class=" css-13cymwt-control">
-                            <div class=" css-hlgwow">
-                              <div class=" css-1dimb5e-singleValue">
+                          <div className=" css-13cymwt-control">
+                            <div className=" css-hlgwow">
+                              <div className=" css-1dimb5e-singleValue">
                                 Enter Location
                               </div>
-                              <div class=" css-19bb58m" data-value="">
+                              <div className=" css-19bb58m" data-value="">
                                 <input
-                                  class=""
+                                  className=""
                                   autocapitalize="none"
-                                  autocomplete="off"
-                                  autocorrect="off"
+                                  autoComplete="off"
+                                  autoCorrect="off"
                                   id="react-select-27-input"
-                                  spellcheck="false"
-                                  tabindex="0"
+                                  spellCheck="false"
+                                  tabIndex="0"
                                   aria-autocomplete="list"
                                   aria-expanded="false"
                                   aria-haspopup="true"
@@ -163,10 +163,10 @@ function Page() {
                                 />
                               </div>
                             </div>
-                            <div class=" css-1wy0on6">
-                              <span class=" css-1u9des2-indicatorSeparator"></span>
+                            <div className=" css-1wy0on6">
+                              <span className=" css-1u9des2-indicatorSeparator"></span>
                               <div
-                                class=" css-1xc3v61-indicatorContainer"
+                                className=" css-1xc3v61-indicatorContainer"
                                 aria-hidden="true"
                               >
                                 <svg
@@ -175,7 +175,7 @@ function Page() {
                                   viewBox="0 0 20 20"
                                   aria-hidden="true"
                                   focusable="false"
-                                  class="css-8mmkcg"
+                                  className="css-8mmkcg"
                                 >
                                   <path d="M4.516 7.548c0.436-0.446 1.043-0.481 1.576 0l3.908 3.747 3.908-3.747c0.533-0.481 1.141-0.446 1.574 0 0.436 0.445 0.408 1.197 0 1.615-0.406 0.418-4.695 4.502-4.695 4.502-0.217 0.223-0.502 0.335-0.787 0.335s-0.57-0.112-0.789-0.335c0 0-4.287-4.084-4.695-4.502s-0.436-1.17 0-1.615z"></path>
                                 </svg>
@@ -185,7 +185,7 @@ function Page() {
                         </div>
                       </div>
                       <svg
-                        class="SearchLocationDownArrow"
+                        className="SearchLocationDownArrow"
                         width="10"
                         height="6"
                         viewBox="0 0 10 6"
@@ -216,19 +216,19 @@ function Page() {
                       value=""
                       name="houseNo"
                     />
-                    <div class="row">
-                      <div class="col-6">
+                    <div className="row">
+                      <div className="col-6">
                         <button
-                          class="verify outline"
+                          className="verify outline"
                           name="save"
                           type="button"
                         >
                           Save
                         </button>
                       </div>
-                      <div class="col-6">
+                      <div className="col-6">
                         <Link href="/Tellaboutproperty">
-                          <button name="continue" class="verify" type="submit">
+                          <button name="continue" className="verify" type="submit">
                             Continue
                           </button>
                         </Link>

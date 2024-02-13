@@ -5,14 +5,14 @@ function Page() {
   return (
     <div>
       <section>
-        <div class="container">
-          <div class="py-5 listing_grid">
-            <div class="listing_grid_left">
-              <div class="propertylistsidebar d-flex align-items-center justify-content-start gap-3">
-                <div class="sidebar z-99 position-relative">
-                  <div class="sidebarstep d-flex gap-3">
-                    <div class="sidebarstepline mt-1">
-                      <span class="d-flex stepcomplte  align-items-center justify-content-center">
+        <div className="container">
+          <div className="py-5 listing_grid">
+            <div className="listing_grid_left">
+              <div className="propertylistsidebar d-flex align-items-center justify-content-start gap-3">
+                <div className="sidebar z-99 position-relative">
+                  <div className="sidebarstep d-flex gap-3">
+                    <div className="sidebarstepline mt-1">
+                      <span className="d-flex stepcomplte  align-items-center justify-content-center">
                         <svg
                           width="11"
                           height="8"
@@ -23,24 +23,24 @@ function Page() {
                           <path
                             d="M1.71094 3.81437L4.54094 6.64437L10.2109 0.984375"
                             stroke="white"
-                            stroke-width="1.5"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
+                            strokeWidth="1.5"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
                           ></path>
                         </svg>
                       </span>
                     </div>
                     <div>
-                      <h5 class="fw-normal">Basic Details</h5>
-                      <span class="me-1">
+                      <h5 className="fw-normal">Basic Details</h5>
+                      <span className="me-1">
                         Flat/Apartment for Sale
-                        <button class="editBtn ms-1">Edit</button>
+                        <button className="editBtn ms-1">Edit</button>
                       </span>
                     </div>
                   </div>
-                  <div class="sidebarstep d-flex gap-3">
-                    <div class="sidebarstepline mt-1">
-                      <span class="d-flex stepcomplte align-items-center justify-content-center">
+                  <div className="sidebarstep d-flex gap-3">
+                    <div className="sidebarstepline mt-1">
+                      <span className="d-flex stepcomplte align-items-center justify-content-center">
                         <svg
                           width="11"
                           height="8"
@@ -51,65 +51,65 @@ function Page() {
                           <path
                             d="M1.71094 3.81437L4.54094 6.64437L10.2109 0.984375"
                             stroke="white"
-                            stroke-width="1.5"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
+                            strokeWidth="1.5"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
                           ></path>
                         </svg>
                       </span>
                     </div>
                     <div>
-                      <h5 class="fw-normal">Location Details</h5>
-                      <span class="fw-normal">Step 2</span>{" "}
-                      <button class="editBtn">Edit</button>
+                      <h5 className="fw-normal">Location Details</h5>
+                      <span className="fw-normal">Step 2</span>{" "}
+                      <button className="editBtn">Edit</button>
                     </div>
                   </div>
-                  <div class="sidebarstep d-flex gap-3">
-                    <div class="sidebarstepline mt-1">
-                      <span class="d-flex stepcomplte align-items-center justify-content-center"></span>
+                  <div className="sidebarstep d-flex gap-3">
+                    <div className="sidebarstepline mt-1">
+                      <span className="d-flex stepcomplte align-items-center justify-content-center"></span>
                     </div>
                     <div>
-                      <h5 class="fw-normal">Property Profile</h5>
-                      <span class="fw-normal">Step 3</span>
+                      <h5 className="fw-normal">Property Profile</h5>
+                      <span className="fw-normal">Step 3</span>
                     </div>
                   </div>
-                  <div class="sidebarstep d-flex gap-3">
-                    <div class="sidebarstepline mt-1">
-                      <span class="d-flex pendingstep align-items-center justify-content-center"></span>
+                  <div className="sidebarstep d-flex gap-3">
+                    <div className="sidebarstepline mt-1">
+                      <span className="d-flex pendingstep align-items-center justify-content-center"></span>
                     </div>
                     <div>
-                      <h5 class="fw-normal">Photos </h5>
-                      <span class="fw-normal">Step 4</span>
+                      <h5 className="fw-normal">Photos </h5>
+                      <span className="fw-normal">Step 4</span>
                     </div>
                   </div>
-                  <div class="sidebarstep d-flex gap-3">
-                    <div class="sidebarstepline mt-1">
-                      <span class="d-flex pendingstep align-items-center justify-content-center"></span>
+                  <div className="sidebarstep d-flex gap-3">
+                    <div className="sidebarstepline mt-1">
+                      <span className="d-flex pendingstep align-items-center justify-content-center"></span>
                     </div>
                     <div>
-                      <h5 class="fw-normal">Floor Details</h5>
-                      <span class="fw-normal">Step 5</span>
+                      <h5 className="fw-normal">Floor Details</h5>
+                      <span className="fw-normal">Step 5</span>
                     </div>
                   </div>
-                  <div class="sidebarstep d-flex gap-3 mb-0">
-                    <div class="sidebarstepline mt-1">
-                      <span class="d-flex pendingstep align-items-center justify-content-center"></span>
+                  <div className="sidebarstep d-flex gap-3 mb-0">
+                    <div className="sidebarstepline mt-1">
+                      <span className="d-flex pendingstep align-items-center justify-content-center"></span>
                     </div>
                     <div>
-                      <h5 class="fw-normal">Pricing &amp; Orders</h5>
-                      <span class="fw-normal">Step 6</span>
+                      <h5 className="fw-normal">Pricing &amp; Orders</h5>
+                      <span className="fw-normal">Step 6</span>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="listing_grid_right">
+            <div className="listing_grid_right">
               <div>
-                <div class="propertylistprofile propertylistprofile-cs">
+                <div className="propertylistprofile propertylistprofile-cs">
                   <form>
-                    <div class="profilepage">
+                    <div className="profilepage">
                       <Link href="/otpverifydetails">
-                        <button class="border-0 p-0" type="button">
+                        <button className="border-0 p-0" type="button">
                           <svg
                             width="45"
                             height="45"
@@ -120,162 +120,162 @@ function Page() {
                             <path
                               d="M18.2807 11.7539L7.15234 22.8822L18.2807 34.0106M38.319 22.8822H7.46401"
                               stroke="black"
-                              stroke-width="1.5"
+                              strokeWidth="1.5"
                               stroke-miterlimit="10"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
                             ></path>
                           </svg>
                         </button>
                       </Link>
-                      <h3 class="propertytitle">Tell us about your property</h3>
+                      <h3 className="propertytitle">Tell us about your property</h3>
                       <div>
-                        <p class="fw-normal addanotherdetail">
+                        <p className="fw-normal addanotherdetail">
                           You Apartment is a
                         </p>
-                        <div class="mb-4">
-                          <div class="d-flex gap-3">
-                            <button type="button" class="selectbhk">
+                        <div className="mb-4">
+                          <div className="d-flex gap-3">
+                            <button type="button" className="selectbhk">
                               2 BHK
                             </button>
-                            <button type="button" class="selectbhk">
+                            <button type="button" className="selectbhk">
                               others
                             </button>
                           </div>
                         </div>
                       </div>
-                      <div class="profilehomepage">
-                        <h6 class="mb-1">Add room details</h6>
+                      <div className="profilehomepage">
+                        <h6 className="mb-1">Add room details</h6>
                         <p me="fw-normal addanotherdetail">No. of Bedrooms</p>
-                        <div class="roomdetail d-flex align-items-center gap-2 mt-2">
-                          <div class="roomselection">
+                        <div className="roomdetail d-flex align-items-center gap-2 mt-2">
+                          <div className="roomselection">
                             <input
-                              class="cursor-pointer"
+                              className="cursor-pointer"
                               id="bed-1"
                               type="radio"
                               name="bedroom"
                             />
-                            <label class="">1</label>
+                            <label className="">1</label>
                           </div>
-                          <div class="roomselection">
+                          <div className="roomselection">
                             <input
-                              class="cursor-pointer"
+                              className="cursor-pointer"
                               id="bed-2"
                               type="radio"
                               name="bedroom"
                             />
-                            <label class="">2</label>
+                            <label className="">2</label>
                           </div>
-                          <div class="roomselection">
+                          <div className="roomselection">
                             <input
-                              class="cursor-pointer"
+                              className="cursor-pointer"
                               id="bed-3"
                               type="radio"
                               name="bedroom"
                             />
-                            <label class="">3</label>
+                            <label className="">3</label>
                           </div>
-                          <div class="roomselection">
+                          <div className="roomselection">
                             <input
-                              class="cursor-pointer"
+                              className="cursor-pointer"
                               id="bed-4"
                               type="radio"
                               name="bedroom"
                             />
-                            <label class="">4</label>
+                            <label className="">4</label>
                           </div>
                           <button
                             type="button"
-                            class="edit-button my-2 thiyo-btn text-white rounded py-1"
+                            className="edit-button my-2 thiyo-btn text-white rounded py-1"
                           >
                             Add
                           </button>
                         </div>
-                        <div class="d-flex align-items-center gap-3 mt-3"></div>
-                        <p class="fw-normal addanotherdetail mb-3">
+                        <div className="d-flex align-items-center gap-3 mt-3"></div>
+                        <p className="fw-normal addanotherdetail mb-3">
                           No. of Bathrooms
                         </p>
-                        <div class="roomdetail d-flex align-items-center gap-2 mt-2">
-                          <div class="roomselection">
+                        <div className="roomdetail d-flex align-items-center gap-2 mt-2">
+                          <div className="roomselection">
                             <input
-                              class="cursor-pointer"
+                              className="cursor-pointer"
                               id="bath-0"
                               type="radio"
                               name="bathRoom"
                             />
-                            <label class="">0</label>
+                            <label className="">0</label>
                           </div>
-                          <div class="roomselection">
+                          <div className="roomselection">
                             <input
-                              class="cursor-pointer"
+                              className="cursor-pointer"
                               id="bath-1"
                               type="radio"
                               name="bathRoom"
                             />
-                            <label class="">1</label>
+                            <label className="">1</label>
                           </div>
-                          <div class="roomselection">
+                          <div className="roomselection">
                             <input
-                              class="cursor-pointer"
+                              className="cursor-pointer"
                               id="bath-2"
                               type="radio"
                               name="bathRoom"
                             />
-                            <label class="">2</label>
+                            <label className="">2</label>
                           </div>
-                          <div class="roomselection">
+                          <div className="roomselection">
                             <input
-                              class="cursor-pointer"
+                              className="cursor-pointer"
                               id="bath-3"
                               type="radio"
                               name="bathRoom"
                             />
-                            <label class="">3</label>
+                            <label className="">3</label>
                           </div>
-                          <div class="roomselection">
+                          <div className="roomselection">
                             <input
-                              class="cursor-pointer"
+                              className="cursor-pointer"
                               id="bath-4"
                               type="radio"
                               name="bathRoom"
                             />
-                            <label class="">4</label>
+                            <label className="">4</label>
                           </div>
-                          <div class="roomselection">
+                          <div className="roomselection">
                             <input
-                              class="cursor-pointer"
+                              className="cursor-pointer"
                               id="bath-5"
                               type="radio"
                               name="bathRoom"
                             />
-                            <label class="">5</label>
+                            <label className="">5</label>
                           </div>
-                          <div class="roomselection">
+                          <div className="roomselection">
                             <input
-                              class="cursor-pointer"
+                              className="cursor-pointer"
                               id="bath-6"
                               type="radio"
                               name="bathRoom"
                             />
-                            <label class="">6</label>
+                            <label className="">6</label>
                           </div>
                         </div>
                       </div>
-                      <div class="profilehomepage">
-                        <h6 class="mb-2">Add Area Details</h6>
-                        <p class="mb-3 fw-normal addanotherdetail">
+                      <div className="profilehomepage">
+                        <h6 className="mb-2">Add Area Details</h6>
+                        <p className="mb-3 fw-normal addanotherdetail">
                           Atleast one area type is mandatory
                         </p>
-                        <div class="mb-3">
-                          <div class="">
-                            <div class="areaInput">
+                        <div className="mb-3">
+                          <div className="">
+                            <div className="areaInput">
                               <div>
                                 <input
                                   placeholder="Carpet Area"
                                   type="number"
                                   value=""
                                 />
-                                <div class="line"></div>
+                                <div className="line"></div>
                               </div>
                               <select>
                                 <option>Carpet Area</option>
@@ -287,128 +287,128 @@ function Page() {
                                 <option>cents</option>
                               </select>
                             </div>
-                            <div class="d-flex errorhigh justify-content-between position-relative"></div>
+                            <div className="d-flex errorhigh justify-content-between position-relative"></div>
                           </div>
-                          <div class="d-flex errorhigh justify-content-between"></div>
-                          <div class="d-flex errorhigh justify-content-between"></div>
+                          <div className="d-flex errorhigh justify-content-between"></div>
+                          <div className="d-flex errorhigh justify-content-between"></div>
                         </div>
                       </div>
-                      <div class="d-flex gap-2 gap-md-3 m-0 profilehomepage">
-                        <div class="profilehomepage-text">
+                      <div className="d-flex gap-2 gap-md-3 m-0 profilehomepage">
+                        <div className="profilehomepage-text">
                           + Add Built-up Area
                         </div>
-                        <div class="profilehomepage-text">
+                        <div className="profilehomepage-text">
                           + Add Super Built-up Area
                         </div>
                       </div>
-                      <div class="profilehomepage">
-                        <h6 class="mb-2">
+                      <div className="profilehomepage">
+                        <h6 className="mb-2">
                           Other rooms <span>(Optional)</span>
                         </h6>
-                        <div class="selectotherrrom d-flex gap-2 flex-wrap">
-                          <button type="button" class="">
+                        <div className="selectotherrrom d-flex gap-2 flex-wrap">
+                          <button type="button" className="">
                             + PoojaRoom
                           </button>
-                          <button type="button" class="">
+                          <button type="button" className="">
                             + StudyRoom
                           </button>
-                          <button type="button" class="">
+                          <button type="button" className="">
                             + ServantRoom
                           </button>
-                          <button type="button" class="">
+                          <button type="button" className="">
                             + StoreRoom
                           </button>
                         </div>
                       </div>
-                      <div class="profilehomepage">
-                        <h6 class="mb-2">
+                      <div className="profilehomepage">
+                        <h6 className="mb-2">
                           Furnishing <span>(Optional)</span>
                         </h6>
-                        <div class="selectotherrrom profilehomepage">
-                          <div class="d-flex flex-wrap gap-2">
-                            <button type="button" class="">
+                        <div className="selectotherrrom profilehomepage">
+                          <div className="d-flex flex-wrap gap-2">
+                            <button type="button" className="">
                               Furnished
                             </button>
-                            <button type="button" class="">
+                            <button type="button" className="">
                               Semi-Furnished
                             </button>
-                            <button type="button" class="">
+                            <button type="button" className="">
                               Un-Furnished
                             </button>
                           </div>
                         </div>
-                        <div class="Furnished">
-                          <div class="title">
+                        <div className="Furnished">
+                          <div className="title">
                             At least three furnisings are mandatory for
                             furnished
                           </div>
-                          <div class="items-grid">
-                            <div class="items">
-                              <div class="items-btn">
+                          <div className="items-grid">
+                            <div className="items">
+                              <div className="items-btn">
                                 <button type="button">-</button>
-                                <div class="text">0</div>
+                                <div className="text">0</div>
                                 <button type="button">+</button>
                               </div>
-                              <div class="value">Light</div>
+                              <div className="value">Light</div>
                             </div>
-                            <div class="items">
-                              <div class="items-btn">
+                            <div className="items">
+                              <div className="items-btn">
                                 <button type="button">-</button>
-                                <div class="text">0</div>
+                                <div className="text">0</div>
                                 <button type="button">+</button>
                               </div>
-                              <div class="value">AC</div>
+                              <div className="value">AC</div>
                             </div>
-                            <div class="items">
-                              <div class="items-btn">
+                            <div className="items">
+                              <div className="items-btn">
                                 <button type="button">-</button>
-                                <div class="text">0</div>
+                                <div className="text">0</div>
                                 <button type="button">+</button>
                               </div>
-                              <div class="value">Beds</div>
+                              <div className="value">Beds</div>
                             </div>
-                            <div class="items">
-                              <div class="items-btn">
+                            <div className="items">
+                              <div className="items-btn">
                                 <button type="button">-</button>
-                                <div class="text">0</div>
+                                <div className="text">0</div>
                                 <button type="button">+</button>
                               </div>
-                              <div class="value">Geyser</div>
+                              <div className="value">Geyser</div>
                             </div>
-                            <div class="items">
-                              <div class="items-btn">
+                            <div className="items">
+                              <div className="items-btn">
                                 <button type="button">-</button>
-                                <div class="text">0</div>
+                                <div className="text">0</div>
                                 <button type="button">+</button>
                               </div>
-                              <div class="value">Fans</div>
+                              <div className="value">Fans</div>
                             </div>
-                            <div class="items">
-                              <div class="items-btn">
+                            <div className="items">
+                              <div className="items-btn">
                                 <button type="button">-</button>
-                                <div class="text">0</div>
+                                <div className="text">0</div>
                                 <button type="button">+</button>
                               </div>
-                              <div class="value">TV</div>
+                              <div className="value">TV</div>
                             </div>
-                            <div class="items">
-                              <div class="items-btn">
+                            <div className="items">
+                              <div className="items-btn">
                                 <button type="button">-</button>
-                                <div class="text">0</div>
+                                <div className="text">0</div>
                                 <button type="button">+</button>
                               </div>
-                              <div class="value">Wardrobe</div>
+                              <div className="value">Wardrobe</div>
                             </div>
-                            <div class="items checkbox">
-                              <div class="items-btn"></div>
-                              <div class="value">
-                                <div class="form-check">
+                            <div className="items checkbox">
+                              <div className="items-btn"></div>
+                              <div className="value">
+                                <div className="form-check">
                                   <input
-                                    class="form-check-input"
+                                    className="form-check-input"
                                     type="checkbox"
                                   />
                                   <label
-                                    class="form-check-label"
+                                    className="form-check-label"
                                     for="flexCheckDefaultsofa"
                                   >
                                     Sofa
@@ -416,16 +416,16 @@ function Page() {
                                 </div>
                               </div>
                             </div>
-                            <div class="items checkbox">
-                              <div class="items-btn"></div>
-                              <div class="value">
-                                <div class="form-check">
+                            <div className="items checkbox">
+                              <div className="items-btn"></div>
+                              <div className="value">
+                                <div className="form-check">
                                   <input
-                                    class="form-check-input"
+                                    className="form-check-input"
                                     type="checkbox"
                                   />
                                   <label
-                                    class="form-check-label"
+                                    className="form-check-label"
                                     for="flexCheckDefaultwashingMachine"
                                   >
                                     WashingMachine
@@ -433,16 +433,16 @@ function Page() {
                                 </div>
                               </div>
                             </div>
-                            <div class="items checkbox">
-                              <div class="items-btn"></div>
-                              <div class="value">
-                                <div class="form-check">
+                            <div className="items checkbox">
+                              <div className="items-btn"></div>
+                              <div className="value">
+                                <div className="form-check">
                                   <input
-                                    class="form-check-input"
+                                    className="form-check-input"
                                     type="checkbox"
                                   />
                                   <label
-                                    class="form-check-label"
+                                    className="form-check-label"
                                     for="flexCheckDefaultstove"
                                   >
                                     Stove
@@ -450,16 +450,16 @@ function Page() {
                                 </div>
                               </div>
                             </div>
-                            <div class="items checkbox">
-                              <div class="items-btn"></div>
-                              <div class="value">
-                                <div class="form-check">
+                            <div className="items checkbox">
+                              <div className="items-btn"></div>
+                              <div className="value">
+                                <div className="form-check">
                                   <input
-                                    class="form-check-input"
+                                    className="form-check-input"
                                     type="checkbox"
                                   />
                                   <label
-                                    class="form-check-label"
+                                    className="form-check-label"
                                     for="flexCheckDefaultfridge"
                                   >
                                     Fridge
@@ -467,16 +467,16 @@ function Page() {
                                 </div>
                               </div>
                             </div>
-                            <div class="items checkbox">
-                              <div class="items-btn"></div>
-                              <div class="value">
-                                <div class="form-check">
+                            <div className="items checkbox">
+                              <div className="items-btn"></div>
+                              <div className="value">
+                                <div className="form-check">
                                   <input
-                                    class="form-check-input"
+                                    className="form-check-input"
                                     type="checkbox"
                                   />
                                   <label
-                                    class="form-check-label"
+                                    className="form-check-label"
                                     for="flexCheckDefaultwaterPurifier"
                                   >
                                     WaterPurifier
@@ -484,16 +484,16 @@ function Page() {
                                 </div>
                               </div>
                             </div>
-                            <div class="items checkbox">
-                              <div class="items-btn"></div>
-                              <div class="value">
-                                <div class="form-check">
+                            <div className="items checkbox">
+                              <div className="items-btn"></div>
+                              <div className="value">
+                                <div className="form-check">
                                   <input
-                                    class="form-check-input"
+                                    className="form-check-input"
                                     type="checkbox"
                                   />
                                   <label
-                                    class="form-check-label"
+                                    className="form-check-label"
                                     for="flexCheckDefaultmicrowave"
                                   >
                                     Microwave
@@ -501,16 +501,16 @@ function Page() {
                                 </div>
                               </div>
                             </div>
-                            <div class="items checkbox">
-                              <div class="items-btn"></div>
-                              <div class="value">
-                                <div class="form-check">
+                            <div className="items checkbox">
+                              <div className="items-btn"></div>
+                              <div className="value">
+                                <div className="form-check">
                                   <input
-                                    class="form-check-input"
+                                    className="form-check-input"
                                     type="checkbox"
                                   />
                                   <label
-                                    class="form-check-label"
+                                    className="form-check-label"
                                     for="flexCheckDefaultmodularKitchen"
                                   >
                                     ModularKitchen
@@ -518,16 +518,16 @@ function Page() {
                                 </div>
                               </div>
                             </div>
-                            <div class="items checkbox">
-                              <div class="items-btn"></div>
-                              <div class="value">
-                                <div class="form-check">
+                            <div className="items checkbox">
+                              <div className="items-btn"></div>
+                              <div className="value">
+                                <div className="form-check">
                                   <input
-                                    class="form-check-input"
+                                    className="form-check-input"
                                     type="checkbox"
                                   />
                                   <label
-                                    class="form-check-label"
+                                    className="form-check-label"
                                     for="flexCheckDefaultchimney"
                                   >
                                     Chimney
@@ -535,16 +535,16 @@ function Page() {
                                 </div>
                               </div>
                             </div>
-                            <div class="items checkbox">
-                              <div class="items-btn"></div>
-                              <div class="value">
-                                <div class="form-check">
+                            <div className="items checkbox">
+                              <div className="items-btn"></div>
+                              <div className="value">
+                                <div className="form-check">
                                   <input
-                                    class="form-check-input"
+                                    className="form-check-input"
                                     type="checkbox"
                                   />
                                   <label
-                                    class="form-check-label"
+                                    className="form-check-label"
                                     for="flexCheckDefaultdiningTable"
                                   >
                                     DiningTable
@@ -552,16 +552,16 @@ function Page() {
                                 </div>
                               </div>
                             </div>
-                            <div class="items checkbox">
-                              <div class="items-btn"></div>
-                              <div class="value">
-                                <div class="form-check">
+                            <div className="items checkbox">
+                              <div className="items-btn"></div>
+                              <div className="value">
+                                <div className="form-check">
                                   <input
-                                    class="form-check-input"
+                                    className="form-check-input"
                                     type="checkbox"
                                   />
                                   <label
-                                    class="form-check-label"
+                                    className="form-check-label"
                                     for="flexCheckDefaultcurtains"
                                   >
                                     Curtains
@@ -569,16 +569,16 @@ function Page() {
                                 </div>
                               </div>
                             </div>
-                            <div class="items checkbox">
-                              <div class="items-btn"></div>
-                              <div class="value">
-                                <div class="form-check">
+                            <div className="items checkbox">
+                              <div className="items-btn"></div>
+                              <div className="value">
+                                <div className="form-check">
                                   <input
-                                    class="form-check-input"
+                                    className="form-check-input"
                                     type="checkbox"
                                   />
                                   <label
-                                    class="form-check-label"
+                                    className="form-check-label"
                                     for="flexCheckDefaultexhaustFan"
                                   >
                                     ExhaustFan
@@ -588,56 +588,56 @@ function Page() {
                             </div>
                           </div>
                         </div>
-                        <div class="profilehomepage">
-                          <h6 class="mb-2">
+                        <div className="profilehomepage">
+                          <h6 className="mb-2">
                             Reserved Parking <span>(Optional)</span>
                           </h6>
-                          <div class="roomdetail-grid">
-                            <div class="d-flex roomdetail align-items-center gap-2">
-                              <p class="addanotherdetail">Covered Parking</p>
-                              <div class="roomdetail_btn">
-                                <button type="button" class="rounded-circle">
+                          <div className="roomdetail-grid">
+                            <div className="d-flex roomdetail align-items-center gap-2">
+                              <p className="addanotherdetail">Covered Parking</p>
+                              <div className="roomdetail_btn">
+                                <button type="button" className="rounded-circle">
                                   -
                                 </button>
-                                <div class="roomdetail_value">0</div>
-                                <button type="button" class="rounded-circle">
+                                <div className="roomdetail_value">0</div>
+                                <button type="button" className="rounded-circle">
                                   +
                                 </button>
                               </div>
                             </div>
-                            <div class="d-flex roomdetail align-items-center gap-2">
-                              <p class="addanotherdetail">Open Parking</p>
-                              <div class="roomdetail_btn">
-                                <button type="button" class="rounded-circle">
+                            <div className="d-flex roomdetail align-items-center gap-2">
+                              <p className="addanotherdetail">Open Parking</p>
+                              <div className="roomdetail_btn">
+                                <button type="button" className="rounded-circle">
                                   -
                                 </button>
-                                <div class="roomdetail_value">0</div>
-                                <button type="button" class="rounded-circle">
+                                <div className="roomdetail_value">0</div>
+                                <button type="button" className="rounded-circle">
                                   +
                                 </button>
                               </div>
                             </div>
                           </div>
                         </div>
-                        <div class="profilehomepage">
-                          <h6 class="mb-2">Floor Details</h6>
-                          <p class="mb-3 fw-normal addanotherdetail">
+                        <div className="profilehomepage">
+                          <h6 className="mb-2">Floor Details</h6>
+                          <p className="mb-3 fw-normal addanotherdetail">
                             Total no. of floors and your floor details
                           </p>
-                          <div class="mb-3 addanotherdetail-cs row">
-                            <div class="col-lg-6">
+                          <div className="mb-3 addanotherdetail-cs row">
+                            <div className="col-lg-6">
                               <input
                                 placeholder="Total floors"
-                                class="floorplaninput"
+                                className="floorplaninput"
                                 type="number"
                                 value=""
                                 name="totalFloors"
                               />
                             </div>
-                            <div class="col-lg-6 mt-3 mt-lg-0">
+                            <div className="col-lg-6 mt-3 mt-lg-0">
                               <input
                                 placeholder="Property on floors"
-                                class="floorplaninput"
+                                className="floorplaninput"
                                 type="text"
                                 value=""
                                 name="propertyOnFloor"
@@ -645,51 +645,51 @@ function Page() {
                             </div>
                           </div>
                         </div>
-                        <div class="profilehomepage">
-                          <h6 class="mb-2">Availability Status</h6>
-                          <div class="selectotherrrom d-flex gap-2">
-                            <button type="button" class="">
+                        <div className="profilehomepage">
+                          <h6 className="mb-2">Availability Status</h6>
+                          <div className="selectotherrrom d-flex gap-2">
+                            <button type="button" className="">
                               Ready to move
                             </button>
-                            <button type="button" class="">
+                            <button type="button" className="">
                               Under Construction
                             </button>
                           </div>
                         </div>
-                        <div class="profilehomepage">
-                          <h6 class="mb-2">Age of property</h6>
-                          <div class="selectotherrrom d-flex gap-2 flex-wrap">
-                            <button type="button" class="">
+                        <div className="profilehomepage">
+                          <h6 className="mb-2">Age of property</h6>
+                          <div className="selectotherrrom d-flex gap-2 flex-wrap">
+                            <button type="button" className="">
                               0-1 years
                             </button>
-                            <button type="button" class="">
+                            <button type="button" className="">
                               1-5 years
                             </button>
-                            <button type="button" class="">
+                            <button type="button" className="">
                               5-10 years
                             </button>
-                            <button type="button" class="">
+                            <button type="button" className="">
                               10+ years
                             </button>
                           </div>
                         </div>
                       </div>
                     </div>
-                    <div class="row">
-                      <div class="col-6">
+                    <div className="row">
+                      <div className="col-6">
                         <button
                           type="button"
-                          class="thiyo-btn thiyo-btn-outline text-white w-100 fw-bold"
+                          className="thiyo-btn thiyo-btn-outline text-white w-100 fw-bold"
                           name="save"
                         >
                           Save
                         </button>
                       </div>
-                      <div class="col-6">
+                      <div className="col-6">
                         <Link href="/property">
                           <button
                             type="submit"
-                            class="thiyo-btn text-white w-100 fw-bold"
+                            className="thiyo-btn text-white w-100 fw-bold"
                             name="Continues"
                           >
                             Continue

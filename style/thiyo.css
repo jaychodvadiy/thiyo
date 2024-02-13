@@ -111,6 +111,7 @@
   text-decoration: none;
   color: #000;
 }
+
 .homes {
   position: relative;
   left: 7pc;
@@ -161,6 +162,48 @@
   border-left: 0.3em solid transparent;
 }
 
+.header .navbar .listproperty button {
+  color: var(--header-light);
+  padding: 9px 15px;
+  border-radius: 8px;
+  height: 34px;
+  border: 1px solid #af824a;
+  place-content: center;
+}
+.servier{
+  text-align: center;
+  margin-bottom: 10px;
+}
+.align-items-center {
+  align-items: center !important;
+}
+
+.primary-dropdown .dropdown-menu.show {
+  box-shadow: 0 4px 4px 0 #00000040;
+  border: 1px solid #af824a;
+  padding: 10px 15px;
+}
+
+.primary-dropdown .dropdown-menu.show:before {
+  content: "";
+  position: absolute;
+  height: 10px;
+  width: 10px;
+  background-color: #af824a;
+  left: 50%;
+  top: -6px;
+  transform: rotate(45deg);
+  z-index: -1;
+}
+.primary-dropdown .dropdown-menu.show:after {
+  content: "";
+  position: absolute;
+  height: 10px;
+  width: 31px;
+  background-color: #fff;
+  left: 45%;
+  top: 0;
+}
 /* FEATURED HOMES  */
 
 .feature-home-main {
@@ -208,9 +251,9 @@
   display: flex;
   justify-content: center;
 }
-.nav-link {
+/* .nav-link {
   color: #af824a;
-}
+} */
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #af824a;
@@ -268,6 +311,42 @@ h3 {
   font-size: 20px;
 }
 
+.header .navbar .listproperty .listnew {
+  right: 6px;
+  top: -10px;
+  text-transform: uppercase;
+  color: var(--header-light);
+  background-color: var(--badge-red);
+  font-size: 6px;
+  border-radius: 8px;
+  font-weight: 600;
+  height: 18px;
+  width: 27px;
+}
+.navbar-collapse {
+  flex-basis: 100%;
+  flex-grow: 1;
+  align-items: center;
+}
+.header .navbar .navbar-nav{
+  gap: 9px;
+  margin-top: 10px;
+  padding-left: 20px;
+}
+.header .navbar .navbar-nav .nav-item:first-child {
+  border: none;
+}
+.header .navbar .navbar-nav .Real_Estate,
+.header .navbar .navbar-nav .Real_Estate a.nav-link {
+  height: 20px;
+}
+.header .navbar-nav .nav-item {
+  border-left: 1px solid #d7d7d7;
+  padding-left: 10px;
+}
+.header .navbar-nav .nav-item {
+  width: auto;
+}
 /* Looking to sell your home */
 
 .property {
@@ -398,62 +477,86 @@ h3 {
 }
 
 /* footer copy logo*/
-.footerthiyocopy {
+
+.bg-footer {
   background-color: #1d4e80;
   padding: 50px 0 30px;
 }
-.fliude {
-  height: 120px;
-}
-.apply {
-  margin-right: 9px;
-  border-radius: 10px;
-}
-.apios {
-  padding-top: 10px;
-  margin-top: 10px;
-}
-.applye {
-  border-radius: 10px;
-}
-.nemoenin {
-  color: white;
-}
-.sociemide {
-  margin: 5px;
-  cursor: pointer;
-  transition: width 2s;
-}
-/* .sociemide:hover {
-  width: 10px;
-  color: #af824a;
-} */
-.footer {
+footer .social p {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0;
+  text-align: left;
   color: #fff;
-  font-size: 19px;
-  cursor: pointer;
+  max-width: 270px;
 }
-.explore {
-  color: #af824a;
-  font-size: 25px;
-  cursor: pointer;
+footer .social h5 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 25px;
+  text-align: left;
+  color: #fff;
+  letter-spacing: 0.02em;
+  margin: 40px 0 16px !important;
 }
-.thiyoshare {
-  color: #d0d0d0;
-  padding-top: 15px;
-  margin-top: 15px;
-  /* color: silver; */
+.bg-footer .social-icon-list li {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bg-footer .social-icon-list li img {
+  z-index: -1;
+  width: 20px;
+  height: 20px;
+  top: 6px;
+  left: 5px;
+}
+.footer-heading {
+  color: #fedd07;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  text-align: left;
+  letter-spacing: 0.05em;
+}
+.footer-link li {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: start;
+  gap: 10px;
+}
+.footer-link li svg {
+  opacity: 0;
+  transition: all 0.5s;
+}
+.footer-link a {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+  text-decoration: none;
+  transition: all 0.6s;
+  margin-left: -30px;
+}
+.footer-alt {
+  color: silver;
   font-size: 14px;
   font-weight: 400;
   line-height: 19px;
   letter-spacing: 0;
   text-align: left;
-  /* text-align: center; */
 }
-.copylink {
-  display: flex;
-  justify-content: space-between;
-  color: #d0d0d0;
+.bg-footer .morelink {
+  cursor: pointer;
+}
+.text-white {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
 }
 .linksvg {
   cursor: pointer;
@@ -771,11 +874,18 @@ span {
   border-right: 3px solid transparent;
   border-top: 4px solid #555;
 }
+.react-tel-input .flag-dropdown.open, .react-tel-input .flag-dropdown.open .selected-flag {
+  background: #fff;
+  border-radius: 3px 0 0 0;
+}
 .react-tel-input .flag {
   width: 16px;
   height: 11px;
 }
 
+.react-tel-input .flag-dropdown.open {
+  z-index: 2;
+}
 /* second page Properties herder */
 
 .filterproperty {
@@ -839,7 +949,7 @@ h5 {
 .primary-dropdown .dropdown-toggle:after {
   content: "";
   border: none;
-  background-image: url(/_next/static/media/downArrow.8e63c463.svg);
+  background-image: url(/img/driving-green-neon-color-motorcycle-road.jpg);
   background-size: 10px;
   height: 8px;
   width: 10px;
@@ -1969,7 +2079,7 @@ svg {
   .card
   .accordion
   .accordion-button:after {
-  background-image: url(/_next/static/media/FilterAccordianArrow.2f4d102b.png);
+  background-image: url(/img/driving-green-neon-color-motorcycle-road.jpg);
   background-size: 12px;
   transition: none;
   position: absolute;
@@ -2370,7 +2480,28 @@ button:not(:disabled) {
   grid-row-gap: 4.5px;
   row-gap: 4.5px;
 }
-
+.primary-dropdown button, .primary-dropdown button:active, .primary-dropdown button:hover {
+  background-color: #f6f6f6!important;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 14px!important;
+  font-weight: 400;
+  line-height: 16px;
+  color: #555;
+  text-align: start;
+  transition: none;
+  height: 33px;
+}
+.outline-button-light {
+  border: 1px solid #efefef;
+  height: 27px;
+  padding: 0 17px!important;
+  border-radius: 100px!important;
+  min-width: auto!important;
+  font-size: 8px!important;
+  font-weight: 400!important;
+  line-height: 11px!important;
+}
 .carddeatil-sm {
   display: flex;
   gap: 25px;
@@ -3170,7 +3301,45 @@ iframe {
   font-size: 16px;
   font-weight: 600;
 }
+.img-gallery:before {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(0deg,#000 -13.73%,hsla(0,0%,96%,0) 74.35%);
+  z-index: 1;
+}
+.main-gallery .img-gallery p {
+  color: #fff;
+  bottom: 16px;
+  z-index: 2;
+  position: absolute;
+  left: 20px;
+}
+.main-gallery .img-gallery {
+  height: 200px!important;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
 
+/* .main-gallery .img-gallery-info .line {
+  width: 117.68px;
+  height: 1px;
+  background-color: #000;
+} */
+*, :after, :before {
+  box-sizing: border-box;
+}
+.main-gallery .img-gallery img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: all .5s ease-in-out;
+}
 .photos-grid-container img {
   max-width: 100%;
   display: block;
@@ -3211,7 +3380,7 @@ iframe {
 ==============================*/
 
 .blog .breadCrumb {
-  background-color: #c5b6b6;
+  background-color: #f8f8f8;
   padding: 43px 16px 31px;
   display: flex;
   flex-direction: column;
@@ -4533,7 +4702,12 @@ Tell us about your property
   border-radius: 100px;
   position: relative;
 }
-.propertylistprofile .profilepage .profilehomepage .roomdetail .roomselection input {
+.propertylistprofile
+  .profilepage
+  .profilehomepage
+  .roomdetail
+  .roomselection
+  input {
   position: absolute;
   top: 0;
   width: 45px;
@@ -4541,7 +4715,12 @@ Tell us about your property
   border-radius: 100px;
   opacity: 0;
 }
-.propertylistprofile .profilepage .profilehomepage .roomdetail .roomselection label {
+.propertylistprofile
+  .profilepage
+  .profilehomepage
+  .roomdetail
+  .roomselection
+  label {
   width: 45px;
   height: 45px;
   border: 1px solid #eaeaea;
@@ -4553,7 +4732,7 @@ Tell us about your property
 }
 .profilepage .profilehomepage .thiyo-btn {
   height: 35px;
-  border-radius: 10px!important;
+  border-radius: 10px !important;
 }
 .propertylistprofile .profilepage .roomdetail button {
   width: 32px;
@@ -4565,12 +4744,12 @@ Tell us about your property
   color: #686868;
 }
 .profilehomepage .thiyo-btn {
-  height: 45px!important;
+  height: 45px !important;
 }
 .profilehomepage .edit-button {
-  width: 80px!important;
-  border-radius: 4px!important;
-  margin-left: 20px!important;
+  width: 80px !important;
+  border-radius: 4px !important;
+  margin-left: 20px !important;
 }
 .propertylistprofile .profilepage .profilehomepage {
   margin-bottom: 20px;
@@ -4597,7 +4776,11 @@ Tell us about your property
   padding: 13px 16px;
   border: none;
 }
-button, input, optgroup, select, textarea {
+button,
+input,
+optgroup,
+select,
+textarea {
   margin: 0;
   font-family: inherit;
   font-size: inherit;
@@ -4668,7 +4851,7 @@ select {
 }
 .propertylistprofile .profilepage .Furnished .items-grid {
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
 }
 .propertylistprofile .profilepage .Furnished .items {
   display: flex;
@@ -4711,7 +4894,7 @@ select {
 }
 .propertylistprofile .profilepage .roomdetail-grid {
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-gap: 10px;
   gap: 10px;
 }
@@ -4732,24 +4915,25 @@ select {
 .thiyo-btn {
   border: none;
   border-radius: 100px;
-  background: linear-gradient(180deg,#af824a,#f2b96e 145.55%);
+  background: linear-gradient(180deg, #af824a, #f2b96e 145.55%);
   font-size: 16px;
   font-weight: 600;
   line-height: 22px;
-  letter-spacing: .02em;
+  letter-spacing: 0.02em;
   padding: 12px 15px;
   width: max-content;
   color: #fff;
-  transition: .1s ease-in-out!important;
+  transition: 0.1s ease-in-out !important;
 }
 button.thiyo-btn-outline {
   border: 1px solid #af824a;
   background: #fff;
-  color: #af824a!important;
+  color: #af824a !important;
 }
-.propertylistprofile .profilepage .profilehomepage .floorplaninput, .propertylistprofile .profilepage .profilehomepage .thiyo-btn {
+.propertylistprofile .profilepage .profilehomepage .floorplaninput,
+.propertylistprofile .profilepage .profilehomepage .thiyo-btn {
   height: 35px;
-  border-radius: 10px!important;
+  border-radius: 10px !important;
 }
 
 /*==============================
@@ -4758,7 +4942,7 @@ button.thiyo-btn-outline {
 
 .bg-transparent {
   --bs-bg-opacity: 1;
-  background-color: transparent!important;
+  background-color: transparent !important;
 }
 .uploadphothos p {
   color: #494949;
@@ -4770,7 +4954,7 @@ button.thiyo-btn-outline {
   border-radius: 10px;
 }
 .text-center {
-  text-align: center!important;
+  text-align: center !important;
 }
 .uploadphothos label {
   cursor: pointer;
@@ -4797,7 +4981,7 @@ button.thiyo-btn-outline {
   border-radius: 100%;
 }
 .fw-bold {
-  font-weight: 700!important;
+  font-weight: 700 !important;
 }
 .selectotherrrom .active {
   color: #af824a;
@@ -4807,7 +4991,7 @@ button.thiyo-btn-outline {
 }
 .profilehomepage .price_details {
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-gap: 8px;
   gap: 8px;
 }
@@ -4824,7 +5008,7 @@ button.thiyo-btn-outline {
   line-height: 18px;
   color: #b1b1b1;
 }
-.form-check-input[type=checkbox] {
+.form-check-input[type="checkbox"] {
   border-radius: 0.25em;
 }
 .form-check .form-check-input {
