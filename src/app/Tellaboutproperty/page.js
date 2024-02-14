@@ -121,7 +121,7 @@ function Page() {
                               d="M18.2807 11.7539L7.15234 22.8822L18.2807 34.0106M38.319 22.8822H7.46401"
                               stroke="black"
                               strokeWidth="1.5"
-                              stroke-miterlimit="10"
+                              strokeMiterlimit="10"
                               strokeLinecap="round"
                               strokeLinejoin="round"
                             ></path>
@@ -273,7 +273,7 @@ function Page() {
                                 <input
                                   placeholder="Carpet Area"
                                   type="number"
-                                  value=""
+                                  defaultValue=""
                                 />
                                 <div className="line"></div>
                               </div>
@@ -409,7 +409,7 @@ function Page() {
                                   />
                                   <label
                                     className="form-check-label"
-                                    for="flexCheckDefaultsofa"
+                                    htmlFor="flexCheckDefaultsofa"
                                   >
                                     Sofa
                                   </label>
@@ -426,7 +426,7 @@ function Page() {
                                   />
                                   <label
                                     className="form-check-label"
-                                    for="flexCheckDefaultwashingMachine"
+                                    htmlFor="flexCheckDefaultwashingMachine"
                                   >
                                     WashingMachine
                                   </label>
@@ -443,7 +443,7 @@ function Page() {
                                   />
                                   <label
                                     className="form-check-label"
-                                    for="flexCheckDefaultstove"
+                                    htmlFor="flexCheckDefaultstove"
                                   >
                                     Stove
                                   </label>
@@ -460,7 +460,7 @@ function Page() {
                                   />
                                   <label
                                     className="form-check-label"
-                                    for="flexCheckDefaultfridge"
+                                    htmlFor="flexCheckDefaultfridge"
                                   >
                                     Fridge
                                   </label>
@@ -477,7 +477,7 @@ function Page() {
                                   />
                                   <label
                                     className="form-check-label"
-                                    for="flexCheckDefaultwaterPurifier"
+                                    htmlFor="flexCheckDefaultwaterPurifier"
                                   >
                                     WaterPurifier
                                   </label>
@@ -494,7 +494,7 @@ function Page() {
                                   />
                                   <label
                                     className="form-check-label"
-                                    for="flexCheckDefaultmicrowave"
+                                    htmlFor="flexCheckDefaultmicrowave"
                                   >
                                     Microwave
                                   </label>
@@ -511,7 +511,7 @@ function Page() {
                                   />
                                   <label
                                     className="form-check-label"
-                                    for="flexCheckDefaultmodularKitchen"
+                                    htmlFor="flexCheckDefaultmodularKitchen"
                                   >
                                     ModularKitchen
                                   </label>
@@ -528,7 +528,7 @@ function Page() {
                                   />
                                   <label
                                     className="form-check-label"
-                                    for="flexCheckDefaultchimney"
+                                    htmlFor="flexCheckDefaultchimney"
                                   >
                                     Chimney
                                   </label>
@@ -545,7 +545,7 @@ function Page() {
                                   />
                                   <label
                                     className="form-check-label"
-                                    for="flexCheckDefaultdiningTable"
+                                    htmlFor="flexCheckDefaultdiningTable"
                                   >
                                     DiningTable
                                   </label>
@@ -562,7 +562,7 @@ function Page() {
                                   />
                                   <label
                                     className="form-check-label"
-                                    for="flexCheckDefaultcurtains"
+                                    htmlFor="flexCheckDefaultcurtains"
                                   >
                                     Curtains
                                   </label>
@@ -579,7 +579,7 @@ function Page() {
                                   />
                                   <label
                                     className="form-check-label"
-                                    for="flexCheckDefaultexhaustFan"
+                                    htmlFor="flexCheckDefaultexhaustFan"
                                   >
                                     ExhaustFan
                                   </label>
@@ -630,7 +630,7 @@ function Page() {
                                 placeholder="Total floors"
                                 className="floorplaninput"
                                 type="number"
-                                value=""
+                                defaultValue=""
                                 name="totalFloors"
                               />
                             </div>
@@ -639,7 +639,7 @@ function Page() {
                                 placeholder="Property on floors"
                                 className="floorplaninput"
                                 type="text"
-                                value=""
+                                defaultValue=""
                                 name="propertyOnFloor"
                               />
                             </div>

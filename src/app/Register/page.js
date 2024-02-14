@@ -29,7 +29,7 @@ function Register() {
                     />
                   </div>
                   <div className="col-12 mb-3">
-                    <label for="userName" className="form-label">
+                    <label htmlFor="userName" className="form-label">
                       Full Name
                     </label>
                     <input
@@ -37,12 +37,12 @@ function Register() {
                       id="userName"
                       placeholder="Full Name"
                       type="text"
-                      value=""
+                      defaultValue=""
                       name="userName"
                     ></input>
                   </div>
                   <div className="col-12 mb-3">
-                    <label for="mobile" className="form-label">
+                    <label htmlFor="mobile" className="form-label">
                       Mobile Number
                     </label>
                     <div className=" react-tel-input ">
@@ -51,7 +51,7 @@ function Register() {
                         className="form-control "
                         placeholder="1 (702) 123-4567"
                         type="tel"
-                        value="+91"
+                        defaultValue="+91"
                         name="phone"
                       />
                       <div className="flag-dropdown ">
@@ -82,7 +82,7 @@ function Register() {
                         id="email"
                         placeholder="Enter your email address"
                         type="email"
-                        value=""
+                        defaultValue=""
                         name="email"
                       />
                       <button type="submit" className="absolute lockicon">

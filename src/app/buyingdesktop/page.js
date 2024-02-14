@@ -156,7 +156,7 @@ function Page() {
                             d="M18.2807 11.7539L7.15234 22.8822L18.2807 34.0106M38.319 22.8822H7.46401"
                             stroke="black"
                             strokeWidth="1.5"
-                            stroke-miterlimit="10"
+                            strokeMiterlimit="10"
                             strokeLinecap="round"
                             strokeLinejoin="round"
                           ></path>
@@ -226,7 +226,7 @@ function Page() {
                         <div className="mb-3">
                           <div className="areaInput">
                             <div>
-                              <input placeholder="Size:" type="text" value="" />
+                              <input placeholder="Size:" type="text" defaultValue="" />
                               <div className="line"></div>
                             </div>
                             <select>
@@ -247,7 +247,7 @@ function Page() {
                               <input
                                 placeholder="Bed Size :"
                                 type="text"
-                                value=""
+                                defaultValue=""
                               />
                               <div className="line"></div>
                             </div>
@@ -269,7 +269,7 @@ function Page() {
                               <input
                                 placeholder="Bath Size :"
                                 type="text"
-                                value=""
+                                defaultValue=""
                               />
                               <div className="line"></div>
                             </div>
@@ -290,7 +290,7 @@ function Page() {
                             className="form-control floorplaninput w-100"
                             placeholder="Price:"
                             type="text"
-                            value=""
+                            defaultValue=""
                           />
                         </div>
                         <div className="mb-3">

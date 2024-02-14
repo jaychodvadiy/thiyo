@@ -162,6 +162,16 @@
   border-left: 0.3em solid transparent;
 }
 
+.tab-content > .active {
+  display: block;
+}
+.tab-content > .tab-pane {
+  display: none;
+}
+.primary-dropdown .dropdown-toggle:after {
+  position: absolute;
+  right: 10px;
+}
 .header .navbar .listproperty button {
   color: var(--header-light);
   padding: 9px 15px;
@@ -170,7 +180,7 @@
   border: 1px solid #af824a;
   place-content: center;
 }
-.servier{
+.servier {
   text-align: center;
   margin-bottom: 10px;
 }
@@ -328,7 +338,7 @@ h3 {
   flex-grow: 1;
   align-items: center;
 }
-.header .navbar .navbar-nav{
+.header .navbar .navbar-nav {
   gap: 9px;
   margin-top: 10px;
   padding-left: 20px;
@@ -550,6 +560,11 @@ footer .social h5 {
   line-height: 19px;
   letter-spacing: 0;
   text-align: left;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #af824a !important;
 }
 .bg-footer .morelink {
   cursor: pointer;
@@ -874,7 +889,8 @@ span {
   border-right: 3px solid transparent;
   border-top: 4px solid #555;
 }
-.react-tel-input .flag-dropdown.open, .react-tel-input .flag-dropdown.open .selected-flag {
+.react-tel-input .flag-dropdown.open,
+.react-tel-input .flag-dropdown.open .selected-flag {
   background: #fff;
   border-radius: 3px 0 0 0;
 }
@@ -1347,12 +1363,15 @@ span {
   line-height: 16px;
   color: #ba8b50;
   cursor: pointer;
+  position: relative;
+  top: 6px;
 }
 p {
   line-height: 21px;
   font-size: 14px;
   color: var(--primary);
 }
+
 /* herder and card data and list and item one colume  hotel  list */
 
 .rentproperty {
@@ -1373,31 +1392,29 @@ p {
 }
 .rentproperty .completionstatus .selectsheet .card {
   padding: 12px 10px;
-}
-.rentproperty .completionstatus .selectsheet .card {
   padding: 11px 8px;
   border-radius: 13px;
   border: 0;
 }
 .rentproperty .completionstatus .selectsheet .verifed {
-  border-radius: 4px;
   padding: 4px 6px;
   cursor: pointer;
-}
-.rentproperty .completionstatus .selectsheet .verifed {
   font-weight: 600;
-  border-radius: 2px;
+  border-radius: 10px;
   background: #20ac3f;
   padding: 3px 5px;
   text-align: center;
-  width: 70px;
-  height: 23px;
+  width: 80px;
 }
+
 .rentproperty .completionstatus .selectsheet .verifed span {
   font-size: 10px;
+  position: relative;
+  width: 100%;
   font-weight: 600;
   line-height: 14px;
   color: #fff;
+  top: 3px;
 }
 .accordion {
   --bs-accordion-color: var(--bs-body-color);
@@ -1928,7 +1945,7 @@ button:not(:disabled) {
   .card
   .accordion
   .accordion-button:after {
-  background-image: url(/_next/static/media/FilterAccordianArrow.2f4d102b.png);
+  /* background-image: url(/_next/static/media/FilterAccordianArrow.2f4d102b.png); */
   background-size: 12px;
   transition: none;
   position: absolute;
@@ -1986,18 +2003,17 @@ button:not(:disabled) {
   top: 3px;
   right: 17px;
 }
-.rentproperty
-  .completionstatus
-  .selectsheet
-  .card
-  .accordion
-  .accordion-button:after {
-  background-image: url(/_next/static/media/FilterAccordianArrow.2f4d102b.png);
-  background-size: 12px;
-  transition: none;
-  position: absolute;
-  right: 10px;
-  top: 15px;
+.form-switch .form-check-input {
+  --bs-form-switch-bg: url(
+    data:image/svg + xml,
+    %3csvgxmlns="http://www.w3.org/2000/svg"viewBox="-4 -4 8 8"%3e%3ccircler="3"fill="rgba%280, 0, 0, 0.25%29"/%3e%3c/svg%3e
+  );
+  width: 2em;
+  margin-left: -2.5em;
+  background-image: var(--bs-form-switch-bg);
+  background-position: 0;
+  border-radius: 2em;
+  transition: background-position 0.15s ease-in-out;
 }
 .rentproperty .completionstatus .selectsheet .card .accordion .accordion-body,
 .rentproperty
@@ -2073,19 +2089,7 @@ svg {
   background-color: transparent;
   box-shadow: none !important;
 }
-.rentproperty
-  .completionstatus
-  .selectsheet
-  .card
-  .accordion
-  .accordion-button:after {
-  background-image: url(/img/driving-green-neon-color-motorcycle-road.jpg);
-  background-size: 12px;
-  transition: none;
-  position: absolute;
-  right: 10px;
-  top: 15px;
-}
+
 .rentproperty .accordion .accordion-body .filterPrice .multi-range-slider .bar,
 .rentproperty
   .accordion
@@ -2171,6 +2175,15 @@ svg {
 }
 .rentproperty .propertyslider .cs-main {
   margin-top: 0;
+}
+.rentproperty {
+  margin-bottom: 50px;
+}
+.rentproperty-main {
+  display: flex;
+}
+.rentproperty {
+  margin-top: 34px !important;
 }
 .cs-main {
   display: flex;
@@ -2472,13 +2485,10 @@ button:not(:disabled) {
   color: #555;
   margin-bottom: 8px;
 }
-.primary-dropdown .property-group {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-column-gap: 8.5px;
-  column-gap: 8.5px;
-  grid-row-gap: 4.5px;
-  row-gap: 4.5px;
+.outline-button-light-sm-circle.active, .outline-button-light.active {
+  background-color: #fde8cd!important;
+  color: #b48e5d;
+  border: 1px solid #fde8cd;
 }
 .primary-dropdown button, .primary-dropdown button:active, .primary-dropdown button:hover {
   background-color: #f6f6f6!important;
@@ -2492,15 +2502,61 @@ button:not(:disabled) {
   transition: none;
   height: 33px;
 }
+.primary-dropdown .nav-pills {
+  border: 1px solid #efefef;
+  padding: 4px;
+  border-radius: 4px;
+}
+.primary-dropdown .nav-pills .nav-item .nav-link.active {
+  background-color: #fde8cd !important;
+  color: #b48e5d;
+  border-radius: 4px;
+}
+.primary-dropdown .nav-pills .nav-item .nav-link {
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 14px;
+  color: #555;
+  background-color: transparent !important;
+  max-width: 80px;
+  height: 22px;
+  min-width: 80px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.primary-dropdown .property-group {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 8.5px;
+  column-gap: 8.5px;
+  grid-row-gap: 4.5px;
+  row-gap: 4.5px;
+}
+.primary-dropdown button,
+.primary-dropdown button:active,
+.primary-dropdown button:hover {
+  background-color: #f6f6f6 !important;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 14px !important;
+  font-weight: 400;
+  line-height: 16px;
+  color: #555;
+  text-align: start;
+  transition: none;
+  height: 33px;
+}
 .outline-button-light {
   border: 1px solid #efefef;
   height: 27px;
-  padding: 0 17px!important;
-  border-radius: 100px!important;
-  min-width: auto!important;
-  font-size: 8px!important;
-  font-weight: 400!important;
-  line-height: 11px!important;
+  padding: 0 17px !important;
+  border-radius: 100px !important;
+  min-width: auto !important;
+  font-size: 8px !important;
+  font-weight: 400 !important;
+  line-height: 11px !important;
 }
 .carddeatil-sm {
   display: flex;
@@ -2559,6 +2615,7 @@ button:not(:disabled) {
     --swiper-wrapper-transition-timing-function,
     initial
   );
+  /* justify-content: space-around; */
   box-sizing: content-box;
 }
 .swiper-slide {
@@ -2883,11 +2940,12 @@ a {
   text-decoration: underline;
 }
 .cstm-card-body-main .btn-main {
-  display: flex;
+  /* display: flex; */
   justify-content: space-between;
   align-items: center;
   gap: 10px;
   padding-top: 12px;
+  padding-bottom: 10px;
   margin-top: 8px;
   border-top: 1px solid #dde0e5;
 }
@@ -3309,7 +3367,7 @@ iframe {
   right: 0;
   bottom: 0;
   left: 0;
-  background: linear-gradient(0deg,#000 -13.73%,hsla(0,0%,96%,0) 74.35%);
+  background: linear-gradient(0deg, #000 -13.73%, hsla(0, 0%, 96%, 0) 74.35%);
   z-index: 1;
 }
 .main-gallery .img-gallery p {
@@ -3320,7 +3378,7 @@ iframe {
   left: 20px;
 }
 .main-gallery .img-gallery {
-  height: 200px!important;
+  height: 200px !important;
   width: 100%;
   position: relative;
   overflow: hidden;
@@ -3331,14 +3389,16 @@ iframe {
   height: 1px;
   background-color: #000;
 } */
-*, :after, :before {
+*,
+:after,
+:before {
   box-sizing: border-box;
 }
 .main-gallery .img-gallery img {
   height: 100%;
   width: 100%;
   object-fit: cover;
-  transition: all .5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 .photos-grid-container img {
   max-width: 100%;
@@ -3529,13 +3589,16 @@ h1 {
 }
 .navbar-expand-lg .navbar-nav .nav-link {
   padding: 0;
+  gap: 8px !important;
+
 }
 .header .navbar .navbar-nav .nav-item a p {
   color: var(--grey-color);
 }
 .navbar-expand-lg .navbar-nav .nav-link p {
-  gap: 8px !important;
-  height: 20px;
+  /* gap: 8px !important; */
+  /* height: 20px; */
+  margin-bottom: 0px;
 }
 .header .navbar .navbar-nav .Real_Estate,
 .header .navbar .navbar-nav .Real_Estate a.nav-link {
@@ -4267,6 +4330,7 @@ textarea {
 .getstart-tabbutton {
   display: flex;
   align-items: center;
+  
   flex-wrap: wrap;
   gap: 8px;
 }
@@ -4278,18 +4342,19 @@ textarea {
   transition: opacity 0.15s linear;
 }
 .startno {
-  background-color: var(--primary);
+  background-color: #af824a;
   box-shadow: 0 3px 3px 0 #09172c40;
   border-radius: 4px;
   border: 1px solid var(--primary);
-  color: var(--header-light);
+  color: white;
   padding: 2px 30px;
   font-weight: 700;
   font-size: 12px;
+  height: 35px;
 }
 .startno:hover {
   background-color: transparent;
-  color: var(--primary);
+  color: #af824a;
 }
 
 /* HOW TO LIST YOUR PROPERTY */
@@ -4462,11 +4527,17 @@ p {
 
 .listing_grid {
   display: flex;
-  gap: 90px;
+  gap: 90px ;
 }
 .listing_grid .listing_grid_left {
   width: 325px;
   min-width: 325px;
+}
+.cstm-card-body-main .btn-main button, .cstm-card-body-main .btn-main button.outline {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  transition: .1s ease-in-out!important;
 }
 .propertylistsidebar {
   background-color: #f6f6f6;
@@ -4589,7 +4660,7 @@ p {
 ==============================*/
 
 .listing_grid .listing_grid_right {
-  width: 100%;
+  /* width: 100%; */
 }
 .propertyLocation h2 {
   margin-bottom: 8px !important;
@@ -4659,6 +4730,7 @@ Tell us about your property
 
 .propertylistprofile-cs {
   max-width: 550px;
+  gap: 90px ;
   margin: auto;
 }
 .propertylistprofile button {
@@ -5014,6 +5086,7 @@ button.thiyo-btn-outline {
 .form-check .form-check-input {
   float: left;
   margin-left: -1.5em;
+  border-radius: 2em;
 }
 .form-check-input {
   --bs-form-check-bg: var(--bs-body-bg);

@@ -682,11 +682,11 @@ function Footer() {
                 </svg>
               </div>
             </div>
-            <div class="row pt-5">
-              <div class="col-lg-4">
-                <div class="">
-                  <h6 class="footer-heading">Apartments for sale</h6>
-                  <ul class="list-unstyled footer-link mt-4">
+            {/* <div className="row pt-5">
+              <div className="col-lg-4">
+                <div className="">
+                  <h6 className="footer-heading">Apartments for sale</h6>
+                  <ul className="list-unstyled footer-link mt-4">
                     <li>
                       <a href="#">
                         <svg
@@ -860,10 +860,10 @@ function Footer() {
                   </ul>
                 </div>
               </div>
-              <div class="col-lg-4">
-                <div class="">
-                  <h6 class="footer-heading">Villas for sale</h6>
-                  <ul class="list-unstyled footer-link mt-4">
+              <div className="col-lg-4">
+                <div className="">
+                  <h6 className="footer-heading">Villas for sale</h6>
+                  <ul className="list-unstyled footer-link mt-4">
                     <li>
                       <a href="#">
                         <svg
@@ -1037,10 +1037,10 @@ function Footer() {
                   </ul>
                 </div>
               </div>
-              <div class="col-lg-4">
-                <div class="">
-                  <h6 class="footer-heading">Lands for sale</h6>
-                  <ul class="list-unstyled footer-link mt-4">
+              <div className="col-lg-4">
+                <div className="">
+                  <h6 className="footer-heading">Lands for sale</h6>
+                  <ul className="list-unstyled footer-link mt-4">
                     <li>
                       <a href="#">
                         <svg
@@ -1214,7 +1214,7 @@ function Footer() {
                   </ul>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </footer>
       </section>

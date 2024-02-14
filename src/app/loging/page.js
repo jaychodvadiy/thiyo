@@ -40,7 +40,7 @@ function Loging() {
                         id="email"
                         placeholder="Enter your email address"
                         type="email"
-                       value=""
+                        defaultValue  =""
                         name="email"
                       />
                       <button type="submit" className="absolute LockIcon">
