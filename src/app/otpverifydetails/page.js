@@ -102,7 +102,7 @@ function Page() {
                           d="M18.0815 11.7539L6.95312 22.8822L18.0815 34.0106M38.1198 22.8822H7.26479"
                           stroke="black"
                           strokeWidth="1.5"
-                          stroke-miterlimit="10"
+                          strokeMiterlimit="10"
                           strokeLinecap="round"
                           strokeLinejoin="round"
                         ></path>
@@ -132,7 +132,7 @@ function Page() {
                               <div className=" css-1dimb5e-singleValue">
                                 Enter Location
                               </div>
-                              <div className=" css-19bb58m" data-value="">
+                              <div className=" css-19bb58m" data-defaultValue="">
                                 <input
                                   className=""
                                   autocapitalize="none"
@@ -146,7 +146,7 @@ function Page() {
                                   aria-haspopup="true"
                                   role="combobox"
                                   type="text"
-                                  value=""
+                                  defaultValue=""
                                   style={{
                                     color: "inherit",
                                     background: "0px center",
@@ -201,19 +201,19 @@ function Page() {
                     <input
                       placeholder="Apartment / Society"
                       type="text"
-                      value=""
+                      defaultValue=""
                       name="apartment"
                     />
                     <input
                       placeholder="Locality"
                       type="text"
-                      value=""
+                      defaultValue=""
                       name="locality"
                     />
                     <input
                       placeholder="House No. (optional)"
                       type="text"
-                      value=""
+                      defaultValue=""
                       name="houseNo"
                     />
                     <div className="row">
