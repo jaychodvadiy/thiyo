@@ -132,10 +132,10 @@ function Page() {
                               <div className=" css-1dimb5e-singleValue">
                                 Enter Location
                               </div>
-                              <div className=" css-19bb58m" data-defaultValue="">
+                              <div className=" css-19bb58m" data-defaultvalue="">
                                 <input
                                   className=""
-                                  autocapitalize="none"
+                                  autoCapitalize="none"
                                   autoComplete="off"
                                   autoCorrect="off"
                                   id="react-select-27-input"

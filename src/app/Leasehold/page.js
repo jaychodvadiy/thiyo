@@ -234,7 +234,7 @@ function Page() {
                             id="0"
                             type="checkbox"
                           />
-                          <label className="form-check-label price_label" for="0">
+                          <label className="form-check-label price_label" htmlFor="0">
                             All inclusive price
                           </label>
                         </div>
@@ -244,7 +244,7 @@ function Page() {
                             id="1"
                             type="checkbox"
                           />
-                          <label className="form-check-label price_label" for="1">
+                          <label className="form-check-label price_label" htmlFor="1">
                             Tax and Govt. charges excluded
                           </label>
                         </div>
@@ -254,7 +254,7 @@ function Page() {
                             id="2"
                             type="checkbox"
                           />
-                          <label className="form-check-label price_label" for="2">
+                          <label className="form-check-label price_label" htmlFor="2">
                             Price Negotiable
                           </label>
                         </div>
