@@ -525,7 +525,7 @@ footer .social h5 {
   left: 5px;
 }
 .footer-heading {
-  color: #fedd07;
+  color: #eaae5c;
   font-size: 16px;
   font-weight: 600;
   line-height: 22px;
@@ -564,7 +564,7 @@ footer .social h5 {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #af824a !important;
+  /* background-color: #af824a !important; */
 }
 .bg-footer .morelink {
   cursor: pointer;
@@ -1116,7 +1116,7 @@ span {
   box-sizing: border-box;
 }
 .css-19bb58m::after {
-  content: attr(data-defaultValue) " ";
+  content: attr(data-defaultvalue) " ";
   visibility: hidden;
   white-space: pre;
   grid-area: 1 / 2;
@@ -2485,16 +2485,19 @@ button:not(:disabled) {
   color: #555;
   margin-bottom: 8px;
 }
-.outline-button-light-sm-circle.active, .outline-button-light.active {
-  background-color: #fde8cd!important;
+.outline-button-light-sm-circle.active,
+.outline-button-light.active {
+  background-color: #fde8cd !important;
   color: #b48e5d;
   border: 1px solid #fde8cd;
 }
-.primary-dropdown button, .primary-dropdown button:active, .primary-dropdown button:hover {
-  background-color: #f6f6f6!important;
+.primary-dropdown button,
+.primary-dropdown button:active,
+.primary-dropdown button:hover {
+  background-color: #f6f6f6 !important;
   border-radius: 4px;
   padding: 10px;
-  font-size: 14px!important;
+  font-size: 14px !important;
   font-weight: 400;
   line-height: 16px;
   color: #555;
@@ -2940,7 +2943,7 @@ a {
   text-decoration: underline;
 }
 .cstm-card-body-main .btn-main {
-  /* display: flex; */
+  display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 10px;
@@ -3590,7 +3593,6 @@ h1 {
 .navbar-expand-lg .navbar-nav .nav-link {
   padding: 0;
   gap: 8px !important;
-
 }
 .header .navbar .navbar-nav .nav-item a p {
   color: var(--grey-color);
@@ -3707,6 +3709,7 @@ h1 {
   padding: 13px;
   background-color: #af824a;
   border: none;
+  color: white;
   border-radius: 10px;
 }
 .bannerinputmain .icon-input {
@@ -3859,7 +3862,7 @@ h1 {
 }
 .cstm-tab-content-feature-home .countryfeaturehome {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   grid-gap: 16px;
   gap: 16px;
 }
@@ -3922,8 +3925,9 @@ h1 {
 }
 .cstm-card-body-main .btn-main button {
   height: 30px;
-  width: 100%;
+  width: 132px;
   padding: 0;
+  margin-right: 4px;
   border-radius: 4px;
   background: #af824f;
   border: 1px solid transparent;
@@ -3935,6 +3939,11 @@ h1 {
   color: #6b6b6b;
   background-color: #ebeef2;
   border: transparent;
+}
+.cstm-card-body-main .btn-main button.outline:hover {
+  color: #af824a;
+  border: 1px solid #af824a;
+  background-color: transparent;
 }
 .cstm-card-body-main .house-main .viewmore {
   font-size: 10px;
@@ -3991,11 +4000,12 @@ h1 {
   position: absolute;
   left: 16px;
   bottom: 25px;
-  display: flex;
+  /* display: flex; */
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   cursor: pointer;
 }
+
 .checkout-img-content span {
   font-size: 14px;
   color: #fff;
@@ -4062,14 +4072,14 @@ a {
 .readmorepart {
   background-image: url(../img/background.1b68db61.png);
   background-size: cover;
-  height: 400px;
-  width: 100%;
+  /* height: 400px; */
+  /* width: 100%; */
   background-repeat: no-repeat;
   padding: 88px 0 0 36px;
   background-position: 50%;
   border-radius: 8px;
 }
-.readmorepart h5 {
+.readmorepart h3 {
   font-size: 24px;
   font-weight: 700;
   line-height: 33px;
@@ -4089,8 +4099,8 @@ a {
   background: #0b4a73;
 }
 .readmorepart button {
-  border-radius: 4px;
-  background: #5a5d71;
+  border-radius: 8px;
+  /* background: #5a5d71; */
   box-shadow: 0 3px 3px 0 rgba(9, 23, 44, 0.25);
   color: #fff;
   font-size: 14px;
@@ -4143,9 +4153,10 @@ a {
   margin-bottom: 33px !important;
 }
 .popularvaction .countryname1 p {
-  margin-left: 13px;
+  margin-left: 5px;
   color: #323b45;
   font-weight: 400;
+  margin-bottom: 0px;
 }
 .popularvaction {
   margin: 70px 0;
@@ -4330,7 +4341,7 @@ textarea {
 .getstart-tabbutton {
   display: flex;
   align-items: center;
-  
+
   flex-wrap: wrap;
   gap: 8px;
 }
@@ -4527,17 +4538,18 @@ p {
 
 .listing_grid {
   display: flex;
-  gap: 90px ;
+  gap: 90px;
 }
 .listing_grid .listing_grid_left {
   width: 325px;
   min-width: 325px;
 }
-.cstm-card-body-main .btn-main button, .cstm-card-body-main .btn-main button.outline {
+.cstm-card-body-main .btn-main button,
+.cstm-card-body-main .btn-main button.outline {
   font-size: 12px;
   font-weight: 600;
   line-height: 16px;
-  transition: .1s ease-in-out!important;
+  transition: 0.1s ease-in-out !important;
 }
 .propertylistsidebar {
   background-color: #f6f6f6;
@@ -4730,7 +4742,7 @@ Tell us about your property
 
 .propertylistprofile-cs {
   max-width: 550px;
-  gap: 90px ;
+  gap: 90px;
   margin: auto;
 }
 .propertylistprofile button {

@@ -504,7 +504,7 @@ function Properties() {
                     <div class="card mb-2">
                       <div>
                         <div class="form-check form-switch">
-                          <label for="flexSwitchCheckChecked cursor-pointer">
+                          <label htmlFor="flexSwitchCheckChecked cursor-pointer">
                             <p class="selectcircle">Verified Properties</p>
                           </label>
                           <input

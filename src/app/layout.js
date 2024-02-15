@@ -7,6 +7,7 @@ import BootstrapClient from "./comopents/navbar";
 import Thiyoherder from "./herder/thiyoherder";
 import Footer from "./footer/footer";
 import Loging from "./loging/page";
+import Page from "./Holidayhomes-hreder/page";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,6 +22,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <Thiyoherder />
         {/* <Loging /> */}
+        {/* <Page/> */}
         {children}
         <BootstrapClient />
         <Footer />

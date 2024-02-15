@@ -211,7 +211,7 @@ function Page() {
                             OR
                             <hr className="w-25" />
                           </div>
-                          <label for="upload-photo">Upload Photos Now</label>
+                          <label htmlFor="upload-photo">Upload Photos Now</label>
                           <input
                             id="upload-photo"
                             accept="image/png, image/jpeg, image/jpg"

@@ -682,7 +682,7 @@ function Footer() {
                 </svg>
               </div>
             </div>
-            {/* <div className="row pt-5">
+            <div className="row pt-5">
               <div className="col-lg-4">
                 <div className="">
                   <h6 className="footer-heading">Apartments for sale</h6>
@@ -1214,7 +1214,7 @@ function Footer() {
                   </ul>
                 </div>
               </div>
-            </div> */}
+            </div>
           </div>
         </footer>
       </section>
