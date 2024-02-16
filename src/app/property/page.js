@@ -183,14 +183,8 @@ function Page() {
                             OR
                             <hr className="w-25" />
                           </div>
-                          {/* <input
-                            id="upload-photo"
-                            accept="image/png, image/jpeg, image/jpg"
-                            multiple=""
-                            type="file"
-                            name="photo"
-                          /> */}
                           <label htmlFor="upload-photo">Upload Photos Now</label>
+                          <input id="upload-photo" accept="image/png, image/jpeg, image/jpg" multiple="" type="file" name="photo"/>
                         </div>
                       </div>
                       <div className="row">
