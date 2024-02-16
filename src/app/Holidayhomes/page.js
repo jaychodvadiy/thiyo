@@ -2045,7 +2045,7 @@ function Page() {
                                     </clipPath>
                                   </defs>
                                 </svg>
-                                <span>22</span>
+                                <span>16</span>
                               </div>
                               <div className="card-like cursor-pointer">
                                 <svg
@@ -2081,12 +2081,11 @@ function Page() {
                                   </g>
                                 </svg>
                               </div>
-                              <div className="hometype"> INR 1108.04</div>
+                              <div className="hometype"> INR 660.71</div>
                             </div>
                             <div className="card-body cstm-card-body-main">
                               <p className="title">
-                                OYO Hotel Suncity Residency Near Chhatrapati
-                                Shivaji International Airport
+                                OYO Hotel Jayshree Near Juhu Beach
                               </p>
                               <div className="d-flex pb-2 pb-lg-0 my-1 my-lg-2 gap-1 align-items-center">
                                 <svg
@@ -2114,7 +2113,7 @@ function Page() {
                                   </defs>
                                 </svg>
                                 <p className="card-title ">
-                                  Near Seepz, Andheri East, Mumbai
+                                  Near Hanuman Mandir , Vile Parle
                                 </p>
                               </div>
                               <div className="d-flex justify-content-between gap-2 flex-wrap house-main house-main-02 align-items-center">
@@ -2182,7 +2181,7 @@ function Page() {
                                   </span>
                                 </a>
                                 <a href="#">
-                                  <div className="viewmore">+10 MORE</div>
+                                  <div className="viewmore">+11 MORE</div>
                                 </a>
                               </div>
                               <div className="btn-main">
@@ -3209,11 +3208,11 @@ function Page() {
                                   </g>
                                 </svg>
                               </div>
-                              <div className="hometype"> Null</div>
+                              <div className="hometype"> INR 5359</div>
                             </div>
                             <div className="card-body cstm-card-body-main">
                               <p className="title">
-                                Collection O 13275 Vatika Inn
+                              OYO Flagship Hotel Park Palace
                               </p>
                               <div className="d-flex pb-2 pb-lg-0 my-1 my-lg-2 gap-1 align-items-center">
                                 <svg
@@ -3241,7 +3240,7 @@ function Page() {
                                   </defs>
                                 </svg>
                                 <p className="card-title ">
-                                  Gulab Bagh Road, Udaipur
+                                bunderNear Minara Masjid, Mandvi, Mumbai, Mumbai
                                 </p>
                               </div>
                               <div className="d-flex justify-content-between gap-2 flex-wrap house-main house-main-02 align-items-center">
@@ -3267,7 +3266,7 @@ function Page() {
                                   </span>
                                 </a>
                                 <a href="#">
-                                  <span className="d-flex gap-1 align-items-center">
+                                  {/* <span className="d-flex gap-1 align-items-center">
                                     <svg
                                       width="14"
                                       height="11"
@@ -3285,7 +3284,7 @@ function Page() {
                                       ></path>
                                     </svg>
                                     Reception
-                                  </span>
+                                  </span> */}
                                 </a>
                                 <a href="#">
                                   <span className="d-flex gap-1 align-items-center">
@@ -3698,6 +3697,8 @@ function Page() {
               </div>
             </div>
           </section>
+
+          
           <section className="HH-checkout-section h-100">
             <div className="container">
               <div className="holidaymainpage">
@@ -5362,6 +5363,7 @@ function Page() {
                           className="img-fluid holidayHomeimg"
                           alt="img"
                         />
+                        
                         <div className="checkout-img-content">
                           <span>Holiday homes in Canada</span>
                           <Image

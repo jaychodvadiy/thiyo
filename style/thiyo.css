@@ -23,6 +23,10 @@
     rgba(207, 221, 224, 0) 84.65%
   );
 }
+.gloabe{
+  text-align: start;
+  max-width: 450px;
+}
 .hero {
   padding: 92px 0px 82px;
   font-size: 32px;
@@ -34,12 +38,16 @@
   margin-bottom: 30px;
   color: #000;
 }
-.primary {
+/* .primary .header .navbar .listproperty button {
   background-color: #af824a;
-}
-.primary:hover {
-  background-color: #af824a;
-}
+  color: white;
+  padding: 9px 15px;
+  border-radius: 8px;
+  height: 34px;
+  border: 1px solid #af824a;
+  place-content: center;
+} */
+
 .hero .contain {
   display: flex;
   flex-direction: column;
@@ -109,7 +117,7 @@
 }
 .searchaa {
   text-decoration: none;
-  color: #000;
+  color: white;
 }
 
 .homes {
@@ -173,7 +181,8 @@
   right: 10px;
 }
 .header .navbar .listproperty button {
-  color: var(--header-light);
+  color: white;
+  background-color: #af824a;
   padding: 9px 15px;
   border-radius: 8px;
   height: 34px;
@@ -266,9 +275,35 @@
 } */
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
-  color: #af824a;
-  background-color: #ffffff;
+  color: white;
+  background-color: #af824a !important;
 }
+.chekboxs:checked{
+  background-color: #af824a !important;
+  border: none;
+}
+
+.rentproperty .completionstatus .selectsheet .card .accordion .accordion-item .accordion-body .selectcircle button {
+  background: none;
+  border-radius: 14px;
+  border: 1px solid #efefef;
+  color: #555;
+  font-weight: 400;
+  font-size: 12px;
+  width: 45%;
+  padding: 5px 8px;
+}
+
+.rentproperty .completionstatus .selectsheet .card .accordion .accordion-item .accordion-body .selectcircle button.active {
+  background-color: #fde8cd;
+  color: #b48e5d;
+}
+.rentproperty .completionstatus .selectsheet .card .accordion .accordion-item .accordion-body .selectcircle button {
+  font-size: 10px;
+  line-height: 12px;
+}
+
+
 .nav-link {
   display: block;
   padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
@@ -320,18 +355,28 @@ h3 {
   line-height: 27px;
   font-size: 20px;
 }
+.listproperty {
+  position: relative;
+  top: 7px;
+  margin-right: 11px;
+}
 
 .header .navbar .listproperty .listnew {
   right: 6px;
-  top: -10px;
+  top: -41px;
   text-transform: uppercase;
-  color: var(--header-light);
-  background-color: var(--badge-red);
+  color: white;
+  background-color: red;
   font-size: 6px;
   border-radius: 8px;
   font-weight: 600;
   height: 18px;
-  width: 27px;
+  width: 35px;
+  position: relative;
+  left: 81px;
+  font-size: 10px;
+  /* padding: 2px 15px 5px 0px; */
+  text-align: center;
 }
 .navbar-collapse {
   flex-basis: 100%;
@@ -1261,8 +1306,7 @@ element.style {
 }
 .selectproperty .search {
   background: linear-gradient(180deg, #af824a, #cf9c5b);
-  /* color: var(--header-light); */
-  color: white;
+  color: white !important;
 }
 .selectproperty button {
   border: 1px solid var(--primary);
@@ -2835,7 +2879,8 @@ align-items-start {
   position: absolute;
   left: 15px;
   top: 15px;
-  background: #ffffff9e;
+  background: #c6cdd4;
+  color: black;
   padding: 4px 12px;
   border-radius: 18px;
   width: 57px;
@@ -3554,6 +3599,10 @@ h1 {
     Our Blogs Holidayhomes
 ==============================*/
 
+.header {
+  height: 80px;
+}
+
 .header .navbar {
   padding: 18px 0 21px;
 }
@@ -3592,14 +3641,12 @@ h1 {
 }
 .navbar-expand-lg .navbar-nav .nav-link {
   padding: 0;
-  gap: 8px !important;
+  gap: 10px !important;
 }
 .header .navbar .navbar-nav .nav-item a p {
   color: var(--grey-color);
 }
 .navbar-expand-lg .navbar-nav .nav-link p {
-  /* gap: 8px !important; */
-  /* height: 20px; */
   margin-bottom: 0px;
 }
 .header .navbar .navbar-nav .Real_Estate,
@@ -3850,6 +3897,7 @@ h1 {
 }
 .nav-pills .nav-link {
   border-radius: var(--bs-nav-pills-border-radius);
+  color: black;
 }
 .cstm-tab-content-feature-home {
   padding-top: 30px;
@@ -3925,7 +3973,7 @@ h1 {
 }
 .cstm-card-body-main .btn-main button {
   height: 30px;
-  width: 132px;
+  width: 100px;
   padding: 0;
   margin-right: 4px;
   border-radius: 4px;
@@ -4010,6 +4058,11 @@ h1 {
   font-size: 14px;
   color: #fff;
   max-width: 160px;
+}
+.uploadphothos #upload-photo {
+  display: none;
+  position: absolute;
+  z-index: -1;
 }
 .checkoutText {
   padding-left: 24px;

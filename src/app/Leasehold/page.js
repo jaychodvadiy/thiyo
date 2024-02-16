@@ -204,12 +204,7 @@ function Page() {
                         <div className="price_details d-flex">
                           <div>
                             <div>
-                              <input
-                                className="form-control"
-                                placeholder="₹ Expected Price"
-                                type="number"
-                                value=""
-                              />
+                            <input className="form-control" placeholder="₹ Expected Price" type="number" value=""/>
                             </div>
                           </div>
                           <div>
@@ -218,7 +213,7 @@ function Page() {
                                 className="form-control"
                                 placeholder="₹ Price per sq.ft."
                                 type="number"
-                                value=""
+                                defaultValue=""
                               />
                             </div>
                           </div>
