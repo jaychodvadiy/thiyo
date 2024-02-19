@@ -11,24 +11,18 @@ import eruohouseing from "../../../img/5206.jpg";
 import houseingpuvoor from "../../../img/5392.jpg";
 import houseingcanada from "../../../img/7219.jpg";
 import aroundpool from "../../../img/umbrella-chair-around-swimming-pool.jpg";
-// import pexelss from "../../../img/pexels-emre-can-acer-2079246 2.png";
-// import johntek from "../../../img/pexels-john-tekeridis-1428348 2.png";
-// import tekeridis from "../../../img/pexels-john-tekeridis-1428348 2.png";
-// import piecjart from "../../../img/high-angle-pie-chart-with-cities 1.png";
-// import airportwe from "../../../img/airport.abbe0c1a.png";
-// import apartmenting from "../../../img/apartment.e4223b32.png";
-// import hotelo from "../../../img/hotel.43844a6a.png";
-// import offices from "../../../img/office.6c982fe1.png";
-// import penthouses from "../../../img/penthouse.c764f65d.png";
-// import hotelapart from "../../../img/hotelapartment.ab759b89.png";
-// import office6c982 from "../../../img/office.6c982fe1.png";
-// import shope from "../../../img/shop.b3cf7676.png";
-// import townspfb52778a from "../../../img/township.fb52778a.png";
-// import townwqship from "../../../img/villa.665fd0ad.png";
-// import vectors from "../../../img/vector-94.svg";
-// import clientimagea from "../../../img/client-Image-2 1.png";
-// import clientImage312 from "../../../img/client-Image-3 1.png";
-// import images12fdb56f from "../../../img/images_12fdb56f-7772-4e51-90eb-f529de4254a4_ELEVATED-HOUSE-DESIGN-FEATURE-compressed.jpg";
+import gardenlight from "../../../img/light-garden-luxury-pool-nature.jpg";
+import colonial from "../../../img/colonial-style-house-night-scene.jpg";
+import relaxation from "../../../img/relaxation-pool-umbrella-lounge-sky.jpg";
+import pooles from "../../../img/pool.jpg";
+import night from "../../../img/night-city-view.jpg";
+import hotelmaineu from "../../../img/43147.jpg";
+import mercanotes from "../../../img/30998.jpg";
+import Attribute from "../../../img/127680.jpg";
+import quebeccity from "../../../img/chateau-frontenac-dusk-quebec-city.jpg";
+import buildings from "../../../img/large-buildings-connected-by-roof.jpg";
+import beadroom from "../../../img/beadroom.svg";
+import Bathroom from "../../../img/Bathroom.svg";
 
 function Properties() {
   return (
@@ -734,7 +728,9 @@ function Properties() {
                                   tabIndex="0"
                                 >
                                   <div className="d-flex flex-wrap gap-2">
-                                    <button className="active">Apartment</button>
+                                    <button className="active">
+                                      Apartment
+                                    </button>
                                     <button className="false">Villa</button>
                                     <button className="false">Townhouse</button>
                                     <button className="false">Penthouse</button>
@@ -4364,8 +4360,8 @@ function Properties() {
                             <div className="card cstm-card-main cstm-card-main-cs">
                               <div className="position-relative">
                                 <Image
-                                  src={emercan}
-                                  alt=" src={emercan}"
+                                  src={colonial}
+                                  alt="colonial"
                                   className="Image-fluid pro-Image w-100"
                                 />
 
@@ -4514,38 +4510,12 @@ function Properties() {
                                 </div>
                                 <div className="d-flex justify-content-between gap-2 flex-wrap house-main align-items-center">
                                   <a href="#">
-                                    <span className="d-flex gap-1 align-items-center">
-                                      <svg
-                                        width="17"
-                                        height="18"
-                                        viewBox="0 0 17 18"
-                                        fill="none"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                      >
-                                        <path
-                                          d="M13.8828 7.85417V5.72917C13.8828 5.35344 13.7423 4.99311 13.4923 4.72743C13.2422 4.46176 12.9031 4.3125 12.5495 4.3125H4.54948C4.19586 4.3125 3.85672 4.46176 3.60667 4.72743C3.35662 4.99311 3.21615 5.35344 3.21615 5.72917V7.85417C2.86252 7.85417 2.52339 8.00342 2.27334 8.2691C2.02329 8.53478 1.88281 8.89511 1.88281 9.27083V12.8125H2.76948L3.21615 14.2292H3.88281L4.32948 12.8125H12.7695L13.2161 14.2292H13.8828L14.3295 12.8125H15.2161V9.27083C15.2161 8.89511 15.0757 8.53478 14.8256 8.2691C14.5756 8.00342 14.2364 7.85417 13.8828 7.85417ZM9.21615 5.72917H12.5495V7.85417H9.21615M4.54948 5.72917H7.88281V7.85417H4.54948M13.8828 11.3958H3.21615V9.27083H13.8828V11.3958Z"
-                                          fill="#0F0F0F"
-                                        ></path>
-                                      </svg>
-                                      3 Bedroom
-                                    </span>
+                                    <Image src={beadroom} alt="beadroom" />3
+                                    Bedroom
                                   </a>
                                   <a href="#">
-                                    <span className="d-flex gap-1 align-items-center">
-                                      <svg
-                                        width="16"
-                                        height="16"
-                                        viewBox="0 0 16 16"
-                                        fill="none"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                      >
-                                        <path
-                                          d="M13.377 9.50781V10.1328C13.377 11.3266 12.7082 12.3641 11.7207 12.8891L12.127 14.5078H10.877L10.5645 13.2578C10.4582 13.2578 10.3582 13.2578 10.252 13.2578H5.25195C5.1457 13.2578 5.0457 13.2578 4.93945 13.2578L4.62695 14.5078H3.37695L3.7832 12.8891C2.7957 12.3641 2.12695 11.3266 2.12695 10.1328V9.50781H1.50195V8.25781H12.752V3.88281C12.752 3.71705 12.6861 3.55808 12.5689 3.44087C12.4517 3.32366 12.2927 3.25781 12.127 3.25781C11.8145 3.25781 11.577 3.47031 11.502 3.75156C11.8957 4.08906 12.127 4.58906 12.127 5.13281H8.37695C8.37695 4.63553 8.5745 4.15862 8.92613 3.80699C9.27776 3.45536 9.75467 3.25781 10.252 3.25781C10.2895 3.25781 10.3207 3.25781 10.3582 3.25781C10.6145 2.53281 11.3082 2.00781 12.127 2.00781C12.6242 2.00781 13.1011 2.20536 13.4528 2.55699C13.8044 2.90862 14.002 3.38553 14.002 3.88281V9.50781H13.377ZM12.127 9.50781H3.37695V10.1328C3.37695 10.6301 3.5745 11.107 3.92613 11.4586C4.27776 11.8103 4.75467 12.0078 5.25195 12.0078H10.252C10.7492 12.0078 11.2261 11.8103 11.5778 11.4586C11.9294 11.107 12.127 10.6301 12.127 10.1328V9.50781Z"
-                                          fill="#0F0F0F"
-                                        ></path>
-                                      </svg>
-                                      2 Bathroom
-                                    </span>
+                                    <Image src={Bathroom} alt="Bathroom" />2
+                                    Bathroom
                                   </a>
                                 </div>
                                 <div className="btn-main">
@@ -4616,8 +4586,8 @@ function Properties() {
                             <div className="card cstm-card-main cstm-card-main-cs">
                               <div className="position-relative">
                                 <Image
-                                  src={emercan}
-                                  alt=" src={emercan}"
+                                  src={gardenlight}
+                                  alt="gardenlight"
                                   className="Image-fluid pro-Image w-100"
                                 />
                                 <div className=" gallery">
@@ -4764,39 +4734,13 @@ function Properties() {
                                   </p>
                                 </div>
                                 <div className="d-flex justify-content-between gap-2 flex-wrap house-main align-items-center">
-                                  <a href="#">
-                                    <span className="d-flex gap-1 align-items-center">
-                                      <svg
-                                        width="17"
-                                        height="18"
-                                        viewBox="0 0 17 18"
-                                        fill="none"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                      >
-                                        <path
-                                          d="M13.8828 7.85417V5.72917C13.8828 5.35344 13.7423 4.99311 13.4923 4.72743C13.2422 4.46176 12.9031 4.3125 12.5495 4.3125H4.54948C4.19586 4.3125 3.85672 4.46176 3.60667 4.72743C3.35662 4.99311 3.21615 5.35344 3.21615 5.72917V7.85417C2.86252 7.85417 2.52339 8.00342 2.27334 8.2691C2.02329 8.53478 1.88281 8.89511 1.88281 9.27083V12.8125H2.76948L3.21615 14.2292H3.88281L4.32948 12.8125H12.7695L13.2161 14.2292H13.8828L14.3295 12.8125H15.2161V9.27083C15.2161 8.89511 15.0757 8.53478 14.8256 8.2691C14.5756 8.00342 14.2364 7.85417 13.8828 7.85417ZM9.21615 5.72917H12.5495V7.85417H9.21615M4.54948 5.72917H7.88281V7.85417H4.54948M13.8828 11.3958H3.21615V9.27083H13.8828V11.3958Z"
-                                          fill="#0F0F0F"
-                                        ></path>
-                                      </svg>
-                                      3 Bedroom
-                                    </span>
+                                <a href="#">
+                                    <Image src={beadroom} alt="beadroom" />3
+                                    Bedroom
                                   </a>
                                   <a href="#">
-                                    <span className="d-flex gap-1 align-items-center">
-                                      <svg
-                                        width="16"
-                                        height="16"
-                                        viewBox="0 0 16 16"
-                                        fill="none"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                      >
-                                        <path
-                                          d="M13.377 9.50781V10.1328C13.377 11.3266 12.7082 12.3641 11.7207 12.8891L12.127 14.5078H10.877L10.5645 13.2578C10.4582 13.2578 10.3582 13.2578 10.252 13.2578H5.25195C5.1457 13.2578 5.0457 13.2578 4.93945 13.2578L4.62695 14.5078H3.37695L3.7832 12.8891C2.7957 12.3641 2.12695 11.3266 2.12695 10.1328V9.50781H1.50195V8.25781H12.752V3.88281C12.752 3.71705 12.6861 3.55808 12.5689 3.44087C12.4517 3.32366 12.2927 3.25781 12.127 3.25781C11.8145 3.25781 11.577 3.47031 11.502 3.75156C11.8957 4.08906 12.127 4.58906 12.127 5.13281H8.37695C8.37695 4.63553 8.5745 4.15862 8.92613 3.80699C9.27776 3.45536 9.75467 3.25781 10.252 3.25781C10.2895 3.25781 10.3207 3.25781 10.3582 3.25781C10.6145 2.53281 11.3082 2.00781 12.127 2.00781C12.6242 2.00781 13.1011 2.20536 13.4528 2.55699C13.8044 2.90862 14.002 3.38553 14.002 3.88281V9.50781H13.377ZM12.127 9.50781H3.37695V10.1328C3.37695 10.6301 3.5745 11.107 3.92613 11.4586C4.27776 11.8103 4.75467 12.0078 5.25195 12.0078H10.252C10.7492 12.0078 11.2261 11.8103 11.5778 11.4586C11.9294 11.107 12.127 10.6301 12.127 10.1328V9.50781Z"
-                                          fill="#0F0F0F"
-                                        ></path>
-                                      </svg>
-                                      2 Bathroom
-                                    </span>
+                                    <Image src={Bathroom} alt="Bathroom" />2
+                                    Bathroom
                                   </a>
                                 </div>
                                 <div className="btn-main">
@@ -4867,8 +4811,8 @@ function Properties() {
                             <div className="card cstm-card-main cstm-card-main-cs">
                               <div className="position-relative">
                                 <Image
-                                  src={emercan}
-                                  alt=" src={emercan}"
+                                  src={relaxation}
+                                  alt="relaxation"
                                   className="Image-fluid pro-Image w-100"
                                 />
                                 <div className=" gallery">
@@ -5015,39 +4959,13 @@ function Properties() {
                                   </p>
                                 </div>
                                 <div className="d-flex justify-content-between gap-2 flex-wrap house-main align-items-center">
-                                  <a href="#">
-                                    <span className="d-flex gap-1 align-items-center">
-                                      <svg
-                                        width="17"
-                                        height="18"
-                                        viewBox="0 0 17 18"
-                                        fill="none"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                      >
-                                        <path
-                                          d="M13.8828 7.85417V5.72917C13.8828 5.35344 13.7423 4.99311 13.4923 4.72743C13.2422 4.46176 12.9031 4.3125 12.5495 4.3125H4.54948C4.19586 4.3125 3.85672 4.46176 3.60667 4.72743C3.35662 4.99311 3.21615 5.35344 3.21615 5.72917V7.85417C2.86252 7.85417 2.52339 8.00342 2.27334 8.2691C2.02329 8.53478 1.88281 8.89511 1.88281 9.27083V12.8125H2.76948L3.21615 14.2292H3.88281L4.32948 12.8125H12.7695L13.2161 14.2292H13.8828L14.3295 12.8125H15.2161V9.27083C15.2161 8.89511 15.0757 8.53478 14.8256 8.2691C14.5756 8.00342 14.2364 7.85417 13.8828 7.85417ZM9.21615 5.72917H12.5495V7.85417H9.21615M4.54948 5.72917H7.88281V7.85417H4.54948M13.8828 11.3958H3.21615V9.27083H13.8828V11.3958Z"
-                                          fill="#0F0F0F"
-                                        ></path>
-                                      </svg>
-                                      3 Bedroom
-                                    </span>
+                                <a href="#">
+                                    <Image src={beadroom} alt="beadroom" />3
+                                    Bedroom
                                   </a>
                                   <a href="#">
-                                    <span className="d-flex gap-1 align-items-center">
-                                      <svg
-                                        width="16"
-                                        height="16"
-                                        viewBox="0 0 16 16"
-                                        fill="none"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                      >
-                                        <path
-                                          d="M13.377 9.50781V10.1328C13.377 11.3266 12.7082 12.3641 11.7207 12.8891L12.127 14.5078H10.877L10.5645 13.2578C10.4582 13.2578 10.3582 13.2578 10.252 13.2578H5.25195C5.1457 13.2578 5.0457 13.2578 4.93945 13.2578L4.62695 14.5078H3.37695L3.7832 12.8891C2.7957 12.3641 2.12695 11.3266 2.12695 10.1328V9.50781H1.50195V8.25781H12.752V3.88281C12.752 3.71705 12.6861 3.55808 12.5689 3.44087C12.4517 3.32366 12.2927 3.25781 12.127 3.25781C11.8145 3.25781 11.577 3.47031 11.502 3.75156C11.8957 4.08906 12.127 4.58906 12.127 5.13281H8.37695C8.37695 4.63553 8.5745 4.15862 8.92613 3.80699C9.27776 3.45536 9.75467 3.25781 10.252 3.25781C10.2895 3.25781 10.3207 3.25781 10.3582 3.25781C10.6145 2.53281 11.3082 2.00781 12.127 2.00781C12.6242 2.00781 13.1011 2.20536 13.4528 2.55699C13.8044 2.90862 14.002 3.38553 14.002 3.88281V9.50781H13.377ZM12.127 9.50781H3.37695V10.1328C3.37695 10.6301 3.5745 11.107 3.92613 11.4586C4.27776 11.8103 4.75467 12.0078 5.25195 12.0078H10.252C10.7492 12.0078 11.2261 11.8103 11.5778 11.4586C11.9294 11.107 12.127 10.6301 12.127 10.1328V9.50781Z"
-                                          fill="#0F0F0F"
-                                        ></path>
-                                      </svg>
-                                      2 Bathroom
-                                    </span>
+                                    <Image src={Bathroom} alt="Bathroom" />2
+                                    Bathroom
                                   </a>
                                 </div>
                                 <div className="btn-main">
@@ -5118,8 +5036,8 @@ function Properties() {
                             <div className="card cstm-card-main cstm-card-main-cs">
                               <div className="position-relative">
                                 <Image
-                                  src={emercan}
-                                  alt=" src={emercan}"
+                                  src={pooles}
+                                  alt="pooles"
                                   className="Image-fluid pro-Image w-100"
                                 />
                                 <div className=" gallery">
@@ -5266,39 +5184,13 @@ function Properties() {
                                   </p>
                                 </div>
                                 <div className="d-flex justify-content-between gap-2 flex-wrap house-main align-items-center">
-                                  <a href="#">
-                                    <span className="d-flex gap-1 align-items-center">
-                                      <svg
-                                        width="17"
-                                        height="18"
-                                        viewBox="0 0 17 18"
-                                        fill="none"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                      >
-                                        <path
-                                          d="M13.8828 7.85417V5.72917C13.8828 5.35344 13.7423 4.99311 13.4923 4.72743C13.2422 4.46176 12.9031 4.3125 12.5495 4.3125H4.54948C4.19586 4.3125 3.85672 4.46176 3.60667 4.72743C3.35662 4.99311 3.21615 5.35344 3.21615 5.72917V7.85417C2.86252 7.85417 2.52339 8.00342 2.27334 8.2691C2.02329 8.53478 1.88281 8.89511 1.88281 9.27083V12.8125H2.76948L3.21615 14.2292H3.88281L4.32948 12.8125H12.7695L13.2161 14.2292H13.8828L14.3295 12.8125H15.2161V9.27083C15.2161 8.89511 15.0757 8.53478 14.8256 8.2691C14.5756 8.00342 14.2364 7.85417 13.8828 7.85417ZM9.21615 5.72917H12.5495V7.85417H9.21615M4.54948 5.72917H7.88281V7.85417H4.54948M13.8828 11.3958H3.21615V9.27083H13.8828V11.3958Z"
-                                          fill="#0F0F0F"
-                                        ></path>
-                                      </svg>
-                                      3 Bedroom
-                                    </span>
+                                <a href="#">
+                                    <Image src={beadroom} alt="beadroom" />3
+                                    Bedroom
                                   </a>
                                   <a href="#">
-                                    <span className="d-flex gap-1 align-items-center">
-                                      <svg
-                                        width="16"
-                                        height="16"
-                                        viewBox="0 0 16 16"
-                                        fill="none"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                      >
-                                        <path
-                                          d="M13.377 9.50781V10.1328C13.377 11.3266 12.7082 12.3641 11.7207 12.8891L12.127 14.5078H10.877L10.5645 13.2578C10.4582 13.2578 10.3582 13.2578 10.252 13.2578H5.25195C5.1457 13.2578 5.0457 13.2578 4.93945 13.2578L4.62695 14.5078H3.37695L3.7832 12.8891C2.7957 12.3641 2.12695 11.3266 2.12695 10.1328V9.50781H1.50195V8.25781H12.752V3.88281C12.752 3.71705 12.6861 3.55808 12.5689 3.44087C12.4517 3.32366 12.2927 3.25781 12.127 3.25781C11.8145 3.25781 11.577 3.47031 11.502 3.75156C11.8957 4.08906 12.127 4.58906 12.127 5.13281H8.37695C8.37695 4.63553 8.5745 4.15862 8.92613 3.80699C9.27776 3.45536 9.75467 3.25781 10.252 3.25781C10.2895 3.25781 10.3207 3.25781 10.3582 3.25781C10.6145 2.53281 11.3082 2.00781 12.127 2.00781C12.6242 2.00781 13.1011 2.20536 13.4528 2.55699C13.8044 2.90862 14.002 3.38553 14.002 3.88281V9.50781H13.377ZM12.127 9.50781H3.37695V10.1328C3.37695 10.6301 3.5745 11.107 3.92613 11.4586C4.27776 11.8103 4.75467 12.0078 5.25195 12.0078H10.252C10.7492 12.0078 11.2261 11.8103 11.5778 11.4586C11.9294 11.107 12.127 10.6301 12.127 10.1328V9.50781Z"
-                                          fill="#0F0F0F"
-                                        ></path>
-                                      </svg>
-                                      2 Bathroom
-                                    </span>
+                                    <Image src={Bathroom} alt="Bathroom" />2
+                                    Bathroom
                                   </a>
                                 </div>
                                 <div className="btn-main">
@@ -5369,8 +5261,8 @@ function Properties() {
                             <div className="card cstm-card-main cstm-card-main-cs">
                               <div className="position-relative">
                                 <Image
-                                  src={emercan}
-                                  alt=" src={emercan}"
+                                  src={night}
+                                  alt="night"
                                   className="Image-fluid pro-Image w-100"
                                 />
                                 <div className=" gallery">
@@ -5517,39 +5409,13 @@ function Properties() {
                                   </p>
                                 </div>
                                 <div className="d-flex justify-content-between gap-2 flex-wrap house-main align-items-center">
-                                  <a href="#">
-                                    <span className="d-flex gap-1 align-items-center">
-                                      <svg
-                                        width="17"
-                                        height="18"
-                                        viewBox="0 0 17 18"
-                                        fill="none"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                      >
-                                        <path
-                                          d="M13.8828 7.85417V5.72917C13.8828 5.35344 13.7423 4.99311 13.4923 4.72743C13.2422 4.46176 12.9031 4.3125 12.5495 4.3125H4.54948C4.19586 4.3125 3.85672 4.46176 3.60667 4.72743C3.35662 4.99311 3.21615 5.35344 3.21615 5.72917V7.85417C2.86252 7.85417 2.52339 8.00342 2.27334 8.2691C2.02329 8.53478 1.88281 8.89511 1.88281 9.27083V12.8125H2.76948L3.21615 14.2292H3.88281L4.32948 12.8125H12.7695L13.2161 14.2292H13.8828L14.3295 12.8125H15.2161V9.27083C15.2161 8.89511 15.0757 8.53478 14.8256 8.2691C14.5756 8.00342 14.2364 7.85417 13.8828 7.85417ZM9.21615 5.72917H12.5495V7.85417H9.21615M4.54948 5.72917H7.88281V7.85417H4.54948M13.8828 11.3958H3.21615V9.27083H13.8828V11.3958Z"
-                                          fill="#0F0F0F"
-                                        ></path>
-                                      </svg>
-                                      3 Bedroom
-                                    </span>
+                                <a href="#">
+                                    <Image src={beadroom} alt="beadroom" />3
+                                    Bedroom
                                   </a>
                                   <a href="#">
-                                    <span className="d-flex gap-1 align-items-center">
-                                      <svg
-                                        width="16"
-                                        height="16"
-                                        viewBox="0 0 16 16"
-                                        fill="none"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                      >
-                                        <path
-                                          d="M13.377 9.50781V10.1328C13.377 11.3266 12.7082 12.3641 11.7207 12.8891L12.127 14.5078H10.877L10.5645 13.2578C10.4582 13.2578 10.3582 13.2578 10.252 13.2578H5.25195C5.1457 13.2578 5.0457 13.2578 4.93945 13.2578L4.62695 14.5078H3.37695L3.7832 12.8891C2.7957 12.3641 2.12695 11.3266 2.12695 10.1328V9.50781H1.50195V8.25781H12.752V3.88281C12.752 3.71705 12.6861 3.55808 12.5689 3.44087C12.4517 3.32366 12.2927 3.25781 12.127 3.25781C11.8145 3.25781 11.577 3.47031 11.502 3.75156C11.8957 4.08906 12.127 4.58906 12.127 5.13281H8.37695C8.37695 4.63553 8.5745 4.15862 8.92613 3.80699C9.27776 3.45536 9.75467 3.25781 10.252 3.25781C10.2895 3.25781 10.3207 3.25781 10.3582 3.25781C10.6145 2.53281 11.3082 2.00781 12.127 2.00781C12.6242 2.00781 13.1011 2.20536 13.4528 2.55699C13.8044 2.90862 14.002 3.38553 14.002 3.88281V9.50781H13.377ZM12.127 9.50781H3.37695V10.1328C3.37695 10.6301 3.5745 11.107 3.92613 11.4586C4.27776 11.8103 4.75467 12.0078 5.25195 12.0078H10.252C10.7492 12.0078 11.2261 11.8103 11.5778 11.4586C11.9294 11.107 12.127 10.6301 12.127 10.1328V9.50781Z"
-                                          fill="#0F0F0F"
-                                        ></path>
-                                      </svg>
-                                      2 Bathroom
-                                    </span>
+                                    <Image src={Bathroom} alt="Bathroom" />2
+                                    Bathroom
                                   </a>
                                 </div>
                                 <div className="btn-main">
@@ -5620,8 +5486,8 @@ function Properties() {
                             <div className="card cstm-card-main cstm-card-main-cs">
                               <div className="position-relative">
                                 <Image
-                                  src={emercan}
-                                  alt=" src={emercan}"
+                                  src={hotelmaineu}
+                                  alt="hotelmaineu"
                                   className="Image-fluid pro-Image w-100"
                                 />
                                 <div className=" gallery">
@@ -5768,39 +5634,13 @@ function Properties() {
                                   </p>
                                 </div>
                                 <div className="d-flex justify-content-between gap-2 flex-wrap house-main align-items-center">
-                                  <a href="#">
-                                    <span className="d-flex gap-1 align-items-center">
-                                      <svg
-                                        width="17"
-                                        height="18"
-                                        viewBox="0 0 17 18"
-                                        fill="none"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                      >
-                                        <path
-                                          d="M13.8828 7.85417V5.72917C13.8828 5.35344 13.7423 4.99311 13.4923 4.72743C13.2422 4.46176 12.9031 4.3125 12.5495 4.3125H4.54948C4.19586 4.3125 3.85672 4.46176 3.60667 4.72743C3.35662 4.99311 3.21615 5.35344 3.21615 5.72917V7.85417C2.86252 7.85417 2.52339 8.00342 2.27334 8.2691C2.02329 8.53478 1.88281 8.89511 1.88281 9.27083V12.8125H2.76948L3.21615 14.2292H3.88281L4.32948 12.8125H12.7695L13.2161 14.2292H13.8828L14.3295 12.8125H15.2161V9.27083C15.2161 8.89511 15.0757 8.53478 14.8256 8.2691C14.5756 8.00342 14.2364 7.85417 13.8828 7.85417ZM9.21615 5.72917H12.5495V7.85417H9.21615M4.54948 5.72917H7.88281V7.85417H4.54948M13.8828 11.3958H3.21615V9.27083H13.8828V11.3958Z"
-                                          fill="#0F0F0F"
-                                        ></path>
-                                      </svg>
-                                      3 Bedroom
-                                    </span>
+                                <a href="#">
+                                    <Image src={beadroom} alt="beadroom" />3
+                                    Bedroom
                                   </a>
                                   <a href="#">
-                                    <span className="d-flex gap-1 align-items-center">
-                                      <svg
-                                        width="16"
-                                        height="16"
-                                        viewBox="0 0 16 16"
-                                        fill="none"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                      >
-                                        <path
-                                          d="M13.377 9.50781V10.1328C13.377 11.3266 12.7082 12.3641 11.7207 12.8891L12.127 14.5078H10.877L10.5645 13.2578C10.4582 13.2578 10.3582 13.2578 10.252 13.2578H5.25195C5.1457 13.2578 5.0457 13.2578 4.93945 13.2578L4.62695 14.5078H3.37695L3.7832 12.8891C2.7957 12.3641 2.12695 11.3266 2.12695 10.1328V9.50781H1.50195V8.25781H12.752V3.88281C12.752 3.71705 12.6861 3.55808 12.5689 3.44087C12.4517 3.32366 12.2927 3.25781 12.127 3.25781C11.8145 3.25781 11.577 3.47031 11.502 3.75156C11.8957 4.08906 12.127 4.58906 12.127 5.13281H8.37695C8.37695 4.63553 8.5745 4.15862 8.92613 3.80699C9.27776 3.45536 9.75467 3.25781 10.252 3.25781C10.2895 3.25781 10.3207 3.25781 10.3582 3.25781C10.6145 2.53281 11.3082 2.00781 12.127 2.00781C12.6242 2.00781 13.1011 2.20536 13.4528 2.55699C13.8044 2.90862 14.002 3.38553 14.002 3.88281V9.50781H13.377ZM12.127 9.50781H3.37695V10.1328C3.37695 10.6301 3.5745 11.107 3.92613 11.4586C4.27776 11.8103 4.75467 12.0078 5.25195 12.0078H10.252C10.7492 12.0078 11.2261 11.8103 11.5778 11.4586C11.9294 11.107 12.127 10.6301 12.127 10.1328V9.50781Z"
-                                          fill="#0F0F0F"
-                                        ></path>
-                                      </svg>
-                                      2 Bathroom
-                                    </span>
+                                    <Image src={Bathroom} alt="Bathroom" />2
+                                    Bathroom
                                   </a>
                                 </div>
                                 <div className="btn-main">
@@ -5871,8 +5711,8 @@ function Properties() {
                             <div className="card cstm-card-main cstm-card-main-cs">
                               <div className="position-relative">
                                 <Image
-                                  src={emercan}
-                                  alt=" src={emercan}"
+                                  src={mercanotes}
+                                  alt="mercanotes"
                                   className="Image-fluid pro-Image w-100"
                                 />
                                 <div className=" gallery">
@@ -6019,39 +5859,13 @@ function Properties() {
                                   </p>
                                 </div>
                                 <div className="d-flex justify-content-between gap-2 flex-wrap house-main align-items-center">
-                                  <a href="#">
-                                    <span className="d-flex gap-1 align-items-center">
-                                      <svg
-                                        width="17"
-                                        height="18"
-                                        viewBox="0 0 17 18"
-                                        fill="none"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                      >
-                                        <path
-                                          d="M13.8828 7.85417V5.72917C13.8828 5.35344 13.7423 4.99311 13.4923 4.72743C13.2422 4.46176 12.9031 4.3125 12.5495 4.3125H4.54948C4.19586 4.3125 3.85672 4.46176 3.60667 4.72743C3.35662 4.99311 3.21615 5.35344 3.21615 5.72917V7.85417C2.86252 7.85417 2.52339 8.00342 2.27334 8.2691C2.02329 8.53478 1.88281 8.89511 1.88281 9.27083V12.8125H2.76948L3.21615 14.2292H3.88281L4.32948 12.8125H12.7695L13.2161 14.2292H13.8828L14.3295 12.8125H15.2161V9.27083C15.2161 8.89511 15.0757 8.53478 14.8256 8.2691C14.5756 8.00342 14.2364 7.85417 13.8828 7.85417ZM9.21615 5.72917H12.5495V7.85417H9.21615M4.54948 5.72917H7.88281V7.85417H4.54948M13.8828 11.3958H3.21615V9.27083H13.8828V11.3958Z"
-                                          fill="#0F0F0F"
-                                        ></path>
-                                      </svg>
-                                      3 Bedroom
-                                    </span>
+                                <a href="#">
+                                    <Image src={beadroom} alt="beadroom" />3
+                                    Bedroom
                                   </a>
                                   <a href="#">
-                                    <span className="d-flex gap-1 align-items-center">
-                                      <svg
-                                        width="16"
-                                        height="16"
-                                        viewBox="0 0 16 16"
-                                        fill="none"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                      >
-                                        <path
-                                          d="M13.377 9.50781V10.1328C13.377 11.3266 12.7082 12.3641 11.7207 12.8891L12.127 14.5078H10.877L10.5645 13.2578C10.4582 13.2578 10.3582 13.2578 10.252 13.2578H5.25195C5.1457 13.2578 5.0457 13.2578 4.93945 13.2578L4.62695 14.5078H3.37695L3.7832 12.8891C2.7957 12.3641 2.12695 11.3266 2.12695 10.1328V9.50781H1.50195V8.25781H12.752V3.88281C12.752 3.71705 12.6861 3.55808 12.5689 3.44087C12.4517 3.32366 12.2927 3.25781 12.127 3.25781C11.8145 3.25781 11.577 3.47031 11.502 3.75156C11.8957 4.08906 12.127 4.58906 12.127 5.13281H8.37695C8.37695 4.63553 8.5745 4.15862 8.92613 3.80699C9.27776 3.45536 9.75467 3.25781 10.252 3.25781C10.2895 3.25781 10.3207 3.25781 10.3582 3.25781C10.6145 2.53281 11.3082 2.00781 12.127 2.00781C12.6242 2.00781 13.1011 2.20536 13.4528 2.55699C13.8044 2.90862 14.002 3.38553 14.002 3.88281V9.50781H13.377ZM12.127 9.50781H3.37695V10.1328C3.37695 10.6301 3.5745 11.107 3.92613 11.4586C4.27776 11.8103 4.75467 12.0078 5.25195 12.0078H10.252C10.7492 12.0078 11.2261 11.8103 11.5778 11.4586C11.9294 11.107 12.127 10.6301 12.127 10.1328V9.50781Z"
-                                          fill="#0F0F0F"
-                                        ></path>
-                                      </svg>
-                                      2 Bathroom
-                                    </span>
+                                    <Image src={Bathroom} alt="Bathroom" />2
+                                    Bathroom
                                   </a>
                                 </div>
                                 <div className="btn-main">
@@ -6122,8 +5936,8 @@ function Properties() {
                             <div className="card cstm-card-main cstm-card-main-cs">
                               <div className="position-relative">
                                 <Image
-                                  src={emercan}
-                                  alt=" src={emercan}"
+                                  src={Attribute}
+                                  alt="Attribute"
                                   className="Image-fluid pro-Image w-100"
                                 />
                                 <div className=" gallery">
@@ -6270,39 +6084,13 @@ function Properties() {
                                   </p>
                                 </div>
                                 <div className="d-flex justify-content-between gap-2 flex-wrap house-main align-items-center">
-                                  <a href="#">
-                                    <span className="d-flex gap-1 align-items-center">
-                                      <svg
-                                        width="17"
-                                        height="18"
-                                        viewBox="0 0 17 18"
-                                        fill="none"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                      >
-                                        <path
-                                          d="M13.8828 7.85417V5.72917C13.8828 5.35344 13.7423 4.99311 13.4923 4.72743C13.2422 4.46176 12.9031 4.3125 12.5495 4.3125H4.54948C4.19586 4.3125 3.85672 4.46176 3.60667 4.72743C3.35662 4.99311 3.21615 5.35344 3.21615 5.72917V7.85417C2.86252 7.85417 2.52339 8.00342 2.27334 8.2691C2.02329 8.53478 1.88281 8.89511 1.88281 9.27083V12.8125H2.76948L3.21615 14.2292H3.88281L4.32948 12.8125H12.7695L13.2161 14.2292H13.8828L14.3295 12.8125H15.2161V9.27083C15.2161 8.89511 15.0757 8.53478 14.8256 8.2691C14.5756 8.00342 14.2364 7.85417 13.8828 7.85417ZM9.21615 5.72917H12.5495V7.85417H9.21615M4.54948 5.72917H7.88281V7.85417H4.54948M13.8828 11.3958H3.21615V9.27083H13.8828V11.3958Z"
-                                          fill="#0F0F0F"
-                                        ></path>
-                                      </svg>
-                                      3 Bedroom
-                                    </span>
+                                <a href="#">
+                                    <Image src={beadroom} alt="beadroom" />3
+                                    Bedroom
                                   </a>
                                   <a href="#">
-                                    <span className="d-flex gap-1 align-items-center">
-                                      <svg
-                                        width="16"
-                                        height="16"
-                                        viewBox="0 0 16 16"
-                                        fill="none"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                      >
-                                        <path
-                                          d="M13.377 9.50781V10.1328C13.377 11.3266 12.7082 12.3641 11.7207 12.8891L12.127 14.5078H10.877L10.5645 13.2578C10.4582 13.2578 10.3582 13.2578 10.252 13.2578H5.25195C5.1457 13.2578 5.0457 13.2578 4.93945 13.2578L4.62695 14.5078H3.37695L3.7832 12.8891C2.7957 12.3641 2.12695 11.3266 2.12695 10.1328V9.50781H1.50195V8.25781H12.752V3.88281C12.752 3.71705 12.6861 3.55808 12.5689 3.44087C12.4517 3.32366 12.2927 3.25781 12.127 3.25781C11.8145 3.25781 11.577 3.47031 11.502 3.75156C11.8957 4.08906 12.127 4.58906 12.127 5.13281H8.37695C8.37695 4.63553 8.5745 4.15862 8.92613 3.80699C9.27776 3.45536 9.75467 3.25781 10.252 3.25781C10.2895 3.25781 10.3207 3.25781 10.3582 3.25781C10.6145 2.53281 11.3082 2.00781 12.127 2.00781C12.6242 2.00781 13.1011 2.20536 13.4528 2.55699C13.8044 2.90862 14.002 3.38553 14.002 3.88281V9.50781H13.377ZM12.127 9.50781H3.37695V10.1328C3.37695 10.6301 3.5745 11.107 3.92613 11.4586C4.27776 11.8103 4.75467 12.0078 5.25195 12.0078H10.252C10.7492 12.0078 11.2261 11.8103 11.5778 11.4586C11.9294 11.107 12.127 10.6301 12.127 10.1328V9.50781Z"
-                                          fill="#0F0F0F"
-                                        ></path>
-                                      </svg>
-                                      2 Bathroom
-                                    </span>
+                                    <Image src={Bathroom} alt="Bathroom" />2
+                                    Bathroom
                                   </a>
                                 </div>
                                 <div className="btn-main">
@@ -6373,8 +6161,8 @@ function Properties() {
                             <div className="card cstm-card-main cstm-card-main-cs">
                               <div className="position-relative">
                                 <Image
-                                  src={emercan}
-                                  alt=" src={emercan}"
+                                  src={quebeccity}
+                                  alt="quebeccity"
                                   className="Image-fluid pro-Image w-100"
                                 />
                                 <div className=" gallery">
@@ -6521,39 +6309,13 @@ function Properties() {
                                   </p>
                                 </div>
                                 <div className="d-flex justify-content-between gap-2 flex-wrap house-main align-items-center">
-                                  <a href="#">
-                                    <span className="d-flex gap-1 align-items-center">
-                                      <svg
-                                        width="17"
-                                        height="18"
-                                        viewBox="0 0 17 18"
-                                        fill="none"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                      >
-                                        <path
-                                          d="M13.8828 7.85417V5.72917C13.8828 5.35344 13.7423 4.99311 13.4923 4.72743C13.2422 4.46176 12.9031 4.3125 12.5495 4.3125H4.54948C4.19586 4.3125 3.85672 4.46176 3.60667 4.72743C3.35662 4.99311 3.21615 5.35344 3.21615 5.72917V7.85417C2.86252 7.85417 2.52339 8.00342 2.27334 8.2691C2.02329 8.53478 1.88281 8.89511 1.88281 9.27083V12.8125H2.76948L3.21615 14.2292H3.88281L4.32948 12.8125H12.7695L13.2161 14.2292H13.8828L14.3295 12.8125H15.2161V9.27083C15.2161 8.89511 15.0757 8.53478 14.8256 8.2691C14.5756 8.00342 14.2364 7.85417 13.8828 7.85417ZM9.21615 5.72917H12.5495V7.85417H9.21615M4.54948 5.72917H7.88281V7.85417H4.54948M13.8828 11.3958H3.21615V9.27083H13.8828V11.3958Z"
-                                          fill="#0F0F0F"
-                                        ></path>
-                                      </svg>
-                                      3 Bedroom
-                                    </span>
+                                <a href="#">
+                                    <Image src={beadroom} alt="beadroom" />3
+                                    Bedroom
                                   </a>
                                   <a href="#">
-                                    <span className="d-flex gap-1 align-items-center">
-                                      <svg
-                                        width="16"
-                                        height="16"
-                                        viewBox="0 0 16 16"
-                                        fill="none"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                      >
-                                        <path
-                                          d="M13.377 9.50781V10.1328C13.377 11.3266 12.7082 12.3641 11.7207 12.8891L12.127 14.5078H10.877L10.5645 13.2578C10.4582 13.2578 10.3582 13.2578 10.252 13.2578H5.25195C5.1457 13.2578 5.0457 13.2578 4.93945 13.2578L4.62695 14.5078H3.37695L3.7832 12.8891C2.7957 12.3641 2.12695 11.3266 2.12695 10.1328V9.50781H1.50195V8.25781H12.752V3.88281C12.752 3.71705 12.6861 3.55808 12.5689 3.44087C12.4517 3.32366 12.2927 3.25781 12.127 3.25781C11.8145 3.25781 11.577 3.47031 11.502 3.75156C11.8957 4.08906 12.127 4.58906 12.127 5.13281H8.37695C8.37695 4.63553 8.5745 4.15862 8.92613 3.80699C9.27776 3.45536 9.75467 3.25781 10.252 3.25781C10.2895 3.25781 10.3207 3.25781 10.3582 3.25781C10.6145 2.53281 11.3082 2.00781 12.127 2.00781C12.6242 2.00781 13.1011 2.20536 13.4528 2.55699C13.8044 2.90862 14.002 3.38553 14.002 3.88281V9.50781H13.377ZM12.127 9.50781H3.37695V10.1328C3.37695 10.6301 3.5745 11.107 3.92613 11.4586C4.27776 11.8103 4.75467 12.0078 5.25195 12.0078H10.252C10.7492 12.0078 11.2261 11.8103 11.5778 11.4586C11.9294 11.107 12.127 10.6301 12.127 10.1328V9.50781Z"
-                                          fill="#0F0F0F"
-                                        ></path>
-                                      </svg>
-                                      2 Bathroom
-                                    </span>
+                                    <Image src={Bathroom} alt="Bathroom" />2
+                                    Bathroom
                                   </a>
                                 </div>
                                 <div className="btn-main">
@@ -6624,8 +6386,8 @@ function Properties() {
                             <div className="card cstm-card-main cstm-card-main-cs">
                               <div className="position-relative">
                                 <Image
-                                  src={emercan}
-                                  alt=" src={emercan}"
+                                  src={buildings}
+                                  alt="buildings"
                                   className="Image-fluid pro-Image w-100"
                                 />
                                 <div className=" gallery">
@@ -6772,39 +6534,13 @@ function Properties() {
                                   </p>
                                 </div>
                                 <div className="d-flex justify-content-between gap-2 flex-wrap house-main align-items-center">
-                                  <a href="#">
-                                    <span className="d-flex gap-1 align-items-center">
-                                      <svg
-                                        width="17"
-                                        height="18"
-                                        viewBox="0 0 17 18"
-                                        fill="none"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                      >
-                                        <path
-                                          d="M13.8828 7.85417V5.72917C13.8828 5.35344 13.7423 4.99311 13.4923 4.72743C13.2422 4.46176 12.9031 4.3125 12.5495 4.3125H4.54948C4.19586 4.3125 3.85672 4.46176 3.60667 4.72743C3.35662 4.99311 3.21615 5.35344 3.21615 5.72917V7.85417C2.86252 7.85417 2.52339 8.00342 2.27334 8.2691C2.02329 8.53478 1.88281 8.89511 1.88281 9.27083V12.8125H2.76948L3.21615 14.2292H3.88281L4.32948 12.8125H12.7695L13.2161 14.2292H13.8828L14.3295 12.8125H15.2161V9.27083C15.2161 8.89511 15.0757 8.53478 14.8256 8.2691C14.5756 8.00342 14.2364 7.85417 13.8828 7.85417ZM9.21615 5.72917H12.5495V7.85417H9.21615M4.54948 5.72917H7.88281V7.85417H4.54948M13.8828 11.3958H3.21615V9.27083H13.8828V11.3958Z"
-                                          fill="#0F0F0F"
-                                        ></path>
-                                      </svg>
-                                      3 Bedroom
-                                    </span>
+                                <a href="#">
+                                    <Image src={beadroom} alt="beadroom" />3
+                                    Bedroom
                                   </a>
                                   <a href="#">
-                                    <span className="d-flex gap-1 align-items-center">
-                                      <svg
-                                        width="16"
-                                        height="16"
-                                        viewBox="0 0 16 16"
-                                        fill="none"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                      >
-                                        <path
-                                          d="M13.377 9.50781V10.1328C13.377 11.3266 12.7082 12.3641 11.7207 12.8891L12.127 14.5078H10.877L10.5645 13.2578C10.4582 13.2578 10.3582 13.2578 10.252 13.2578H5.25195C5.1457 13.2578 5.0457 13.2578 4.93945 13.2578L4.62695 14.5078H3.37695L3.7832 12.8891C2.7957 12.3641 2.12695 11.3266 2.12695 10.1328V9.50781H1.50195V8.25781H12.752V3.88281C12.752 3.71705 12.6861 3.55808 12.5689 3.44087C12.4517 3.32366 12.2927 3.25781 12.127 3.25781C11.8145 3.25781 11.577 3.47031 11.502 3.75156C11.8957 4.08906 12.127 4.58906 12.127 5.13281H8.37695C8.37695 4.63553 8.5745 4.15862 8.92613 3.80699C9.27776 3.45536 9.75467 3.25781 10.252 3.25781C10.2895 3.25781 10.3207 3.25781 10.3582 3.25781C10.6145 2.53281 11.3082 2.00781 12.127 2.00781C12.6242 2.00781 13.1011 2.20536 13.4528 2.55699C13.8044 2.90862 14.002 3.38553 14.002 3.88281V9.50781H13.377ZM12.127 9.50781H3.37695V10.1328C3.37695 10.6301 3.5745 11.107 3.92613 11.4586C4.27776 11.8103 4.75467 12.0078 5.25195 12.0078H10.252C10.7492 12.0078 11.2261 11.8103 11.5778 11.4586C11.9294 11.107 12.127 10.6301 12.127 10.1328V9.50781Z"
-                                          fill="#0F0F0F"
-                                        ></path>
-                                      </svg>
-                                      2 Bathroom
-                                    </span>
+                                    <Image src={Bathroom} alt="Bathroom" />2
+                                    Bathroom
                                   </a>
                                 </div>
                                 <div className="btn-main">

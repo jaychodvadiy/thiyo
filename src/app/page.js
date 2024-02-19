@@ -687,10 +687,12 @@ export default function Home() {
                             </a>
                           </div>
                           <div className="btn-main">
+                            <p className="outlines">AED 6000</p>
                             <Link href="/listpage">
-                              <button type="button">View Details</button>
+                              <button type="button" className="outline">
+                                View Details
+                              </button>
                             </Link>
-                            <button className="outline">Book</button>
                           </div>
                         </div>
                       </div>
@@ -874,10 +876,12 @@ export default function Home() {
                             </a>
                           </div>
                           <div className="btn-main">
+                            <p className="outlines">AED 6000</p>
                             <Link href="/listpage">
-                              <button type="button">View Details</button>
+                              <button type="button" className="outline">
+                                View Details
+                              </button>
                             </Link>
-                            <button className="outline">Book</button>
                           </div>
                         </div>
                       </div>
@@ -1059,10 +1063,12 @@ export default function Home() {
                             </a>
                           </div>
                           <div className="btn-main">
+                            <p className="outlines">AED 6000</p>
                             <Link href="/listpage">
-                              <button type="button">View Details</button>
+                              <button type="button" className="outline">
+                                View Details
+                              </button>
                             </Link>
-                            <button className="outline">Book</button>
                           </div>
                         </div>
                       </div>
@@ -1246,10 +1252,12 @@ export default function Home() {
                             </a>
                           </div>
                           <div className="btn-main">
+                            <p className="outlines">AED 6000</p>
                             <Link href="/listpage">
-                              <button type="button">View Details</button>
+                              <button type="button" className="outline">
+                                View Details
+                              </button>
                             </Link>
-                            <button className="outline">Book</button>
                           </div>
                         </div>
                       </div>
@@ -1433,10 +1441,12 @@ export default function Home() {
                             </a>
                           </div>
                           <div className="btn-main">
+                            <p className="outlines">AED 6000</p>
                             <Link href="/listpage">
-                              <button type="button">View Details</button>
+                              <button type="button" className="outline">
+                                View Details
+                              </button>
                             </Link>
-                            <button className="outline">Book</button>
                           </div>
                         </div>
                       </div>
@@ -1624,10 +1634,12 @@ export default function Home() {
                             </a>
                           </div>
                           <div className="btn-main">
+                            <p className="outlines">AED 6000</p>
                             <Link href="/listpage">
-                              <button type="button">View Details</button>
+                              <button type="button" className="outline">
+                                View Details
+                              </button>
                             </Link>
-                            <button className="outline">Book</button>
                           </div>
                         </div>
                       </div>
@@ -1812,10 +1824,12 @@ export default function Home() {
                             </a>
                           </div>
                           <div className="btn-main">
+                            <p className="outlines">AED 6000</p>
                             <Link href="/listpage">
-                              <button type="button">View Details</button>
+                              <button type="button" className="outline">
+                                View Details
+                              </button>
                             </Link>
-                            <button className="outline">Book</button>
                           </div>
                         </div>
                       </div>
@@ -1997,10 +2011,12 @@ export default function Home() {
                             </a>
                           </div>
                           <div className="btn-main">
+                            <p className="outlines">AED 6000</p>
                             <Link href="/listpage">
-                              <button type="button">View Details</button>
+                              <button type="button" className="outline">
+                                View Details
+                              </button>
                             </Link>
-                            <button className="outline">Book</button>
                           </div>
                         </div>
                       </div>
@@ -2185,10 +2201,12 @@ export default function Home() {
                             </a>
                           </div>
                           <div className="btn-main">
+                            <p className="outlines">AED 6000</p>
                             <Link href="/listpage">
-                              <button type="button">View Details</button>
+                              <button type="button" className="outline">
+                                View Details
+                              </button>
                             </Link>
-                            <button className="outline">Book</button>
                           </div>
                         </div>
                       </div>
@@ -2372,10 +2390,12 @@ export default function Home() {
                             </a>
                           </div>
                           <div className="btn-main">
+                            <p className="outlines">AED 6000</p>
                             <Link href="/listpage">
-                              <button type="button">View Details</button>
+                              <button type="button" className="outline">
+                                View Details
+                              </button>
                             </Link>
-                            <button className="outline">Book</button>
                           </div>
                         </div>
                       </div>
@@ -2561,10 +2581,12 @@ export default function Home() {
                             </a>
                           </div>
                           <div className="btn-main">
+                            <p className="outlines">AED 6000</p>
                             <Link href="/listpage">
-                              <button type="button">View Details</button>
+                              <button type="button" className="outline">
+                                View Details
+                              </button>
                             </Link>
-                            <button className="outline">Book</button>
                           </div>
                         </div>
                       </div>
@@ -2748,10 +2770,12 @@ export default function Home() {
                             </a>
                           </div>
                           <div className="btn-main">
+                            <p className="outlines">AED 6000</p>
                             <Link href="/listpage">
-                              <button type="button">View Details</button>
+                              <button type="button" className="outline">
+                                View Details
+                              </button>
                             </Link>
-                            <button className="outline">Book</button>
                           </div>
                         </div>
                       </div>
@@ -2930,10 +2954,12 @@ export default function Home() {
                             </a>
                           </div>
                           <div className="btn-main">
+                            <p className="outlines">AED 6000</p>
                             <Link href="/listpage">
-                              <button type="button">View Details</button>
+                              <button type="button" className="outline">
+                                View Details
+                              </button>
                             </Link>
-                            <button className="outline">Book</button>
                           </div>
                         </div>
                       </div>
@@ -3119,10 +3145,12 @@ export default function Home() {
                             </a>
                           </div>
                           <div className="btn-main">
+                            <p className="outlines">AED 6000</p>
                             <Link href="/listpage">
-                              <button type="button">View Details</button>
+                              <button type="button" className="outline">
+                                View Details
+                              </button>
                             </Link>
-                            <button className="outline">Book</button>
                           </div>
                         </div>
                       </div>
@@ -3304,10 +3332,12 @@ export default function Home() {
                             </a>
                           </div>
                           <div className="btn-main">
+                            <p className="outlines">AED 6000</p>
                             <Link href="/listpage">
-                              <button type="button">View Details</button>
+                              <button type="button" className="outline">
+                                View Details
+                              </button>
                             </Link>
-                            <button className="outline">Book</button>
                           </div>
                         </div>
                       </div>
@@ -3491,10 +3521,12 @@ export default function Home() {
                             </a>
                           </div>
                           <div className="btn-main">
+                            <p className="outlines">AED 6000</p>
                             <Link href="/listpage">
-                              <button type="button">View Details</button>
+                              <button type="button" className="outline">
+                                View Details
+                              </button>
                             </Link>
-                            <button className="outline">Book</button>
                           </div>
                         </div>
                       </div>
@@ -3674,10 +3706,12 @@ export default function Home() {
                             </a>
                           </div>
                           <div className="btn-main">
+                            <p className="outlines">AED 6000</p>
                             <Link href="/listpage">
-                              <button type="button">View Details</button>
+                              <button type="button" className="outline">
+                                View Details
+                              </button>
                             </Link>
-                            <button className="outline">Book</button>
                           </div>
                         </div>
                       </div>
@@ -3857,10 +3891,12 @@ export default function Home() {
                             </a>
                           </div>
                           <div className="btn-main">
+                            <p className="outlines">AED 6000</p>
                             <Link href="/listpage">
-                              <button type="button">View Details</button>
+                              <button type="button" className="outline">
+                                View Details
+                              </button>
                             </Link>
-                            <button className="outline">Book</button>
                           </div>
                         </div>
                       </div>
@@ -4506,6 +4542,11 @@ export default function Home() {
                   </div>
                 </div>
               </div>
+            </div>
+            <div className="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal">
+              <span className="swiper-pagination-bullet swiper-pagination-bullet-active"></span>
+              <span className="swiper-pagination-bullet"></span>
+              <span className="swiper-pagination-bullet"></span>
             </div>
           </div>
         </div>
