@@ -100,28 +100,28 @@ function Register() {
                       <input
                         className="tab-class outline-none"
                         id=""
-                        maxlength="1"
+                        maxLength="1"
                         type="text"
                         name=""
                       />
                       <input
                         className="tab-class outline-none"
                         id=""
-                        maxlength="1"
+                        maxLength="1"
                         type="text"
                         name=""
                       />
                       <input
                         className="tab-class outline-none"
                         id=""
-                        maxlength="1"
+                        maxLength="1"
                         type="text"
                         name=""
                       />
                       <input
                         className="tab-class outline-none"
                         id=""
-                        maxlength="1"
+                        maxLength="1"
                         type="text"
                         name=""
                       />
