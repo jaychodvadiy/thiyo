@@ -34,16 +34,16 @@ function Loging() {
                     >
                       Email Address
                     </label>
-                    <div className="emailadder relative sendotp">
+                    <div className="emailadder position-relative sendotp">
                       <input
-                        className="form-control"
+                        className="form-controles"
                         id="email"
                         placeholder="Enter your email address"
                         type="email"
                         defaultValue  =""
                         name="email"
                       />
-                      <button type="submit" className="absolute LockIcon">
+                      <button type="submit" className="position-position-absolute LockIcon">
                         Send OTP
                       </button>
                     </div>
@@ -129,3 +129,4 @@ function Loging() {
 }
 
 export default Loging;
+
